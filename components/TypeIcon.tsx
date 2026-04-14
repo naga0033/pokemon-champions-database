@@ -23,23 +23,23 @@ const TYPE_BG: Record<string, string> = {
 
 const TYPE_IMAGE: Partial<Record<string, string>> = {
   normal: "/type-icons/normal.png",
-  fire: "/type-icons/fire.jpeg",
-  water: "/type-icons/water.jpg",
-  electric: "/type-icons/electric.jpeg",
-  grass: "/type-icons/grass.jpeg",
-  ice: "/type-icons/ice-v2.png",
-  fighting: "/type-icons/fighting.jpeg",
-  poison: "/type-icons/poison.jpeg",
-  ground: "/type-icons/ground.jpeg",
-  flying: "/type-icons/flying.jpg",
-  psychic: "/type-icons/psychic-v2.png",
-  bug: "/type-icons/bug-v2.png",
-  rock: "/type-icons/rock.jpeg",
-  ghost: "/type-icons/ghost.jpeg",
-  dragon: "/type-icons/dragon.jpeg",
-  dark: "/type-icons/dark.jpg",
-  steel: "/type-icons/steel.jpeg",
-  fairy: "/type-icons/fairy.jpeg",
+  fire: "/type-icons/fire.png",
+  water: "/type-icons/water.png",
+  electric: "/type-icons/electric.png",
+  grass: "/type-icons/grass.png",
+  ice: "/type-icons/ice.png",
+  fighting: "/type-icons/fighting.png",
+  poison: "/type-icons/poison.png",
+  ground: "/type-icons/ground.png",
+  flying: "/type-icons/flying.png",
+  psychic: "/type-icons/psychic.png",
+  bug: "/type-icons/bug.png",
+  rock: "/type-icons/rock.png",
+  ghost: "/type-icons/ghost.png",
+  dragon: "/type-icons/dragon.png",
+  dark: "/type-icons/dark.png",
+  steel: "/type-icons/steel.png",
+  fairy: "/type-icons/fairy.png",
 };
 
 const PATHS: Record<string, React.ReactNode> = {
@@ -107,20 +107,16 @@ export function TypeIcon({ type, size = "md" }: { type: string; size?: "sm" | "m
   const imageSrc = TYPE_IMAGE[type];
   const imageBox = size === "sm" ? "h-6 w-6 rounded-[7px]" : "h-7 w-7 rounded-[8px]";
   if (imageSrc) {
-    // 画像周囲にグレーの padding があるので overflow-hidden + scale で中心部だけを表示
+    // 新しい画像は余白トリミング済みのため、そのまま表示
     return (
-      <span
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={imageSrc}
+        alt={type}
         title={type}
-        className={`relative inline-block ${imageBox} shrink-0 overflow-hidden`}
-      >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={imageSrc}
-          alt={type}
-          className="absolute inset-0 h-full w-full scale-[1.35] object-cover"
-          loading="lazy"
-        />
-      </span>
+        className={`${imageBox} shrink-0 object-contain`}
+        loading="lazy"
+      />
     );
   }
 
