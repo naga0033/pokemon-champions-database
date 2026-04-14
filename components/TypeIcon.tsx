@@ -27,13 +27,13 @@ const TYPE_IMAGE: Partial<Record<string, string>> = {
   water: "/type-icons/water.jpg",
   electric: "/type-icons/electric.jpeg",
   grass: "/type-icons/grass.jpeg",
-  ice: "/type-icons/ice.jpg",
+  ice: "/type-icons/ice-v2.png",
   fighting: "/type-icons/fighting.jpeg",
   poison: "/type-icons/poison.jpeg",
   ground: "/type-icons/ground.jpeg",
   flying: "/type-icons/flying.jpg",
-  psychic: "/type-icons/psychic.jpg",
-  bug: "/type-icons/bug.jpg",
+  psychic: "/type-icons/psychic-v2.png",
+  bug: "/type-icons/bug-v2.png",
   rock: "/type-icons/rock.jpeg",
   ghost: "/type-icons/ghost.jpeg",
   dragon: "/type-icons/dragon.jpeg",
@@ -107,15 +107,20 @@ export function TypeIcon({ type, size = "md" }: { type: string; size?: "sm" | "m
   const imageSrc = TYPE_IMAGE[type];
   const imageBox = size === "sm" ? "h-6 w-6 rounded-[7px]" : "h-7 w-7 rounded-[8px]";
   if (imageSrc) {
+    // 画像周囲にグレーの padding があるので overflow-hidden + scale で中心部だけを表示
     return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={imageSrc}
-        alt={type}
+      <span
         title={type}
-        className={`${imageBox} shrink-0 object-contain`}
-        loading="lazy"
-      />
+        className={`relative inline-block ${imageBox} shrink-0 overflow-hidden`}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={imageSrc}
+          alt={type}
+          className="absolute inset-0 h-full w-full scale-[1.35] object-cover"
+          loading="lazy"
+        />
+      </span>
     );
   }
 
