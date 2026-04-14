@@ -433,7 +433,7 @@ export const MOVE_NAMES_JA: Record<string, string> = {
   "hyperspace-fury": "やぶれかぶれ",
   "hyperspace-hole": "どこでもあな",
   "wicked-blow": "あんこくきょうだ",
-  "darkest-lariat": "ＤＤラリアット",
+  "darkest-lariat": "DDラリアット",
 
   // あく
   "bite": "かみつく",

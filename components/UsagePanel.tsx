@@ -32,39 +32,18 @@ const TYPE_LABEL: Record<string, string> = {
   dark:"悪", steel:"鋼", fairy:"妖",
 };
 
-/** 物理: 8 ジャギーのバースト (インパクト型) */
-function PhysicalIcon({ className = "" }: { className?: string }) {
-  return (
-    <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-rose-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-4 w-4 fill-white">
-        <path d="M10 1 L12 5 L15 3 L14 7 L18 6 L15.5 9.5 L19 11 L15 13 L17 16 L13 16 L13 19 L10 17 L7 19 L7 16 L3 16 L5 13 L1 11 L4.5 9.5 L2 6 L6 7 L5 3 L8 5 Z" />
-      </svg>
-    </span>
-  );
+/** 物理 / 特殊 / 変化 アイコン: ユーザー提供の画像を使用 */
+/* eslint-disable @next/next/no-img-element */
+function PhysicalIcon() {
+  return <img src="/move-category/physical.jpg" alt="物理" title="物理" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
-/** 特殊: 横長の同心楕円スパイラル */
-function SpecialIcon({ className = "" }: { className?: string }) {
-  return (
-    <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-sky-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-4 w-4 stroke-white fill-none" strokeWidth="1.5">
-        <ellipse cx="10" cy="10" rx="2" ry="1.3" />
-        <ellipse cx="10" cy="10" rx="4.5" ry="2.8" />
-        <ellipse cx="10" cy="10" rx="7.5" ry="4.5" />
-      </svg>
-    </span>
-  );
+function SpecialIcon() {
+  return <img src="/move-category/special.jpg" alt="特殊" title="特殊" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
-/** 変化: 月型 (楕円 + くり抜き) */
-function StatusIcon({ className = "" }: { className?: string }) {
-  return (
-    <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-slate-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-4 w-4">
-        <ellipse cx="10" cy="10" rx="7" ry="5.5" fill="white" />
-        <ellipse cx="12" cy="9" rx="4" ry="3.5" fill="rgb(100,116,139)" />
-      </svg>
-    </span>
-  );
+function StatusIcon() {
+  return <img src="/move-category/status.jpg" alt="変化" title="変化" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
+/* eslint-enable @next/next/no-img-element */
 
 function CategoryIcon({ category }: { category: MoveMeta["category"] }) {
   if (category === "physical") return <PhysicalIcon />;
