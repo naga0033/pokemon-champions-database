@@ -24,15 +24,33 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "seasonId と entries が必要" }, { status: 400 });
   }
 
-  // シーズン upsert
-  const { error: sErr } = await supabase.from("seasons").upsert({
-    id: body.seasonId,
-    label: body.seasonLabel,
-    start_date: body.startDate,
-    end_date: body.endDate,
-    format: body.format,
-  });
-  if (sErr) return NextResponse.json({ error: sErr.message }, { status: 500 });
+  const { data: existingSeason } = await supabase
+    .from("seasons")
+    .select("id")
+    .eq("id", body.seasonId)
+    .maybeSingle();
+
+  if (existingSeason) {
+    // 既存 season は format を書き換えず、メタ情報のみ更新
+    const { error: sErr } = await supabase
+      .from("seasons")
+      .update({
+        label: body.seasonLabel,
+        start_date: body.startDate,
+        end_date: body.endDate,
+      })
+      .eq("id", body.seasonId);
+    if (sErr) return NextResponse.json({ error: sErr.message }, { status: 500 });
+  } else {
+    const { error: sErr } = await supabase.from("seasons").insert({
+      id: body.seasonId,
+      label: body.seasonLabel,
+      start_date: body.startDate,
+      end_date: body.endDate,
+      format: body.format,
+    });
+    if (sErr) return NextResponse.json({ error: sErr.message }, { status: 500 });
+  }
 
   // ランキング upsert (順位ごと)
   const rows = body.entries.map((e) => {
