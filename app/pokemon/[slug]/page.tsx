@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { loadLatestSeason, loadPokemonDetail } from "@/lib/rankings";
 import { fetchPokeProfile } from "@/lib/pokeapi-stats";
 import { UsagePanel } from "@/components/UsagePanel";
-import { BaseStatsBars } from "@/components/BaseStatsBars";
+import { StatsToggle } from "@/components/StatsToggle";
 import { getOfficialArtworkUrl } from "@/lib/pokemon-sprite";
 import { TypeBadge } from "@/components/TypeBadge";
 import { fetchMoveMetaMap } from "@/lib/move-meta";
@@ -78,13 +78,10 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
               </p>
             </div>
           </div>
-          {/* 種族値 */}
+          {/* 種族値 / 実数値 */}
           {profile?.baseStats && (
             <div className="flex-1 md:border-l md:border-slate-100 md:pl-6">
-              <p className="mb-2 font-display text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
-                種族値
-              </p>
-              <BaseStatsBars stats={profile.baseStats} />
+              <StatsToggle stats={profile.baseStats} />
             </div>
           )}
         </div>
