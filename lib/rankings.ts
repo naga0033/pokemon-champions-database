@@ -180,8 +180,15 @@ function normalizeUsageEntry(entry: unknown): UsageEntryRow | null {
   const row = entry as Record<string, unknown>;
   const rank = typeof row.rank === "number" ? row.rank : null;
   const percentage = typeof row.percentage === "number" ? row.percentage : null;
-  const rawName = [row.name, row.move, row.item, row.ability, row.nature]
-    .find((value) => typeof value === "string" && value.trim().length > 0);
+  // Codex 由来の様々な field name バリエーションを許容
+  const rawName = [
+    row.name,
+    row.move, row.moveName,
+    row.item, row.itemName,
+    row.ability, row.abilityName,
+    row.nature, row.natureName,
+    row.partner, row.partnerName, row.pokemon, row.pokemonJa, row.pokemonName,
+  ].find((value) => typeof value === "string" && value.trim().length > 0);
 
   if (rank == null || percentage == null || typeof rawName !== "string") return null;
 

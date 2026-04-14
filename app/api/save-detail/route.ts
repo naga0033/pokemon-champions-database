@@ -43,6 +43,29 @@ export async function POST(req: Request) {
     .eq("pokemon_slug", slug)
     .maybeSingle();
 
+  // Codex 由来データの field name バリエーションを "name" に正規化
+  const normalizeUsage = (entries: unknown): UsageEntry[] | null => {
+    if (!Array.isArray(entries)) return null;
+    const out: UsageEntry[] = [];
+    for (const e of entries) {
+      if (!e || typeof e !== "object") continue;
+      const row = e as Record<string, unknown>;
+      const rank = typeof row.rank === "number" ? row.rank : null;
+      const percentage = typeof row.percentage === "number" ? row.percentage : null;
+      const name = [
+        row.name,
+        row.move, row.moveName,
+        row.item, row.itemName,
+        row.ability, row.abilityName,
+        row.nature, row.natureName,
+        row.partner, row.partnerName, row.pokemon, row.pokemonJa, row.pokemonName,
+      ].find((v) => typeof v === "string" && v.trim().length > 0);
+      if (rank == null || percentage == null || typeof name !== "string") continue;
+      out.push({ rank, name, percentage });
+    }
+    return out;
+  };
+
   const merged = {
     season_id: body.seasonId,
     format: body.format,
@@ -50,12 +73,12 @@ export async function POST(req: Request) {
     pokemon_ja: jaName,
     pokemon_slug: slug,
     dex_no: body.dexNo ?? existing?.dex_no ?? null,
-    moves:     body.panels.moves     ?? existing?.moves     ?? null,
-    items:     body.panels.items     ?? existing?.items     ?? null,
-    abilities: body.panels.abilities ?? existing?.abilities ?? null,
-    natures:   body.panels.natures   ?? existing?.natures   ?? null,
+    moves:     body.panels.moves     ? normalizeUsage(body.panels.moves)     : existing?.moves     ?? null,
+    items:     body.panels.items     ? normalizeUsage(body.panels.items)     : existing?.items     ?? null,
+    abilities: body.panels.abilities ? normalizeUsage(body.panels.abilities) : existing?.abilities ?? null,
+    natures:   body.panels.natures   ? normalizeUsage(body.panels.natures)   : existing?.natures   ?? null,
     evs:       body.panels.evs       ?? existing?.evs       ?? null,
-    partners:  body.panels.partners  ?? existing?.partners  ?? null,
+    partners:  body.panels.partners  ? normalizeUsage(body.panels.partners)  : existing?.partners  ?? null,
     updated_at: new Date().toISOString(),
   };
 
