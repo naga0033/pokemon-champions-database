@@ -21,9 +21,9 @@ export function HeaderLogo() {
         className="h-10 w-auto object-contain transition group-hover:scale-[1.02]"
         priority
       />
-      <span className="text-sm font-extrabold tracking-[0.04em] text-slate-900 md:text-base">
+      <span className="text-sm font-extrabold tracking-[0.04em] text-white md:text-base">
         ポケチャン
-        <span className="ml-1 text-indigo-600">バトルデータベース</span>
+        <span className="ml-1 text-amber-300">バトルデータベース</span>
       </span>
     </a>
   );

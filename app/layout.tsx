@@ -28,12 +28,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen bg-slate-50 font-sans antialiased`}>
         {/* ヘッダー */}
-        <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/90 backdrop-blur">
+        <header className="sticky top-0 z-40 border-b border-indigo-900/40 bg-gradient-to-r from-indigo-700 via-violet-700 to-purple-700 text-white shadow">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
             <HeaderLogo />
-            <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">
-              <Link href="/" className="transition hover:text-indigo-600">ランキング</Link>
-              <Link href="/about" className="transition hover:text-indigo-600">このサイトについて</Link>
+            <nav className="flex items-center gap-4 text-xs font-bold text-white/90">
+              <Link href="/" className="transition hover:text-white">ランキング</Link>
+              <Link href="/about" className="transition hover:text-white">このサイトについて</Link>
             </nav>
           </div>
         </header>
@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="mx-auto max-w-7xl px-5 py-8">{children}</main>
 
         {/* フッター */}
-        <footer className="mt-20 border-t border-slate-200 px-5 py-8 text-center text-xs text-slate-500">
+        <footer className="mt-20 bg-gradient-to-r from-indigo-700 via-violet-700 to-purple-700 px-5 py-10 text-center text-xs text-white">
           <div className="mx-auto max-w-4xl space-y-2">
             <p>このサイトはポケモンチャンピオンズの非公式ファンツールです。</p>
             <p>
@@ -50,13 +50,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 href="https://x.com/poketool2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sky-600 underline underline-offset-2 hover:text-sky-700"
+                className="underline underline-offset-2 hover:text-white/80"
               >
                 X @poketool2
               </a>{" "}
               まで。
             </p>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-white/85">
               当サイトは任天堂、株式会社ポケモン及び関係各社とは一切関係ありません。<br />
               ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
             </p>
