@@ -68,12 +68,14 @@ export function UsagePanel({
         </span>
         <span className="text-sm font-black text-slate-900">{title}</span>
       </div>
-      {/* 円グラフ (% が無いパネルは出さない) */}
-      {!hidePercentage && (
-        <div className="px-4 py-4">
+      {/* 円グラフ (% 無しパネルも高さ揃えるため枠だけ残す) */}
+      <div className="px-4 py-4">
+        {hidePercentage ? (
+          <div className="mx-auto" style={{ width: 140, height: 140 }} />
+        ) : (
           <DoughnutChart entries={entries} size={140} limit={limit} />
-        </div>
-      )}
+        )}
+      </div>
       {/* 凡例 (列をきっちり揃える: [左アイコン枠 20px][名前 flex][右アイコン枠 20px][採用率 48px]) */}
       <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
         {entries.slice(0, limit).map((e, i) => {
