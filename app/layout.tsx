@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import Image from "next/image";
 import Link from "next/link";
 import { Noto_Sans_JP, Orbitron } from "next/font/google";
+import { HeaderLogo } from "@/components/HeaderLogo";
 import "./globals.css";
 
 const bodyFont = Noto_Sans_JP({
@@ -30,28 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ヘッダー */}
         <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/90 backdrop-blur">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
-            <a
-              href="/"
-              className="group flex items-center gap-3"
-              onClick={(e) => {
-                // フルリロードして検索欄・フォーマット選択・シーズン選択をすべて初期化
-                e.preventDefault();
-                window.location.href = "/";
-              }}
-            >
-              <Image
-                src="/pokemon-champions-logo.webp"
-                alt="Pokemon Champions"
-                width={308}
-                height={160}
-                className="h-10 w-auto object-contain transition group-hover:scale-[1.02]"
-                priority
-              />
-              <span className="text-sm font-extrabold tracking-[0.04em] text-slate-900 md:text-base">
-                ポケチャン
-                <span className="ml-1 text-indigo-600">バトルデータベース</span>
-              </span>
-            </a>
+            <HeaderLogo />
             <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">
               <Link href="/" className="transition hover:text-indigo-600">ランキング</Link>
               <Link href="/about" className="transition hover:text-indigo-600">このサイトについて</Link>
