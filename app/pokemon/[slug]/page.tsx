@@ -102,7 +102,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       {/* 能力ポイント (独自機能: 努力値振りランキング) */}
       {detail.evs && detail.evs.length > 0 && (
         <section className="rounded-2xl border border-violet-100 bg-white/85 shadow-sm overflow-hidden">
-          <div className="bg-gradient-to-r from-indigo-500 to-cyan-500 px-4 py-2.5 text-white">
+          <div className="bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-4 py-2.5 text-white">
             <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
           </div>
           <div className="overflow-x-auto">
@@ -139,7 +139,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       )}
 
       {/* 三種の神器 クロスリンク */}
-      <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-indigo-50 to-cyan-50 p-5">
+      <section className="rounded-2xl border border-violet-100 bg-white/85 p-5 shadow-sm">
         <p className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-indigo-600">
           RELATED TOOLS
         </p>
