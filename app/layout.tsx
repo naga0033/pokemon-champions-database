@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen bg-slate-50 font-sans antialiased`}>
+      <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen bg-violet-50 font-sans antialiased`}>
         {/* ヘッダー */}
-        <header className="sticky top-0 z-40 border-b border-indigo-900/40 bg-gradient-to-r from-indigo-700 via-violet-700 to-purple-700 text-white shadow">
+        <header className="sticky top-0 z-40 border-b border-indigo-400/30 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 text-white shadow-sm">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
             <HeaderLogo />
-            <nav className="flex items-center gap-4 text-xs font-bold text-white/90">
+            <nav className="flex items-center gap-5 text-sm font-bold text-white/95">
               <Link href="/" className="transition hover:text-white">ランキング</Link>
               <Link href="/about" className="transition hover:text-white">このサイトについて</Link>
             </nav>
@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="mx-auto max-w-7xl px-5 py-8">{children}</main>
 
         {/* フッター */}
-        <footer className="mt-20 bg-gradient-to-r from-indigo-700 via-violet-700 to-purple-700 px-5 py-10 text-center text-xs text-white">
+        <footer className="mt-20 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-5 py-10 text-center text-xs text-white">
           <div className="mx-auto max-w-4xl space-y-2">
             <p>このサイトはポケモンチャンピオンズの非公式ファンツールです。</p>
             <p>

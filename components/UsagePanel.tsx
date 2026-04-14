@@ -101,13 +101,17 @@ export function UsagePanel({
           const color = paletteColor(i);
           return (
             <li key={`${e.rank}-${e.name}`} className="flex items-center gap-2">
-              {/* 左アイコン列: 20px 固定 */}
-              <span className="flex h-5 w-5 shrink-0 items-center justify-center">
-                {meta && <TypeIcon type={meta.type} size="sm" />}
+              {/* 左アイコン列: 24px 枠で統一 (タイプは少し小さめ、もちもの画像は大きめ) */}
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center">
+                {meta && (
+                  <span className="scale-[0.85]">
+                    <TypeIcon type={meta.type} size="sm" />
+                  </span>
+                )}
                 {spriteUrl && (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={spriteUrl} alt={e.name}
-                    className="h-5 w-5 object-contain"
+                    className="h-6 w-6 object-contain"
                     loading="lazy"
                   />
                 )}
