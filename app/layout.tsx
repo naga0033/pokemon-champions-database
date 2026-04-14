@@ -5,6 +5,8 @@ import { Noto_Sans_JP, Orbitron } from "next/font/google";
 import { HeaderLogo } from "@/components/HeaderLogo";
 import "./globals.css";
 
+const GA_ID = "G-DWWZPKQ6FY";
+
 const bodyFont = Noto_Sans_JP({
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
@@ -26,6 +28,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
+      <head>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
+        </Script>
+      </head>
       <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen font-sans antialiased`}>
         {/* ヘッダー */}
         <header className="sticky top-0 z-40 border-b border-indigo-400/30 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 text-white shadow-sm">
