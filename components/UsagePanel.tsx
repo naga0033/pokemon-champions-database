@@ -35,13 +35,13 @@ const TYPE_LABEL: Record<string, string> = {
 /** 物理 / 特殊 / 変化 アイコン: ユーザー提供の画像を使用 */
 /* eslint-disable @next/next/no-img-element */
 function PhysicalIcon() {
-  return <img src="/move-category/physical.jpg" alt="物理" title="物理" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
+  return <img src="/move-category/physical.png" alt="物理" title="物理" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
 function SpecialIcon() {
-  return <img src="/move-category/special.jpg" alt="特殊" title="特殊" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
+  return <img src="/move-category/special.png" alt="特殊" title="特殊" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
 function StatusIcon() {
-  return <img src="/move-category/status.jpg" alt="変化" title="変化" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
+  return <img src="/move-category/status.png" alt="変化" title="変化" className="h-5 w-5 shrink-0 rounded-md object-cover" />;
 }
 /* eslint-enable @next/next/no-img-element */
 
