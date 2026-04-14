@@ -29,15 +29,15 @@ function calc(base: number, kind: "max" | "neutralMax" | "noInvest" | "down", is
 
 export function ActualStatsTable({ stats }: Props) {
   return (
-    <table className="w-auto text-[11px]">
-      <thead className="text-[9px] font-bold uppercase tracking-wider text-slate-500">
+    <table className="w-full text-xs">
+      <thead className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
         <tr className="border-b border-slate-200">
-          <th className="w-14 px-1 py-0.5 text-left"></th>
-          <th className="w-10 px-1 py-0.5 text-right">種族</th>
-          <th className="w-10 px-1 py-0.5 text-right">最大</th>
-          <th className="w-10 px-1 py-0.5 text-right">準</th>
-          <th className="w-10 px-1 py-0.5 text-right">無振</th>
-          <th className="w-10 px-1 py-0.5 text-right">下降</th>
+          <th className="px-2 py-1 text-left"></th>
+          <th className="px-2 py-1 text-right">種族</th>
+          <th className="px-2 py-1 text-right">最大</th>
+          <th className="px-2 py-1 text-right">準</th>
+          <th className="px-2 py-1 text-right">無振</th>
+          <th className="px-2 py-1 text-right">下降</th>
         </tr>
       </thead>
       <tbody className="divide-y divide-slate-100">
@@ -46,12 +46,12 @@ export function ActualStatsTable({ stats }: Props) {
           const isHp = key === "hp";
           return (
             <tr key={key}>
-              <td className="px-1 py-0.5 font-bold text-slate-600">{label}</td>
-              <td className="px-1 py-0.5 text-right font-bold text-slate-900 tabular-nums">{b}</td>
-              <td className="px-1 py-0.5 text-right font-black text-purple-700 tabular-nums">{calc(b, "max", isHp)}</td>
-              <td className="px-1 py-0.5 text-right font-bold text-slate-900 tabular-nums">{calc(b, "neutralMax", isHp)}</td>
-              <td className="px-1 py-0.5 text-right text-slate-700 tabular-nums">{calc(b, "noInvest", isHp)}</td>
-              <td className="px-1 py-0.5 text-right text-slate-500 tabular-nums">{calc(b, "down", isHp)}</td>
+              <td className="px-2 py-1 font-bold text-slate-600">{label}</td>
+              <td className="px-2 py-1 text-right font-bold text-slate-900 tabular-nums">{b}</td>
+              <td className="px-2 py-1 text-right font-black text-purple-700 tabular-nums">{calc(b, "max", isHp)}</td>
+              <td className="px-2 py-1 text-right font-bold text-slate-900 tabular-nums">{calc(b, "neutralMax", isHp)}</td>
+              <td className="px-2 py-1 text-right text-slate-700 tabular-nums">{calc(b, "noInvest", isHp)}</td>
+              <td className="px-2 py-1 text-right text-slate-500 tabular-nums">{calc(b, "down", isHp)}</td>
             </tr>
           );
         })}
