@@ -23,11 +23,11 @@ body {
 }
 
 body {
-  /* ラベンダーの光彩入りベースグラデ (カードより濃い) */
+  /* ラベンダーの光彩入りベースグラデ (左を濃く、右をやや明るく) */
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4), transparent 40%),
-    radial-gradient(circle at 80% 30%, rgba(200, 180, 255, 0.25), transparent 50%),
-    linear-gradient(135deg, #f4f2ff 0%, #ece9f7 40%, #e6e3f2 100%);
+    radial-gradient(circle at 85% 25%, rgba(255, 255, 255, 0.45), transparent 45%),
+    radial-gradient(circle at 15% 30%, rgba(170, 150, 240, 0.3), transparent 55%),
+    linear-gradient(225deg, #f4f2ff 0%, #ece9f7 40%, #e0dcef 100%);
   background-attachment: fixed;
   font-family: var(--font-body), sans-serif;
 }
