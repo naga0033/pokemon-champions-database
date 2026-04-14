@@ -2,16 +2,17 @@
 // ライブラリなしで pure SVG path でなめらかな扇形を描く
 import type { UsageEntry } from "@/lib/types";
 
+// やさしいトーンの 7 色 (彩度控えめ + 明度揃え)
 const PALETTE = [
-  "#f97316", // orange
-  "#14b8a6", // teal
-  "#6366f1", // indigo
-  "#ec4899", // pink
-  "#facc15", // yellow
-  "#10b981", // emerald
-  "#0ea5e9", // sky
-  "#a855f7", // purple
-  "#64748b", // slate
+  "#93c5fd", // blue-300
+  "#fca5a5", // red-300
+  "#fcd34d", // amber-300
+  "#86efac", // green-300
+  "#c4b5fd", // violet-300
+  "#f9a8d4", // pink-300
+  "#5eead4", // teal-300
+  "#fdba74", // orange-300
+  "#cbd5e1", // slate-300
 ];
 
 type Props = {
