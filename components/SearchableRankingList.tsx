@@ -31,6 +31,10 @@ export function SearchableRankingList({ entries, format, seasonId }: Props) {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={(e) => {
+            // 入力済みテキストは全選択しておくと即差し替えできる
+            if (e.currentTarget.value) e.currentTarget.select();
+          }}
           placeholder="ポケモン名で検索 (例: ガブリアス、ぶりじゅらす)"
           className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 pl-10 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none"
         />

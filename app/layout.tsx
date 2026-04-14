@@ -30,7 +30,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ヘッダー */}
         <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-white/90 backdrop-blur">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
-            <Link href="/" className="group flex items-center gap-3">
+            <a
+              href="/"
+              className="group flex items-center gap-3"
+              onClick={(e) => {
+                // フルリロードして検索欄・フォーマット選択・シーズン選択をすべて初期化
+                e.preventDefault();
+                window.location.href = "/";
+              }}
+            >
               <Image
                 src="/pokemon-champions-logo.webp"
                 alt="Pokemon Champions"
@@ -43,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 ポケチャン
                 <span className="ml-1 text-indigo-600">バトルデータベース</span>
               </span>
-            </Link>
+            </a>
             <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">
               <Link href="/" className="transition hover:text-indigo-600">ランキング</Link>
               <Link href="/about" className="transition hover:text-indigo-600">このサイトについて</Link>
