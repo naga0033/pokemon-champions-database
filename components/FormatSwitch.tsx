@@ -15,7 +15,7 @@ export function FormatSwitch({ current }: { current: Format }) {
             prefetch
             className={
               active
-                ? "rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-2 text-sm font-black text-white shadow-md"
+                ? "rounded-full bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-6 py-2 text-sm font-black text-white shadow-md"
                 : "rounded-full px-6 py-2 text-sm font-bold text-slate-500 hover:bg-slate-50 hover:text-slate-900"
             }
           >
