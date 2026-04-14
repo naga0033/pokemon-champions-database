@@ -1,10 +1,13 @@
-// ポケモン個別詳細: 技・持ち物・特性・性格・テラス の採用率パネル
+// ポケモン個別詳細: プロフィール + 種族値 + 各パネル (円グラフ) + 努力値ランキング
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadLatestSeason, loadPokemonDetail } from "@/lib/rankings";
+import { fetchPokeProfile } from "@/lib/pokeapi-stats";
 import { UsagePanel } from "@/components/UsagePanel";
+import { BaseStatsBars } from "@/components/BaseStatsBars";
 import { getOfficialArtworkUrl } from "@/lib/pokemon-sprite";
-import type { Format } from "@/lib/types";
+import { TypeBadge } from "@/components/TypeBadge";
+import type { Format, TeraIcon } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
@@ -24,6 +27,8 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
   const detail = await loadPokemonDetail(season.id, format, slug);
   if (!detail) notFound();
 
+  const profile = await fetchPokeProfile(slug);
+
   return (
     <div className="space-y-6">
       {/* パンくず */}
@@ -35,42 +40,62 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
         <span className="font-bold text-slate-700">{detail.pokemonJa}</span>
       </nav>
 
-      {/* ヘッダー */}
-      <section className="flex flex-wrap items-center gap-4 rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 via-white to-cyan-50 p-6">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-2xl font-black text-white shadow">
-          {detail.rank}
-        </div>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={getOfficialArtworkUrl(detail.pokemonSlug)}
-          alt={detail.pokemonJa}
-          className="h-28 w-28 object-contain"
-        />
-        <div className="flex-1 min-w-[200px]">
-          {detail.dexNo && (
-            <p className="text-[11px] font-bold tracking-widest text-slate-400">
-              No.{detail.dexNo}
-            </p>
+      {/* プロフィールヘッダー */}
+      <section className="rounded-3xl border border-slate-200 bg-white p-5 md:p-7 shadow-sm">
+        <div className="flex flex-col gap-6 md:flex-row md:items-center">
+          <div className="flex items-center gap-4">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-2xl font-black text-white shadow">
+              {detail.rank}
+            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={getOfficialArtworkUrl(detail.pokemonSlug)}
+              alt={detail.pokemonJa}
+              className="h-28 w-28 object-contain"
+            />
+            <div>
+              {detail.dexNo && (
+                <p className="text-[11px] font-bold tracking-widest text-slate-400">
+                  No.{detail.dexNo}
+                </p>
+              )}
+              <h1 className="font-display text-2xl font-black text-slate-900 md:text-3xl">
+                {detail.pokemonJa}
+              </h1>
+              {profile?.types && (
+                <div className="mt-1.5 flex gap-1.5">
+                  {profile.types.map((t) => (
+                    <TypeBadge key={t} type={t as TeraIcon} />
+                  ))}
+                </div>
+              )}
+              <p className="mt-2 text-[11px] text-slate-500">
+                {season.label} · {format === "single" ? "シングル" : "ダブル"} · 最終更新 {detail.updatedAt.slice(0, 10)}
+              </p>
+            </div>
+          </div>
+          {/* 種族値 */}
+          {profile?.baseStats && (
+            <div className="flex-1 md:border-l md:border-slate-100 md:pl-6">
+              <p className="mb-2 font-display text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
+                種族値
+              </p>
+              <BaseStatsBars stats={profile.baseStats} />
+            </div>
           )}
-          <h1 className="font-display text-2xl font-black text-slate-900 md:text-3xl">
-            {detail.pokemonJa}
-          </h1>
-          <p className="mt-1 text-[11px] text-slate-500">
-            {season.label} · {format === "single" ? "シングル" : "ダブル"} · 最終更新 {detail.updatedAt.slice(0, 10)}
-          </p>
         </div>
       </section>
 
-      {/* 採用率パネル群 */}
-      <section className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {detail.moves && <UsagePanel title="技" iconLabel="わざ" entries={detail.moves} accent="from-rose-500 to-orange-500" />}
-        {detail.items && <UsagePanel title="持ち物" iconLabel="もちもの" entries={detail.items} accent="from-emerald-500 to-teal-500" />}
-        {detail.abilities && <UsagePanel title="特性" iconLabel="とくせい" entries={detail.abilities} accent="from-sky-500 to-blue-500" />}
-        {detail.natures && <UsagePanel title="性格補正" iconLabel="せいかく" entries={detail.natures} accent="from-violet-500 to-purple-500" />}
-        {detail.partners && <UsagePanel title="同じチームのポケモン" iconLabel="パートナー" entries={detail.partners} accent="from-amber-500 to-yellow-500" />}
+      {/* 採用率パネル (円グラフ) */}
+      <section className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        {detail.moves && <UsagePanel title="わざ" iconLabel="MOVES" entries={detail.moves} />}
+        {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} />}
+        {detail.abilities && <UsagePanel title="とくせい" iconLabel="ABILITY" entries={detail.abilities} />}
+        {detail.natures && <UsagePanel title="せいかく" iconLabel="NATURE" entries={detail.natures} />}
+        {detail.partners && <UsagePanel title="同じチーム" iconLabel="PARTNER" entries={detail.partners} />}
       </section>
 
-      {/* 能力ポイント(努力値振り) ランキング */}
+      {/* 能力ポイント (独自機能: 努力値振りランキング) */}
       {detail.evs && detail.evs.length > 0 && (
         <section className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
           <div className="bg-gradient-to-r from-indigo-500 to-cyan-500 px-4 py-2.5 text-white">
@@ -78,7 +103,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
               <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] opacity-80">
                 EV SPREAD
               </span>
-              <span className="text-sm font-black">能力ポイント 採用配分ランキング</span>
+              <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
             </div>
           </div>
           <div className="overflow-x-auto">
@@ -113,6 +138,32 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
           </div>
         </section>
       )}
+
+      {/* 三種の神器 クロスリンク */}
+      <section className="rounded-2xl border border-slate-200 bg-gradient-to-br from-indigo-50 to-cyan-50 p-5">
+        <p className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-indigo-600">
+          RELATED TOOLS
+        </p>
+        <p className="mt-1 text-sm font-bold text-slate-900">
+          {detail.pokemonJa} の構築 / ダメ計をチェック
+        </p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link
+            href={`https://pokemon-teams-seven.vercel.app/search?pokemon=${encodeURIComponent(detail.pokemonJa)}`}
+            target="_blank"
+            className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
+          >
+            📋 構築コレクション
+          </Link>
+          <Link
+            href={`https://pokemon-damage-calc.vercel.app/?pokemon=${encodeURIComponent(detail.pokemonJa)}`}
+            target="_blank"
+            className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
+          >
+            ⚡ ダメージ計算
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

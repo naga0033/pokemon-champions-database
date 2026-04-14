@@ -1,8 +1,7 @@
-// 使用率ランキング一覧 (game の画面デザインを再現)
+// 使用率ランキング一覧 (5列コンパクトグリッド)
 import Link from "next/link";
 import type { Format, RankingEntry } from "@/lib/types";
-import { getSpriteUrl } from "@/lib/pokemon-sprite";
-import { TeraIconBadge } from "./TeraIconBadge";
+import { getListSpriteUrl } from "@/lib/pokemon-sprite";
 
 type Props = {
   entries: RankingEntry[];
@@ -12,39 +11,26 @@ type Props = {
 
 export function RankingList({ entries, format, seasonId }: Props) {
   return (
-    <div className="grid gap-2 md:grid-cols-2">
+    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
       {entries.map((entry) => (
         <Link
           key={`${entry.rank}-${entry.pokemonSlug}`}
           href={`/pokemon/${entry.pokemonSlug}?season=${seasonId}&format=${format}`}
-          className="group flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 transition hover:-translate-y-0.5 hover:border-indigo-300 hover:shadow-lg"
+          className="group flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 transition hover:border-indigo-400 hover:shadow-md"
         >
-          {/* 順位 */}
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-base font-black text-white shadow">
+          <span className="font-display shrink-0 w-7 text-right text-sm font-black text-slate-400 group-hover:text-indigo-500">
             {entry.rank}
-          </div>
-          {/* スプライト */}
+          </span>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={getSpriteUrl(entry.pokemonSlug)}
+            src={getListSpriteUrl(entry.pokemonSlug)}
             alt={entry.pokemonJa}
-            className="h-12 w-12 shrink-0 object-contain"
+            className="h-10 w-10 shrink-0 object-contain"
             loading="lazy"
           />
-          {/* 名前 */}
-          <div className="min-w-0 flex-1">
-            <p className="truncate text-sm font-bold text-slate-900 group-hover:text-indigo-700">
-              {entry.pokemonJa}
-            </p>
-          </div>
-          {/* テラスアイコン */}
-          {entry.teraIcons && entry.teraIcons.length > 0 && (
-            <div className="flex shrink-0 items-center gap-1">
-              {entry.teraIcons.slice(0, 3).map((t, i) => (
-                <TeraIconBadge key={`${t}-${i}`} type={t} />
-              ))}
-            </div>
-          )}
+          <span className="min-w-0 flex-1 truncate text-[13px] font-bold text-slate-900 group-hover:text-indigo-700">
+            {entry.pokemonJa}
+          </span>
         </Link>
       ))}
     </div>
