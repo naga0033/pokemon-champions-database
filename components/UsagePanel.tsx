@@ -15,6 +15,8 @@ type Props = {
   limit?: number;
   moveMeta?: Record<string, MoveMeta>;
   showItemSprite?: boolean;
+  /** 同じチーム用: % を非表示にしてチャートも出さない (ゲーム側に % が無いため) */
+  hidePercentage?: boolean;
 };
 
 const TYPE_COLOR: Record<string, string> = {
@@ -53,7 +55,7 @@ function CategoryIcon({ category }: { category: MoveMeta["category"] }) {
 
 export function UsagePanel({
   title, iconLabel, entries, limit = 5,
-  moveMeta, showItemSprite,
+  moveMeta, showItemSprite, hidePercentage,
 }: Props) {
   if (entries.length === 0) return null;
 
@@ -66,10 +68,12 @@ export function UsagePanel({
         </span>
         <span className="text-sm font-black text-slate-900">{title}</span>
       </div>
-      {/* 円グラフ */}
-      <div className="px-4 py-4">
-        <DoughnutChart entries={entries} size={140} limit={limit} />
-      </div>
+      {/* 円グラフ (% が無いパネルは出さない) */}
+      {!hidePercentage && (
+        <div className="px-4 py-4">
+          <DoughnutChart entries={entries} size={140} limit={limit} />
+        </div>
+      )}
       {/* 凡例 (列をきっちり揃える: [左アイコン枠 20px][名前 flex][右アイコン枠 20px][採用率 48px]) */}
       <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
         {entries.slice(0, limit).map((e, i) => {
@@ -112,10 +116,16 @@ export function UsagePanel({
                   {meta && <CategoryIcon category={meta.category} />}
                 </span>
               )}
-              {/* 採用率: 48px 固定・右寄せ */}
-              <span className="font-display w-12 shrink-0 text-right text-xs font-black text-slate-900 tabular-nums">
-                {e.percentage.toFixed(1)}%
-              </span>
+              {/* 採用率: 48px 固定・右寄せ (% が無いパネルでは順位だけ右に出す) */}
+              {hidePercentage ? (
+                <span className="font-display w-12 shrink-0 text-right text-xs font-bold text-slate-400 tabular-nums">
+                  {e.rank}位
+                </span>
+              ) : (
+                <span className="font-display w-12 shrink-0 text-right text-xs font-black text-slate-900 tabular-nums">
+                  {e.percentage.toFixed(1)}%
+                </span>
+              )}
             </li>
           );
         })}

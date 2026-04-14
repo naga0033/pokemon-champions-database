@@ -8,7 +8,7 @@ import { ActualStatsTable } from "./ActualStatsTable";
 export function StatsToggle({ stats }: { stats: BaseStats }) {
   const [showActual, setShowActual] = useState(false);
   return (
-    <div className="space-y-2">
+    <div className="space-y-0 md:-mt-7 md:w-[640px] md:max-w-full">
       {/* トグル (ラベル無し、右寄せ) */}
       <div className="flex justify-end">
         <div className="inline-flex rounded-full border border-slate-200 bg-white p-0.5 text-[11px] font-bold shadow-sm">
@@ -41,7 +41,7 @@ export function StatsToggle({ stats }: { stats: BaseStats }) {
         <div className={showActual ? "invisible" : "visible"}>
           <BaseStatsBars stats={stats} />
         </div>
-        <div className={showActual ? "absolute inset-0" : "absolute inset-0 invisible"}>
+        <div className={showActual ? "absolute inset-0 md:-top-5" : "absolute inset-0 invisible md:-top-5"}>
           <ActualStatsTable stats={stats} />
         </div>
       </div>
