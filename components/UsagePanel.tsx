@@ -5,6 +5,7 @@ import type { UsageEntry } from "@/lib/types";
 import type { MoveMeta } from "@/lib/move-meta";
 import { DoughnutChart } from "./DoughnutChart";
 import { getItemSpriteUrl } from "@/lib/item-meta";
+import { TypeIcon } from "./TypeIcon";
 
 type Props = {
   title: string;
@@ -96,14 +97,7 @@ export function UsagePanel({
           return (
             <li key={`${e.rank}-${e.name}`} className="flex items-center gap-2">
               {/* 左アイコン: 技タイプ or もちもの画像 */}
-              {meta && (
-                <span
-                  title={meta.type}
-                  className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md ${TYPE_COLOR[meta.type] ?? "bg-slate-400"} text-[10px] font-black text-white`}
-                >
-                  {TYPE_LABEL[meta.type] ?? "?"}
-                </span>
-              )}
+              {meta && <TypeIcon type={meta.type} size="sm" />}
               {spriteUrl && (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={spriteUrl} alt={e.name}
