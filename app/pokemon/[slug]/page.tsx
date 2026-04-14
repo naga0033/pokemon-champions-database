@@ -66,10 +66,53 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
         {detail.moves && <UsagePanel title="技" iconLabel="わざ" entries={detail.moves} accent="from-rose-500 to-orange-500" />}
         {detail.items && <UsagePanel title="持ち物" iconLabel="もちもの" entries={detail.items} accent="from-emerald-500 to-teal-500" />}
         {detail.abilities && <UsagePanel title="特性" iconLabel="とくせい" entries={detail.abilities} accent="from-sky-500 to-blue-500" />}
-        {detail.natures && <UsagePanel title="性格" iconLabel="せいかく" entries={detail.natures} accent="from-violet-500 to-purple-500" />}
-        {detail.teras && <UsagePanel title="テラスタイプ" iconLabel="テラス" entries={detail.teras} accent="from-pink-500 to-fuchsia-500" />}
-        {detail.partners && <UsagePanel title="組み合わせ" iconLabel="ペア" entries={detail.partners} accent="from-amber-500 to-yellow-500" />}
+        {detail.natures && <UsagePanel title="性格補正" iconLabel="せいかく" entries={detail.natures} accent="from-violet-500 to-purple-500" />}
+        {detail.partners && <UsagePanel title="同じチームのポケモン" iconLabel="パートナー" entries={detail.partners} accent="from-amber-500 to-yellow-500" />}
       </section>
+
+      {/* 能力ポイント(努力値振り) ランキング */}
+      {detail.evs && detail.evs.length > 0 && (
+        <section className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+          <div className="bg-gradient-to-r from-indigo-500 to-cyan-500 px-4 py-2.5 text-white">
+            <div className="flex items-center justify-between">
+              <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] opacity-80">
+                EV SPREAD
+              </span>
+              <span className="text-sm font-black">能力ポイント 採用配分ランキング</span>
+            </div>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                <tr className="border-b border-slate-200">
+                  <th className="px-3 py-2 text-left">順位</th>
+                  <th className="px-3 py-2 text-left">採用率</th>
+                  <th className="px-3 py-2">HP</th>
+                  <th className="px-3 py-2">攻撃</th>
+                  <th className="px-3 py-2">防御</th>
+                  <th className="px-3 py-2">特攻</th>
+                  <th className="px-3 py-2">特防</th>
+                  <th className="px-3 py-2">素早さ</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {detail.evs.slice(0, 10).map((e) => (
+                  <tr key={e.rank}>
+                    <td className="px-3 py-2 font-bold text-slate-400">{e.rank}</td>
+                    <td className="px-3 py-2 font-bold text-slate-900">{e.percentage.toFixed(1)}%</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.hp}</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.atk}</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.def}</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.spAtk}</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.spDef}</td>
+                    <td className="px-3 py-2 text-center tabular-nums">{e.speed}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
     </div>
   );
 }

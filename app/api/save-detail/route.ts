@@ -5,8 +5,12 @@ import { resolvePokemonJaName, getEnSlug } from "@/lib/pokemon-names";
 
 export const runtime = "nodejs";
 
-type PanelType = "moves" | "items" | "abilities" | "natures" | "teras" | "partners";
+type PanelType = "moves" | "items" | "abilities" | "natures" | "evs" | "partners";
 type UsageEntry = { rank: number; name: string; percentage: number };
+type EvEntry = {
+  rank: number; percentage: number;
+  hp: number; atk: number; def: number; spAtk: number; spDef: number; speed: number;
+};
 
 type Body = {
   seasonId: string;
@@ -14,7 +18,7 @@ type Body = {
   rank: number;
   pokemonJa: string;
   dexNo?: number;
-  panels: Partial<Record<PanelType, UsageEntry[]>>;  // 複数パネルまとめて送る
+  panels: Partial<Record<PanelType, UsageEntry[] | EvEntry[]>>;
 };
 
 export async function POST(req: Request) {
@@ -50,7 +54,7 @@ export async function POST(req: Request) {
     items:     body.panels.items     ?? existing?.items     ?? null,
     abilities: body.panels.abilities ?? existing?.abilities ?? null,
     natures:   body.panels.natures   ?? existing?.natures   ?? null,
-    teras:     body.panels.teras     ?? existing?.teras     ?? null,
+    evs:       body.panels.evs       ?? existing?.evs       ?? null,
     partners:  body.panels.partners  ?? existing?.partners  ?? null,
     updated_at: new Date().toISOString(),
   };

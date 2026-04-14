@@ -12,12 +12,18 @@ type ParsedRanking = {
   entries: Array<{ rank: number; pokemonJa: string; teraIcons?: string[] }>;
 };
 
+type UsageEntry = { rank: number; name: string; percentage: number };
+type EvEntry = {
+  rank: number; percentage: number;
+  hp: number; atk: number; def: number; spAtk: number; spDef: number; speed: number;
+};
+
 type ParsedDetail = {
   rank: number;
   pokemonJa: string;
   dexNo?: number;
-  panelType: "moves" | "items" | "abilities" | "natures" | "teras" | "partners";
-  entries: Array<{ rank: number; name: string; percentage: number }>;
+  panelType: "moves" | "items" | "abilities" | "natures" | "evs" | "partners";
+  entries: Array<UsageEntry | EvEntry>;
 };
 
 export function AdminUploader() {
@@ -224,7 +230,9 @@ export function AdminUploader() {
           <ul className="mt-3 space-y-1 text-sm">
             {detailResult.entries.map((e) => (
               <li key={e.rank}>
-                {e.rank}. {e.name} — {e.percentage.toFixed(1)}%
+                {detailResult.panelType === "evs" && "hp" in e
+                  ? `${e.rank}. ${e.percentage.toFixed(1)}% — H${e.hp}/A${e.atk}/B${e.def}/C${e.spAtk}/D${e.spDef}/S${e.speed}`
+                  : `${e.rank}. ${(e as UsageEntry).name} — ${e.percentage.toFixed(1)}%`}
               </li>
             ))}
           </ul>

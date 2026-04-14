@@ -35,12 +35,12 @@ create table if not exists pokemon_details (
   pokemon_slug text not null,
   dex_no      int,
 
-  moves       jsonb,  -- [{rank:1,name:"じしん",percentage:99.0}, ...]
-  items       jsonb,
-  abilities   jsonb,
-  natures     jsonb,
-  teras       jsonb,
-  partners    jsonb,  -- ダブル用
+  moves       jsonb,  -- [{rank,name,percentage}]
+  items       jsonb,  -- [{rank,name,percentage}]
+  abilities   jsonb,  -- [{rank,name,percentage}]
+  natures     jsonb,  -- [{rank,name,percentage}]
+  evs         jsonb,  -- [{rank,percentage,hp,atk,def,spAtk,spDef,speed}]
+  partners    jsonb,  -- [{rank,name,percentage}]
 
   updated_at  timestamptz default now(),
   unique (season_id, format, pokemon_slug)

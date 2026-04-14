@@ -25,12 +25,24 @@ export type RankingEntry = {
   teraIcons?: TeraIcon[]; // 画面に出てる採用テラスアイコン (右の小アイコン群)
 };
 
-/** 採用率付きのエントリ (技、持ち物、特性、性格、テラス、組み合わせポケモン等) */
+/** 採用率付きのエントリ (技、持ち物、特性、性格、組み合わせポケモン等) */
 export type UsageEntry = {
-  rank: number;           // 1〜5
+  rank: number;           // 順位
   name: string;           // "じしん" / "きあいのタスキ" / etc.
   slug?: string;          // 英語slug (あれば)
   percentage: number;     // 99.0 (%)
+};
+
+/** 努力値 (能力ポイント) の 1 配分 + その採用率 */
+export type EvEntry = {
+  rank: number;
+  percentage: number;
+  hp: number;
+  atk: number;
+  def: number;
+  spAtk: number;
+  spDef: number;
+  speed: number;
 };
 
 /** 詳細パネルの種別 */
@@ -38,9 +50,9 @@ export type DetailPanel =
   | "moves"      // 技
   | "items"      // 持ち物
   | "abilities"  // 特性
-  | "natures"    // 性格
-  | "teras"      // テラスタイプ
-  | "partners";  // 組み合わせポケモン (ダブル用)
+  | "natures"    // 性格補正
+  | "evs"        // 能力ポイント (努力値振り)
+  | "partners";  // 同じチームのポケモン
 
 /** ポケモンの詳細データ (1 体分) */
 export type PokemonDetail = {
@@ -55,7 +67,7 @@ export type PokemonDetail = {
   items?: UsageEntry[];
   abilities?: UsageEntry[];
   natures?: UsageEntry[];
-  teras?: UsageEntry[];
+  evs?: EvEntry[];        // 能力ポイント (努力値振り)
   partners?: UsageEntry[];
 
   updatedAt: string;      // ISO

@@ -28,7 +28,7 @@ type DetailRow = {
   items: unknown;
   abilities: unknown;
   natures: unknown;
-  teras: unknown;
+  evs: unknown;
   partners: unknown;
   updated_at: string;
 };
@@ -108,7 +108,7 @@ export async function loadPokemonDetail(
     items: asUsage(row.items),
     abilities: asUsage(row.abilities),
     natures: asUsage(row.natures),
-    teras: asUsage(row.teras),
+    evs: Array.isArray(row.evs) ? (row.evs as PokemonDetail["evs"]) : undefined,
     partners: asUsage(row.partners),
     updatedAt: row.updated_at,
   };
