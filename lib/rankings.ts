@@ -115,5 +115,29 @@ export async function loadPokemonDetail(
 }
 
 function asUsage(v: unknown): PokemonDetail["moves"] | undefined {
-  return Array.isArray(v) ? (v as PokemonDetail["moves"]) : undefined;
+  if (!Array.isArray(v)) return undefined;
+
+  return v
+    .map((entry) => normalizeUsageEntry(entry))
+    .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
+}
+
+type UsageEntryRow = { rank: number; percentage: number; name: string };
+
+function normalizeUsageEntry(entry: unknown): UsageEntryRow | null {
+  if (!entry || typeof entry !== "object") return null;
+
+  const row = entry as Record<string, unknown>;
+  const rank = typeof row.rank === "number" ? row.rank : null;
+  const percentage = typeof row.percentage === "number" ? row.percentage : null;
+  const rawName = [row.name, row.move, row.item, row.ability, row.nature]
+    .find((value) => typeof value === "string" && value.trim().length > 0);
+
+  if (rank == null || percentage == null || typeof rawName !== "string") return null;
+
+  return {
+    rank,
+    percentage,
+    name: rawName,
+  };
 }

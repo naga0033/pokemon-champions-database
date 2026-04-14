@@ -1,4 +1,4 @@
-// ランキングトップ: シーズン × フォーマット選択 + 使用率ランキング
+// ランキングトップ: シングル / ダブル 切替 + 使用率ランキング
 import { loadLatestSeason, loadRanking } from "@/lib/rankings";
 import { RankingList } from "@/components/RankingList";
 import { FormatSwitch } from "@/components/FormatSwitch";
@@ -16,20 +16,21 @@ export default async function HomePage({ searchParams }: PageProps) {
 
   const season = await loadLatestSeason(format, sp.season);
   const ranking = season ? await loadRanking(season.id, format) : [];
+  const formatLabel = format === "single" ? "シングルバトル" : "ダブルバトル";
 
   return (
     <div className="space-y-6">
       {/* ヒーロー */}
       <section className="rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 via-white to-cyan-50 p-6 md:p-8">
         <p className="font-display text-[11px] font-bold uppercase tracking-[0.3em] text-indigo-600">
-          POKECHAN STATS
+          POKECHAN DATABASE
         </p>
         <h1 className="mt-2 font-display text-2xl font-black text-slate-900 md:text-3xl">
-          使用率ランキング
+          {formatLabel}  使用率ランキング
         </h1>
         <p className="mt-2 text-sm text-slate-600">
-          ポケモンチャンピオンズのゲーム内ランキングデータを集計。
-          ポケモン名をクリックで技・持ち物・特性・性格・テラスタイプの採用率が見れる。
+          ポケモンチャンピオンズのゲーム内ランキングを集計した非公式データベース。
+          ポケモンをクリックで技・持ち物・特性・性格・努力値・チーム構成の採用率が見れる。
         </p>
       </section>
 
@@ -59,10 +60,13 @@ export default async function HomePage({ searchParams }: PageProps) {
       ) : (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 py-16 text-center">
           <p className="text-sm font-bold tracking-wide text-slate-500">
-            まだランキングデータがありません
+            {formatLabel} のランキングデータは準備中です
           </p>
           <p className="mt-2 text-xs text-slate-400">
-            ゲーム内ランキング画面のスクショから順次データを追加していきます。しばらくお待ちください。
+            {format === "double"
+              ? "ダブルバトルの集計データは順次追加していきます。"
+              : "ゲーム内ランキング画面のスクショから順次データを追加しています。"}
+            しばらくお待ちください。
           </p>
         </div>
       )}
