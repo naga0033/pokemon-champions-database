@@ -18,7 +18,7 @@ const displayFont = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "ポケモンチャンピオンズ データベース",
+  title: "ポケチャンバトルデータベース",
   description:
     "ポケモンチャンピオンズの使用率ランキング・技・持ち物・特性・性格・努力値の採用率をまとめた非公式データベース。スマホでも見やすい。",
 };
@@ -40,8 +40,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 priority
               />
               <span className="text-sm font-extrabold tracking-[0.04em] text-slate-900 md:text-base">
-                ポケモンチャンピオンズ
-                <span className="ml-1 text-indigo-600">データベース</span>
+                ポケチャン
+                <span className="ml-1 text-indigo-600">バトルデータベース</span>
               </span>
             </Link>
             <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">

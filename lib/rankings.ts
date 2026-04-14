@@ -33,6 +33,22 @@ type DetailRow = {
   updated_at: string;
 };
 
+/** 全シーズンのリストを取得 (セレクタ用、新しい順) */
+export async function loadAllSeasons(): Promise<Season[]> {
+  const { data, error } = await supabase
+    .from("seasons")
+    .select("*")
+    .order("start_date", { ascending: false });
+  if (error || !data) return [];
+  return (data as SeasonRow[]).map((r) => ({
+    id: r.id,
+    label: r.label,
+    startDate: r.start_date,
+    endDate: r.end_date,
+    format: r.format,
+  }));
+}
+
 /** 最新シーズンを取得 (seasonId 指定があればそれを優先) */
 export async function loadLatestSeason(
   format: Format,
