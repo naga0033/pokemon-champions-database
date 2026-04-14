@@ -23,7 +23,7 @@ export function HeaderLogo() {
       />
       <span className="text-sm font-extrabold tracking-[0.04em] text-white md:text-base">
         ポケチャン
-        <span className="ml-1 text-amber-300">バトルデータベース</span>
+        <span className="ml-1">バトルデータベース</span>
       </span>
     </a>
   );

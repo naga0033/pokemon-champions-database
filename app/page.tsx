@@ -22,7 +22,7 @@ export default async function HomePage({ searchParams }: PageProps) {
   return (
     <div className="space-y-4">
       {/* シーズン + フォーマット切替 */}
-      <section className="flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-4 sm:flex-row sm:items-center sm:justify-between">
+      <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-violet-50/60 p-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
           <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-indigo-600">
             SEASON

@@ -45,7 +45,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       </nav>
 
       {/* プロフィールヘッダー */}
-      <section className="rounded-3xl border border-slate-200 bg-white p-5 md:p-7 shadow-sm">
+      <section className="rounded-3xl border border-violet-100 bg-violet-50/60 p-5 md:p-7 shadow-sm">
         <div className="flex flex-col gap-6 md:flex-row md:items-center">
           <div className="flex items-center gap-4">
             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-2xl font-black text-white shadow">
@@ -101,7 +101,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
 
       {/* 能力ポイント (独自機能: 努力値振りランキング) */}
       {detail.evs && detail.evs.length > 0 && (
-        <section className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+        <section className="rounded-2xl border border-violet-100 bg-violet-50/60 shadow-sm overflow-hidden">
           <div className="bg-gradient-to-r from-indigo-500 to-cyan-500 px-4 py-2.5 text-white">
             <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
           </div>

@@ -16,7 +16,7 @@ export function RankingList({ entries, format, seasonId }: Props) {
         <Link
           key={`${entry.rank}-${entry.pokemonSlug}`}
           href={`/pokemon/${entry.pokemonSlug}?season=${seasonId}&format=${format}`}
-          className="group flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 transition hover:-translate-y-0.5 hover:border-indigo-400 hover:shadow-md"
+          className="group flex items-center gap-3 rounded-xl border border-violet-100 bg-violet-50/60 px-4 py-3 transition hover:-translate-y-0.5 hover:border-indigo-400 hover:shadow-md"
         >
           <span className="font-display shrink-0 w-8 text-right text-base font-black text-slate-400 group-hover:text-indigo-500">
             {entry.rank}

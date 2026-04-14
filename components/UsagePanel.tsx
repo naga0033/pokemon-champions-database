@@ -79,7 +79,7 @@ export function UsagePanel({
   if (entries.length === 0) return null;
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <div className="rounded-2xl border border-violet-100 bg-violet-50/60 shadow-sm">
       {/* ヘッダー */}
       <div className="flex items-center justify-between border-b border-slate-100 px-4 pt-3 pb-2">
         <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
