@@ -1,6 +1,7 @@
 // ゲーム内「全体ランキング画面」のスクショを Claude Vision で解析
 import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
+import { requireAdminToken } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -39,6 +40,9 @@ const SYSTEM_PROMPT = `あなたはポケモンチャンピオンズのゲーム
 type Body = { imageBase64?: string; imageMediaType?: string };
 
 export async function POST(req: Request) {
+  const authError = requireAdminToken(req);
+  if (authError) return authError;
+
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     return NextResponse.json({ error: "ANTHROPIC_API_KEY 未設定" }, { status: 500 });

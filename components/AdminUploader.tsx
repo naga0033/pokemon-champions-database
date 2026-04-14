@@ -1,5 +1,5 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 type Mode = "ranking" | "detail";
 
@@ -28,6 +28,7 @@ type ParsedDetail = {
 
 export function AdminUploader() {
   const [mode, setMode] = useState<Mode>("ranking");
+  const [adminToken, setAdminToken] = useState("");
   const [imageDataUrl, setImageDataUrl] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -38,6 +39,23 @@ export function AdminUploader() {
   // 詳細パネル保存のためのメタ (ランキング保存結果から引っ張る想定)
   const [seasonId, setSeasonId] = useState("");
   const [format, setFormat] = useState<"single" | "double">("single");
+
+  useEffect(() => {
+    const saved = window.localStorage.getItem("admin-api-token");
+    if (saved) setAdminToken(saved);
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem("admin-api-token", adminToken);
+  }, [adminToken]);
+
+  const authHeaders = useCallback(
+    () => ({
+      "Content-Type": "application/json",
+      ...(adminToken ? { "x-admin-token": adminToken } : {}),
+    }),
+    [adminToken],
+  );
 
   const onFile = useCallback(async (file: File) => {
     const reader = new FileReader();
@@ -54,7 +72,7 @@ export function AdminUploader() {
       const endpoint = mode === "ranking" ? "/api/parse-ranking" : "/api/parse-detail";
       const res = await fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: authHeaders(),
         body: JSON.stringify({ imageBase64: base64, imageMediaType: mediaType }),
       });
       const data = await res.json();
@@ -72,7 +90,7 @@ export function AdminUploader() {
     } finally {
       setLoading(false);
     }
-  }, [imageDataUrl, mode]);
+  }, [authHeaders, imageDataUrl, mode]);
 
   const saveRanking = useCallback(async () => {
     if (!rankingResult) return;
@@ -80,7 +98,7 @@ export function AdminUploader() {
     try {
       const res = await fetch("/api/save-ranking", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: authHeaders(),
         body: JSON.stringify(rankingResult),
       });
       const data = await res.json();
@@ -91,7 +109,7 @@ export function AdminUploader() {
     } finally {
       setLoading(false);
     }
-  }, [rankingResult]);
+  }, [authHeaders, rankingResult]);
 
   const saveDetail = useCallback(async () => {
     if (!detailResult) return;
@@ -101,7 +119,7 @@ export function AdminUploader() {
       const panels = { [detailResult.panelType]: detailResult.entries };
       const res = await fetch("/api/save-detail", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: authHeaders(),
         body: JSON.stringify({
           seasonId,
           format,
@@ -119,7 +137,7 @@ export function AdminUploader() {
     } finally {
       setLoading(false);
     }
-  }, [detailResult, seasonId, format]);
+  }, [authHeaders, detailResult, seasonId, format]);
 
   return (
     <div className="space-y-4">
@@ -138,6 +156,20 @@ export function AdminUploader() {
             {m === "ranking" ? "全体ランキング" : "ポケモン詳細"}
           </button>
         ))}
+      </div>
+
+      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+        <label className="block text-xs font-bold text-amber-900">管理者トークン</label>
+        <input
+          type="password"
+          value={adminToken}
+          onChange={(e) => setAdminToken(e.target.value)}
+          placeholder="ADMIN_API_TOKEN"
+          className="mt-2 w-full rounded-lg border border-amber-200 bg-white px-3 py-2 text-sm"
+        />
+        <p className="mt-2 text-xs text-amber-800">
+          解析系 / 保存系 API はこのトークンがないと動きません。
+        </p>
       </div>
 
       {/* シーズン/フォーマット (詳細保存用、ランキング解析後に自動セット) */}

@@ -2,6 +2,7 @@
 import { NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 import { resolvePokemonJaName, getEnSlug } from "@/lib/pokemon-names";
+import { requireAdminToken } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 
@@ -22,6 +23,9 @@ type Body = {
 };
 
 export async function POST(req: Request) {
+  const authError = requireAdminToken(req);
+  if (authError) return authError;
+
   let body: Body;
   try { body = (await req.json()) as Body; }
   catch { return NextResponse.json({ error: "JSON parse error" }, { status: 400 }); }
