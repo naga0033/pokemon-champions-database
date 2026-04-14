@@ -2,11 +2,7 @@
 // SVG 円グラフ + ホバーツールチップ (採用率パネル用)
 import { useState } from "react";
 import type { UsageEntry } from "@/lib/types";
-
-const PALETTE = [
-  "#93c5fd", "#fca5a5", "#fcd34d", "#86efac", "#c4b5fd",
-  "#f9a8d4", "#5eead4", "#fdba74", "#cbd5e1",
-];
+import { CHART_PALETTE as PALETTE } from "@/lib/chart-palette";
 
 type Props = {
   entries: UsageEntry[];
@@ -109,6 +105,3 @@ export function DoughnutChart({ entries, size = 160, limit }: Props) {
   );
 }
 
-export function paletteColor(index: number): string {
-  return PALETTE[index % PALETTE.length];
-}

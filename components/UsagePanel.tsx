@@ -3,7 +3,8 @@
 // もちもの: 左にもちものスプライト
 import type { UsageEntry } from "@/lib/types";
 import type { MoveMeta } from "@/lib/move-meta";
-import { DoughnutChart, paletteColor } from "./DoughnutChart";
+import { DoughnutChart } from "./DoughnutChart";
+import { paletteColor } from "@/lib/chart-palette";
 import { getItemSpriteUrl } from "@/lib/item-meta";
 import { TypeIcon } from "./TypeIcon";
 
