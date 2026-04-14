@@ -19,6 +19,8 @@ type Props = {
   entries: UsageEntry[];
   /** 円の直径 px */
   size?: number;
+  /** 表示するセグメント数 (default: 全部) */
+  limit?: number;
 };
 
 /**
@@ -43,14 +45,15 @@ function pieSlicePath(cx: number, cy: number, r: number, startAngle: number, end
   return `M ${cx} ${cy} L ${start.x} ${start.y} A ${r} ${r} 0 ${large} 1 ${end.x} ${end.y} Z`;
 }
 
-export function DoughnutChart({ entries, size = 160 }: Props) {
+export function DoughnutChart({ entries, size = 160, limit }: Props) {
   if (entries.length === 0) return null;
 
-  const total = entries.reduce((s, e) => s + e.percentage, 0);
+  const visible = limit ? entries.slice(0, limit) : entries;
+  const total = visible.reduce((s, e) => s + e.percentage, 0);
   const others = Math.max(0, 100 - total);
 
   const segments = [
-    ...entries.map((e, i) => ({
+    ...visible.map((e, i) => ({
       value: e.percentage,
       color: PALETTE[i % PALETTE.length],
       label: e.name,

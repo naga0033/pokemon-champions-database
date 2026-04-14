@@ -6,9 +6,11 @@ type Props = {
   title: string;
   iconLabel: string;
   entries: UsageEntry[];
+  /** 凡例の最大表示数 (default: 5) */
+  limit?: number;
 };
 
-export function UsagePanel({ title, iconLabel, entries }: Props) {
+export function UsagePanel({ title, iconLabel, entries, limit = 5 }: Props) {
   if (entries.length === 0) return null;
 
   return (
@@ -22,11 +24,11 @@ export function UsagePanel({ title, iconLabel, entries }: Props) {
       </div>
       {/* 円グラフ */}
       <div className="px-4 py-4">
-        <DoughnutChart entries={entries} size={140} />
+        <DoughnutChart entries={entries} size={140} limit={limit} />
       </div>
       {/* 凡例 */}
       <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
-        {entries.slice(0, 5).map((e, i) => (
+        {entries.slice(0, limit).map((e, i) => (
           <li key={`${e.rank}-${e.name}`} className="flex items-center gap-2">
             <span
               className="inline-block h-2.5 w-2.5 shrink-0 rounded-full"
