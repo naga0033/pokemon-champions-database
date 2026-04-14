@@ -89,7 +89,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       {/* 採用率パネル (円グラフ) */}
       <section className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {detail.moves && <UsagePanel title="わざ" iconLabel="MOVES" entries={detail.moves} limit={10} />}
-        {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} />}
+        {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} limit={10} />}
         {detail.abilities && <UsagePanel title="とくせい" iconLabel="ABILITY" entries={detail.abilities} />}
         {detail.natures && <UsagePanel title="せいかく" iconLabel="NATURE" entries={detail.natures} />}
         {detail.partners && <UsagePanel title="同じチーム" iconLabel="PARTNER" entries={detail.partners} />}
