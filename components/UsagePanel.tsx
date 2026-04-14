@@ -31,34 +31,35 @@ const TYPE_LABEL: Record<string, string> = {
   dark:"悪", steel:"鋼", fairy:"妖",
 };
 
-/** 物理: 四芒星バースト */
+/** 物理: 8 ジャギーのバースト (インパクト型) */
 function PhysicalIcon({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-rose-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-3.5 w-3.5 fill-white">
-        <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" />
+      <svg viewBox="0 0 20 20" className="h-4 w-4 fill-white">
+        <path d="M10 1 L12 5 L15 3 L14 7 L18 6 L15.5 9.5 L19 11 L15 13 L17 16 L13 16 L13 19 L10 17 L7 19 L7 16 L3 16 L5 13 L1 11 L4.5 9.5 L2 6 L6 7 L5 3 L8 5 Z" />
       </svg>
     </span>
   );
 }
-/** 特殊: 同心円のぐるぐる */
+/** 特殊: 横長の同心楕円スパイラル */
 function SpecialIcon({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-sky-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-3.5 w-3.5 stroke-white fill-none" strokeWidth="1.6">
-        <circle cx="10" cy="10" r="2.5" />
-        <circle cx="10" cy="10" r="5.5" />
-        <circle cx="10" cy="10" r="8.5" />
+      <svg viewBox="0 0 20 20" className="h-4 w-4 stroke-white fill-none" strokeWidth="1.5">
+        <ellipse cx="10" cy="10" rx="2" ry="1.3" />
+        <ellipse cx="10" cy="10" rx="4.5" ry="2.8" />
+        <ellipse cx="10" cy="10" rx="7.5" ry="4.5" />
       </svg>
     </span>
   );
 }
-/** 変化: 四角アイコン */
+/** 変化: 月型 (楕円 + くり抜き) */
 function StatusIcon({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-slate-500 ${className}`}>
-      <svg viewBox="0 0 20 20" className="h-3 w-3 stroke-white fill-none" strokeWidth="2">
-        <rect x="3" y="3" width="14" height="14" rx="2" />
+      <svg viewBox="0 0 20 20" className="h-4 w-4">
+        <ellipse cx="10" cy="10" rx="7" ry="5.5" fill="white" />
+        <ellipse cx="12" cy="9" rx="4" ry="3.5" fill="rgb(100,116,139)" />
       </svg>
     </span>
   );
