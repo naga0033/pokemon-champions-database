@@ -4,6 +4,11 @@ import { MOVE_NAMES_JA } from "./move-names";
 export type MoveCategory = "physical" | "special" | "status";
 export type MoveMeta = { type: string; category: MoveCategory };
 
+// OCR 由来の誤字バリアントを正規名にマッピング (ェ→エ、ッ→ツ 等)
+const TYPO_ALIAS: Record<string, string> = {
+  "ウエザーボール": "ウェザーボール",
+};
+
 // 日本語名 → 英語 slug 逆引き (モジュールスコープでキャッシュ)
 let JA_TO_SLUG: Map<string, string> | null = null;
 function jaToSlug(ja: string): string | null {
@@ -13,7 +18,8 @@ function jaToSlug(ja: string): string | null {
       JA_TO_SLUG.set(jaName, slug);
     }
   }
-  return JA_TO_SLUG.get(ja) ?? null;
+  const normalized = TYPO_ALIAS[ja] ?? ja;
+  return JA_TO_SLUG.get(normalized) ?? null;
 }
 
 /** 1 つの技のメタ情報を取得 */
