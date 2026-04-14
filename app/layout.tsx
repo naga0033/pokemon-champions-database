@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
-      <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen bg-violet-50 font-sans antialiased`}>
+      <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen font-sans antialiased`}>
         {/* ヘッダー */}
         <header className="sticky top-0 z-40 border-b border-indigo-400/30 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 text-white shadow-sm">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
