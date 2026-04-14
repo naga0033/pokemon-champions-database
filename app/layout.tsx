@@ -33,7 +33,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HeaderLogo />
             <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">
               <Link href="/" className="transition hover:text-indigo-600">ランキング</Link>
-              <Link href="/about" className="transition hover:text-indigo-600">このサイトについて</Link>
             </nav>
           </div>
         </header>
@@ -43,7 +42,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* フッター */}
         <footer className="mt-20 border-t border-slate-200 px-5 py-8 text-center text-xs text-slate-500">
           <div className="mx-auto max-w-4xl space-y-2">
-            <p>使用率データ: ゲーム内ランキング画面を画像解析で集計 (Claude Vision)</p>
             <p>このサイトはポケモンチャンピオンズの非公式ファンツールです。</p>
             <p>
               不具合報告・ご要望は{" "}

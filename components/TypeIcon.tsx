@@ -105,7 +105,7 @@ const PATHS: Record<string, React.ReactNode> = {
 
 export function TypeIcon({ type, size = "md" }: { type: string; size?: "sm" | "md" }) {
   const imageSrc = TYPE_IMAGE[type];
-  const imageBox = size === "sm" ? "h-6 w-6 rounded-[7px]" : "h-7 w-7 rounded-[8px]";
+  const imageBox = size === "sm" ? "h-5 w-5 rounded-[5px]" : "h-7 w-7 rounded-[8px]";
   if (imageSrc) {
     // 新しい画像は余白トリミング済みのため、そのまま表示
     return (
@@ -122,8 +122,8 @@ export function TypeIcon({ type, size = "md" }: { type: string; size?: "sm" | "m
 
   const bg = TYPE_BG[type] ?? "bg-slate-400";
   const svg = PATHS[type] ?? PATHS.normal;
-  const box = size === "sm" ? "h-6 w-6 rounded-[7px]" : "h-7 w-7 rounded-[8px]";
-  const icon = size === "sm" ? "h-4 w-4" : "h-[18px] w-[18px]";
+  const box = size === "sm" ? "h-5 w-5 rounded-[5px]" : "h-7 w-7 rounded-[8px]";
+  const icon = size === "sm" ? "h-3.5 w-3.5" : "h-[18px] w-[18px]";
 
   return (
     <span

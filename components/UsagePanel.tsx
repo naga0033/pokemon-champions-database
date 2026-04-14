@@ -3,7 +3,7 @@
 // もちもの: 左にもちものスプライト
 import type { UsageEntry } from "@/lib/types";
 import type { MoveMeta } from "@/lib/move-meta";
-import { DoughnutChart } from "./DoughnutChart";
+import { DoughnutChart, paletteColor } from "./DoughnutChart";
 import { getItemSpriteUrl } from "@/lib/item-meta";
 import { TypeIcon } from "./TypeIcon";
 
@@ -90,28 +90,34 @@ export function UsagePanel({
       <div className="px-4 py-4">
         <DoughnutChart entries={entries} size={140} limit={limit} />
       </div>
-      {/* 凡例 (列をきっちり揃える: [左アイコン枠 24px][名前 flex][右アイコン枠 20px][採用率 48px]) */}
+      {/* 凡例 (列をきっちり揃える: [左アイコン枠 20px][名前 flex][右アイコン枠 20px][採用率 48px]) */}
       <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
-        {entries.slice(0, limit).map((e) => {
+        {entries.slice(0, limit).map((e, i) => {
           const meta = moveMeta?.[e.name];
           const spriteUrl = showItemSprite ? getItemSpriteUrl(e.name) : null;
-          const hasLeftIcon = moveMeta || showItemSprite;
+          const hasTypeOrItem = !!meta || !!spriteUrl;
           const hasRightIcon = !!moveMeta;
+          const color = paletteColor(i);
           return (
             <li key={`${e.rank}-${e.name}`} className="flex items-center gap-2">
-              {/* 左アイコン列: 24px 固定 (meta/sprite 無い場合も空で枠を確保) */}
-              {hasLeftIcon && (
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center">
-                  {meta && <TypeIcon type={meta.type} size="sm" />}
-                  {spriteUrl && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={spriteUrl} alt={e.name}
-                      className="h-5 w-5 object-contain"
-                      loading="lazy"
-                    />
-                  )}
-                </span>
-              )}
+              {/* 左アイコン列: 20px 固定 */}
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center">
+                {meta && <TypeIcon type={meta.type} size="sm" />}
+                {spriteUrl && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={spriteUrl} alt={e.name}
+                    className="h-5 w-5 object-contain"
+                    loading="lazy"
+                  />
+                )}
+                {/* アイコン無しパネルは箇条書きのドット */}
+                {!hasTypeOrItem && (
+                  <span
+                    className="h-2 w-2 rounded-full"
+                    style={{ backgroundColor: color }}
+                  />
+                )}
+              </span>
               {/* 名前: 残り幅を使って truncate */}
               <span className="min-w-0 flex-1 truncate text-[13px] font-bold text-slate-700">
                 {e.name}
