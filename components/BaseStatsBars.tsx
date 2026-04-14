@@ -12,14 +12,14 @@ const LABELS: Array<{ key: keyof BaseStats; label: string }> = [
   { key: "speed",  label: "すばやさ" },
 ];
 
-/** 低→黄、中→水色/青、高→紫のグラデ (円グラフのパレットと揃える) */
+/** 低→黄〜黄緑、高→紫の深い色で分布 */
 function barColor(v: number): string {
-  if (v >= 130) return "bg-purple-600";
-  if (v >= 110) return "bg-violet-500";
-  if (v >= 90)  return "bg-sky-400";
-  if (v >= 70)  return "bg-cyan-300";
-  if (v >= 50)  return "bg-amber-400";
-  return "bg-yellow-300";
+  if (v >= 130) return "bg-purple-700";
+  if (v >= 110) return "bg-purple-500";
+  if (v >= 90)  return "bg-violet-400";
+  if (v >= 70)  return "bg-violet-300";
+  if (v >= 50)  return "bg-yellow-300";
+  return "bg-lime-400";
 }
 
 export function BaseStatsBars({ stats }: Props) {
