@@ -38,6 +38,20 @@ export async function loadLatestSeason(
   format: Format,
   seasonId?: string,
 ): Promise<Season | null> {
+  if (seasonId) {
+    const { data, error } = await supabase.from("seasons").select("*").eq("id", seasonId).single();
+    if (!error && data) {
+      const row = data as SeasonRow;
+      return {
+        id: row.id,
+        label: row.label,
+        startDate: row.start_date,
+        endDate: row.end_date,
+        format,
+      };
+    }
+  }
+
   const query = supabase
     .from("seasons")
     .select("*")
@@ -45,18 +59,54 @@ export async function loadLatestSeason(
     .order("start_date", { ascending: false })
     .limit(1);
 
-  const { data, error } = seasonId
-    ? await supabase.from("seasons").select("*").eq("id", seasonId).single()
-    : await query.single();
+  const { data, error } = await query.single();
 
-  if (error || !data) return null;
-  const row = data as SeasonRow;
+  if (!error && data) {
+    const row = data as SeasonRow;
+    return {
+      id: row.id,
+      label: row.label,
+      startDate: row.start_date,
+      endDate: row.end_date,
+      format,
+    };
+  }
+
+  // seasons テーブルが片方の format で上書きされていても、
+  // rankings が存在する season_id を拾って表示を継続する。
+  const { data: rankingRow, error: rankingError } = await supabase
+    .from("rankings")
+    .select("season_id")
+    .eq("format", format)
+    .order("season_id", { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (rankingError || !rankingRow?.season_id) return null;
+
+  const { data: fallbackSeason } = await supabase
+    .from("seasons")
+    .select("*")
+    .eq("id", rankingRow.season_id)
+    .maybeSingle();
+
+  const row = fallbackSeason as SeasonRow | null;
+  if (!row) {
+    return {
+      id: rankingRow.season_id,
+      label: `シーズン${rankingRow.season_id}`,
+      startDate: "",
+      endDate: "",
+      format,
+    };
+  }
+
   return {
     id: row.id,
     label: row.label,
     startDate: row.start_date,
     endDate: row.end_date,
-    format: row.format,
+    format,
   };
 }
 
