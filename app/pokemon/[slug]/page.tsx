@@ -7,6 +7,7 @@ import { UsagePanel } from "@/components/UsagePanel";
 import { BaseStatsBars } from "@/components/BaseStatsBars";
 import { getOfficialArtworkUrl } from "@/lib/pokemon-sprite";
 import { TypeBadge } from "@/components/TypeBadge";
+import { fetchMoveMetaMap } from "@/lib/move-meta";
 import type { Format, TeraIcon } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -28,6 +29,9 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
   if (!detail) notFound();
 
   const profile = await fetchPokeProfile(slug);
+  const moveMeta = detail.moves
+    ? await fetchMoveMetaMap(detail.moves.map((m) => m.name))
+    : {};
 
   return (
     <div className="space-y-6">
@@ -88,8 +92,8 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
 
       {/* 採用率パネル (円グラフ) */}
       <section className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-        {detail.moves && <UsagePanel title="わざ" iconLabel="MOVES" entries={detail.moves} limit={10} />}
-        {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} limit={10} />}
+        {detail.moves && <UsagePanel title="わざ" iconLabel="MOVES" entries={detail.moves} limit={10} moveMeta={moveMeta} />}
+        {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} limit={10} showItemSprite />}
         {detail.abilities && <UsagePanel title="とくせい" iconLabel="ABILITY" entries={detail.abilities} />}
         {detail.natures && <UsagePanel title="せいかく" iconLabel="NATURE" entries={detail.natures} />}
         {detail.partners && <UsagePanel title="同じチーム" iconLabel="PARTNER" entries={detail.partners} />}
@@ -99,38 +103,33 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       {detail.evs && detail.evs.length > 0 && (
         <section className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
           <div className="bg-gradient-to-r from-indigo-500 to-cyan-500 px-4 py-2.5 text-white">
-            <div className="flex items-center justify-between">
-              <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] opacity-80">
-                EV SPREAD
-              </span>
-              <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
-            </div>
+            <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
                 <tr className="border-b border-slate-200">
                   <th className="px-3 py-2 text-left">順位</th>
-                  <th className="px-3 py-2 text-left">採用率</th>
                   <th className="px-3 py-2">HP</th>
                   <th className="px-3 py-2">攻撃</th>
                   <th className="px-3 py-2">防御</th>
                   <th className="px-3 py-2">特攻</th>
                   <th className="px-3 py-2">特防</th>
                   <th className="px-3 py-2">素早さ</th>
+                  <th className="px-3 py-2 text-right">採用率</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {detail.evs.slice(0, 10).map((e) => (
                   <tr key={e.rank}>
                     <td className="px-3 py-2 font-bold text-slate-400">{e.rank}</td>
-                    <td className="px-3 py-2 font-bold text-slate-900">{e.percentage.toFixed(1)}%</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.hp}</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.atk}</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.def}</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.spAtk}</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.spDef}</td>
                     <td className="px-3 py-2 text-center tabular-nums">{e.speed}</td>
+                    <td className="px-3 py-2 text-right font-bold text-slate-900 tabular-nums">{e.percentage.toFixed(1)}%</td>
                   </tr>
                 ))}
               </tbody>
