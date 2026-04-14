@@ -149,14 +149,14 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Link
-            href={`https://pokemon-teams-seven.vercel.app/search?pokemon=${encodeURIComponent(detail.pokemonJa)}`}
+            href={`https://pokemon-teams-kappa.vercel.app/search?format=all&pokemon=${encodeURIComponent(detail.pokemonJa)}`}
             target="_blank"
             className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
           >
-            📋 構築コレクション
+            📋 {detail.pokemonJa} を含む構築を探す
           </Link>
           <Link
-            href={`https://pokemon-damage-calc.vercel.app/?pokemon=${encodeURIComponent(detail.pokemonJa)}`}
+            href="https://pokemon-damage-calc.vercel.app/"
             target="_blank"
             className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
           >

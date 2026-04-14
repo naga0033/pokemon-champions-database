@@ -1,34 +1,51 @@
-// SVG ドーナツチャート (採用率パネル用)
-// ライブラリなしで軽量に実装
+// SVG 円グラフ (採用率パネル用)
+// ライブラリなしで pure SVG path でなめらかな扇形を描く
 import type { UsageEntry } from "@/lib/types";
 
-/** 7 色の回転パレット (前任 DB を参考にした彩度高めの原色系) */
 const PALETTE = [
-  "#f97316", // orange-500
-  "#14b8a6", // teal-500
-  "#6366f1", // indigo-500
-  "#ec4899", // pink-500
-  "#facc15", // yellow-400
-  "#10b981", // emerald-500
-  "#0ea5e9", // sky-500
-  "#a855f7", // purple-500
-  "#64748b", // slate-500
+  "#f97316", // orange
+  "#14b8a6", // teal
+  "#6366f1", // indigo
+  "#ec4899", // pink
+  "#facc15", // yellow
+  "#10b981", // emerald
+  "#0ea5e9", // sky
+  "#a855f7", // purple
+  "#64748b", // slate
 ];
 
 type Props = {
   entries: UsageEntry[];
   /** 円の直径 px */
   size?: number;
-  /** ドーナツ穴の厚み比率 (0-1), 小さいほど穴が大きい */
-  thickness?: number;
 };
 
-export function DoughnutChart({ entries, size = 160, thickness = 0.3 }: Props) {
+/**
+ * 円の中心 (cx,cy) から、半径 r で角度 angleDeg (12時起点) の座標
+ * 上から時計回り
+ */
+function polar(cx: number, cy: number, r: number, angleDeg: number) {
+  const rad = ((angleDeg - 90) * Math.PI) / 180;
+  return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+}
+
+/** 扇形の SVG path を作る */
+function pieSlicePath(cx: number, cy: number, r: number, startAngle: number, endAngle: number) {
+  const start = polar(cx, cy, r, startAngle);
+  const end = polar(cx, cy, r, endAngle);
+  const large = endAngle - startAngle > 180 ? 1 : 0;
+  // 全体が 1 枚のとき (100%) は 2 つの半円で描く
+  if (endAngle - startAngle >= 359.999) {
+    const mid = polar(cx, cy, r, startAngle + 180);
+    return `M ${cx} ${cy} L ${start.x} ${start.y} A ${r} ${r} 0 0 1 ${mid.x} ${mid.y} A ${r} ${r} 0 0 1 ${start.x} ${start.y} Z`;
+  }
+  return `M ${cx} ${cy} L ${start.x} ${start.y} A ${r} ${r} 0 ${large} 1 ${end.x} ${end.y} Z`;
+}
+
+export function DoughnutChart({ entries, size = 160 }: Props) {
   if (entries.length === 0) return null;
 
-  const top = entries[0];
   const total = entries.reduce((s, e) => s + e.percentage, 0);
-  // 残り = 100% - 合計 (Top5 しか出てないので)
   const others = Math.max(0, 100 - total);
 
   const segments = [
@@ -40,66 +57,36 @@ export function DoughnutChart({ entries, size = 160, thickness = 0.3 }: Props) {
     ...(others > 0.1 ? [{ value: others, color: "#e2e8f0", label: "その他" }] : []),
   ];
 
-  // 円周の長さ
-  const radius = size / 2 - 4;
-  const innerR = radius * (1 - thickness);
-  const circumference = 2 * Math.PI * radius;
-
-  // 各セグメントを SVG stroke-dasharray で描画
   const normalizedTotal = segments.reduce((s, x) => s + x.value, 0) || 100;
-  let cumulative = 0;
+  const cx = size / 2;
+  const cy = size / 2;
+  const r = size / 2 - 2;
+
+  let current = 0;
+  const paths = segments.map((seg, i) => {
+    const ratio = seg.value / normalizedTotal;
+    const start = current * 360;
+    current += ratio;
+    const end = current * 360;
+    return (
+      <path
+        key={`${i}-${seg.label}`}
+        d={pieSlicePath(cx, cy, r, start, end)}
+        fill={seg.color}
+      />
+    );
+  });
 
   return (
-    <div className="relative mx-auto" style={{ width: size, height: size }}>
-      <svg viewBox={`0 0 ${size} ${size}`} className="block -rotate-90">
-        {/* ベース円 (薄グレー) */}
-        <circle
-          cx={size / 2}
-          cy={size / 2}
-          r={radius}
-          fill="none"
-          stroke="#f1f5f9"
-          strokeWidth={radius - innerR}
-        />
-        {segments.map((seg, i) => {
-          const ratio = seg.value / normalizedTotal;
-          const length = ratio * circumference;
-          const offset = (cumulative / normalizedTotal) * circumference;
-          cumulative += seg.value;
-          return (
-            <circle
-              key={`${i}-${seg.label}`}
-              cx={size / 2}
-              cy={size / 2}
-              r={radius}
-              fill="none"
-              stroke={seg.color}
-              strokeWidth={radius - innerR}
-              strokeDasharray={`${length} ${circumference}`}
-              strokeDashoffset={-offset}
-              strokeLinecap="butt"
-            />
-          );
-        })}
+    <div className="mx-auto" style={{ width: size, height: size }}>
+      <svg viewBox={`0 0 ${size} ${size}`} className="block">
+        {paths}
       </svg>
-      {/* 中央ラベル (1 位名前 + 採用率) */}
-      <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-        <span className="font-display text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
-          TOP
-        </span>
-        <span className="mt-0.5 max-w-[80%] truncate text-xs font-black text-slate-900">
-          {top.name}
-        </span>
-        <span className="font-display text-lg font-black text-slate-900">
-          {top.percentage.toFixed(1)}
-          <span className="ml-0.5 text-[10px] font-bold text-slate-400">%</span>
-        </span>
-      </div>
     </div>
   );
 }
 
-/** パレット色の取得 (UsagePanel 側で凡例に使う) */
+/** パレット色の取得 (凡例用) */
 export function paletteColor(index: number): string {
   return PALETTE[index % PALETTE.length];
 }

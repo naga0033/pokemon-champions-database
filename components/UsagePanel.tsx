@@ -22,7 +22,7 @@ export function UsagePanel({ title, iconLabel, entries }: Props) {
       </div>
       {/* 円グラフ */}
       <div className="px-4 py-4">
-        <DoughnutChart entries={entries} size={150} thickness={0.32} />
+        <DoughnutChart entries={entries} size={140} />
       </div>
       {/* 凡例 */}
       <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
