@@ -33,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <HeaderLogo />
             <nav className="flex items-center gap-4 text-xs font-bold text-slate-600">
               <Link href="/" className="transition hover:text-indigo-600">ランキング</Link>
+              <Link href="/about" className="transition hover:text-indigo-600">このサイトについて</Link>
             </nav>
           </div>
         </header>
