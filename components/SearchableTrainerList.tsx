@@ -100,6 +100,8 @@ export function SearchableTrainerList({ trainers }: { trainers: Trainer[] }) {
                 <span className="font-display w-[70px] shrink-0 text-right text-[13px] font-black text-slate-900 tabular-nums sm:w-24 sm:text-base">
                   {t.rating.toFixed(3)}
                 </span>
+                {/* レート と 名前 の区切り */}
+                <span className="h-5 w-px shrink-0 bg-slate-200 sm:h-6" aria-hidden />
                 {/* 名前 */}
                 <span className="min-w-0 flex-1 truncate text-xs font-bold text-slate-800 sm:text-sm">
                   {t.name}
