@@ -21,10 +21,10 @@ export function HeaderLogo() {
         className="h-8 w-auto object-contain transition group-hover:scale-[1.02] sm:h-10"
         priority
       />
-      <span className="text-xs font-extrabold tracking-[0.04em] leading-tight text-white sm:text-sm md:text-base">
+      <span className="text-[11px] font-extrabold tracking-tight leading-tight text-white sm:text-sm sm:tracking-[0.04em] md:text-base">
         ポケチャン
         <span className="ml-1 hidden sm:inline">バトルデータベース</span>
-        <span className="ml-0.5 inline sm:hidden">DB</span>
+        <span className="ml-1 inline sm:hidden">データベース</span>
       </span>
     </a>
   );
