@@ -1,6 +1,6 @@
 // 解析したポケモン詳細パネルを DB に保存 (1 ポケモンは複数パネル分マージして保存)
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { createAdminClient } from "@/lib/supabase";
 import { resolvePokemonJaName, getEnSlug } from "@/lib/pokemon-names";
 import { requireAdminToken } from "@/lib/admin-auth";
 
@@ -37,6 +37,8 @@ export async function POST(req: Request) {
   const resolved = resolvePokemonJaName(body.pokemonJa);
   const slug = resolved ? (getEnSlug(resolved) ?? "unknown") : "unknown";
   const jaName = resolved ?? body.pokemonJa;
+
+  const supabase = createAdminClient();
 
   // 既存レコード取得してマージ (単発パネルずつ送られる想定)
   const { data: existing } = await supabase

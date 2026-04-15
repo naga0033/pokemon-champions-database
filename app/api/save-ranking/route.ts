@@ -1,6 +1,6 @@
 // 解析したランキングデータを DB に保存
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { createAdminClient } from "@/lib/supabase";
 import { resolvePokemonJaName, getEnSlug } from "@/lib/pokemon-names";
 import { requireAdminToken } from "@/lib/admin-auth";
 
@@ -27,6 +27,8 @@ export async function POST(req: Request) {
   if (!body.seasonId || !body.entries?.length) {
     return NextResponse.json({ error: "seasonId と entries が必要" }, { status: 400 });
   }
+
+  const supabase = createAdminClient();
 
   const { data: existingSeason } = await supabase
     .from("seasons")
