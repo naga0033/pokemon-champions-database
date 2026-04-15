@@ -112,9 +112,9 @@ export function UsagePanel({
               <span className="min-w-0 flex-1 truncate text-[11px] font-bold text-slate-700 sm:text-[13px]">
                 {e.name}
               </span>
-              {/* 右アイコン列: 20px 固定 (meta 無い場合も空枠) */}
+              {/* 右アイコン列: 20px 固定 (meta 無い場合も空枠) / モバイルは非表示 */}
               {hasRightIcon && (
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center">
+                <span className="hidden h-5 w-5 shrink-0 items-center justify-center sm:flex">
                   {meta && <CategoryIcon category={meta.category} />}
                 </span>
               )}
