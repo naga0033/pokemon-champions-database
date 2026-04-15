@@ -20,7 +20,7 @@ function safeEqual(a: string, b: string): boolean {
 }
 
 export function requireAdminToken(req: Request): NextResponse | null {
-  const expected = process.env.ADMIN_API_TOKEN;
+  const expected = process.env.ADMIN_API_TOKEN?.trim();
   if (!expected) {
     return NextResponse.json(
       { error: "ADMIN_API_TOKEN 未設定" },
