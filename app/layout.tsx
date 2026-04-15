@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   title: "ポケチャンバトルデータベース",
   description:
     "ポケモンチャンピオンズの使用率ランキング・技・持ち物・特性・性格・努力値の採用率をまとめた非公式データベース。スマホでも見やすい。",
+  icons: { icon: "/icon.png" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
