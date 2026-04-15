@@ -51,21 +51,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
 
         {/* 【重要】URL移転告知バナー */}
-        <div className="bg-amber-400 px-3 py-2.5 text-center text-xs font-bold text-slate-900 sm:text-sm">
-          <p>⚠️ <span className="underline underline-offset-2">近日中にURLが変わります</span></p>
+        <div className="bg-emerald-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
+          <p>✅ <span className="underline underline-offset-2">URLが新しくなりました！</span></p>
           <p className="mt-0.5 font-normal">
-            アクセス数が想定を大きく超えたため、<span className="font-bold">近日中にサイトが一時的に見られなくなります。</span>
-            そのためURLを変えて引っ越しします。
             新しいURLは{" "}
             <a
-              href="https://x.com/poketool2"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://pokechamdb.com"
               className="font-black underline underline-offset-2 hover:opacity-75"
             >
-              X @poketool2
+              pokechamdb.com
             </a>
-            {" "}でお知らせします。ぜひフォローをお願いします！🙏
+            {" "}です。ブックマークの更新をお願いします！🙏
           </p>
         </div>
 
