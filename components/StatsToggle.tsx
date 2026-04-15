@@ -17,7 +17,7 @@ export function StatsToggle({ stats }: { stats: BaseStats }) {
             onClick={() => setShowActual(false)}
             className={
               !showActual
-                ? "rounded-full bg-indigo-500 px-3 py-0.5 text-white shadow"
+                ? "rounded-full bg-gradient-to-b from-lime-300 to-lime-400 px-3 py-0.5 font-black text-slate-900 shadow-[inset_0_-2px_0_rgba(132,204,22,0.6)] ring-1 ring-lime-500/40"
                 : "rounded-full px-3 py-0.5 text-slate-500 hover:text-slate-700"
             }
           >
@@ -28,7 +28,7 @@ export function StatsToggle({ stats }: { stats: BaseStats }) {
             onClick={() => setShowActual(true)}
             className={
               showActual
-                ? "rounded-full bg-indigo-500 px-3 py-0.5 text-white shadow"
+                ? "rounded-full bg-gradient-to-b from-lime-300 to-lime-400 px-3 py-0.5 font-black text-slate-900 shadow-[inset_0_-2px_0_rgba(132,204,22,0.6)] ring-1 ring-lime-500/40"
                 : "rounded-full px-3 py-0.5 text-slate-500 hover:text-slate-700"
             }
           >
