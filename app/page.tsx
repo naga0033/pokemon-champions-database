@@ -1,26 +1,34 @@
-// ランキングトップ: シーズン × フォーマット選択 + 使用率ランキング (検索付き)
+// ランキングトップ: トレーナー/ポケモン切替 + シーズン × フォーマット選択 + ランキング
 import { loadAllSeasons, loadLatestSeason, loadRanking } from "@/lib/rankings";
+import { loadTrainers } from "@/lib/trainers";
 import { SearchableRankingList } from "@/components/SearchableRankingList";
+import { SearchableTrainerList } from "@/components/SearchableTrainerList";
 import { SeasonSelect } from "@/components/SeasonSelect";
 import { FormatSwitch } from "@/components/FormatSwitch";
+import { ViewTabs } from "@/components/ViewTabs";
 import type { Format } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
 type PageProps = {
-  searchParams: Promise<{ format?: string; season?: string }>;
+  searchParams: Promise<{ format?: string; season?: string; view?: string }>;
 };
 
 export default async function HomePage({ searchParams }: PageProps) {
   const sp = await searchParams;
+  const view: "trainer" | "pokemon" = sp.view === "trainer" ? "trainer" : "pokemon";
   const format: Format = sp.format === "double" ? "double" : "single";
 
   const season = await loadLatestSeason(format, sp.season);
   const allSeasons = await loadAllSeasons();
-  const ranking = season ? await loadRanking(season.id, format) : [];
+  const ranking = view === "pokemon" && season ? await loadRanking(season.id, format) : [];
+  const trainers = view === "trainer" && season ? await loadTrainers(season.id, format) : [];
 
   return (
     <div className="space-y-4">
+      {/* ビュー切替タブ (トレーナー / ポケモン) */}
+      <ViewTabs current={view} />
+
       {/* シーズン + フォーマット切替 */}
       <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-white/85 p-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
@@ -36,13 +44,26 @@ export default async function HomePage({ searchParams }: PageProps) {
         <FormatSwitch current={format} />
       </section>
 
-      {/* ランキング (検索付き) */}
-      {ranking.length > 0 ? (
-        <SearchableRankingList entries={ranking} format={format} seasonId={season!.id} />
+      {/* コンテンツ */}
+      {view === "pokemon" ? (
+        ranking.length > 0 ? (
+          <SearchableRankingList entries={ranking} format={format} seasonId={season!.id} />
+        ) : (
+          <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 py-16 text-center">
+            <p className="text-sm font-bold tracking-wide text-slate-500">
+              {format === "single" ? "シングル" : "ダブル"} のランキングデータは準備中です
+            </p>
+          </div>
+        )
+      ) : trainers.length > 0 ? (
+        <SearchableTrainerList trainers={trainers} />
       ) : (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 py-16 text-center">
           <p className="text-sm font-bold tracking-wide text-slate-500">
-            {format === "single" ? "シングル" : "ダブル"} のランキングデータは準備中です
+            トレーナーランキングは準備中です
+          </p>
+          <p className="mt-2 text-xs text-slate-400">
+            動画から自動集計したプレイヤー順位をここに表示予定です。
           </p>
         </div>
       )}

@@ -17,6 +17,14 @@ export type Season = {
   format: Format;
 };
 
+/** トレーナー (プレイヤー) ランキングの 1 行 */
+export type Trainer = {
+  rank: number;
+  name: string;
+  rating: number;         // 2306.978 のような小数
+  country?: string;       // JPN / KOR / CHT 等
+};
+
 /** 全体ランキングの 1 行 */
 export type RankingEntry = {
   rank: number;
