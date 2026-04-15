@@ -15,8 +15,12 @@
 set -e
 
 FILE="${1:-}"
-if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
-  echo "usage: $0 <image or video file>"
+if [ -z "$FILE" ]; then
+  echo "usage: $0 <image or video file or folder>"
+  exit 1
+fi
+if [ ! -e "$FILE" ]; then
+  echo "ERROR: ファイル or フォルダが見つかりません: $FILE"
   exit 1
 fi
 
@@ -43,25 +47,35 @@ echo "📁 入力: $FILE"
 echo "📅 シーズン: $SEASON_ID / フォーマット: $FORMAT"
 echo ""
 
-# 拡張子で動画/画像を判定
-EXT=$(echo "$FILE" | tr '[:upper:]' '[:lower:]' | sed 's/.*\.//')
-case "$EXT" in
-  mp4|mov|m4v|avi|mkv|webm)
-    echo "🎬 動画としてフレーム抽出..."
-    mkdir -p "$WORK/frames"
-    ffmpeg -i "$FILE" -vf "fps=2" "$WORK/frames/f_%03d.jpg" -hide_banner -loglevel error
-    echo "   フレーム数: $(ls $WORK/frames | wc -l | tr -d ' ')"
-    ;;
-  jpg|jpeg|png)
-    echo "🖼  画像として処理..."
-    mkdir -p "$WORK/frames"
-    cp "$FILE" "$WORK/frames/f_001.jpg"
-    ;;
-  *)
-    echo "ERROR: 未対応の拡張子 (.$EXT)"
-    exit 1
-    ;;
-esac
+mkdir -p "$WORK/frames"
+if [ -d "$FILE" ]; then
+  echo "📂 フォルダ内の画像をまとめて処理..."
+  i=1
+  for img in "$FILE"/*.{jpg,jpeg,JPG,JPEG,png,PNG}; do
+    [ -f "$img" ] || continue
+    printf -v n "%03d" "$i"
+    cp "$img" "$WORK/frames/f_${n}.jpg"
+    i=$((i+1))
+  done
+  echo "   画像数: $((i-1))"
+else
+  EXT=$(echo "$FILE" | tr '[:upper:]' '[:lower:]' | sed 's/.*\.//')
+  case "$EXT" in
+    mp4|mov|m4v|avi|mkv|webm)
+      echo "🎬 動画としてフレーム抽出..."
+      ffmpeg -i "$FILE" -vf "fps=2" "$WORK/frames/f_%03d.jpg" -hide_banner -loglevel error
+      echo "   フレーム数: $(ls $WORK/frames | wc -l | tr -d ' ')"
+      ;;
+    jpg|jpeg|png)
+      echo "🖼  画像として処理..."
+      cp "$FILE" "$WORK/frames/f_001.jpg"
+      ;;
+    *)
+      echo "ERROR: 未対応の拡張子 (.$EXT)"
+      exit 1
+      ;;
+  esac
+fi
 
 # OCR
 echo ""

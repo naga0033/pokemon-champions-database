@@ -22,6 +22,14 @@ function flag(country?: string): string {
   return m[country.toUpperCase()] ?? "";
 }
 
+/** 1-3 位に王冠 (金/銀/銅) */
+function crown(rank: number): string | null {
+  if (rank === 1) return "👑";
+  if (rank === 2) return "🥈";
+  if (rank === 3) return "🥉";
+  return null;
+}
+
 export function SearchableTrainerList({ trainers }: { trainers: Trainer[] }) {
   const [query, setQuery] = useState("");
 
@@ -62,25 +70,44 @@ export function SearchableTrainerList({ trainers }: { trainers: Trainer[] }) {
         </p>
       ) : (
         <ul className="divide-y divide-slate-100 overflow-hidden rounded-2xl border border-violet-100 bg-white/85 shadow-sm">
-          {filtered.map((t) => (
-            <li key={`${t.rank}-${t.name}`} className="flex items-center gap-3 px-4 py-2.5">
-              <span className="font-display w-10 shrink-0 text-right text-base font-black text-slate-400 tabular-nums">
-                {t.rank}
-              </span>
-              <span className="font-display w-24 shrink-0 text-right font-black text-slate-900 tabular-nums">
-                {t.rating.toFixed(3)}
-              </span>
-              <span className="min-w-0 flex-1 truncate text-sm font-bold text-slate-800">
-                {t.name}
-              </span>
-              {t.country && (
-                <span className="shrink-0 text-xs font-bold text-slate-400">
-                  <span className="mr-1">{flag(t.country)}</span>
-                  {t.country}
+          {filtered.map((t) => {
+            const mark = crown(t.rank);
+            const rankColor =
+              t.rank === 1 ? "text-amber-500"
+              : t.rank === 2 ? "text-slate-500"
+              : t.rank === 3 ? "text-orange-700"
+              : "text-slate-400";
+            return (
+              <li key={`${t.rank}-${t.name}`} className="flex items-center gap-5 px-5 py-3">
+                {/* 王冠 (1-3位のみ、固定枠 24px) */}
+                <span className="flex w-6 shrink-0 items-center justify-center text-xl leading-none">
+                  {mark ?? ""}
                 </span>
-              )}
-            </li>
-          ))}
+                {/* 順位番号 (固定枠、右寄せ) */}
+                <span className={`font-display w-8 shrink-0 text-right text-lg font-black tabular-nums ${rankColor}`}>
+                  {t.rank}
+                </span>
+                {/* 国旗 */}
+                <span className="w-8 shrink-0 text-center text-xl">
+                  {flag(t.country) || <span className="text-[10px] text-slate-300">---</span>}
+                </span>
+                {/* レート */}
+                <span className="font-display w-24 shrink-0 text-right text-base font-black text-slate-900 tabular-nums">
+                  {t.rating.toFixed(3)}
+                </span>
+                {/* 名前 */}
+                <span className="min-w-0 flex-1 truncate text-sm font-bold text-slate-800">
+                  {t.name}
+                </span>
+                {/* 国コード (小さく) */}
+                {t.country && (
+                  <span className="shrink-0 text-[10px] font-bold tracking-wider text-slate-400">
+                    {t.country}
+                  </span>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>
