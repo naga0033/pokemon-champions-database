@@ -47,36 +47,44 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       {/* プロフィールヘッダー */}
       <section className="rounded-3xl border border-violet-100 bg-white/85 p-4 shadow-sm sm:p-5 md:p-7">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
-          <div className="flex items-center gap-3 sm:gap-4">
-            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-lg font-black text-white shadow sm:h-14 sm:w-14 sm:text-2xl">
-              {detail.rank}
-            </div>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={getOfficialArtworkUrl(detail.pokemonSlug)}
-              alt={detail.pokemonJa}
-              className="h-20 w-20 object-contain sm:h-28 sm:w-28"
-            />
-            <div className="min-w-0 flex-1">
-              {detail.dexNo && (
-                <p className="text-[10px] font-bold tracking-widest text-slate-400 sm:text-[11px]">
-                  No.{detail.dexNo}
+          {/* モバイルでは rank+image+info を縦並び、更新テキストを下段に出す */}
+          <div className="flex flex-col gap-1.5 sm:gap-0">
+            <div className="flex items-center gap-3 sm:gap-4">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-lg font-black text-white shadow sm:h-14 sm:w-14 sm:text-2xl">
+                {detail.rank}
+              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={getOfficialArtworkUrl(detail.pokemonSlug)}
+                alt={detail.pokemonJa}
+                className="h-20 w-20 object-contain sm:h-28 sm:w-28"
+              />
+              <div className="min-w-0 flex-1">
+                {detail.dexNo && (
+                  <p className="text-[10px] font-bold tracking-widest text-slate-400 sm:text-[11px]">
+                    No.{detail.dexNo}
+                  </p>
+                )}
+                <h1 className="font-display text-xl font-black text-slate-900 sm:text-2xl md:text-3xl">
+                  {detail.pokemonJa}
+                </h1>
+                {profile?.types && (
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {profile.types.map((t) => (
+                      <TypeBadge key={t} type={t as TeraIcon} />
+                    ))}
+                  </div>
+                )}
+                {/* デスクトップ: 名前の下に表示 */}
+                <p className="mt-1.5 hidden text-[10px] leading-tight text-slate-500 sm:block sm:mt-2 sm:text-[11px]">
+                  {season.label} · {format === "single" ? "シングル" : "ダブル"} · 更新 {detail.updatedAt.slice(0, 10)}
                 </p>
-              )}
-              <h1 className="font-display text-xl font-black text-slate-900 sm:text-2xl md:text-3xl">
-                {detail.pokemonJa}
-              </h1>
-              {profile?.types && (
-                <div className="mt-1.5 flex flex-wrap gap-1.5">
-                  {profile.types.map((t) => (
-                    <TypeBadge key={t} type={t as TeraIcon} />
-                  ))}
-                </div>
-              )}
-              <p className="mt-1.5 text-[10px] leading-tight text-slate-500 sm:mt-2 sm:text-[11px]">
-                {season.label} · {format === "single" ? "シングル" : "ダブル"} · 更新 {detail.updatedAt.slice(0, 10)}
-              </p>
+              </div>
             </div>
+            {/* モバイル: タイプバッジの下に独立した行で表示 */}
+            <p className="text-[10px] leading-tight text-slate-500 sm:hidden">
+              {season.label} · {format === "single" ? "シングル" : "ダブル"} · 更新 {detail.updatedAt.slice(0, 10)}
+            </p>
           </div>
           {/* 種族値 / 実数値 */}
           {profile?.baseStats && (
