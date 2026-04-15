@@ -50,20 +50,36 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        {/* 【重要】閉鎖告知バナー */}
-        <div className="bg-red-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
-          <p>⚠️ <span className="underline underline-offset-2">いま見ているこのページは近日中に閉鎖されます</span></p>
-          <p className="mt-0.5 font-normal">
-            アクセス数が上限に達するため、近日中に見られなくなります。お手数ですが、新しいURL{" "}
-            <a
-              href="https://pokechamdb.com"
-              className="font-black underline underline-offset-2 hover:opacity-75"
-            >
-              pokechamdb.com
-            </a>
-            {" "}へブックマークの更新をお願いします！🙏
-          </p>
-        </div>
+        {/* サイト別バナー */}
+        {process.env.NEXT_PUBLIC_IS_NEW_SITE === "true" ? (
+          <div className="bg-emerald-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
+            <p>✅ <span className="underline underline-offset-2">このページが新しいURLです！</span></p>
+            <p className="mt-0.5 font-normal">
+              お手数ですが、{" "}
+              <a
+                href="https://pokechamdb.com"
+                className="font-black underline underline-offset-2 hover:opacity-75"
+              >
+                pokechamdb.com
+              </a>
+              {" "}をブックマークへの登録をお願いします！🙏
+            </p>
+          </div>
+        ) : (
+          <div className="bg-red-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
+            <p>⚠️ <span className="underline underline-offset-2">いま見ているこのページは近日中に閉鎖されます</span></p>
+            <p className="mt-0.5 font-normal">
+              アクセス数が上限に達するため、近日中に見られなくなります。お手数ですが、新しいURL{" "}
+              <a
+                href="https://pokechamdb.com"
+                className="font-black underline underline-offset-2 hover:opacity-75"
+              >
+                pokechamdb.com
+              </a>
+              {" "}へブックマークの更新をお願いします！🙏
+            </p>
+          </div>
+        )}
 
         <main className="mx-auto max-w-7xl px-3 py-4 sm:px-5 sm:py-8">{children}</main>
 
