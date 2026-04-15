@@ -29,23 +29,24 @@ function calc(base: number, kind: "max" | "neutralMax" | "noInvest" | "down", is
 
 export function ActualStatsTable({ stats }: Props) {
   return (
-    <table className="table-fixed w-auto min-w-[420px] text-[11px] sm:min-w-[500px]">
+    // モバイルで横スクロールなし: w-full で親幅に収める
+    <table className="table-fixed w-full text-[11px] sm:text-xs">
       <colgroup>
-        <col className="w-[52px] sm:w-[56px]" />
-        <col className="w-[52px] sm:w-[60px]" />
-        <col className="w-[64px] sm:w-[76px]" />
-        <col className="w-[64px] sm:w-[76px]" />
-        <col className="w-[64px] sm:w-[76px]" />
-        <col className="w-[64px] sm:w-[76px]" />
+        <col className="w-[50px] sm:w-[72px]" />
+        <col className="w-[40px] sm:w-[60px]" />
+        <col className="w-[54px] sm:w-[76px]" />
+        <col className="w-[54px] sm:w-[76px]" />
+        <col className="w-[54px] sm:w-[76px]" />
+        <col className="w-[54px] sm:w-[76px]" />
       </colgroup>
       <thead className="text-[9px] font-bold uppercase tracking-wider text-slate-500">
         <tr className="border-b border-slate-200">
           <th className="py-0.5 pr-0 text-left"></th>
-          <th className="py-1 px-1.5 text-right">種族</th>
-          <th className="py-1 px-1.5 text-right">最大</th>
-          <th className="py-1 px-1.5 text-right">準</th>
-          <th className="py-1 px-1.5 text-right">無振</th>
-          <th className="py-1 pl-1.5 text-right">下降</th>
+          <th className="py-1 px-1 text-right">種族</th>
+          <th className="py-1 px-1 text-right">最大</th>
+          <th className="py-1 px-1 text-right">準</th>
+          <th className="py-1 px-1 text-right">無振</th>
+          <th className="py-1 px-1 text-right">下降</th>
         </tr>
       </thead>
       <tbody className="divide-y divide-slate-100">
@@ -54,12 +55,12 @@ export function ActualStatsTable({ stats }: Props) {
           const isHp = key === "hp";
           return (
             <tr key={key}>
-              <td className="whitespace-nowrap py-1 pr-0 font-bold text-slate-600">{label}</td>
-              <td className="py-1 px-1.5 text-right font-bold text-slate-900 tabular-nums">{b}</td>
-              <td className="py-1 px-1.5 text-right font-black text-purple-700 tabular-nums">{calc(b, "max", isHp)}</td>
-              <td className="py-1 px-1.5 text-right font-bold text-slate-900 tabular-nums">{calc(b, "neutralMax", isHp)}</td>
-              <td className="py-1 px-1.5 text-right text-slate-700 tabular-nums">{calc(b, "noInvest", isHp)}</td>
-              <td className="py-1 pl-1.5 text-right text-slate-500 tabular-nums">{calc(b, "down", isHp)}</td>
+              <td className="whitespace-nowrap py-0.5 pr-0 font-bold text-slate-600">{label}</td>
+              <td className="py-0.5 px-1 text-right font-bold text-slate-900 tabular-nums">{b}</td>
+              <td className="py-0.5 px-1 text-right font-black text-purple-700 tabular-nums">{calc(b, "max", isHp)}</td>
+              <td className="py-0.5 px-1 text-right font-bold text-slate-900 tabular-nums">{calc(b, "neutralMax", isHp)}</td>
+              <td className="py-0.5 px-1 text-right text-slate-700 tabular-nums">{calc(b, "noInvest", isHp)}</td>
+              <td className="py-0.5 px-1 text-right text-slate-500 tabular-nums">{calc(b, "down", isHp)}</td>
             </tr>
           );
         })}
