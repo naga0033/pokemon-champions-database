@@ -96,12 +96,10 @@ export function SearchableTrainerList({ trainers }: { trainers: Trainer[] }) {
                 <span className="w-6 shrink-0 text-center text-lg sm:w-8 sm:text-xl">
                   {flag(t.country) || <span className="text-[10px] text-slate-300">---</span>}
                 </span>
-                {/* レート */}
-                <span className="font-display w-[70px] shrink-0 pr-2 text-right text-[13px] font-black text-slate-900 tabular-nums sm:w-24 sm:pr-3 sm:text-base">
+                {/* レート (右側に余白を入れて名前と区切る) */}
+                <span className="font-display w-[70px] shrink-0 pr-3 text-right text-[13px] font-black text-slate-900 tabular-nums sm:w-24 sm:pr-4 sm:text-base">
                   {t.rating.toFixed(3)}
                 </span>
-                {/* レート と 名前 の区切り */}
-                <span className="mr-2 h-5 w-px shrink-0 bg-slate-300 sm:mr-3 sm:h-6" aria-hidden />
                 {/* 名前 */}
                 <span className="min-w-0 flex-1 truncate text-xs font-bold text-slate-800 sm:text-sm">
                   {t.name}
