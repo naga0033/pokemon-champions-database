@@ -46,7 +46,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
 
       {/* プロフィールヘッダー */}
       <section className="rounded-3xl border border-violet-100 bg-white/85 p-5 md:p-7 shadow-sm">
-        <div className="flex flex-col gap-6 md:flex-row md:items-start">
+        <div className="flex flex-col gap-6 md:flex-row md:items-center">
           <div className="flex items-center gap-4">
             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-2xl font-black text-white shadow">
               {detail.rank}
@@ -80,7 +80,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
           </div>
           {/* 種族値 / 実数値 */}
           {profile?.baseStats && (
-            <div className="flex-1 md:border-l md:border-slate-100 md:pl-4">
+            <div className="flex-1 md:border-l md:border-slate-100 md:pl-6">
               <StatsToggle stats={profile.baseStats} />
             </div>
           )}
