@@ -10,6 +10,7 @@ import { TypeBadge } from "@/components/TypeBadge";
 import { fetchMoveMetaMap } from "@/lib/move-meta";
 import type { Format, TeraIcon } from "@/lib/types";
 
+export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 type PageProps = {

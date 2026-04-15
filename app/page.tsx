@@ -8,6 +8,7 @@ import { FormatSwitch } from "@/components/FormatSwitch";
 import { ViewTabs } from "@/components/ViewTabs";
 import type { Format } from "@/lib/types";
 
+export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 type PageProps = {

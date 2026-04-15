@@ -1,6 +1,7 @@
 // 管理者用: ゲームスクショをアップ → Vision 解析 → DB 保存
 import { AdminUploader } from "@/components/AdminUploader";
 
+export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export default function AdminPage() {

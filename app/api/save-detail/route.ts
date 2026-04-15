@@ -4,7 +4,7 @@ import { createAdminClient } from "@/lib/supabase";
 import { resolvePokemonJaName, getEnSlug } from "@/lib/pokemon-names";
 import { requireAdminToken } from "@/lib/admin-auth";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 type PanelType = "moves" | "items" | "abilities" | "natures" | "evs" | "partners";
 type UsageEntry = { rank: number; name: string; percentage: number };

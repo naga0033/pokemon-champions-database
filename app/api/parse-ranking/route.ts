@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { requireAdminToken } from "@/lib/admin-auth";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 export const maxDuration = 60;
 
 const SYSTEM_PROMPT = `あなたはポケモンチャンピオンズのゲーム内「使用率ランキング画面」のスクリーンショットを解析するアシスタントです。

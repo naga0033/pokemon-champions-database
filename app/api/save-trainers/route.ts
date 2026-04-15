@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase";
 import { requireAdminToken } from "@/lib/admin-auth";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 type Trainer = { rank: number; name: string; rating: number; country?: string | null };
 type Body = {
