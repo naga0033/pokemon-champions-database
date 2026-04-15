@@ -50,18 +50,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        {/* 【重要】URL移転告知バナー */}
-        <div className="bg-emerald-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
-          <p>✅ <span className="underline underline-offset-2">URLが新しくなりました！</span></p>
+        {/* 【重要】閉鎖告知バナー */}
+        <div className="bg-red-500 px-3 py-2.5 text-center text-xs font-bold text-white sm:text-sm">
+          <p>⚠️ <span className="underline underline-offset-2">いま見ているこのページは近日中に閉鎖されます</span></p>
           <p className="mt-0.5 font-normal">
-            新しいURLは{" "}
+            アクセス数が上限に達するため、近日中に見られなくなります。お手数ですが、新しいURL{" "}
             <a
               href="https://pokechamdb.com"
               className="font-black underline underline-offset-2 hover:opacity-75"
             >
               pokechamdb.com
             </a>
-            {" "}です。ブックマークの更新をお願いします！🙏
+            {" "}へブックマークの更新をお願いします！🙏
           </p>
         </div>
 
