@@ -37,16 +37,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${bodyFont.variable} ${displayFont.variable} min-h-screen font-sans antialiased`}>
         {/* ヘッダー */}
         <header className="sticky top-0 z-40 border-b border-indigo-400/30 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 text-white shadow-sm">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-5 py-4">
+          <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-3 sm:gap-3 sm:px-5 sm:py-4">
             <HeaderLogo />
-            <nav className="flex items-center gap-5 text-sm font-bold text-white/95">
+            <nav className="flex items-center gap-3 text-[11px] font-bold text-white/95 sm:gap-5 sm:text-sm">
               <Link href="/" className="transition hover:text-white">ランキング</Link>
-              <Link href="/about" className="transition hover:text-white">このサイトについて</Link>
+              <Link href="/about" className="whitespace-nowrap transition hover:text-white">
+                <span className="sm:hidden">サイトについて</span>
+                <span className="hidden sm:inline">このサイトについて</span>
+              </Link>
             </nav>
           </div>
         </header>
 
-        <main className="mx-auto max-w-7xl px-5 py-8">{children}</main>
+        <main className="mx-auto max-w-7xl px-3 py-4 sm:px-5 sm:py-8">{children}</main>
 
         {/* フッター */}
         <footer className="mt-20 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-5 py-10 text-center text-xs text-white">

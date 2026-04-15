@@ -78,30 +78,35 @@ export function SearchableTrainerList({ trainers }: { trainers: Trainer[] }) {
               : t.rank === 3 ? "text-orange-700"
               : "text-slate-400";
             return (
-              <li key={`${t.rank}-${t.name}`} className="flex items-center gap-5 px-5 py-3">
-                {/* 王冠 (1-3位のみ、固定枠 24px) */}
-                <span className="flex w-6 shrink-0 items-center justify-center text-xl leading-none">
+              <li
+                key={`${t.rank}-${t.name}`}
+                className="flex items-center gap-2.5 px-3 py-2.5 sm:gap-5 sm:px-5 sm:py-3"
+              >
+                {/* 王冠 (1-3位のみ) */}
+                <span className="flex w-5 shrink-0 items-center justify-center text-base leading-none sm:w-6 sm:text-xl">
                   {mark ?? ""}
                 </span>
-                {/* 順位番号 (固定枠、右寄せ) */}
-                <span className={`font-display w-8 shrink-0 text-right text-lg font-black tabular-nums ${rankColor}`}>
+                {/* 順位番号 */}
+                <span
+                  className={`font-display w-7 shrink-0 text-right text-base font-black tabular-nums sm:w-8 sm:text-lg ${rankColor}`}
+                >
                   {t.rank}
                 </span>
                 {/* 国旗 */}
-                <span className="w-8 shrink-0 text-center text-xl">
+                <span className="w-6 shrink-0 text-center text-lg sm:w-8 sm:text-xl">
                   {flag(t.country) || <span className="text-[10px] text-slate-300">---</span>}
                 </span>
                 {/* レート */}
-                <span className="font-display w-24 shrink-0 text-right text-base font-black text-slate-900 tabular-nums">
+                <span className="font-display w-[70px] shrink-0 text-right text-[13px] font-black text-slate-900 tabular-nums sm:w-24 sm:text-base">
                   {t.rating.toFixed(3)}
                 </span>
                 {/* 名前 */}
-                <span className="min-w-0 flex-1 truncate text-sm font-bold text-slate-800">
+                <span className="min-w-0 flex-1 truncate text-xs font-bold text-slate-800 sm:text-sm">
                   {t.name}
                 </span>
-                {/* 国コード (小さく) */}
+                {/* 国コード: モバイルでは国旗で代替するため非表示 */}
                 {t.country && (
-                  <span className="shrink-0 text-[10px] font-bold tracking-wider text-slate-400">
+                  <span className="hidden shrink-0 text-[10px] font-bold tracking-wider text-slate-400 sm:inline">
                     {t.country}
                   </span>
                 )}

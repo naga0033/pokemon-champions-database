@@ -76,14 +76,14 @@ export function DoughnutChart({ entries, size = 160, limit }: Props) {
 
   return (
     <div
-      className="relative mx-auto"
-      style={{ width: size, height: size }}
+      className="relative mx-auto aspect-square w-full"
+      style={{ maxWidth: size }}
       onMouseMove={(e) => {
         const rect = e.currentTarget.getBoundingClientRect();
         setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top });
       }}
     >
-      <svg viewBox={`0 0 ${size} ${size}`} className="block">
+      <svg viewBox={`0 0 ${size} ${size}`} className="block h-full w-full">
         {paths}
       </svg>
       {hovered && (

@@ -18,12 +18,13 @@ export function HeaderLogo() {
         alt="Pokemon Champions"
         width={308}
         height={160}
-        className="h-10 w-auto object-contain transition group-hover:scale-[1.02]"
+        className="h-8 w-auto object-contain transition group-hover:scale-[1.02] sm:h-10"
         priority
       />
-      <span className="text-sm font-extrabold tracking-[0.04em] text-white md:text-base">
+      <span className="text-xs font-extrabold tracking-[0.04em] leading-tight text-white sm:text-sm md:text-base">
         ポケチャン
-        <span className="ml-1">バトルデータベース</span>
+        <span className="ml-1 hidden sm:inline">バトルデータベース</span>
+        <span className="ml-0.5 inline sm:hidden">DB</span>
       </span>
     </a>
   );

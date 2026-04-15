@@ -45,36 +45,36 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       </nav>
 
       {/* プロフィールヘッダー */}
-      <section className="rounded-3xl border border-violet-100 bg-white/85 p-5 md:p-7 shadow-sm">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center">
-          <div className="flex items-center gap-4">
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-2xl font-black text-white shadow">
+      <section className="rounded-3xl border border-violet-100 bg-white/85 p-4 shadow-sm sm:p-5 md:p-7">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
+          <div className="flex items-center gap-3 sm:gap-4">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 font-display text-lg font-black text-white shadow sm:h-14 sm:w-14 sm:text-2xl">
               {detail.rank}
             </div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={getOfficialArtworkUrl(detail.pokemonSlug)}
               alt={detail.pokemonJa}
-              className="h-28 w-28 object-contain"
+              className="h-20 w-20 object-contain sm:h-28 sm:w-28"
             />
-            <div>
+            <div className="min-w-0 flex-1">
               {detail.dexNo && (
-                <p className="text-[11px] font-bold tracking-widest text-slate-400">
+                <p className="text-[10px] font-bold tracking-widest text-slate-400 sm:text-[11px]">
                   No.{detail.dexNo}
                 </p>
               )}
-              <h1 className="font-display text-2xl font-black text-slate-900 md:text-3xl">
+              <h1 className="font-display text-xl font-black text-slate-900 sm:text-2xl md:text-3xl">
                 {detail.pokemonJa}
               </h1>
               {profile?.types && (
-                <div className="mt-1.5 flex gap-1.5">
+                <div className="mt-1.5 flex flex-wrap gap-1.5">
                   {profile.types.map((t) => (
                     <TypeBadge key={t} type={t as TeraIcon} />
                   ))}
                 </div>
               )}
-              <p className="mt-2 text-[11px] text-slate-500">
-                {season.label} · {format === "single" ? "シングル" : "ダブル"} · 最終更新 {detail.updatedAt.slice(0, 10)}
+              <p className="mt-1.5 text-[10px] leading-tight text-slate-500 sm:mt-2 sm:text-[11px]">
+                {season.label} · {format === "single" ? "シングル" : "ダブル"} · 更新 {detail.updatedAt.slice(0, 10)}
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       </section>
 
       {/* 採用率パネル (円グラフ) */}
-      <section className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+      <section className="grid gap-2.5 grid-cols-2 sm:gap-4 md:grid-cols-3 lg:grid-cols-5">
         {detail.moves && <UsagePanel title="わざ" iconLabel="MOVES" entries={detail.moves} limit={10} moveMeta={moveMeta} />}
         {detail.items && <UsagePanel title="もちもの" iconLabel="ITEMS" entries={detail.items} limit={10} showItemSprite />}
         {detail.abilities && <UsagePanel title="とくせい" iconLabel="ABILITY" entries={detail.abilities} />}
@@ -99,34 +99,34 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       {/* 能力ポイント (独自機能: 努力値振りランキング) */}
       {detail.evs && detail.evs.length > 0 && (
         <section className="rounded-2xl border border-violet-100 bg-white/85 shadow-sm overflow-hidden">
-          <div className="bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-4 py-2.5 text-white">
-            <span className="text-sm font-black">能力ポイント 人気配分ランキング</span>
+          <div className="bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-3 py-2 text-white sm:px-4 sm:py-2.5">
+            <span className="text-xs font-black sm:text-sm">能力ポイント 人気配分ランキング</span>
           </div>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="text-[10px] font-bold uppercase tracking-wider text-slate-500">
+            <table className="w-full min-w-[380px] text-xs sm:min-w-0 sm:text-sm">
+              <thead className="text-[9px] font-bold uppercase tracking-wider text-slate-500 sm:text-[10px]">
                 <tr className="border-b border-slate-200">
-                  <th className="px-3 py-2 text-left">順位</th>
-                  <th className="px-3 py-2">HP</th>
-                  <th className="px-3 py-2">攻撃</th>
-                  <th className="px-3 py-2">防御</th>
-                  <th className="px-3 py-2">特攻</th>
-                  <th className="px-3 py-2">特防</th>
-                  <th className="px-3 py-2">素早さ</th>
-                  <th className="px-3 py-2 text-right">採用率</th>
+                  <th className="px-2 py-2 text-left sm:px-3">順位</th>
+                  <th className="px-1.5 py-2 sm:px-3">HP</th>
+                  <th className="px-1.5 py-2 sm:px-3">攻</th>
+                  <th className="px-1.5 py-2 sm:px-3">防</th>
+                  <th className="px-1.5 py-2 sm:px-3">特攻</th>
+                  <th className="px-1.5 py-2 sm:px-3">特防</th>
+                  <th className="px-1.5 py-2 sm:px-3">素早</th>
+                  <th className="px-2 py-2 text-right sm:px-3">採用率</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {detail.evs.slice(0, 10).map((e) => (
                   <tr key={e.rank}>
-                    <td className="px-3 py-2 font-bold text-slate-400">{e.rank}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.hp}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.atk}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.def}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.spAtk}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.spDef}</td>
-                    <td className="px-3 py-2 text-center tabular-nums">{e.speed}</td>
-                    <td className="px-3 py-2 text-right font-bold text-slate-900 tabular-nums">{e.percentage.toFixed(1)}%</td>
+                    <td className="px-2 py-1.5 font-bold text-slate-400 sm:px-3 sm:py-2">{e.rank}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.hp}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.atk}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.def}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.spAtk}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.spDef}</td>
+                    <td className="px-1.5 py-1.5 text-center tabular-nums sm:px-3 sm:py-2">{e.speed}</td>
+                    <td className="px-2 py-1.5 text-right font-bold text-slate-900 tabular-nums sm:px-3 sm:py-2">{e.percentage.toFixed(1)}%</td>
                   </tr>
                 ))}
               </tbody>

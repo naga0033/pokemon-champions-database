@@ -29,14 +29,14 @@ function calc(base: number, kind: "max" | "neutralMax" | "noInvest" | "down", is
 
 export function ActualStatsTable({ stats }: Props) {
   return (
-    <table className="table-fixed w-auto min-w-[500px] text-[11px]">
+    <table className="table-fixed w-auto min-w-[420px] text-[11px] sm:min-w-[500px]">
       <colgroup>
-        <col className="w-[56px]" />
-        <col className="w-[60px]" />
-        <col className="w-[76px]" />
-        <col className="w-[76px]" />
-        <col className="w-[76px]" />
-        <col className="w-[76px]" />
+        <col className="w-[52px] sm:w-[56px]" />
+        <col className="w-[52px] sm:w-[60px]" />
+        <col className="w-[64px] sm:w-[76px]" />
+        <col className="w-[64px] sm:w-[76px]" />
+        <col className="w-[64px] sm:w-[76px]" />
+        <col className="w-[64px] sm:w-[76px]" />
       </colgroup>
       <thead className="text-[9px] font-bold uppercase tracking-wider text-slate-500">
         <tr className="border-b border-slate-200">

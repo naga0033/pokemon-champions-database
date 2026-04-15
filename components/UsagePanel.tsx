@@ -62,22 +62,22 @@ export function UsagePanel({
   return (
     <div className="rounded-2xl border border-violet-100 bg-white/85 shadow-sm">
       {/* ヘッダー */}
-      <div className="flex items-center justify-between border-b border-slate-100 px-4 pt-3 pb-2">
-        <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400">
+      <div className="flex items-center justify-between border-b border-slate-100 px-3 pt-2.5 pb-1.5 sm:px-4 sm:pt-3 sm:pb-2">
+        <span className="font-display text-[9px] font-bold uppercase tracking-[0.25em] text-slate-400 sm:text-[10px] sm:tracking-[0.3em]">
           {iconLabel}
         </span>
-        <span className="text-sm font-black text-slate-900">{title}</span>
+        <span className="text-xs font-black text-slate-900 sm:text-sm">{title}</span>
       </div>
       {/* 円グラフ (% 無しパネルも高さ揃えるため枠だけ残す) */}
-      <div className="px-4 py-4">
+      <div className="px-2 py-3 sm:px-4 sm:py-4">
         {hidePercentage ? (
-          <div className="mx-auto" style={{ width: 140, height: 140 }} />
+          <div className="mx-auto aspect-square max-w-[140px]" />
         ) : (
           <DoughnutChart entries={entries} size={140} limit={limit} />
         )}
       </div>
-      {/* 凡例 (列をきっちり揃える: [左アイコン枠 20px][名前 flex][右アイコン枠 20px][採用率 48px]) */}
-      <ul className="space-y-1.5 border-t border-slate-100 px-4 pt-3 pb-4">
+      {/* 凡例 (列をきっちり揃える) */}
+      <ul className="space-y-1.5 border-t border-slate-100 px-2.5 pt-2.5 pb-3 sm:px-4 sm:pt-3 sm:pb-4">
         {entries.slice(0, limit).map((e, i) => {
           const meta = moveMeta?.[e.name];
           const spriteUrl = showItemSprite ? getItemSpriteUrl(e.name) : null;
@@ -109,7 +109,7 @@ export function UsagePanel({
                 )}
               </span>
               {/* 名前: 残り幅を使って truncate */}
-              <span className="min-w-0 flex-1 truncate text-[13px] font-bold text-slate-700">
+              <span className="min-w-0 flex-1 truncate text-[11px] font-bold text-slate-700 sm:text-[13px]">
                 {e.name}
               </span>
               {/* 右アイコン列: 20px 固定 (meta 無い場合も空枠) */}
@@ -120,11 +120,11 @@ export function UsagePanel({
               )}
               {/* 採用率: 48px 固定・右寄せ (% が無いパネルでは順位だけ右に出す) */}
               {hidePercentage ? (
-                <span className="font-display w-12 shrink-0 text-right text-xs font-bold text-slate-400 tabular-nums">
+                <span className="font-display w-9 shrink-0 text-right text-[10px] font-bold text-slate-400 tabular-nums sm:w-12 sm:text-xs">
                   {e.rank}位
                 </span>
               ) : (
-                <span className="font-display w-12 shrink-0 text-right text-xs font-black text-slate-900 tabular-nums">
+                <span className="font-display w-10 shrink-0 text-right text-[10px] font-black text-slate-900 tabular-nums sm:w-12 sm:text-xs">
                   {e.percentage.toFixed(1)}%
                 </span>
               )}

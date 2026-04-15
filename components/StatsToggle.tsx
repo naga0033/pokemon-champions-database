@@ -44,8 +44,8 @@ export function StatsToggle({ stats }: { stats: BaseStats }) {
         <div
           className={
             showActual
-              ? "pointer-events-none absolute inset-0 md:-top-5"
-              : "pointer-events-none absolute inset-0 invisible md:-top-5"
+              ? "pointer-events-auto absolute inset-0 overflow-x-auto md:-top-5"
+              : "pointer-events-none invisible absolute inset-0 md:-top-5"
           }
         >
           <ActualStatsTable stats={stats} />

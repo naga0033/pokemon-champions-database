@@ -30,7 +30,7 @@ export default async function HomePage({ searchParams }: PageProps) {
       <ViewTabs current={view} />
 
       {/* シーズン + フォーマット切替 */}
-      <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-white/85 p-4 sm:flex-row sm:items-center sm:justify-between">
+      <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-white/85 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-4">
         <div className="flex items-center gap-3">
           <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-indigo-600">
             SEASON
