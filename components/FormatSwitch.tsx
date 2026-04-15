@@ -3,15 +3,27 @@ import Link from "next/link";
 import type { Format } from "@/lib/types";
 
 /** シングル/ダブル切替 (URL クエリベース) */
-export function FormatSwitch({ current }: { current: Format }) {
+export function FormatSwitch({
+  current,
+  view,
+  seasonId,
+}: {
+  current: Format;
+  view?: "trainer" | "pokemon";
+  seasonId?: string;
+}) {
   return (
     <div className="inline-flex rounded-2xl bg-white/60 p-1 shadow-sm ring-1 ring-violet-100">
       {(["single", "double"] as const).map((f) => {
         const active = f === current;
+        const params = new URLSearchParams();
+        params.set("format", f);
+        if (view) params.set("view", view);
+        if (seasonId) params.set("season", seasonId);
         return (
           <Link
             key={f}
-            href={`/?format=${f}`}
+            href={`/?${params.toString()}`}
             prefetch
             className={
               active

@@ -41,7 +41,7 @@ export default async function HomePage({ searchParams }: PageProps) {
             <span className="text-xs text-slate-400">データ準備中…</span>
           )}
         </div>
-        <FormatSwitch current={format} />
+        <FormatSwitch current={format} view={view} seasonId={season?.id} />
       </section>
 
       {/* コンテンツ */}
