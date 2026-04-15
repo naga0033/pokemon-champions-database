@@ -9,7 +9,7 @@ export default function AboutPage() {
       </p>
       <h2 className="mt-6 font-display text-lg font-black text-slate-900">データ出典</h2>
       <p className="text-sm text-slate-700">
-        ゲーム内のランキング画面をプレイヤーがスクリーンショットで撮影し、集計しています。
+        ゲーム内のランキング画面を管理人がスクリーンショットで撮影し、集計しています。
       </p>
       <h2 className="mt-6 font-display text-lg font-black text-slate-900">免責事項</h2>
       <p className="text-sm text-slate-700">
