@@ -31,8 +31,8 @@ export default async function HomePage({ searchParams }: PageProps) {
 
       {/* シーズン + フォーマット切替 */}
       <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-white/85 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-4">
-        <div className="flex items-center gap-3">
-          <span className="font-display text-[10px] font-bold uppercase tracking-[0.3em] text-indigo-600">
+        <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
+          <span className="font-display shrink-0 text-[9px] font-bold uppercase tracking-[0.25em] text-indigo-600 sm:text-[10px] sm:tracking-[0.3em]">
             SEASON
           </span>
           {allSeasons.length > 0 && season ? (
