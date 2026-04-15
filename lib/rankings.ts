@@ -163,10 +163,21 @@ export async function loadPokemonDetail(
 
   if (error || !data) return null;
   const row = data as DetailRow;
+
+  // pokemon_details.rank は投入時の値でズレることがあるため、正は rankings テーブル側
+  const { data: rankingRow } = await supabase
+    .from("rankings")
+    .select("rank")
+    .eq("season_id", seasonId)
+    .eq("format", format)
+    .eq("pokemon_slug", pokemonSlug)
+    .maybeSingle();
+  const liveRank = rankingRow?.rank ?? row.rank;
+
   return {
     seasonId: row.season_id,
     format: row.format,
-    rank: row.rank,
+    rank: liveRank,
     pokemonJa: row.pokemon_ja,
     pokemonSlug: row.pokemon_slug,
     dexNo: row.dex_no ?? undefined,
