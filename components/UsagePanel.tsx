@@ -118,14 +118,15 @@ export function UsagePanel({
                   {meta && <CategoryIcon category={meta.category} />}
                 </span>
               )}
-              {/* 採用率: 48px 固定・右寄せ (% が無いパネルでは順位だけ右に出す) */}
+              {/* 採用率: 右寄せ (% が無いパネルでは順位だけ右に出す) */}
+              {/* 1%以上は小数点以下切り捨て、0%台のみ小数1桁を維持 */}
               {hidePercentage ? (
                 <span className="font-display w-9 shrink-0 text-right text-[10px] font-bold text-slate-400 tabular-nums sm:w-12 sm:text-xs">
                   {e.rank}位
                 </span>
               ) : (
-                <span className="font-display w-10 shrink-0 text-right text-[10px] font-black text-slate-900 tabular-nums sm:w-12 sm:text-xs">
-                  {e.percentage.toFixed(1)}%
+                <span className="font-display w-8 shrink-0 text-right text-[10px] font-black text-slate-900 tabular-nums sm:w-10 sm:text-xs">
+                  {e.percentage >= 1 ? `${Math.floor(e.percentage)}%` : `${e.percentage.toFixed(1)}%`}
                 </span>
               )}
             </li>
