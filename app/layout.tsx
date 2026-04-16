@@ -19,11 +19,31 @@ const displayFont = Orbitron({
   variable: "--font-display",
 });
 
+const SITE_URL = "https://pokechamdb.com";
+const OG_IMAGE = `${SITE_URL}/og-image.png`;
+
 export const metadata: Metadata = {
   title: "ポケモンバトルサポート",
   description:
-    "ポケモンチャンピオンズの使用率ランキング・技・持ち物・特性・性格・努力値の採用率をまとめた非公式バトルサポートサイト。スマホでも見やすい。",
+    "ポケモンチャンピオンズの使用率ランキング・覚えるわざ・持ち物・特性・性格・努力値をまとめた非公式バトルサポートサイト。スマホでも見やすい。",
   icons: { icon: "/icon.png" },
+  openGraph: {
+    title: "ポケモンバトルサポート",
+    description:
+      "ポケモンチャンピオンズの使用率ランキング・覚えるわざ・持ち物・特性・性格・努力値をまとめた非公式バトルサポートサイト。スマホでも見やすい。",
+    url: SITE_URL,
+    siteName: "ポケモンバトルサポート",
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "ポケモンバトルサポート" }],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ポケモンバトルサポート",
+    description:
+      "ポケモンチャンピオンズの使用率ランキング・覚えるわざ・持ち物・特性・性格・努力値をまとめた非公式バトルサポートサイト。",
+    images: [OG_IMAGE],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
