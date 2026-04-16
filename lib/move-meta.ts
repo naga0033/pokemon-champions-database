@@ -9,6 +9,15 @@ const TYPO_ALIAS: Record<string, string> = {
   "ウエザーボール": "ウェザーボール",
   // ポケモンチャンピオンズでの表記が move-names の登録名と異なるケース
   "さいはい": "きょうしゅ", // Instruct
+  // OCR 誤字: 「みがわり」を「みかわり」と読み取るケース
+  "みかわり": "みがわり",
+};
+
+// PokeAPI に存在しない/取得失敗する技の type・category を手動で補完
+// (ポケモンチャンピオンズ専用技や新技など)
+const MOVE_META_OVERRIDE: Record<string, MoveMeta> = {
+  "しっとのほのお": { type: "fire", category: "special" },
+  "ハバネロエキス": { type: "grass", category: "status" },
 };
 
 // 日本語名 → 英語 slug 逆引き (モジュールスコープでキャッシュ)
@@ -26,6 +35,10 @@ function jaToSlug(ja: string): string | null {
 
 /** 1 つの技のメタ情報を取得 */
 export async function fetchMoveMeta(ja: string): Promise<MoveMeta | null> {
+  // 先にオーバーライド表を参照 (PokeAPI に存在しない新技など)
+  const normalized = TYPO_ALIAS[ja] ?? ja;
+  if (MOVE_META_OVERRIDE[normalized]) return MOVE_META_OVERRIDE[normalized];
+
   const slug = jaToSlug(ja);
   if (!slug) return null;
   try {
