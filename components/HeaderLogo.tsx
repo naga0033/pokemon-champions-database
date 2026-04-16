@@ -22,9 +22,9 @@ export function HeaderLogo() {
         priority
       />
       <span className="text-[11px] font-extrabold tracking-tight leading-tight text-white sm:text-sm sm:tracking-[0.04em] md:text-base">
-        ポケチャン
-        <span className="ml-1 hidden sm:inline">バトルデータラボ</span>
-        <span className="ml-1 inline sm:hidden">データラボ</span>
+        ポケモン
+        <span className="ml-1 hidden sm:inline">バトルサポート</span>
+        <span className="ml-1 inline sm:hidden">バトルサポ</span>
       </span>
     </a>
   );

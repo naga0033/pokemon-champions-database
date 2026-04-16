@@ -20,9 +20,9 @@ const displayFont = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "ポケチャンバトルデータラボ",
+  title: "ポケモンバトルサポート",
   description:
-    "ポケモンチャンピオンズの使用率ランキング・技・持ち物・特性・性格・努力値の採用率をまとめた非公式データラボ。スマホでも見やすい。",
+    "ポケモンチャンピオンズの使用率ランキング・技・持ち物・特性・性格・努力値の採用率をまとめた非公式バトルサポートサイト。スマホでも見やすい。",
   icons: { icon: "/icon.png" },
 };
 
@@ -55,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* フッター */}
         <footer className="mt-20 bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400 px-5 py-10 text-center text-xs text-white">
           <div className="mx-auto max-w-4xl space-y-2">
-            <p>このサイトはポケモンチャンピオンズの非公式ファンツールです。</p>
+            <p>ポケモンバトルサポートはポケモンチャンピオンズの非公式ファンツールです。</p>
             <p>
               不具合報告・ご要望は{" "}
               <a
