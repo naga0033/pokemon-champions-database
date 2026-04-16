@@ -23,8 +23,7 @@ export function HeaderLogo() {
       />
       <span className="text-[11px] font-extrabold tracking-tight leading-tight text-white sm:text-sm sm:tracking-[0.04em] md:text-base">
         ポケモン
-        <span className="ml-1 hidden sm:inline">バトルサポート</span>
-        <span className="ml-1 inline sm:hidden">バトルサポ</span>
+        <span className="ml-1">バトルサポート</span>
       </span>
     </a>
   );
