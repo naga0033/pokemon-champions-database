@@ -24,6 +24,10 @@ const FETCH_SLUG_OVERRIDES: Record<string, string> = {
   mimikyu: "mimikyu-disguised",
   palafin: "palafin-hero",
   floette: "floette-eternal",
+  // PokeAPI では -breed サフィックスが必要
+  "tauros-paldea-combat": "tauros-paldea-combat-breed",
+  "tauros-paldea-blaze": "tauros-paldea-blaze-breed",
+  "tauros-paldea-aqua": "tauros-paldea-aqua-breed",
 };
 
 export async function fetchPokeProfile(slug: string): Promise<PokeProfile | null> {
