@@ -323,7 +323,21 @@ export const MEGA_FORMS: MegaForm[] = [
     ability: "adaptability", abilityJa: "てきおうりょく", megaStone: "lucarionite-z", megaStoneJa: "ルカリオナイトZ", spriteUrl: ZUKAN("9910f2b09a49b21d30d06226f653b099") },
 ];
 
+// フォームサフィックス付きslugをベースslugに正規化するマップ
+// (DB内のslugとmega-dataのbaseSlugが異なるケースに対応)
+const SLUG_NORMALIZE: Record<string, string> = {
+  "floette-eternal": "floette",
+  "aegislash-blade": "aegislash",
+  "aegislash-shield": "aegislash",
+  "basculegion-male": "basculegion",
+  "meowstic-male": "meowstic",
+  "meowstic-female": "meowstic",
+  "mimikyu-disguised": "mimikyu",
+  "palafin-hero": "palafin",
+};
+
 /** ポケモンslugから利用可能なメガシンカフォームを取得 */
 export function getMegaForms(baseSlug: string): MegaForm[] {
-  return MEGA_FORMS.filter((m) => m.baseSlug === baseSlug);
+  const normalized = SLUG_NORMALIZE[baseSlug] ?? baseSlug;
+  return MEGA_FORMS.filter((m) => m.baseSlug === normalized);
 }
