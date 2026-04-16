@@ -4,9 +4,11 @@ import { MOVE_NAMES_JA } from "./move-names";
 export type MoveCategory = "physical" | "special" | "status";
 export type MoveMeta = { type: string; category: MoveCategory };
 
-// OCR 由来の誤字バリアントを正規名にマッピング (ェ→エ、ッ→ツ 等)
+// OCR 由来の誤字バリアントや別表記を正規名にマッピング (ェ→エ、ッ→ツ 等)
 const TYPO_ALIAS: Record<string, string> = {
   "ウエザーボール": "ウェザーボール",
+  // ポケモンチャンピオンズでの表記が move-names の登録名と異なるケース
+  "さいはい": "きょうしゅ", // Instruct
 };
 
 // 日本語名 → 英語 slug 逆引き (モジュールスコープでキャッシュ)
