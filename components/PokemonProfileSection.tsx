@@ -94,10 +94,10 @@ export function PokemonProfileSection({
               type="button"
               onClick={() => setSelectedMega(null)}
               title={pokemonJa}
-              className={`flex flex-col items-center gap-0.5 rounded-xl border p-1.5 text-[9px] font-bold transition-all ${
+              className={`flex w-[68px] flex-col items-center gap-0.5 rounded-xl border p-1.5 text-[10px] font-black transition-all ${
                 selectedMega === null
-                  ? "border-indigo-400 bg-gradient-to-b from-indigo-500 to-violet-600 text-white shadow-md"
-                  : "border-slate-200 bg-slate-50 text-slate-500 hover:border-indigo-300 hover:bg-indigo-50"
+                  ? "border-lime-500/40 bg-gradient-to-b from-lime-300 to-lime-400 text-slate-900 shadow-[inset_0_-2px_0_rgba(132,204,22,0.6)] ring-1 ring-lime-500/40"
+                  : "border-slate-200 bg-slate-50 text-slate-500 hover:border-lime-300 hover:bg-lime-50"
               }`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -110,31 +110,35 @@ export function PokemonProfileSection({
             </button>
 
             {/* メガシンカフォームボタン */}
-            {megaForms.map((mega) => (
-              <button
-                key={mega.slug}
-                type="button"
-                onClick={() =>
-                  setSelectedMega(selectedMega?.slug === mega.slug ? null : mega)
-                }
-                title={mega.jaName}
-                className={`flex flex-col items-center gap-0.5 rounded-xl border p-1.5 text-[9px] font-bold transition-all ${
-                  selectedMega?.slug === mega.slug
-                    ? "border-indigo-400 bg-gradient-to-b from-indigo-500 to-violet-600 text-white shadow-md"
-                    : "border-slate-200 bg-slate-50 text-slate-500 hover:border-indigo-300 hover:bg-indigo-50"
-                }`}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={mega.spriteUrl}
-                  alt={mega.jaName}
-                  className="h-10 w-10 object-contain"
-                />
-                <span className="max-w-[44px] text-center leading-tight">
-                  {mega.jaName}
-                </span>
-              </button>
-            ))}
+            {megaForms.map((mega) => {
+              // ラベル省略: ベース「メガ」 / X「メガX」 / Y「メガY」 / Z「メガZ」
+              const suffixMatch = mega.slug.match(/-mega(?:-(x|y|z))?$/i);
+              const suffix = suffixMatch?.[1]?.toUpperCase() ?? "";
+              const label = `メガ${suffix}`;
+              return (
+                <button
+                  key={mega.slug}
+                  type="button"
+                  onClick={() =>
+                    setSelectedMega(selectedMega?.slug === mega.slug ? null : mega)
+                  }
+                  title={mega.jaName}
+                  className={`flex w-[68px] flex-col items-center gap-0.5 rounded-xl border p-1.5 text-[10px] font-black transition-all ${
+                    selectedMega?.slug === mega.slug
+                      ? "border-lime-500/40 bg-gradient-to-b from-lime-300 to-lime-400 text-slate-900 shadow-[inset_0_-2px_0_rgba(132,204,22,0.6)] ring-1 ring-lime-500/40"
+                      : "border-slate-200 bg-slate-50 text-slate-500 hover:border-lime-300 hover:bg-lime-50"
+                  }`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={mega.spriteUrl}
+                    alt={mega.jaName}
+                    className="h-10 w-10 object-contain"
+                  />
+                  <span className="leading-none">{label}</span>
+                </button>
+              );
+            })}
           </div>
         )}
       </div>
