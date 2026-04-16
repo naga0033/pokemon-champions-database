@@ -4,7 +4,7 @@ export default function AboutPage() {
     <div className="prose prose-slate max-w-3xl">
       <h1 className="font-display text-2xl font-black text-slate-900">このサイトについて</h1>
       <p className="text-sm text-slate-700">
-        ポケモンチャンピオンズのバトルデータベース。ゲーム内のランキング画面から集計した使用率データを、
+        ポケモンチャンピオンズのバトルデータラボ。ゲーム内のランキング画面から集計した使用率データを、
         スマホからも見やすい形で公開しています。
       </p>
       <h2 className="mt-6 font-display text-lg font-black text-slate-900">データ出典</h2>
