@@ -20,7 +20,7 @@ const displayFont = Orbitron({
 });
 
 const SITE_URL = "https://pokechamdb.com";
-const OG_IMAGE = `${SITE_URL}/og-image.png`;
+const OG_IMAGE = `${SITE_URL}/og-image.png?v=2`;
 
 export const metadata: Metadata = {
   title: "ポケモンバトルサポート",
