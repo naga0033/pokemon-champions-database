@@ -8,6 +8,8 @@ import { StatsToggle } from "@/components/StatsToggle";
 import { getOfficialArtworkUrl } from "@/lib/pokemon-sprite";
 import { TypeBadge } from "@/components/TypeBadge";
 import { fetchMoveMetaMap } from "@/lib/move-meta";
+import { LearnsetPanel } from "@/components/LearnsetPanel";
+import { getChampionsLearnset } from "@/lib/champions-learnsets";
 import type { Format, TeraIcon } from "@/lib/types";
 
 export const runtime = "edge";
@@ -30,8 +32,14 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
   if (!detail) notFound();
 
   const profile = await fetchPokeProfile(slug);
-  const moveMeta = detail.moves
-    ? await fetchMoveMetaMap(detail.moves.map((m) => m.name))
+  const learnset = getChampionsLearnset(slug);
+  // 採用率パネル用 + 覚えるわざパネル用の技メタを一括取得
+  const allMoveNames = [
+    ...(detail.moves?.map((m) => m.name) ?? []),
+    ...(learnset?.moves ?? []),
+  ];
+  const moveMeta = allMoveNames.length > 0
+    ? await fetchMoveMetaMap(allMoveNames)
     : {};
 
   return (
@@ -143,6 +151,8 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
           </div>
         </section>
       )}
+
+      {learnset && <LearnsetPanel learnset={learnset} moveMeta={moveMeta} />}
 
       {/* 三種の神器 クロスリンク */}
       <section className="rounded-2xl border border-violet-100 bg-white/85 p-5 shadow-sm">

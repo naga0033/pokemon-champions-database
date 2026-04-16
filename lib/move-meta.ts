@@ -43,13 +43,19 @@ export async function fetchMoveMeta(ja: string): Promise<MoveMeta | null> {
   }
 }
 
-/** 複数の技メタを並列取得 */
+/** 複数の技メタを並列取得（レートリミット回避のため 10 件ずつバッチ処理） */
 export async function fetchMoveMetaMap(jaNames: string[]): Promise<Record<string, MoveMeta>> {
   const unique = Array.from(new Set(jaNames));
-  const results = await Promise.all(unique.map(async (ja) => [ja, await fetchMoveMeta(ja)] as const));
   const out: Record<string, MoveMeta> = {};
-  for (const [ja, meta] of results) {
-    if (meta) out[ja] = meta;
+  const BATCH = 10;
+  for (let i = 0; i < unique.length; i += BATCH) {
+    const batch = unique.slice(i, i + BATCH);
+    const results = await Promise.all(
+      batch.map(async (ja) => [ja, await fetchMoveMeta(ja)] as const),
+    );
+    for (const [ja, meta] of results) {
+      if (meta) out[ja] = meta;
+    }
   }
   return out;
 }

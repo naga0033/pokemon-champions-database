@@ -20,6 +20,7 @@ const FETCH_SLUG_OVERRIDES: Record<string, string> = {
   // 特殊フォーム用 (ダメ計と同じ運用)
   aegislash: "aegislash-shield",
   basculegion: "basculegion-male",
+  meowstic: "meowstic-male",
   mimikyu: "mimikyu-disguised",
   palafin: "palafin-hero",
   floette: "floette-eternal",
