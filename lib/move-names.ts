@@ -585,7 +585,7 @@ export const MOVE_NAMES_JA: Record<string, string> = {
   "pain-split": "いたみわけ",
   "worry-seed": "しんぱいのタネ",
   "topsy-turvy": "ひっくりかえす",
-  "instruct": "きょうしゅ",
+  "instruct": "さいはい",
   "lock-on": "ロックオン",
   "acupressure": "ツボをつく",
   "sandstorm": "すなあらし",
