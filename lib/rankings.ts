@@ -35,18 +35,22 @@ type DetailRow = {
 
 /** 全シーズンのリストを取得 (セレクタ用、新しい順) */
 export async function loadAllSeasons(): Promise<Season[]> {
-  const { data, error } = await supabase
-    .from("seasons")
-    .select("*")
-    .order("start_date", { ascending: false });
-  if (error || !data) return [];
-  return (data as SeasonRow[]).map((r) => ({
-    id: r.id,
-    label: r.label,
-    startDate: r.start_date,
-    endDate: r.end_date,
-    format: r.format,
-  }));
+  try {
+    const { data, error } = await supabase
+      .from("seasons")
+      .select("*")
+      .order("start_date", { ascending: false });
+    if (error || !data) return [];
+    return (data as SeasonRow[]).map((r) => ({
+      id: r.id,
+      label: r.label,
+      startDate: r.start_date,
+      endDate: r.end_date,
+      format: r.format,
+    }));
+  } catch {
+    return [];
+  }
 }
 
 /** 最新シーズンを取得 (seasonId 指定があればそれを優先) */
@@ -54,6 +58,7 @@ export async function loadLatestSeason(
   format: Format,
   seasonId?: string,
 ): Promise<Season | null> {
+  try {
   if (seasonId) {
     const { data, error } = await supabase.from("seasons").select("*").eq("id", seasonId).single();
     if (!error && data) {
@@ -124,6 +129,9 @@ export async function loadLatestSeason(
     endDate: row.end_date,
     format,
   };
+  } catch {
+    return null;
+  }
 }
 
 /** ランキングを取得 */
@@ -131,20 +139,24 @@ export async function loadRanking(
   seasonId: string,
   format: Format,
 ): Promise<RankingEntry[]> {
-  const { data, error } = await supabase
-    .from("rankings")
-    .select("rank, pokemon_ja, pokemon_slug, tera_icons")
-    .eq("season_id", seasonId)
-    .eq("format", format)
-    .order("rank", { ascending: true });
+  try {
+    const { data, error } = await supabase
+      .from("rankings")
+      .select("rank, pokemon_ja, pokemon_slug, tera_icons")
+      .eq("season_id", seasonId)
+      .eq("format", format)
+      .order("rank", { ascending: true });
 
-  if (error || !data) return [];
-  return (data as RankingRow[]).map((r) => ({
-    rank: r.rank,
-    pokemonJa: r.pokemon_ja,
-    pokemonSlug: r.pokemon_slug,
-    teraIcons: Array.isArray(r.tera_icons) ? r.tera_icons as RankingEntry["teraIcons"] : undefined,
-  }));
+    if (error || !data) return [];
+    return (data as RankingRow[]).map((r) => ({
+      rank: r.rank,
+      pokemonJa: r.pokemon_ja,
+      pokemonSlug: r.pokemon_slug,
+      teraIcons: Array.isArray(r.tera_icons) ? r.tera_icons as RankingEntry["teraIcons"] : undefined,
+    }));
+  } catch {
+    return [];
+  }
 }
 
 /** ポケモン詳細を取得 */
@@ -153,6 +165,7 @@ export async function loadPokemonDetail(
   format: Format,
   pokemonSlug: string,
 ): Promise<PokemonDetail | null> {
+  try {
   const { data, error } = await supabase
     .from("pokemon_details")
     .select("*")
@@ -189,6 +202,9 @@ export async function loadPokemonDetail(
     partners: asUsage(row.partners),
     updatedAt: row.updated_at,
   };
+  } catch {
+    return null;
+  }
 }
 
 function asUsage(v: unknown): PokemonDetail["moves"] | undefined {

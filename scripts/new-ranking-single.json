@@ -1,0 +1,861 @@
+{
+  "seasonId": "M-1",
+  "seasonLabel": "シーズンM-1",
+  "startDate": "2026-04-08",
+  "endDate": "2026-05-13",
+  "format": "single",
+  "entries": [
+    {
+      "rank": 1,
+      "pokemonJa": "ガブリアス"
+    },
+    {
+      "rank": 2,
+      "pokemonJa": "アシレーヌ"
+    },
+    {
+      "rank": 3,
+      "pokemonJa": "リザードン"
+    },
+    {
+      "rank": 4,
+      "pokemonJa": "アーマーガア"
+    },
+    {
+      "rank": 5,
+      "pokemonJa": "ブリジュラス"
+    },
+    {
+      "rank": 6,
+      "pokemonJa": "ゲンガー"
+    },
+    {
+      "rank": 7,
+      "pokemonJa": "ハッサム"
+    },
+    {
+      "rank": 8,
+      "pokemonJa": "カバルドン"
+    },
+    {
+      "rank": 9,
+      "pokemonJa": "ドドゲザン"
+    },
+    {
+      "rank": 10,
+      "pokemonJa": "ギルガルド"
+    },
+    {
+      "rank": 11,
+      "pokemonJa": "マスカーニャ"
+    },
+    {
+      "rank": 12,
+      "pokemonJa": "ミミッキュ"
+    },
+    {
+      "rank": 13,
+      "pokemonJa": "ミミロップ"
+    },
+    {
+      "rank": 14,
+      "pokemonJa": "サザンドラ"
+    },
+    {
+      "rank": 15,
+      "pokemonJa": "ウォッシュロトム"
+    },
+    {
+      "rank": 16,
+      "pokemonJa": "カイリュー"
+    },
+    {
+      "rank": 17,
+      "pokemonJa": "キラフロル"
+    },
+    {
+      "rank": 18,
+      "pokemonJa": "マフォクシー"
+    },
+    {
+      "rank": 19,
+      "pokemonJa": "イダイトウ"
+    },
+    {
+      "rank": 20,
+      "pokemonJa": "メガニウム"
+    },
+    {
+      "rank": 21,
+      "pokemonJa": "ブラッキー"
+    },
+    {
+      "rank": 22,
+      "pokemonJa": "ギャラドス"
+    },
+    {
+      "rank": 23,
+      "pokemonJa": "ゲッコウガ"
+    },
+    {
+      "rank": 24,
+      "pokemonJa": "ルカリオ"
+    },
+    {
+      "rank": 25,
+      "pokemonJa": "フシギバナ"
+    },
+    {
+      "rank": 26,
+      "pokemonJa": "オオニューラ"
+    },
+    {
+      "rank": 27,
+      "pokemonJa": "ヒートロトム"
+    },
+    {
+      "rank": 28,
+      "pokemonJa": "ガルーラ"
+    },
+    {
+      "rank": 29,
+      "pokemonJa": "バンギラス"
+    },
+    {
+      "rank": 30,
+      "pokemonJa": "フラエッテ"
+    },
+    {
+      "rank": 31,
+      "pokemonJa": "ウルガモス"
+    },
+    {
+      "rank": 32,
+      "pokemonJa": "ドラパルト"
+    },
+    {
+      "rank": 33,
+      "pokemonJa": "スターミー"
+    },
+    {
+      "rank": 34,
+      "pokemonJa": "ピクシー"
+    },
+    {
+      "rank": 35,
+      "pokemonJa": "マリルリ"
+    },
+    {
+      "rank": 36,
+      "pokemonJa": "ドヒドイデ"
+    },
+    {
+      "rank": 37,
+      "pokemonJa": "ニンフィア"
+    },
+    {
+      "rank": 38,
+      "pokemonJa": "クエスパトラ"
+    },
+    {
+      "rank": 39,
+      "pokemonJa": "ペリッパー"
+    },
+    {
+      "rank": 40,
+      "pokemonJa": "マンムー"
+    },
+    {
+      "rank": 41,
+      "pokemonJa": "カビゴン"
+    },
+    {
+      "rank": 42,
+      "pokemonJa": "ラウドボーン"
+    },
+    {
+      "rank": 43,
+      "pokemonJa": "カメックス"
+    },
+    {
+      "rank": 44,
+      "pokemonJa": "ドリュウズ"
+    },
+    {
+      "rank": 45,
+      "pokemonJa": "ウツボット"
+    },
+    {
+      "rank": 46,
+      "pokemonJa": "エアームド"
+    },
+    {
+      "rank": 47,
+      "pokemonJa": "ユキメノコ"
+    },
+    {
+      "rank": 48,
+      "pokemonJa": "ハラバリー"
+    },
+    {
+      "rank": 49,
+      "pokemonJa": "サーナイト"
+    },
+    {
+      "rank": 50,
+      "pokemonJa": "キュウコン"
+    },
+    {
+      "rank": 51,
+      "pokemonJa": "ソウブレイズ"
+    },
+    {
+      "rank": 52,
+      "pokemonJa": "ヒスイヌメルゴン"
+    },
+    {
+      "rank": 53,
+      "pokemonJa": "エンペルト"
+    },
+    {
+      "rank": 54,
+      "pokemonJa": "ホルード"
+    },
+    {
+      "rank": 55,
+      "pokemonJa": "スコヴィラン"
+    },
+    {
+      "rank": 56,
+      "pokemonJa": "エルフーン"
+    },
+    {
+      "rank": 57,
+      "pokemonJa": "バサギリ"
+    },
+    {
+      "rank": 58,
+      "pokemonJa": "ガオガエン"
+    },
+    {
+      "rank": 59,
+      "pokemonJa": "ジャローダ"
+    },
+    {
+      "rank": 60,
+      "pokemonJa": "エルレイド"
+    },
+    {
+      "rank": 61,
+      "pokemonJa": "ダイケンキ"
+    },
+    {
+      "rank": 62,
+      "pokemonJa": "ヒスイゾロアーク"
+    },
+    {
+      "rank": 63,
+      "pokemonJa": "オニシズクモ"
+    },
+    {
+      "rank": 64,
+      "pokemonJa": "ブリムオン"
+    },
+    {
+      "rank": 65,
+      "pokemonJa": "グレンアルマ"
+    },
+    {
+      "rank": 66,
+      "pokemonJa": "イルカマン"
+    },
+    {
+      "rank": 67,
+      "pokemonJa": "ローブシン"
+    },
+    {
+      "rank": 68,
+      "pokemonJa": "ブリガロン"
+    },
+    {
+      "rank": 69,
+      "pokemonJa": "シャンデラ"
+    },
+    {
+      "rank": 70,
+      "pokemonJa": "ヤドキング"
+    },
+    {
+      "rank": 71,
+      "pokemonJa": "メタモン"
+    },
+    {
+      "rank": 72,
+      "pokemonJa": "ミロカロス"
+    },
+    {
+      "rank": 73,
+      "pokemonJa": "ヘラクロス"
+    },
+    {
+      "rank": 74,
+      "pokemonJa": "ヒスイウインディ"
+    },
+    {
+      "rank": 75,
+      "pokemonJa": "ウインディ"
+    },
+    {
+      "rank": 76,
+      "pokemonJa": "ヤドラン"
+    },
+    {
+      "rank": 77,
+      "pokemonJa": "デカヌチャン"
+    },
+    {
+      "rank": 78,
+      "pokemonJa": "オーダイル"
+    },
+    {
+      "rank": 79,
+      "pokemonJa": "ジュペッタ"
+    },
+    {
+      "rank": 80,
+      "pokemonJa": "ウェーニバル"
+    },
+    {
+      "rank": 81,
+      "pokemonJa": "ケケンカニ"
+    },
+    {
+      "rank": 82,
+      "pokemonJa": "プテラ"
+    },
+    {
+      "rank": 83,
+      "pokemonJa": "ミミズズ"
+    },
+    {
+      "rank": 84,
+      "pokemonJa": "ヤバチャ"
+    },
+    {
+      "rank": 85,
+      "pokemonJa": "エーフィ"
+    },
+    {
+      "rank": 86,
+      "pokemonJa": "ボスゴドラ"
+    },
+    {
+      "rank": 87,
+      "pokemonJa": "ルチャブル"
+    },
+    {
+      "rank": 88,
+      "pokemonJa": "スピアー"
+    },
+    {
+      "rank": 89,
+      "pokemonJa": "ヤミラミ"
+    },
+    {
+      "rank": 90,
+      "pokemonJa": "フーディン"
+    },
+    {
+      "rank": 91,
+      "pokemonJa": "シャワーズ"
+    },
+    {
+      "rank": 92,
+      "pokemonJa": "サメハダー"
+    },
+    {
+      "rank": 93,
+      "pokemonJa": "マニューラ"
+    },
+    {
+      "rank": 94,
+      "pokemonJa": "ゴウカザル"
+    },
+    {
+      "rank": 95,
+      "pokemonJa": "イダイトウ(メス)"
+    },
+    {
+      "rank": 96,
+      "pokemonJa": "カットロトム"
+    },
+    {
+      "rank": 97,
+      "pokemonJa": "エンブオー"
+    },
+    {
+      "rank": 98,
+      "pokemonJa": "ユキノオー"
+    },
+    {
+      "rank": 99,
+      "pokemonJa": "チリーン"
+    },
+    {
+      "rank": 100,
+      "pokemonJa": "キョジオーン"
+    },
+    {
+      "rank": 101,
+      "pokemonJa": "バクフーン"
+    },
+    {
+      "rank": 102,
+      "pokemonJa": "ポットデス"
+    },
+    {
+      "rank": 103,
+      "pokemonJa": "ルガルガン"
+    },
+    {
+      "rank": 104,
+      "pokemonJa": "ライボルト"
+    },
+    {
+      "rank": 105,
+      "pokemonJa": "ファイアロー"
+    },
+    {
+      "rank": 106,
+      "pokemonJa": "ビビヨン"
+    },
+    {
+      "rank": 107,
+      "pokemonJa": "バンバドロ"
+    },
+    {
+      "rank": 108,
+      "pokemonJa": "チルタリス"
+    },
+    {
+      "rank": 109,
+      "pokemonJa": "パルデアケンタロス(炎)"
+    },
+    {
+      "rank": 110,
+      "pokemonJa": "ガラルヤドラン"
+    },
+    {
+      "rank": 111,
+      "pokemonJa": "ヒスイジュナイパー"
+    },
+    {
+      "rank": 112,
+      "pokemonJa": "グライオン"
+    },
+    {
+      "rank": 113,
+      "pokemonJa": "エレザード"
+    },
+    {
+      "rank": 114,
+      "pokemonJa": "ドダイトス"
+    },
+    {
+      "rank": 115,
+      "pokemonJa": "カイロス"
+    },
+    {
+      "rank": 116,
+      "pokemonJa": "カイリキー"
+    },
+    {
+      "rank": 117,
+      "pokemonJa": "サンダース"
+    },
+    {
+      "rank": 118,
+      "pokemonJa": "フォレトス"
+    },
+    {
+      "rank": 119,
+      "pokemonJa": "デンリュウ"
+    },
+    {
+      "rank": 120,
+      "pokemonJa": "イッカネズミ"
+    },
+    {
+      "rank": 121,
+      "pokemonJa": "エンニュート"
+    },
+    {
+      "rank": 122,
+      "pokemonJa": "ハガネール"
+    },
+    {
+      "rank": 123,
+      "pokemonJa": "グレイシア"
+    },
+    {
+      "rank": 124,
+      "pokemonJa": "コータス"
+    },
+    {
+      "rank": 125,
+      "pokemonJa": "ジャラランガ"
+    },
+    {
+      "rank": 126,
+      "pokemonJa": "ドデカバシ"
+    },
+    {
+      "rank": 127,
+      "pokemonJa": "デスバーン"
+    },
+    {
+      "rank": 128,
+      "pokemonJa": "ヒスイクレベース"
+    },
+    {
+      "rank": 129,
+      "pokemonJa": "チャーレム"
+    },
+    {
+      "rank": 130,
+      "pokemonJa": "ニョロトノ"
+    },
+    {
+      "rank": 131,
+      "pokemonJa": "ジジーロン"
+    },
+    {
+      "rank": 132,
+      "pokemonJa": "ワルビアル"
+    },
+    {
+      "rank": 133,
+      "pokemonJa": "ヌメルゴン"
+    },
+    {
+      "rank": 134,
+      "pokemonJa": "アマージョ"
+    },
+    {
+      "rank": 135,
+      "pokemonJa": "オンバーン"
+    },
+    {
+      "rank": 136,
+      "pokemonJa": "デスカーン"
+    },
+    {
+      "rank": 137,
+      "pokemonJa": "オニゴーリ"
+    },
+    {
+      "rank": 138,
+      "pokemonJa": "ヤドキング"
+    },
+    {
+      "rank": 139,
+      "pokemonJa": "クレベース"
+    },
+    {
+      "rank": 140,
+      "pokemonJa": "ペロリーム"
+    },
+    {
+      "rank": 141,
+      "pokemonJa": "ドサイドン"
+    },
+    {
+      "rank": 142,
+      "pokemonJa": "バイバニラ"
+    },
+    {
+      "rank": 143,
+      "pokemonJa": "カミツオロチ"
+    },
+    {
+      "rank": 144,
+      "pokemonJa": "ゾロアーク"
+    },
+    {
+      "rank": 145,
+      "pokemonJa": "クレッフィ"
+    },
+    {
+      "rank": 146,
+      "pokemonJa": "アブソル"
+    },
+    {
+      "rank": 147,
+      "pokemonJa": "ピカチュウ"
+    },
+    {
+      "rank": 148,
+      "pokemonJa": "マホイップ"
+    },
+    {
+      "rank": 149,
+      "pokemonJa": "ブロスター"
+    },
+    {
+      "rank": 150,
+      "pokemonJa": "ランクルス"
+    },
+    {
+      "rank": 151,
+      "pokemonJa": "ロズレイド"
+    },
+    {
+      "rank": 152,
+      "pokemonJa": "ゴルーグ"
+    },
+    {
+      "rank": 153,
+      "pokemonJa": "アリアドス"
+    },
+    {
+      "rank": 154,
+      "pokemonJa": "モルペコ"
+    },
+    {
+      "rank": 155,
+      "pokemonJa": "ミカルゲ"
+    },
+    {
+      "rank": 156,
+      "pokemonJa": "フロストロトム"
+    },
+    {
+      "rank": 157,
+      "pokemonJa": "パルデアケンタロス(水)"
+    },
+    {
+      "rank": 158,
+      "pokemonJa": "リキキリン"
+    },
+    {
+      "rank": 159,
+      "pokemonJa": "マッギョ"
+    },
+    {
+      "rank": 160,
+      "pokemonJa": "ニャオニクス"
+    },
+    {
+      "rank": 161,
+      "pokemonJa": "ヘルガー"
+    },
+    {
+      "rank": 162,
+      "pokemonJa": "バクフーン"
+    },
+    {
+      "rank": 163,
+      "pokemonJa": "キュウコン"
+    },
+    {
+      "rank": 164,
+      "pokemonJa": "ピジョット"
+    },
+    {
+      "rank": 165,
+      "pokemonJa": "ドクロッグ"
+    },
+    {
+      "rank": 166,
+      "pokemonJa": "アマルルガ"
+    },
+    {
+      "rank": 167,
+      "pokemonJa": "ガチゴラス"
+    },
+    {
+      "rank": 168,
+      "pokemonJa": "レントラー"
+    },
+    {
+      "rank": 169,
+      "pokemonJa": "バクーダ"
+    },
+    {
+      "rank": 170,
+      "pokemonJa": "サダイジャ"
+    },
+    {
+      "rank": 171,
+      "pokemonJa": "オーロット"
+    },
+    {
+      "rank": 172,
+      "pokemonJa": "ヒスイジュナイパー"
+    },
+    {
+      "rank": 173,
+      "pokemonJa": "リーフィア"
+    },
+    {
+      "rank": 174,
+      "pokemonJa": "ブースター"
+    },
+    {
+      "rank": 175,
+      "pokemonJa": "ニャオニクス(メス)"
+    },
+    {
+      "rank": 176,
+      "pokemonJa": "エモンガ"
+    },
+    {
+      "rank": 177,
+      "pokemonJa": "フラージェス"
+    },
+    {
+      "rank": 178,
+      "pokemonJa": "アローラライチュウ"
+    },
+    {
+      "rank": 179,
+      "pokemonJa": "ゴロンダ"
+    },
+    {
+      "rank": 180,
+      "pokemonJa": "ライチュウ"
+    },
+    {
+      "rank": 181,
+      "pokemonJa": "トリデプス"
+    },
+    {
+      "rank": 182,
+      "pokemonJa": "タルップル"
+    },
+    {
+      "rank": 183,
+      "pokemonJa": "パンプジン"
+    },
+    {
+      "rank": 184,
+      "pokemonJa": "デデンネ"
+    },
+    {
+      "rank": 185,
+      "pokemonJa": "ラムパルド"
+    },
+    {
+      "rank": 186,
+      "pokemonJa": "スピンロトム"
+    },
+    {
+      "rank": 187,
+      "pokemonJa": "ガラルマッギョ"
+    },
+    {
+      "rank": 188,
+      "pokemonJa": "ツンベアー"
+    },
+    {
+      "rank": 189,
+      "pokemonJa": "ルガルガン"
+    },
+    {
+      "rank": 190,
+      "pokemonJa": "アーボック"
+    },
+    {
+      "rank": 191,
+      "pokemonJa": "トリミアン"
+    },
+    {
+      "rank": 192,
+      "pokemonJa": "バリコオル"
+    },
+    {
+      "rank": 193,
+      "pokemonJa": "タブンネ"
+    },
+    {
+      "rank": 194,
+      "pokemonJa": "レパルダス"
+    },
+    {
+      "rank": 195,
+      "pokemonJa": "アヤシシ"
+    },
+    {
+      "rank": 196,
+      "pokemonJa": "ヒスイダイケンキ"
+    },
+    {
+      "rank": 197,
+      "pokemonJa": "ダストダス"
+    },
+    {
+      "rank": 198,
+      "pokemonJa": "アップリュー"
+    },
+    {
+      "rank": 199,
+      "pokemonJa": "ルガルガン(まよなか)"
+    },
+    {
+      "rank": 200,
+      "pokemonJa": "ヒヤッキー"
+    },
+    {
+      "rank": 201,
+      "pokemonJa": "ナゲツケサル"
+    },
+    {
+      "rank": 202,
+      "pokemonJa": "フレフワン"
+    },
+    {
+      "rank": 203,
+      "pokemonJa": "マスキッパ"
+    },
+    {
+      "rank": 204,
+      "pokemonJa": "ブルンゲル"
+    },
+    {
+      "rank": 205,
+      "pokemonJa": "ケンタロス"
+    },
+    {
+      "rank": 206,
+      "pokemonJa": "ヤレユータン"
+    },
+    {
+      "rank": 207,
+      "pokemonJa": "ヤナッキー"
+    },
+    {
+      "rank": 208,
+      "pokemonJa": "ロトム"
+    },
+    {
+      "rank": 209,
+      "pokemonJa": "パルデアケンタロス(格闘)"
+    },
+    {
+      "rank": 210,
+      "pokemonJa": "ポワルン"
+    },
+    {
+      "rank": 211,
+      "pokemonJa": "パンプジン"
+    },
+    {
+      "rank": 212,
+      "pokemonJa": "パンプジン"
+    },
+    {
+      "rank": 213,
+      "pokemonJa": "ミルホッグ"
+    }
+  ]
+}
