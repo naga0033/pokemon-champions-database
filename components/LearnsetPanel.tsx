@@ -24,9 +24,6 @@ export function LearnsetPanel({ learnset, moveMeta }: Props) {
             ポケモンチャンピオンズ用に整理した覚えるわざ一覧です。
           </p>
         </div>
-        <div className="rounded-full bg-violet-50 px-3 py-1 text-xs font-bold text-violet-700">
-          {learnset.moves.length}わざ
-        </div>
       </div>
 
       <div className="mt-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-3 sm:p-4">
@@ -54,7 +51,6 @@ export function LearnsetPanel({ learnset, moveMeta }: Props) {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {learnset.moves.map((move) => {
-          const priority = priorityMoves.find((item) => item.name === move);
           const meta = moveMeta?.[move];
           return (
             <span
@@ -67,11 +63,6 @@ export function LearnsetPanel({ learnset, moveMeta }: Props) {
                 </span>
               )}
               <span>{move}</span>
-              {priority && (
-                <span className="rounded-full bg-lime-100 px-1.5 py-0.5 text-[10px] text-lime-700">
-                  +{priority.priority}
-                </span>
-              )}
             </span>
           );
         })}
