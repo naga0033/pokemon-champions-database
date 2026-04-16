@@ -4,6 +4,67 @@ export type ChampionsLearnset = {
   moves: string[];
 };
 
+const LEARNSET_MOVE_TYPE_FALLBACK: Record<string, string> = {
+  "ギガインパクト": "normal",
+  "すてみタックル": "normal",
+  "あばれる": "normal",
+  "のしかかり": "normal",
+  "からげんき": "normal",
+  "はかいこうせん": "normal",
+  "りんしょう": "normal",
+  "いびき": "normal",
+  "てだすけ": "normal",
+  "ねごと": "normal",
+  "こらえる": "normal",
+  "こわいかお": "normal",
+  "まもる": "normal",
+  "みがわり": "normal",
+  "つるぎのまい": "steel",
+  "ほのおのキバ": "fire",
+  "だいもんじ": "fire",
+  "かえんほうしゃ": "fire",
+  "にほんばれ": "fire",
+  "アクアブレイク": "water",
+  "なみのり": "water",
+  "あまごい": "water",
+  "かみなりのキバ": "electric",
+  "つばめがえし": "flying",
+  "ストーンエッジ": "rock",
+  "いわなだれ": "rock",
+  "がんせきふうじ": "rock",
+  "パワージェム": "rock",
+  "ステルスロック": "rock",
+  "すなあらし": "rock",
+  "どくづき": "poison",
+  "じしん": "ground",
+  "あなをほる": "ground",
+  "じだんだ": "ground",
+  "じならし": "ground",
+  "すなじごく": "ground",
+  "だいちのちから": "ground",
+  "ねっさのだいち": "ground",
+  "マッドショット": "ground",
+  "まきびし": "ground",
+  "かわらわり": "fighting",
+  "ねむる": "psychic",
+  "シャドークロー": "ghost",
+  "げきりん": "dragon",
+  "ドラゴンダイブ": "dragon",
+  "ドラゴンクロー": "dragon",
+  "ワイドブレイカー": "dragon",
+  "ドラゴンテール": "dragon",
+  "スケイルショット": "dragon",
+  "りゅうせいぐん": "dragon",
+  "りゅうのはどう": "dragon",
+  "ドラゴンエール": "dragon",
+  "かみくだく": "dark",
+  "ぶんまわす": "dark",
+  "かみつく": "dark",
+  "なげつける": "dark",
+  "アイアンテール": "steel",
+  "アイアンヘッド": "steel",
+};
+
 const PRIORITY_MOVES: Record<string, number> = {
   "でんこうせっか": 1,
   "しんくうは": 1,
@@ -100,4 +161,8 @@ export function getPriorityMoves(learnset: ChampionsLearnset): Array<{ name: str
     .filter((move) => move in PRIORITY_MOVES)
     .map((move) => ({ name: move, priority: PRIORITY_MOVES[move] }))
     .sort((a, b) => b.priority - a.priority || a.name.localeCompare(b.name, "ja"));
+}
+
+export function getLearnsetMoveTypeFallback(move: string): string | null {
+  return LEARNSET_MOVE_TYPE_FALLBACK[move] ?? null;
 }

@@ -1,4 +1,4 @@
-import { getPriorityMoves, type ChampionsLearnset } from "@/lib/champions-learnsets";
+import { getLearnsetMoveTypeFallback, getPriorityMoves, type ChampionsLearnset } from "@/lib/champions-learnsets";
 import { TypeIcon } from "@/components/TypeIcon";
 import type { MoveMeta } from "@/lib/move-meta";
 
@@ -52,14 +52,16 @@ export function LearnsetPanel({ learnset, moveMeta }: Props) {
       <div className="mt-4 flex flex-wrap gap-2">
         {learnset.moves.map((move) => {
           const meta = moveMeta?.[move];
+          const fallbackType = getLearnsetMoveTypeFallback(move);
+          const type = meta?.type ?? fallbackType;
           return (
             <span
               key={move}
               className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-bold text-slate-700 shadow-sm"
             >
-              {meta && (
+              {type && (
                 <span className="scale-[0.85]">
-                  <TypeIcon type={meta.type} size="sm" />
+                  <TypeIcon type={type} size="sm" />
                 </span>
               )}
               <span>{move}</span>
