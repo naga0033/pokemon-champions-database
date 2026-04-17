@@ -421,7 +421,7 @@ export const MOVE_NAMES_JA: Record<string, string> = {
   "dragon-dance": "りゅうのまい",
   "dual-chop": "ダブルチョップ",
   "core-enforcer": "コアパニッシャー",
-  "clanging-scales": "りゅうのひるがえし",
+  "clanging-scales": "スケイルノイズ",
   "breaking-swipe": "ワイドブレイカー",
   "dynamax-cannon": "ダイマックスほう",
   "eternabeam": "むげんのちから",
