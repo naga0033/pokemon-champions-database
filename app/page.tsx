@@ -46,25 +46,25 @@ export default async function HomePage({ searchParams }: PageProps) {
       <ViewTabs current={view} />
 
       {/* シーズン + フォーマット切替 */}
-      <section className="flex flex-col gap-3 rounded-2xl border border-violet-100 bg-white/85 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-4">
-        <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
-          <span className="font-display shrink-0 text-[9px] font-bold uppercase tracking-[0.25em] text-indigo-600 sm:text-[10px] sm:tracking-[0.3em]">
-            SEASON
-          </span>
-          {allSeasons.length > 0 && season ? (
-            <SeasonSelect seasons={allSeasons} currentSeasonId={season.id} format={format} />
-          ) : (
-            <span className="text-xs text-slate-400">データ準備中…</span>
-          )}
-        </div>
-        <div className="flex shrink-0 flex-col items-end gap-1.5">
-          {updatedAtLabel && (
-            <p className="text-[10px] text-slate-400">
-              最終更新: {updatedAtLabel}
-            </p>
-          )}
+      <section className="flex flex-col gap-2 rounded-2xl border border-violet-100 bg-white/85 p-3 sm:p-4">
+        <div className="flex items-center justify-between">
+          <div className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
+            <span className="font-display shrink-0 text-[9px] font-bold uppercase tracking-[0.25em] text-indigo-600 sm:text-[10px] sm:tracking-[0.3em]">
+              SEASON
+            </span>
+            {allSeasons.length > 0 && season ? (
+              <SeasonSelect seasons={allSeasons} currentSeasonId={season.id} format={format} />
+            ) : (
+              <span className="text-xs text-slate-400">データ準備中…</span>
+            )}
+          </div>
           <FormatSwitch current={format} view={view} seasonId={season?.id} />
         </div>
+        {updatedAtLabel && (
+          <p className="text-center text-[10px] text-slate-400">
+            最終更新: {updatedAtLabel}
+          </p>
+        )}
       </section>
 
       {/* コンテンツ */}
