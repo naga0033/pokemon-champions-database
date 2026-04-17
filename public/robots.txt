@@ -1,0 +1,44 @@
+# 通常の検索エンジン（SEO）は許可
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI学習クローラーを拒否
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# その他すべて許可
+User-agent: *
+Allow: /
