@@ -47,20 +47,12 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
 
   return (
     <div className="space-y-6">
-      {/* ランキングへ戻るリンク + ポケモン検索 */}
-      <div className="flex items-center gap-3">
-        <Link
-          href={`/?format=${format}&season=${season.id}`}
-          className="hidden sm:block shrink-0 rounded-lg border border-slate-200 bg-white/80 px-3 py-1.5 text-xs font-bold text-slate-500 shadow-sm hover:border-indigo-300 hover:text-indigo-600 transition-colors"
-        >
-          ← ランキング
-        </Link>
-        <PokemonSearchNav
-          entries={rankingEntries}
-          format={format}
-          seasonId={season.id}
-        />
-      </div>
+      {/* ポケモン検索 (ヘッダーロゴ→トップ復帰できるので戻るボタンは廃止) */}
+      <PokemonSearchNav
+        entries={rankingEntries}
+        format={format}
+        seasonId={season.id}
+      />
 
       {/* プロフィールヘッダー (メガシンカ切り替え対応) */}
       <section className="rounded-3xl border border-violet-100 bg-white/85 p-4 shadow-sm sm:p-5 md:p-7">
