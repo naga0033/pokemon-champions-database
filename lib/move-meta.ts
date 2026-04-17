@@ -18,6 +18,7 @@ const TYPO_ALIAS: Record<string, string> = {
 const MOVE_META_OVERRIDE: Record<string, MoveMeta> = {
   "しっとのほのお": { type: "fire", category: "special" },
   "ハバネロエキス": { type: "grass", category: "status" },
+  "めいそう": { type: "psychic", category: "status" },
 };
 
 // 日本語名 → 英語 slug 逆引き (モジュールスコープでキャッシュ)
