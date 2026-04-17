@@ -134,14 +134,14 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
             target="_blank"
             className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
           >
-            📋 {detail.pokemonJa} を含む構築を探す
+            {detail.pokemonJa} を含む構築を探す
           </Link>
           <Link
-            href="https://pokemon-damage-calc.vercel.app/"
+            href={`https://pokemon-damage-calc.vercel.app/?attacker=${encodeURIComponent(detail.pokemonSlug)}&defender=${encodeURIComponent(detail.pokemonSlug)}`}
             target="_blank"
             className="rounded-full bg-white px-4 py-1.5 text-xs font-bold text-indigo-700 shadow hover:bg-indigo-600 hover:text-white"
           >
-            ⚡ ダメージ計算
+            ダメージ計算
           </Link>
         </div>
       </section>
