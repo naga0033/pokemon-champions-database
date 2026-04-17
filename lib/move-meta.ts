@@ -71,5 +71,11 @@ export async function fetchMoveMetaMap(jaNames: string[]): Promise<Record<string
       if (meta) out[ja] = meta;
     }
   }
+  // フォールバック: PokeAPI 取得失敗時に MOVE_META_OVERRIDE を直接適用
+  for (const name of unique) {
+    if (!out[name] && MOVE_META_OVERRIDE[name]) {
+      out[name] = MOVE_META_OVERRIDE[name];
+    }
+  }
   return out;
 }
