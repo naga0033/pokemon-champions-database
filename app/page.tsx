@@ -40,15 +40,15 @@ export default async function HomePage({ searchParams }: PageProps) {
 
   return (
     <div className="space-y-4">
-      {/* ビュー切替タブ (トレーナー / ポケモン) */}
-      <ViewTabs current={view} />
-
       {/* 最終更新日時 */}
       {updatedAtLabel && (
-        <p className="text-right text-[10px] text-slate-400">
+        <p className="pr-1 text-right text-[11px] font-medium text-slate-600">
           最終更新: {updatedAtLabel}
         </p>
       )}
+
+      {/* ビュー切替タブ (トレーナー / ポケモン) */}
+      <ViewTabs current={view} />
 
       {/* シーズン + フォーマット切替 */}
       <section className="flex items-center justify-between gap-2 rounded-2xl border border-violet-100 bg-white/85 p-3 sm:p-4">
