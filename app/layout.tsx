@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   description:
     "ポケモンチャンピオンズの使用率ランキング・覚えるわざ・持ち物・特性・性格・努力値をまとめた非公式バトルサポートサイト。スマホでも見やすい。",
   icons: { icon: "/icon.png" },
+  verification: {
+    google: "SVnN5CMqmQGeKA9VRUEXmTWIen8hB-kqg3ZEwqlpWWw",
+  },
   openGraph: {
     title: "ポケモンバトルサポート",
     description:
