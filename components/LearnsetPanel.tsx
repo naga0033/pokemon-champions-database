@@ -96,6 +96,10 @@ export function LearnsetPanel({ learnset, moveMeta }: Props) {
               type="button"
               onClick={(event) => note && openNote(move, event.currentTarget)}
               onMouseEnter={(event) => note && openNote(move, event.currentTarget)}
+              onMouseLeave={() => {
+                setActiveMove(null);
+                setPopoverStyle(null);
+              }}
               className={`group inline-flex items-center gap-1.5 rounded-full border bg-white px-2.5 py-1.5 text-xs font-bold text-slate-700 shadow-sm transition hover:border-violet-200 hover:bg-violet-50 ${
                 activeMove === move ? "border-violet-300 bg-violet-50" : "border-slate-200"
               }`}
