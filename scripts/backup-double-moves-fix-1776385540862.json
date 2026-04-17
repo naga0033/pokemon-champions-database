@@ -1,0 +1,8224 @@
+[
+  {
+    "id": 371,
+    "pokemon_slug": "abomasnow",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 446,
+    "pokemon_slug": "absol",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 304,
+    "pokemon_slug": "aegislash",
+    "moves": [
+      {
+        "name": "キングシールド",
+        "rank": 1,
+        "percentage": 95.9
+      },
+      {
+        "name": "かげうち",
+        "rank": 2,
+        "percentage": 66.5
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 3,
+        "percentage": 60.7
+      },
+      {
+        "name": "ポルターガイスト",
+        "rank": 4,
+        "percentage": 58.7
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 5,
+        "percentage": 25
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 6,
+        "percentage": 23.7
+      },
+      {
+        "name": "せいなるつるぎ",
+        "rank": 7,
+        "percentage": 21.7
+      },
+      {
+        "name": "ラスターカノン",
+        "rank": 8,
+        "percentage": 20.7
+      },
+      {
+        "name": "インファイト",
+        "rank": 9,
+        "percentage": 11.5
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 10,
+        "percentage": 4.5
+      }
+    ],
+    "items": [
+      {
+        "name": "のろいのおふだ",
+        "rank": 1,
+        "percentage": 44.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 24.7
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 3,
+        "percentage": 5.9
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 3.7
+      },
+      {
+        "name": "メタルコート",
+        "rank": 6,
+        "percentage": 3
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 7,
+        "percentage": 2.2
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 8,
+        "percentage": 2
+      },
+      {
+        "name": "カシブのみ",
+        "rank": 9,
+        "percentage": 1.6
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 10,
+        "percentage": 1.3
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "pokemon_slug": "aerodactyl",
+    "moves": [
+      {
+        "name": "いわなだれ*",
+        "rank": 2,
+        "percentage": 92.4
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 85.4
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 5,
+        "percentage": 11.8
+      },
+      {
+        "name": "こおりのキバ",
+        "rank": 6,
+        "percentage": 4.3
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 7,
+        "percentage": 3
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 8,
+        "percentage": 2.7
+      },
+      {
+        "name": "じしん",
+        "rank": 9,
+        "percentage": 1.8
+      },
+      {
+        "name": "かみくだ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 75.1
+      },
+      {
+        "name": "プテラナイト",
+        "rank": 2,
+        "percentage": 15.3
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 3,
+        "percentage": 1.8
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 4,
+        "percentage": 1.7
+      },
+      {
+        "name": "しろいハープ",
+        "rank": 6,
+        "percentage": 1
+      },
+      {
+        "name": "するどいくちばし",
+        "rank": 7,
+        "percentage": 0.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 0.5
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "pokemon_slug": "aggron",
+    "moves": [
+      {
+        "name": "ボディプレス",
+        "rank": 1,
+        "percentage": 94.3
+      },
+      {
+        "name": "ヘビーボンバー",
+        "rank": 2,
+        "percentage": 86
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 84
+      },
+      {
+        "name": "てっぺき",
+        "rank": 4,
+        "percentage": 74.9
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 5,
+        "percentage": 17.6
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 6,
+        "percentage": 10.8
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 7,
+        "percentage": 4
+      },
+      {
+        "name": "のろい",
+        "rank": 8,
+        "percentage": 3.2
+      },
+      {
+        "name": "ストーンエッジ",
+        "rank": 9,
+        "percentage": 3.2
+      },
+      {
+        "name": "じしん",
+        "rank": 10,
+        "percentage": 2.9
+      }
+    ],
+    "items": [
+      {
+        "name": "ボスゴドラナイト",
+        "rank": 1,
+        "percentage": 95.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 0.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 0.5
+      },
+      {
+        "name": "かたいいし",
+        "rank": 4,
+        "percentage": 0.4
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 5,
+        "percentage": 0.4
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 0.3
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 7,
+        "percentage": 0.3
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 0.3
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0.3
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 10,
+        "percentage": 0.3
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "pokemon_slug": "alakazam",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 408,
+    "pokemon_slug": "alcremie",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 368,
+    "pokemon_slug": "altaria",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 381,
+    "pokemon_slug": "ampharos",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 464,
+    "pokemon_slug": "appletun",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 359,
+    "pokemon_slug": "araquanid",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 469,
+    "pokemon_slug": "arbok",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 319,
+    "pokemon_slug": "arcanine",
+    "moves": [
+      {
+        "name": "フレアドライブ",
+        "rank": 1,
+        "percentage": 84
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 71.8
+      },
+      {
+        "name": "おにび",
+        "rank": 3,
+        "percentage": 58
+      },
+      {
+        "name": "バークアウト",
+        "rank": 4,
+        "percentage": 57.5
+      },
+      {
+        "name": "しんそく",
+        "rank": 5,
+        "percentage": 50
+      },
+      {
+        "name": "インファイト",
+        "rank": 6,
+        "percentage": 14.6
+      },
+      {
+        "name": "じゃれつく",
+        "rank": 7,
+        "percentage": 9.5
+      },
+      {
+        "name": "ワイルドボルト",
+        "rank": 8,
+        "percentage": 8.6
+      },
+      {
+        "name": "じならし",
+        "rank": 9,
+        "percentage": 7.9
+      },
+      {
+        "name": "ねっぷう",
+        "rank": 10,
+        "percentage": 6.3
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 67.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 10
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 3,
+        "percentage": 4.4
+      },
+      {
+        "name": "もくたん",
+        "rank": 4,
+        "percentage": 3.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 3
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 6,
+        "percentage": 1.8
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 7,
+        "percentage": 1.8
+      },
+      {
+        "name": "イトケのみ",
+        "rank": 8,
+        "percentage": 1.5
+      },
+      {
+        "name": "くろおび",
+        "rank": 9,
+        "percentage": 1.3
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 1.2
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "pokemon_slug": "arcanine-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 500,
+    "pokemon_slug": "archaludon",
+    "moves": [
+      {
+        "name": "エレクトロビーム",
+        "rank": 1,
+        "percentage": 92.5
+      },
+      {
+        "name": "ラスターカノン◎",
+        "rank": 2,
+        "percentage": 90.4
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 78
+      },
+      {
+        "name": "りゅうせいぐん◎",
+        "rank": 4,
+        "percentage": 60.2
+      },
+      {
+        "name": "はどうだん",
+        "rank": 6,
+        "percentage": 26.8
+      },
+      {
+        "name": "バークアウト",
+        "rank": 7,
+        "percentage": 8.3
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 8,
+        "percentage": 6.1
+      },
+      {
+        "name": "てっていこうせん◎",
+        "rank": 9,
+        "percentage": 1.1
+      },
+      {
+        "name": "あくのはど",
+        "rank": 10,
+        "percentage": 1
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 54.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 10.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 3,
+        "percentage": 9.1
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 4,
+        "percentage": 7.5
+      },
+      {
+        "name": "じしゃ",
+        "rank": 6,
+        "percentage": 4
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 7,
+        "percentage": 2.4
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 2.2
+      },
+      {
+        "name": "りゅうのキバ",
+        "rank": 9,
+        "percentage": 1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "pokemon_slug": "ariados",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 361,
+    "pokemon_slug": "armarouge",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 438,
+    "pokemon_slug": "aromatisse",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 456,
+    "pokemon_slug": "audino",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 430,
+    "pokemon_slug": "aurorus",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 451,
+    "pokemon_slug": "avalugg",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 459,
+    "pokemon_slug": "avalugg-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 358,
+    "pokemon_slug": "azumarill",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 421,
+    "pokemon_slug": "banette",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 294,
+    "pokemon_slug": "basculegion",
+    "moves": [
+      {
+        "name": "おはかまいり",
+        "rank": 1,
+        "percentage": 99.5
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 24.5
+      },
+      {
+        "name": "アクアプレイク",
+        "rank": 6,
+        "percentage": 5.4
+      },
+      {
+        "name": "サイコファング氷",
+        "rank": 7,
+        "percentage": 4.3
+      },
+      {
+        "name": "こおりのキバネ",
+        "rank": 8,
+        "percentage": 2.7
+      },
+      {
+        "name": "もろはのずつ",
+        "rank": 9,
+        "percentage": 2
+      },
+      {
+        "name": "こごえるかぜ◎",
+        "rank": 10,
+        "percentage": 1.5
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 69
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 2
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 6,
+        "percentage": 0.8
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 7,
+        "percentage": 0.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "pokemon_slug": "basculegion-female",
+    "moves": [
+      {
+        "name": "シャドーボール",
+        "rank": 1,
+        "percentage": 52
+      },
+      {
+        "name": "おはかまいり",
+        "rank": 2,
+        "percentage": 47.7
+      },
+      {
+        "name": "クイックターン",
+        "rank": 3,
+        "percentage": 45.7
+      },
+      {
+        "name": "だくりゅう",
+        "rank": 4,
+        "percentage": 45.2
+      },
+      {
+        "name": "ウェーブタックル",
+        "rank": 5,
+        "percentage": 44
+      },
+      {
+        "name": "アクアジェット",
+        "rank": 6,
+        "percentage": 44
+      },
+      {
+        "name": "まもる",
+        "rank": 7,
+        "percentage": 36.2
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 8,
+        "percentage": 25.1
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 9,
+        "percentage": 18.7
+      },
+      {
+        "name": "ハイドロポンプ",
+        "rank": 10,
+        "percentage": 12.1
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 53.7
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 2,
+        "percentage": 27.8
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 3,
+        "percentage": 7.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 2.9
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 5,
+        "percentage": 2
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 6,
+        "percentage": 1.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 7,
+        "percentage": 1
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 10,
+        "percentage": 0.5
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "pokemon_slug": "bastiodon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 436,
+    "pokemon_slug": "beartic",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 419,
+    "pokemon_slug": "beedrill",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 394,
+    "pokemon_slug": "bellibolt",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 308,
+    "pokemon_slug": "blastoise",
+    "moves": [
+      {
+        "name": "しおふき",
+        "rank": 1,
+        "percentage": 82.4
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 74.8
+      },
+      {
+        "name": "はどうだん",
+        "rank": 3,
+        "percentage": 44.2
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 4,
+        "percentage": 40.9
+      },
+      {
+        "name": "あくのはどう",
+        "rank": 5,
+        "percentage": 33.9
+      },
+      {
+        "name": "からをやぶる",
+        "rank": 6,
+        "percentage": 33
+      },
+      {
+        "name": "ねこだまし",
+        "rank": 7,
+        "percentage": 27.8
+      },
+      {
+        "name": "みずのはどう",
+        "rank": 8,
+        "percentage": 18.3
+      },
+      {
+        "name": "だくりゅう",
+        "rank": 9,
+        "percentage": 7.6
+      },
+      {
+        "name": "りゅうのはどう",
+        "rank": 10,
+        "percentage": 7
+      }
+    ],
+    "items": [
+      {
+        "name": "カメックスナイト",
+        "rank": 1,
+        "percentage": 84.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 4.5
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 3,
+        "percentage": 2.7
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 1.8
+      },
+      {
+        "name": "リンドのみ",
+        "rank": 6,
+        "percentage": 1
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 7,
+        "percentage": 1
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 8,
+        "percentage": 0.4
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "pokemon_slug": "camerupt",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 468,
+    "pokemon_slug": "castform",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 370,
+    "pokemon_slug": "ceruledge",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 357,
+    "pokemon_slug": "chandelure",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 321,
+    "pokemon_slug": "charizard",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 96.3
+      },
+      {
+        "name": "オーバーヒート◎",
+        "rank": 6,
+        "percentage": 16.7
+      },
+      {
+        "name": "りゅうのはどう◎",
+        "rank": 7,
+        "percentage": 6.1
+      },
+      {
+        "name": "フレアドライプ",
+        "rank": 8,
+        "percentage": 5.6
+      },
+      {
+        "name": "ねっさのだいち◎",
+        "rank": 9,
+        "percentage": 5.5
+      },
+      {
+        "name": "ドラゴンクロー",
+        "rank": 10,
+        "percentage": 5.1
+      }
+    ],
+    "items": [
+      {
+        "name": "リザードナイトY",
+        "rank": 1,
+        "percentage": 93.1
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 0.3
+      },
+      {
+        "name": "もくたん",
+        "rank": 4,
+        "percentage": 0.1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 6,
+        "percentage": 0.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 7,
+        "percentage": 0
+      },
+      {
+        "name": "ヨロギのみ",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "かたいいし",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "pokemon_slug": "chesnaught",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 387,
+    "pokemon_slug": "chimecho",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 426,
+    "pokemon_slug": "clawitzer",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 314,
+    "pokemon_slug": "clefable",
+    "moves": [
+      {
+        "name": "このゆびとまれ",
+        "rank": 1,
+        "percentage": 95
+      },
+      {
+        "name": "ムーンフォース",
+        "rank": 2,
+        "percentage": 88
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 75.1
+      },
+      {
+        "name": "てだすけ",
+        "rank": 4,
+        "percentage": 62
+      },
+      {
+        "name": "いのちのしずく",
+        "rank": 5,
+        "percentage": 16.2
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 6,
+        "percentage": 8.1
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 7,
+        "percentage": 6.4
+      },
+      {
+        "name": "でんじは",
+        "rank": 8,
+        "percentage": 6.1
+      },
+      {
+        "name": "アンコール",
+        "rank": 9,
+        "percentage": 3.5
+      },
+      {
+        "name": "あまえる",
+        "rank": 10,
+        "percentage": 3.2
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 60
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 14.8
+      },
+      {
+        "name": "ピクシナイト",
+        "rank": 3,
+        "percentage": 11.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 4,
+        "percentage": 3.9
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 5,
+        "percentage": 2.2
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 6,
+        "percentage": 1.7
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 1.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 9,
+        "percentage": 1
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "pokemon_slug": "cofagrigus",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 348,
+    "pokemon_slug": "conkeldurr",
+    "moves": [
+      {
+        "name": "ドレインパンチ",
+        "rank": 1,
+        "percentage": 86.1
+      },
+      {
+        "name": "マッハパンチ",
+        "rank": 2,
+        "percentage": 76.3
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 3,
+        "percentage": 52.2
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 38.5
+      },
+      {
+        "name": "かみなりパンチ",
+        "rank": 5,
+        "percentage": 35.5
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 6,
+        "percentage": 21.8
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 7,
+        "percentage": 21.7
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 8,
+        "percentage": 17.8
+      },
+      {
+        "name": "みきり",
+        "rank": 9,
+        "percentage": 10.1
+      },
+      {
+        "name": "インファイト",
+        "rank": 10,
+        "percentage": 8.1
+      }
+    ],
+    "items": [
+      {
+        "name": "くろおび",
+        "rank": 1,
+        "percentage": 41.9
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 2,
+        "percentage": 16.8
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 12
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 9.6
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 5,
+        "percentage": 6.3
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 2.9
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 7,
+        "percentage": 2.4
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 8,
+        "percentage": 2.2
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 9,
+        "percentage": 1.7
+      },
+      {
+        "name": "ロゼルのみ",
+        "rank": 10,
+        "percentage": 1.5
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "pokemon_slug": "corviknight",
+    "moves": [
+      {
+        "name": "プレイブバード",
+        "rank": 1,
+        "percentage": 75.5
+      },
+      {
+        "name": "てっぺ",
+        "rank": 6,
+        "percentage": 34.4
+      },
+      {
+        "name": "ビルドアップ",
+        "rank": 7,
+        "percentage": 29.7
+      },
+      {
+        "name": "まもる",
+        "rank": 8,
+        "percentage": 24.8
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 9,
+        "percentage": 4.4
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 70.4
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 13.6
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 3,
+        "percentage": 6.4
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 6,
+        "percentage": 1.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 7,
+        "percentage": 1
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 8,
+        "percentage": 0.8
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 10,
+        "percentage": 0.6
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "pokemon_slug": "crabominable",
+    "moves": [
+      {
+        "name": "アイスハンマー",
+        "rank": 1,
+        "percentage": 86.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 81.8
+      },
+      {
+        "name": "ドレインパンチ",
+        "rank": 3,
+        "percentage": 76.5
+      },
+      {
+        "name": "マッハパンチ",
+        "rank": 4,
+        "percentage": 59
+      },
+      {
+        "name": "かみなりパンチ",
+        "rank": 5,
+        "percentage": 27.8
+      },
+      {
+        "name": "インファイト",
+        "rank": 6,
+        "percentage": 22.7
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 7,
+        "percentage": 11.8
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 8,
+        "percentage": 6.4
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 9,
+        "percentage": 6.1
+      },
+      {
+        "name": "クラブハンマー",
+        "rank": 10,
+        "percentage": 5.1
+      }
+    ],
+    "items": [
+      {
+        "name": "ケケンカニナイト",
+        "rank": 1,
+        "percentage": 97
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 1
+      },
+      {
+        "name": "くろおび",
+        "rank": 3,
+        "percentage": 0.3
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 4,
+        "percentage": 0.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 0.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 6,
+        "percentage": 0.2
+      },
+      {
+        "name": "とけないこおり",
+        "rank": 7,
+        "percentage": 0.1
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 8,
+        "percentage": 0.1
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 9,
+        "percentage": 0.1
+      },
+      {
+        "name": "ユキノオーナイト",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "pokemon_slug": "decidueye",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 634,
+    "pokemon_slug": "decidueye-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 473,
+    "pokemon_slug": "dedenne",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 298,
+    "pokemon_slug": "delphox",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 97.3
+      },
+      {
+        "name": "ねっぷう◎",
+        "rank": 2,
+        "percentage": 96.8
+      },
+      {
+        "name": "サイコキネシス◎",
+        "rank": 3,
+        "percentage": 90
+      },
+      {
+        "name": "アンコール",
+        "rank": 4,
+        "percentage": 33.7
+      },
+      {
+        "name": "みがわり",
+        "rank": 5,
+        "percentage": 31.7
+      },
+      {
+        "name": "わるだくみ",
+        "rank": 6,
+        "percentage": 12
+      },
+      {
+        "name": "サイコショック",
+        "rank": 7,
+        "percentage": 7.6
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 8,
+        "percentage": 7.3
+      },
+      {
+        "name": "かえんほうしゃ◎",
+        "rank": 9,
+        "percentage": 4.1
+      },
+      {
+        "name": "めいそ",
+        "rank": 10,
+        "percentage": 3.7
+      }
+    ],
+    "items": [
+      {
+        "name": "マフオクシナイト",
+        "rank": 1,
+        "percentage": 98.8
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 0.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 0.1
+      },
+      {
+        "name": "まがったスプーン",
+        "rank": 6,
+        "percentage": 0
+      },
+      {
+        "name": "しろいハープ",
+        "rank": 7,
+        "percentage": 0
+      },
+      {
+        "name": "たべのこし",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "イトケのみ",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "pokemon_slug": "diggersby",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 399,
+    "pokemon_slug": "ditto",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 309,
+    "pokemon_slug": "dragapult",
+    "moves": [
+      {
+        "name": "ドラゴンアロー",
+        "rank": 1,
+        "percentage": 53
+      },
+      {
+        "name": "ゴーストダイブ",
+        "rank": 2,
+        "percentage": 44.2
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 42.7
+      },
+      {
+        "name": "おにび",
+        "rank": 4,
+        "percentage": 40.2
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 5,
+        "percentage": 40
+      },
+      {
+        "name": "りゅうせいぐん",
+        "rank": 6,
+        "percentage": 38.9
+      },
+      {
+        "name": "サイコファング",
+        "rank": 7,
+        "percentage": 35
+      },
+      {
+        "name": "とんぼがえり",
+        "rank": 8,
+        "percentage": 27.5
+      },
+      {
+        "name": "ふいうち",
+        "rank": 9,
+        "percentage": 12.8
+      },
+      {
+        "name": "りゅうのまい",
+        "rank": 10,
+        "percentage": 7.3
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 23.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 2,
+        "percentage": 21.7
+      },
+      {
+        "name": "りゅうのキバ",
+        "rank": 3,
+        "percentage": 18.3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 4,
+        "percentage": 7.3
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 5.4
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 6,
+        "percentage": 4.3
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 7,
+        "percentage": 3.4
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 8,
+        "percentage": 2.2
+      },
+      {
+        "name": "カシブのみ",
+        "rank": 9,
+        "percentage": 2.2
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 10,
+        "percentage": 2
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "pokemon_slug": "dragonite",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 69.5
+      },
+      {
+        "name": "ぽうふぅ◎",
+        "rank": 2,
+        "percentage": 46.5
+      },
+      {
+        "name": "しんそ",
+        "rank": 4,
+        "percentage": 41.5
+      },
+      {
+        "name": "ぉいかせ⑦",
+        "rank": 5,
+        "percentage": 31.2
+      },
+      {
+        "name": "りゅうのはど",
+        "rank": 6,
+        "percentage": 23.8
+      },
+      {
+        "name": "かみなり",
+        "rank": 7,
+        "percentage": 18
+      },
+      {
+        "name": "スケイルショット",
+        "rank": 8,
+        "percentage": 15
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 9,
+        "percentage": 14.3
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 10,
+        "percentage": 8.8
+      }
+    ],
+    "items": [
+      {
+        "name": "カイリュナイト",
+        "rank": 1,
+        "percentage": 65.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 2,
+        "percentage": 12.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 3.7
+      },
+      {
+        "name": "りゅうのキバ",
+        "rank": 6,
+        "percentage": 2.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 7,
+        "percentage": 1.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 8,
+        "percentage": 1.5
+      },
+      {
+        "name": "ヤチエのみ",
+        "rank": 9,
+        "percentage": 1.3
+      },
+      {
+        "name": "ハバンのみ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "pokemon_slug": "drampa",
+    "moves": [
+      {
+        "name": "ハイパーボイス",
+        "rank": 1,
+        "percentage": 92
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 77.4
+      },
+      {
+        "name": "りゅうせいぐん",
+        "rank": 3,
+        "percentage": 42.2
+      },
+      {
+        "name": "だいちのちから",
+        "rank": 4,
+        "percentage": 35.5
+      },
+      {
+        "name": "りゅうのはどう",
+        "rank": 5,
+        "percentage": 33.2
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 6,
+        "percentage": 29.2
+      },
+      {
+        "name": "めいそう",
+        "rank": 7,
+        "percentage": 24
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 8,
+        "percentage": 16.2
+      },
+      {
+        "name": "ねっぷう",
+        "rank": 9,
+        "percentage": 13.3
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 10,
+        "percentage": 7.3
+      }
+    ],
+    "items": [
+      {
+        "name": "ジジーロンナイト",
+        "rank": 1,
+        "percentage": 82.3
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 2,
+        "percentage": 3.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 3
+      },
+      {
+        "name": "シルクのスカーフ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 5,
+        "percentage": 2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 1.3
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 7,
+        "percentage": 0.8
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "ハバンのみ",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "ヤチェのみ",
+        "rank": 10,
+        "percentage": 0.6
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "pokemon_slug": "emboar",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 462,
+    "pokemon_slug": "emolga",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 346,
+    "pokemon_slug": "empoleon",
+    "moves": [
+      {
+        "name": "ラスターカノン",
+        "rank": 1,
+        "percentage": 89.6
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 82.1
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 3,
+        "percentage": 42.5
+      },
+      {
+        "name": "ハイドロポンプ",
+        "rank": 4,
+        "percentage": 41.2
+      },
+      {
+        "name": "みずのはどう",
+        "rank": 5,
+        "percentage": 28.7
+      },
+      {
+        "name": "ほえる",
+        "rank": 6,
+        "percentage": 24.7
+      },
+      {
+        "name": "なみのり",
+        "rank": 7,
+        "percentage": 20.1
+      },
+      {
+        "name": "しんくうは",
+        "rank": 8,
+        "percentage": 16.2
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 9,
+        "percentage": 12.6
+      },
+      {
+        "name": "ふぶき",
+        "rank": 10,
+        "percentage": 6.5
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 45.2
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 2,
+        "percentage": 13.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 11.8
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 4,
+        "percentage": 8
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 5,
+        "percentage": 7.1
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 4.1
+      },
+      {
+        "name": "メタルコート",
+        "rank": 7,
+        "percentage": 1.7
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 8,
+        "percentage": 1.7
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 9,
+        "percentage": 1.6
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 10,
+        "percentage": 1.2
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "pokemon_slug": "espathra",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 441,
+    "pokemon_slug": "espeon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 497,
+    "pokemon_slug": "excadrill",
+    "moves": [
+      {
+        "name": "アイアンヘッド",
+        "rank": 1,
+        "percentage": 94.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 89.5
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 3,
+        "percentage": 69.9
+      },
+      {
+        "name": "じしん",
+        "rank": 4,
+        "percentage": 60.2
+      },
+      {
+        "name": "10まんばり",
+        "rank": 5,
+        "percentage": 58.2
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 6,
+        "percentage": 8.6
+      },
+      {
+        "name": "ドリルライナー",
+        "rank": 7,
+        "percentage": 4.8
+      },
+      {
+        "name": "つのドリル",
+        "rank": 8,
+        "percentage": 3.2
+      },
+      {
+        "name": "じだんだ",
+        "rank": 9,
+        "percentage": 2.9
+      },
+      {
+        "name": "じわれ",
+        "rank": 10,
+        "percentage": 1.6
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 78
+      },
+      {
+        "name": "ドリュウズナイト",
+        "rank": 2,
+        "percentage": 6
+      },
+      {
+        "name": "やわらかいすな",
+        "rank": 4,
+        "percentage": 3
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 6,
+        "percentage": 1.1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 0.8
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "pokemon_slug": "farigiraf",
+    "moves": [
+      {
+        "name": "トリックルーム",
+        "rank": 1,
+        "percentage": 94.3
+      },
+      {
+        "name": "ハイパーボイス◎",
+        "rank": 2,
+        "percentage": 64.1
+      },
+      {
+        "name": "サイコキネシス◎",
+        "rank": 3,
+        "percentage": 64.1
+      },
+      {
+        "name": "てだすけ",
+        "rank": 4,
+        "percentage": 45.9
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 45.5
+      },
+      {
+        "name": "ふういん",
+        "rank": 6,
+        "percentage": 13.6
+      },
+      {
+        "name": "ツインビーム",
+        "rank": 7,
+        "percentage": 11.8
+      },
+      {
+        "name": "マジカルシャイン◎",
+        "rank": 8,
+        "percentage": 10.5
+      },
+      {
+        "name": "サイドチェンジ",
+        "rank": 9,
+        "percentage": 7.9
+      },
+      {
+        "name": "イカサマ*",
+        "rank": 10,
+        "percentage": 7.4
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 39.4
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 2,
+        "percentage": 17.8
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 3,
+        "percentage": 16.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 11.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 6,
+        "percentage": 3.4
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.6
+      },
+      {
+        "name": "まがったスプーン",
+        "rank": 9,
+        "percentage": 1.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "pokemon_slug": "feraligatr",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 470,
+    "pokemon_slug": "flapple",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 475,
+    "pokemon_slug": "flareon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 494,
+    "pokemon_slug": "floette-eternal",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 98.3
+      },
+      {
+        "name": "マジカルシャイン◎",
+        "rank": 2,
+        "percentage": 94.9
+      },
+      {
+        "name": "めいそうC",
+        "rank": 3,
+        "percentage": 77.8
+      },
+      {
+        "name": "ムーンフォース◎",
+        "rank": 4,
+        "percentage": 73.5
+      },
+      {
+        "name": "ドレインキッス◎",
+        "rank": 5,
+        "percentage": 23
+      },
+      {
+        "name": "はめつのひかり",
+        "rank": 6,
+        "percentage": 21.5
+      },
+      {
+        "name": "サイコキネシス◎",
+        "rank": 7,
+        "percentage": 5.4
+      }
+    ],
+    "items": [
+      {
+        "name": "フラエッテナイト",
+        "rank": 1,
+        "percentage": 99.3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 0.4
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 3,
+        "percentage": 0.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 0
+      },
+      {
+        "name": "マフォクシナイト",
+        "rank": 6,
+        "percentage": 0
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 0
+      },
+      {
+        "name": "サーナイトナイト",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "ゲンガナイト",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "ユキメノコナイト",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "pokemon_slug": "florges",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 481,
+    "pokemon_slug": "forretress",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 506,
+    "pokemon_slug": "froslass",
+    "moves": [
+      {
+        "name": "ふぶ",
+        "rank": 1,
+        "percentage": 98.9
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 6,
+        "percentage": 9.1
+      },
+      {
+        "name": "みがわり",
+        "rank": 7,
+        "percentage": 3.7
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 8,
+        "percentage": 3.5
+      },
+      {
+        "name": "みちづれ",
+        "rank": 9,
+        "percentage": 3
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 10,
+        "percentage": 2
+      }
+    ],
+    "items": [
+      {
+        "name": "ユキメノコナイト",
+        "rank": 1,
+        "percentage": 99
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 0.3
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 4,
+        "percentage": 0.1
+      },
+      {
+        "name": "とけないこおり",
+        "rank": 6,
+        "percentage": 0
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 7,
+        "percentage": 0
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "ユキノオナイト",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "pokemon_slug": "furfrou",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 340,
+    "pokemon_slug": "gallade",
+    "moves": [
+      {
+        "name": "せいなるつるぎ",
+        "rank": 1,
+        "percentage": 85.5
+      },
+      {
+        "name": "サイコカッター",
+        "rank": 2,
+        "percentage": 85.1
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 45.9
+      },
+      {
+        "name": "トリックルーム",
+        "rank": 4,
+        "percentage": 32.4
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 5,
+        "percentage": 30.1
+      },
+      {
+        "name": "リーフブレード",
+        "rank": 6,
+        "percentage": 21.8
+      },
+      {
+        "name": "つじぎり",
+        "rank": 7,
+        "percentage": 12.5
+      },
+      {
+        "name": "インファイト",
+        "rank": 8,
+        "percentage": 9.6
+      },
+      {
+        "name": "トリプルアクセル",
+        "rank": 9,
+        "percentage": 9.3
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 10,
+        "percentage": 6.8
+      }
+    ],
+    "items": [
+      {
+        "name": "エルレイドナイト",
+        "rank": 1,
+        "percentage": 30.6
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 2,
+        "percentage": 13.1
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 11.1
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 4,
+        "percentage": 10.8
+      },
+      {
+        "name": "くろおび",
+        "rank": 5,
+        "percentage": 10.6
+      },
+      {
+        "name": "ピントレンズ",
+        "rank": 6,
+        "percentage": 9.8
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 7,
+        "percentage": 4.1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 1.8
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 1.1
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 10,
+        "percentage": 1
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "pokemon_slug": "garbodor",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 491,
+    "pokemon_slug": "garchomp",
+    "moves": [
+      {
+        "name": "じしん",
+        "rank": 1,
+        "percentage": 88.4
+      },
+      {
+        "name": "どくづ",
+        "rank": 2,
+        "percentage": 5
+      },
+      {
+        "name": "ドラゴンクロー",
+        "rank": 3,
+        "percentage": 81.4
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 68.1
+      },
+      {
+        "name": "じだんだ",
+        "rank": 5,
+        "percentage": 38.2
+      },
+      {
+        "name": "ストーンエッジ",
+        "rank": 6,
+        "percentage": 7.5
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 7,
+        "percentage": 5.6
+      },
+      {
+        "name": "どくづ",
+        "rank": 8,
+        "percentage": 5
+      },
+      {
+        "name": "つるぎのまぃ〇",
+        "rank": 9,
+        "percentage": 4.5
+      },
+      {
+        "name": "じならし",
+        "rank": 10,
+        "percentage": 3.9
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 27.6
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 2,
+        "percentage": 14.8
+      },
+      {
+        "name": "やわらかいすな",
+        "rank": 3,
+        "percentage": 13.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 8.3
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 5,
+        "percentage": 6.5
+      },
+      {
+        "name": "ハバンのみ",
+        "rank": 6,
+        "percentage": 6.3
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 6
+      },
+      {
+        "name": "ヤチエのみ",
+        "rank": 8,
+        "percentage": 5.3
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 2.9
+      },
+      {
+        "name": "ガブリアスナイト",
+        "rank": 10,
+        "percentage": 2.5
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "pokemon_slug": "gardevoir",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 75.3
+      },
+      {
+        "name": "トリックルームC",
+        "rank": 4,
+        "percentage": 32.5
+      },
+      {
+        "name": "ムーンフォース",
+        "rank": 6,
+        "percentage": 27.2
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 7,
+        "percentage": 20.2
+      },
+      {
+        "name": "めいそ",
+        "rank": 8,
+        "percentage": 18.1
+      },
+      {
+        "name": "はどうだん",
+        "rank": 9,
+        "percentage": 11.5
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 10,
+        "percentage": 10.1
+      }
+    ],
+    "items": [
+      {
+        "name": "サーナイトナイト",
+        "rank": 1,
+        "percentage": 75
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 19.7
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 4,
+        "percentage": 1.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 6,
+        "percentage": 0.3
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 7,
+        "percentage": 0.2
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 8,
+        "percentage": 0.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "pokemon_slug": "garganacl",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 301,
+    "pokemon_slug": "gengar",
+    "moves": [
+      {
+        "name": "◎",
+        "rank": 1,
+        "percentage": 95
+      },
+      {
+        "name": "かなしばり",
+        "rank": 6,
+        "percentage": 18.5
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 7,
+        "percentage": 18.2
+      },
+      {
+        "name": "ヘドロウェーブ◎",
+        "rank": 8,
+        "percentage": 9.1
+      },
+      {
+        "name": "みちづれ",
+        "rank": 9,
+        "percentage": 4.6
+      },
+      {
+        "name": "サイコキネシス",
+        "rank": 10,
+        "percentage": 4.3
+      }
+    ],
+    "items": [
+      {
+        "name": "ゲンガナイト",
+        "rank": 1,
+        "percentage": 89.1
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 7.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 1.6
+      },
+      {
+        "name": "どくバリ",
+        "rank": 4,
+        "percentage": 0.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 0.2
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 7,
+        "percentage": 0.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 8,
+        "percentage": 0.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0.1
+      },
+      {
+        "name": "きあいのハチマキ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "pokemon_slug": "glaceon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 440,
+    "pokemon_slug": "glalie",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 306,
+    "pokemon_slug": "glimmora",
+    "moves": [
+      {
+        "name": "パワージェム",
+        "rank": 1,
+        "percentage": 97.4
+      },
+      {
+        "name": "ニードルガード",
+        "rank": 2,
+        "percentage": 87.8
+      },
+      {
+        "name": "だいちのちから",
+        "rank": 3,
+        "percentage": 80.8
+      },
+      {
+        "name": "ヘドロばくだん",
+        "rank": 4,
+        "percentage": 77.9
+      },
+      {
+        "name": "ヘドロウェーブ",
+        "rank": 5,
+        "percentage": 26.3
+      },
+      {
+        "name": "まもる",
+        "rank": 6,
+        "percentage": 6.5
+      },
+      {
+        "name": "キラースピン",
+        "rank": 7,
+        "percentage": 6
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 8,
+        "percentage": 4.8
+      },
+      {
+        "name": "エナジーボール",
+        "rank": 9,
+        "percentage": 3.2
+      },
+      {
+        "name": "ステルスロック",
+        "rank": 10,
+        "percentage": 3
+      }
+    ],
+    "items": [
+      {
+        "name": "キラフロルナイト",
+        "rank": 1,
+        "percentage": 80.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 11.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 2.5
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 4,
+        "percentage": 1.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 6,
+        "percentage": 0.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 7,
+        "percentage": 0.4
+      },
+      {
+        "name": "かたいいし",
+        "rank": 8,
+        "percentage": 0.3
+      },
+      {
+        "name": "どくバリ",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "やわらかいすな",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "pokemon_slug": "gliscor",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 322,
+    "pokemon_slug": "golurk",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 83.8
+      },
+      {
+        "name": "ぶちかまし",
+        "rank": 2,
+        "percentage": 80.5
+      },
+      {
+        "name": "ポルターガイスト",
+        "rank": 3,
+        "percentage": 79.6
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 4,
+        "percentage": 49.2
+      },
+      {
+        "name": "ドレインパンチ",
+        "rank": 5,
+        "percentage": 22.7
+      },
+      {
+        "name": "かみなりパンチ",
+        "rank": 6,
+        "percentage": 15.8
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 7,
+        "percentage": 13.1
+      },
+      {
+        "name": "じしん",
+        "rank": 8,
+        "percentage": 11.3
+      },
+      {
+        "name": "10まんばりき",
+        "rank": 9,
+        "percentage": 8.5
+      },
+      {
+        "name": "シャドーパンチ",
+        "rank": 10,
+        "percentage": 5.5
+      }
+    ],
+    "items": [
+      {
+        "name": "ゴルーグナイト",
+        "rank": 1,
+        "percentage": 95.8
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 0.8
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 3,
+        "percentage": 0.8
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 4,
+        "percentage": 0.3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 5,
+        "percentage": 0.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 0.3
+      },
+      {
+        "name": "やわらかいすな",
+        "rank": 7,
+        "percentage": 0.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 0.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "pokemon_slug": "goodra",
+    "moves": [
+      {
+        "name": "りゅうせいぐん",
+        "rate": 37.9
+      },
+      {
+        "name": "まもる",
+        "rate": 37.5
+      },
+      {
+        "name": "りゅうのはどう",
+        "rate": 32.2
+      },
+      {
+        "name": "10まんボルト",
+        "rate": 31.6
+      },
+      {
+        "name": "ヘドロばくだん",
+        "rate": 25.8
+      },
+      {
+        "name": "ねっとう",
+        "rate": 22.5
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rate": 22.5
+      },
+      {
+        "name": "れいとうビーム",
+        "rate": 20.5
+      },
+      {
+        "name": "かみなり",
+        "rate": 18.5
+      },
+      {
+        "name": "いのちのしずく",
+        "rate": 16.3
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rate": 29.3
+      },
+      {
+        "name": "オボンのみ",
+        "rate": 19.3
+      },
+      {
+        "name": "ハバンのみ",
+        "rate": 12.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rate": 6.6
+      },
+      {
+        "name": "ロゼルのみ",
+        "rate": 6.1
+      },
+      {
+        "name": "ラムのみ",
+        "rate": 4.8
+      },
+      {
+        "name": "せんせいのツメ",
+        "rate": 4.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rate": 3.5
+      },
+      {
+        "name": "りゅうのキバ",
+        "rate": 3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rate": 2.9
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "pokemon_slug": "goodra-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 467,
+    "pokemon_slug": "gourgeist",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 343,
+    "pokemon_slug": "greninja",
+    "moves": [
+      {
+        "name": "あわ",
+        "rank": 1,
+        "percentage": 59.5
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 2,
+        "percentage": 57.5
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 45.9
+      },
+      {
+        "name": "ハイドロポンプ",
+        "rank": 4,
+        "percentage": 36.9
+      },
+      {
+        "name": "みずしゅりけん",
+        "rank": 5,
+        "percentage": 23.8
+      },
+      {
+        "name": "ヘドロウェーブ",
+        "rank": 6,
+        "percentage": 19.7
+      },
+      {
+        "name": "じんつうりき",
+        "rank": 7,
+        "percentage": 17.8
+      },
+      {
+        "name": "ふぶき",
+        "rank": 8,
+        "percentage": 15.3
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 9,
+        "percentage": 14.8
+      },
+      {
+        "name": "ダストシュート",
+        "rank": 10,
+        "percentage": 13
+      }
+    ],
+    "items": [
+      {
+        "name": "ゲッコウガナイト",
+        "rank": 1,
+        "percentage": 53.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 13.6
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 13.5
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 4,
+        "percentage": 4
+      },
+      {
+        "name": "とけないこおり",
+        "rank": 5,
+        "percentage": 3.7
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 6,
+        "percentage": 2.5
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 7,
+        "percentage": 1.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "pokemon_slug": "gyarados",
+    "moves": [
+      {
+        "name": "たきのぼり",
+        "rank": 1,
+        "percentage": 98
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 69.4
+      },
+      {
+        "name": "でんじは",
+        "rank": 3,
+        "percentage": 37.2
+      },
+      {
+        "name": "かみくだく",
+        "rank": 6,
+        "percentage": 33
+      },
+      {
+        "name": "こおりのキバ",
+        "rank": 7,
+        "percentage": 26.6
+      },
+      {
+        "name": "じしん",
+        "rank": 8,
+        "percentage": 14.1
+      },
+      {
+        "name": "てだすけ",
+        "rank": 9,
+        "percentage": 9.1
+      },
+      {
+        "name": "パワーウィップ",
+        "rank": 10,
+        "percentage": 8.8
+      }
+    ],
+    "items": [
+      {
+        "name": "ギャラドスナイト",
+        "rank": 1,
+        "percentage": 30.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 20.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 3,
+        "percentage": 19.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 4,
+        "percentage": 10.1
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 5,
+        "percentage": 4
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 6,
+        "percentage": 3.7
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 7,
+        "percentage": 2.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 8,
+        "percentage": 2.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 1.2
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 10,
+        "percentage": 1.2
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "pokemon_slug": "hatterene",
+    "moves": [
+      {
+        "name": "マジカルシャイン",
+        "rank": 1,
+        "percentage": 95.5
+      },
+      {
+        "name": "トリックルーム",
+        "rank": 2,
+        "percentage": 92.3
+      },
+      {
+        "name": "サイコキネシス",
+        "rank": 3,
+        "percentage": 70
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 64.5
+      },
+      {
+        "name": "ワイドフォース",
+        "rank": 5,
+        "percentage": 19.2
+      },
+      {
+        "name": "マジカルフレイム",
+        "rank": 6,
+        "percentage": 13.6
+      },
+      {
+        "name": "まほうのこな",
+        "rank": 7,
+        "percentage": 9.5
+      },
+      {
+        "name": "サイコフィールド",
+        "rank": 8,
+        "percentage": 6
+      },
+      {
+        "name": "サイコショック",
+        "rank": 9,
+        "percentage": 4
+      },
+      {
+        "name": "めいそう",
+        "rank": 10,
+        "percentage": 3.5
+      }
+    ],
+    "items": [
+      {
+        "name": "ようせいのハネ",
+        "rank": 1,
+        "percentage": 46
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 20.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 8.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 6.9
+      },
+      {
+        "name": "まがったスプーン",
+        "rank": 5,
+        "percentage": 5.3
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 6,
+        "percentage": 2.9
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 7,
+        "percentage": 2.2
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 8,
+        "percentage": 1.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 1.5
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 1.3
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "pokemon_slug": "hawlucha",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 378,
+    "pokemon_slug": "heliolisk",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 417,
+    "pokemon_slug": "heracross",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 405,
+    "pokemon_slug": "hippowdon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 448,
+    "pokemon_slug": "houndoom",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 390,
+    "pokemon_slug": "hydrapple",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 326,
+    "pokemon_slug": "hydreigon",
+    "moves": [
+      {
+        "name": "あくのはどう",
+        "rank": 1,
+        "percentage": 89.6
+      },
+      {
+        "name": "りゅうせいぐん",
+        "rank": 2,
+        "percentage": 87.6
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 43.5
+      },
+      {
+        "name": "だいちのちから",
+        "rank": 4,
+        "percentage": 34.7
+      },
+      {
+        "name": "おいかぜ",
+        "rank": 5,
+        "percentage": 23.7
+      },
+      {
+        "name": "ねっぷう",
+        "rank": 6,
+        "percentage": 20.2
+      },
+      {
+        "name": "バークアウト",
+        "rank": 7,
+        "percentage": 20.2
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 8,
+        "percentage": 17.3
+      },
+      {
+        "name": "ラスターカノン",
+        "rank": 9,
+        "percentage": 14.1
+      },
+      {
+        "name": "りゅうのはどう",
+        "rank": 10,
+        "percentage": 9.6
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 42.2
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 9.8
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 3,
+        "percentage": 8.3
+      },
+      {
+        "name": "ピントレンズ",
+        "rank": 4,
+        "percentage": 7.8
+      },
+      {
+        "name": "くろいメガネ",
+        "rank": 5,
+        "percentage": 6.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 6,
+        "percentage": 6.3
+      },
+      {
+        "name": "ハバンのみ",
+        "rank": 7,
+        "percentage": 3.4
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 8,
+        "percentage": 3
+      },
+      {
+        "name": "ロゼルのみ",
+        "rank": 9,
+        "percentage": 2.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 2.5
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "pokemon_slug": "incineroar",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 99.6
+      },
+      {
+        "name": "すてゼリフ",
+        "rank": 2,
+        "percentage": 96.6
+      },
+      {
+        "name": "フレアドライブ",
+        "rank": 3,
+        "percentage": 89.9
+      },
+      {
+        "name": "DDラリアット",
+        "rank": 4,
+        "percentage": 49.2
+      },
+      {
+        "name": "じごくづき",
+        "rank": 5,
+        "percentage": 32.2
+      },
+      {
+        "name": "まもる",
+        "rank": 6,
+        "percentage": 11.5
+      },
+      {
+        "name": "バークアウト",
+        "rank": 7,
+        "percentage": 4.8
+      },
+      {
+        "name": "おにび",
+        "rank": 8,
+        "percentage": 4.6
+      },
+      {
+        "name": "てだすけ",
+        "rank": 9,
+        "percentage": 3.2
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 10,
+        "percentage": 2.7
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 61.5
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 2,
+        "percentage": 12
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 3,
+        "percentage": 9.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 7.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 5,
+        "percentage": 4
+      },
+      {
+        "name": "イトケのみ",
+        "rank": 6,
+        "percentage": 1.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 7,
+        "percentage": 0.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "もくたん",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "pokemon_slug": "infernape",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 400,
+    "pokemon_slug": "jolteon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 315,
+    "pokemon_slug": "kangaskhan",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 94.3
+      },
+      {
+        "name": "すてみタックル",
+        "rank": 2,
+        "percentage": 77.1
+      },
+      {
+        "name": "ふいうち",
+        "rank": 3,
+        "percentage": 73.4
+      },
+      {
+        "name": "ドレインパンチ",
+        "rank": 4,
+        "percentage": 49
+      },
+      {
+        "name": "けたぐり",
+        "rank": 5,
+        "percentage": 25.3
+      },
+      {
+        "name": "まもる",
+        "rank": 6,
+        "percentage": 22.1
+      },
+      {
+        "name": "のしかかり",
+        "rank": 7,
+        "percentage": 11.6
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 8,
+        "percentage": 7.5
+      },
+      {
+        "name": "かみくだく",
+        "rank": 9,
+        "percentage": 6
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 10,
+        "percentage": 5.5
+      }
+    ],
+    "items": [
+      {
+        "name": "ガルーラナイト",
+        "rank": 1,
+        "percentage": 90.8
+      },
+      {
+        "name": "シルクのスカーフ",
+        "rank": 2,
+        "percentage": 4.5
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 3,
+        "percentage": 1.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 5,
+        "percentage": 0.6
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 6,
+        "percentage": 0.4
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 7,
+        "percentage": 0.2
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 8,
+        "percentage": 0.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.1
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "pokemon_slug": "kingambit",
+    "moves": [
+      {
+        "name": "ふいうち",
+        "rank": 1,
+        "percentage": 98.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 88.3
+      },
+      {
+        "name": "ドゲザン",
+        "rank": 3,
+        "percentage": 83
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 4,
+        "percentage": 71.9
+      },
+      {
+        "name": "けたぐり",
+        "rank": 5,
+        "percentage": 28
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 6,
+        "percentage": 24.5
+      },
+      {
+        "name": "かわらわり",
+        "rank": 7,
+        "percentage": 2
+      },
+      {
+        "name": "ダメおし",
+        "rank": 8,
+        "percentage": 1.2
+      },
+      {
+        "name": "ハサミギロチン",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "ローキック",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ],
+    "items": [
+      {
+        "name": "くろいメガネ",
+        "rank": 1,
+        "percentage": 51.5
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 2,
+        "percentage": 34.9
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 1.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 5,
+        "percentage": 1.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 1.3
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 7,
+        "percentage": 1.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "くろおび",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "pokemon_slug": "kleavor",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 374,
+    "pokemon_slug": "klefki",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 307,
+    "pokemon_slug": "kommo-o",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 94.3
+      },
+      {
+        "name": "スケイルノイズ",
+        "rank": 2,
+        "percentage": 86.4
+      },
+      {
+        "name": "ソウルビート",
+        "rank": 3,
+        "percentage": 78.8
+      },
+      {
+        "name": "はどうだん",
+        "rank": 4,
+        "percentage": 75
+      },
+      {
+        "name": "ボディプレス",
+        "rank": 5,
+        "percentage": 11.8
+      },
+      {
+        "name": "てっぺき",
+        "rank": 6,
+        "percentage": 9.8
+      },
+      {
+        "name": "しんくうは",
+        "rank": 7,
+        "percentage": 9
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 8,
+        "percentage": 7.8
+      },
+      {
+        "name": "りゅうせいぐん",
+        "rank": 9,
+        "percentage": 6.3
+      },
+      {
+        "name": "ラスターカノン",
+        "rank": 10,
+        "percentage": 5.9
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 68.5
+      },
+      {
+        "name": "りゅうのキバ",
+        "rank": 2,
+        "percentage": 10.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 9.3
+      },
+      {
+        "name": "ハバンのみ",
+        "rank": 4,
+        "percentage": 3.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 5,
+        "percentage": 1.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 6,
+        "percentage": 1.2
+      },
+      {
+        "name": "くろおび",
+        "rank": 7,
+        "percentage": 1.1
+      },
+      {
+        "name": "ロゼルのみ",
+        "rank": 8,
+        "percentage": 1.1
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "pokemon_slug": "krookodile",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 454,
+    "pokemon_slug": "leafeon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 429,
+    "pokemon_slug": "liepard",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 347,
+    "pokemon_slug": "lopunny",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 90.9
+      },
+      {
+        "name": "インファイト",
+        "rank": 2,
+        "percentage": 87.6
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 53
+      },
+      {
+        "name": "トリプルアクセル",
+        "rank": 4,
+        "percentage": 46
+      },
+      {
+        "name": "とんぼがえり",
+        "rank": 5,
+        "percentage": 21.6
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 6,
+        "percentage": 15.1
+      },
+      {
+        "name": "アンコール",
+        "rank": 7,
+        "percentage": 12.3
+      },
+      {
+        "name": "かみなりパンチ",
+        "rank": 8,
+        "percentage": 9.8
+      },
+      {
+        "name": "からげんき",
+        "rank": 9,
+        "percentage": 8.5
+      },
+      {
+        "name": "ギガインパクト",
+        "rank": 10,
+        "percentage": 7.5
+      }
+    ],
+    "items": [
+      {
+        "name": "ミミロップナイト",
+        "rank": 1,
+        "percentage": 98.4
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 0.4
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 0.2
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 4,
+        "percentage": 0.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 0.2
+      },
+      {
+        "name": "シルクのスカーフ",
+        "rank": 6,
+        "percentage": 0.1
+      },
+      {
+        "name": "くろおび",
+        "rank": 7,
+        "percentage": 0.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "メガニウムナイト",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "pokemon_slug": "lucario",
+    "moves": [
+      {
+        "name": "インファイト",
+        "rank": 1,
+        "percentage": 62.9
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 44.9
+      },
+      {
+        "name": "コメットパンチ",
+        "rank": 3,
+        "percentage": 44.7
+      },
+      {
+        "name": "バレットパンチ",
+        "rank": 4,
+        "percentage": 39.7
+      },
+      {
+        "name": "はどうだん",
+        "rank": 5,
+        "percentage": 29.6
+      },
+      {
+        "name": "ラスターカノン",
+        "rank": 6,
+        "percentage": 27
+      },
+      {
+        "name": "みきり",
+        "rank": 7,
+        "percentage": 23.2
+      },
+      {
+        "name": "しんそく",
+        "rank": 8,
+        "percentage": 15.3
+      },
+      {
+        "name": "しんくうは",
+        "rank": 9,
+        "percentage": 15.3
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 10,
+        "percentage": 11.1
+      }
+    ],
+    "items": [
+      {
+        "name": "ルカリオナイト",
+        "rank": 1,
+        "percentage": 64.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 14.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 10.6
+      },
+      {
+        "name": "くろおび",
+        "rank": 4,
+        "percentage": 4
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 1.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 0.8
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 7,
+        "percentage": 0.6
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "メタルコート",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "pokemon_slug": "luxray",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 380,
+    "pokemon_slug": "lycanroc",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 406,
+    "pokemon_slug": "lycanroc-midnight",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 377,
+    "pokemon_slug": "machamp",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 337,
+    "pokemon_slug": "mamoswine",
+    "moves": [
+      {
+        "name": "こおりのつぶて",
+        "rank": 1,
+        "percentage": 77.5
+      },
+      {
+        "name": "つららおとし",
+        "rank": 2,
+        "percentage": 72
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 69.1
+      },
+      {
+        "name": "10まんばりき",
+        "rank": 4,
+        "percentage": 62.5
+      },
+      {
+        "name": "じしん",
+        "rank": 5,
+        "percentage": 48
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 6,
+        "percentage": 27.2
+      },
+      {
+        "name": "つららばり",
+        "rank": 7,
+        "percentage": 13.6
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 8,
+        "percentage": 5.1
+      },
+      {
+        "name": "ばかぢから",
+        "rank": 9,
+        "percentage": 4
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 10,
+        "percentage": 3.5
+      }
+    ],
+    "items": [
+      {
+        "name": "とけないこおり",
+        "rank": 1,
+        "percentage": 33.9
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 24.2
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 20.7
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 4,
+        "percentage": 4
+      },
+      {
+        "name": "やわらかいすな",
+        "rank": 5,
+        "percentage": 3.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 2.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 7,
+        "percentage": 2.4
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.7
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 9,
+        "percentage": 1.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 1.2
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "pokemon_slug": "manectric",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 296,
+    "pokemon_slug": "maushold",
+    "moves": [
+      {
+        "name": "このゆびとまれ",
+        "rank": 1,
+        "percentage": 98.6
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 88.5
+      },
+      {
+        "name": "いかりのまえば",
+        "rank": 3,
+        "percentage": 80.3
+      },
+      {
+        "name": "ちょうはつ（",
+        "rank": 4,
+        "percentage": 44
+      },
+      {
+        "name": "アンコール",
+        "rank": 5,
+        "percentage": 24
+      }
+    ],
+    "items": [
+      {
+        "name": "ヨプのみ",
+        "rank": 1,
+        "percentage": 51.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 26.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 9.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 4,
+        "percentage": 2.5
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 6,
+        "percentage": 2.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 1.7
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 8,
+        "percentage": 1.7
+      },
+      {
+        "name": "シルクのスカーフ",
+        "rank": 9,
+        "percentage": 1.1
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "pokemon_slug": "medicham",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 300,
+    "pokemon_slug": "meganium",
+    "moves": [
+      {
+        "name": "◎",
+        "rank": 1,
+        "percentage": 98.9
+      },
+      {
+        "name": "マジカルシャイン◎",
+        "rank": 2,
+        "percentage": 91.8
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 72.9
+      },
+      {
+        "name": "だいちのちから",
+        "rank": 6,
+        "percentage": 22.3
+      },
+      {
+        "name": "かふんだんごO",
+        "rank": 7,
+        "percentage": 1.2
+      },
+      {
+        "name": "げんしのちから◎",
+        "rank": 8,
+        "percentage": 1.1
+      }
+    ],
+    "items": [
+      {
+        "name": "メガニウムナイト",
+        "rank": 1,
+        "percentage": 99.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 0.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 3,
+        "percentage": 0.1
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 4,
+        "percentage": 0.1
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 6,
+        "percentage": 0
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 7,
+        "percentage": 0
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 8,
+        "percentage": 0
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 9,
+        "percentage": 0
+      },
+      {
+        "name": "バンギラスナイト",
+        "rank": 10,
+        "percentage": 0
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "pokemon_slug": "meowscarada",
+    "moves": [
+      {
+        "name": "トリックフラワー",
+        "rank": 1,
+        "percentage": 97
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 2,
+        "percentage": 61.5
+      },
+      {
+        "name": "トリプルアクセル",
+        "rank": 3,
+        "percentage": 56
+      },
+      {
+        "name": "とんぼがえり",
+        "rank": 4,
+        "percentage": 36
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 33.7
+      },
+      {
+        "name": "ふいうち",
+        "rank": 6,
+        "percentage": 29
+      },
+      {
+        "name": "けたぐり",
+        "rank": 7,
+        "percentage": 22
+      },
+      {
+        "name": "じゃれつく",
+        "rank": 8,
+        "percentage": 15.3
+      },
+      {
+        "name": "かみなりパンチ",
+        "rank": 9,
+        "percentage": 10
+      },
+      {
+        "name": "じごくづき",
+        "rank": 10,
+        "percentage": 7.5
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 38.9
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 36.2
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 3,
+        "percentage": 5.4
+      },
+      {
+        "name": "くろいメガネ",
+        "rank": 4,
+        "percentage": 3.4
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 2.9
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 1.8
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 1.6
+      },
+      {
+        "name": "とけないこおり",
+        "rank": 8,
+        "percentage": 1.2
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 9,
+        "percentage": 1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "pokemon_slug": "meowstic",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 57.7
+      },
+      {
+        "name": "サイコフィールド",
+        "rank": 2,
+        "percentage": 53
+      },
+      {
+        "name": "ワイドフォース",
+        "rank": 3,
+        "percentage": 36.4
+      },
+      {
+        "name": "あまごい",
+        "rank": 4,
+        "percentage": 29.7
+      },
+      {
+        "name": "サイコキネシス",
+        "rank": 5,
+        "percentage": 26.8
+      },
+      {
+        "name": "リフレクター",
+        "rank": 6,
+        "percentage": 26.1
+      },
+      {
+        "name": "ひかりのかべ",
+        "rank": 7,
+        "percentage": 24.1
+      },
+      {
+        "name": "でんじは",
+        "rank": 8,
+        "percentage": 19
+      },
+      {
+        "name": "トリックルーム",
+        "rank": 9,
+        "percentage": 18
+      },
+      {
+        "name": "てだすけ",
+        "rank": 10,
+        "percentage": 16.3
+      }
+    ],
+    "items": [
+      {
+        "name": "メンタルハーブ",
+        "rank": 1,
+        "percentage": 26.1
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 18.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 15.5
+      },
+      {
+        "name": "ニャオニクスナイト",
+        "rank": 4,
+        "percentage": 12.5
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 5,
+        "percentage": 9.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 6,
+        "percentage": 3.9
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 3.7
+      },
+      {
+        "name": "まがったスプーン",
+        "rank": 8,
+        "percentage": 3.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 9,
+        "percentage": 2.5
+      },
+      {
+        "name": "カシブのみ",
+        "rank": 10,
+        "percentage": 1.6
+      }
+    ]
+  },
+  {
+    "id": 635,
+    "pokemon_slug": "meowstic-female",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 295,
+    "pokemon_slug": "milotic",
+    "moves": [
+      {
+        "name": "ねっ",
+        "rank": 1,
+        "percentage": 83.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 78.9
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 3,
+        "percentage": 55.7
+      },
+      {
+        "name": "れいとうビーム◎",
+        "rank": 4,
+        "percentage": 48.9
+      },
+      {
+        "name": "じこさいせいO",
+        "rank": 5,
+        "percentage": 38
+      },
+      {
+        "name": "いのちのしず",
+        "rank": 6,
+        "percentage": 23.2
+      },
+      {
+        "name": "だくりゅ",
+        "rank": 7,
+        "percentage": 20.1
+      },
+      {
+        "name": "さいみんじゅっ",
+        "rank": 8,
+        "percentage": 8.1
+      },
+      {
+        "name": "とぐろを",
+        "rank": 9,
+        "percentage": 7.6
+      },
+      {
+        "name": "てだすけ",
+        "rank": 10,
+        "percentage": 6.5
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 72.9
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 14.1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 4,
+        "percentage": 1.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 1.2
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 7,
+        "percentage": 1.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.1
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "リンドのみ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "pokemon_slug": "mimikyu",
+    "moves": [
+      {
+        "name": "じゃれつく",
+        "rank": 1,
+        "percentage": 89.5
+      },
+      {
+        "name": "トリックルーム",
+        "rank": 2,
+        "percentage": 76
+      },
+      {
+        "name": "かげうち",
+        "rank": 3,
+        "percentage": 60.2
+      },
+      {
+        "name": "シャドークロー",
+        "rank": 4,
+        "percentage": 42
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 5,
+        "percentage": 24.2
+      },
+      {
+        "name": "まもる",
+        "rank": 6,
+        "percentage": 23.1
+      },
+      {
+        "name": "おにび",
+        "rank": 7,
+        "percentage": 21.5
+      },
+      {
+        "name": "のろい",
+        "rank": 8,
+        "percentage": 9.8
+      },
+      {
+        "name": "ドレインパンチ",
+        "rank": 9,
+        "percentage": 9.3
+      },
+      {
+        "name": "ウッドハンマー",
+        "rank": 10,
+        "percentage": 7.9
+      }
+    ],
+    "items": [
+      {
+        "name": "メンタルハーブ",
+        "rank": 1,
+        "percentage": 38.2
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 2,
+        "percentage": 11.6
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 3,
+        "percentage": 8.8
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 7.9
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 5,
+        "percentage": 6.3
+      },
+      {
+        "name": "たべのこし",
+        "rank": 6,
+        "percentage": 5.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 7,
+        "percentage": 5.5
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 8,
+        "percentage": 4.3
+      },
+      {
+        "name": "ピントレンズ",
+        "rank": 9,
+        "percentage": 2.4
+      },
+      {
+        "name": "きあいのハチマキ",
+        "rank": 10,
+        "percentage": 1.6
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "pokemon_slug": "morpeko",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 422,
+    "pokemon_slug": "mr-rime",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 392,
+    "pokemon_slug": "mudsdale",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 313,
+    "pokemon_slug": "ninetales",
+    "moves": [
+      {
+        "name": "ふぶき",
+        "rank": 1,
+        "percentage": 90.9
+      },
+      {
+        "name": "オーロラベール",
+        "rank": 2,
+        "percentage": 76.5
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 67
+      },
+      {
+        "name": "フリーズドライ",
+        "rank": 4,
+        "percentage": 44.4
+      },
+      {
+        "name": "ムーンフォース",
+        "rank": 5,
+        "percentage": 36.5
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 6,
+        "percentage": 27.8
+      },
+      {
+        "name": "アンコール",
+        "rank": 7,
+        "percentage": 23.3
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 8,
+        "percentage": 15.3
+      },
+      {
+        "name": "かなしばり",
+        "rank": 9,
+        "percentage": 3.4
+      },
+      {
+        "name": "てだすけ",
+        "rank": 10,
+        "percentage": 2.9
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 50
+      },
+      {
+        "name": "とけないこおり",
+        "rank": 2,
+        "percentage": 18.7
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 3,
+        "percentage": 6
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 4,
+        "percentage": 5.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 4.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 6,
+        "percentage": 3
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 7,
+        "percentage": 2.9
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 8,
+        "percentage": 2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 9,
+        "percentage": 2
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 10,
+        "percentage": 1.1
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "pokemon_slug": "ninetales-alola",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 398,
+    "pokemon_slug": "noivern",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 335,
+    "pokemon_slug": "oranguru",
+    "moves": [
+      {
+        "name": "トリックルーム",
+        "rank": 1,
+        "percentage": 96.5
+      },
+      {
+        "name": "さいはい",
+        "rank": 2,
+        "percentage": 96.5
+      },
+      {
+        "name": "サイコキネシス",
+        "rank": 3,
+        "percentage": 54.2
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 50.2
+      },
+      {
+        "name": "アンコール",
+        "rank": 5,
+        "percentage": 22.3
+      },
+      {
+        "name": "イカサマ",
+        "rank": 6,
+        "percentage": 17.6
+      },
+      {
+        "name": "サイコフィールド",
+        "rank": 7,
+        "percentage": 7
+      },
+      {
+        "name": "あくび",
+        "rank": 8,
+        "percentage": 6.1
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 9,
+        "percentage": 5
+      },
+      {
+        "name": "サイコノイズ",
+        "rank": 10,
+        "percentage": 3.5
+      }
+    ],
+    "items": [
+      {
+        "name": "メンタルハーブ",
+        "rank": 1,
+        "percentage": 58.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 13.5
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 3,
+        "percentage": 10.6
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 7.4
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 5,
+        "percentage": 3.4
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 6,
+        "percentage": 1.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 1.2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 0.5
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "pokemon_slug": "orthworm",
+    "moves": [
+      {
+        "name": "ボディプレス",
+        "rank": 1,
+        "percentage": 95
+      },
+      {
+        "name": "しっぽきり",
+        "rank": 2,
+        "percentage": 93
+      },
+      {
+        "name": "ヘビーボンバー",
+        "rank": 3,
+        "percentage": 72
+      },
+      {
+        "name": "てっぺき",
+        "rank": 4,
+        "percentage": 64.9
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 33.2
+      },
+      {
+        "name": "アイアンヘッド",
+        "rank": 6,
+        "percentage": 13.6
+      },
+      {
+        "name": "てだすけ",
+        "rank": 7,
+        "percentage": 11.5
+      },
+      {
+        "name": "ステルスロック",
+        "rank": 8,
+        "percentage": 2.4
+      },
+      {
+        "name": "とぐろをまく",
+        "rank": 9,
+        "percentage": 2
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 10,
+        "percentage": 1.7
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 83
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 9.6
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 3,
+        "percentage": 2.2
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 5,
+        "percentage": 0.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 0.5
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 7,
+        "percentage": 0.3
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 8,
+        "percentage": 0.3
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "pokemon_slug": "palafin",
+    "moves": [
+      {
+        "name": "ジェットパンチ",
+        "rank": 1,
+        "percentage": 92.6
+      },
+      {
+        "name": "ウェーブタックル",
+        "rank": 2,
+        "percentage": 85.3
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 60.2
+      },
+      {
+        "name": "クイックターン",
+        "rank": 4,
+        "percentage": 57.7
+      },
+      {
+        "name": "インファイト",
+        "rank": 5,
+        "percentage": 54.7
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 6,
+        "percentage": 20.2
+      },
+      {
+        "name": "ドレインパンチ",
+        "rank": 7,
+        "percentage": 12
+      },
+      {
+        "name": "ビルドアップ",
+        "rank": 8,
+        "percentage": 3.4
+      },
+      {
+        "name": "じごくづき",
+        "rank": 9,
+        "percentage": 2.2
+      },
+      {
+        "name": "くろいきり",
+        "rank": 10,
+        "percentage": 1.8
+      }
+    ],
+    "items": [
+      {
+        "name": "しんぴのしずく",
+        "rank": 1,
+        "percentage": 70.1
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 16.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 3.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 5,
+        "percentage": 1.8
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 6,
+        "percentage": 1.7
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 1.1
+      },
+      {
+        "name": "くろおび",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.4
+      },
+      {
+        "name": "ピントレンズ",
+        "rank": 10,
+        "percentage": 0.3
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "pokemon_slug": "pangoro",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 433,
+    "pokemon_slug": "passimian",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 493,
+    "pokemon_slug": "pelipper",
+    "moves": [
+      {
+        "name": "ぼうふ",
+        "rank": 1,
+        "percentage": 96.6
+      },
+      {
+        "name": "おいかぜ（",
+        "rank": 2,
+        "percentage": 80.8
+      },
+      {
+        "name": "ウェザーボール◎",
+        "rank": 3,
+        "percentage": 78.5
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 52.7
+      },
+      {
+        "name": "ワイドガード",
+        "rank": 5,
+        "percentage": 41
+      },
+      {
+        "name": "だくりゅ",
+        "rank": 6,
+        "percentage": 12.3
+      },
+      {
+        "name": "こごえるかぜ◎",
+        "rank": 8,
+        "percentage": 7.5
+      },
+      {
+        "name": "れいとうビーム◎",
+        "rank": 9,
+        "percentage": 5.5
+      },
+      {
+        "name": "ハイドロポンプ◎",
+        "rank": 10,
+        "percentage": 4.5
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 65.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 8.6
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 8.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 3.7
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 6,
+        "percentage": 2.7
+      },
+      {
+        "name": "しんぴのしず",
+        "rank": 7,
+        "percentage": 1.7
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.6
+      },
+      {
+        "name": "するどいくちばし",
+        "rank": 9,
+        "percentage": 1.5
+      },
+      {
+        "name": "ヨロギのみ",
+        "rank": 10,
+        "percentage": 1
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "pokemon_slug": "pidgeot",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 423,
+    "pokemon_slug": "pikachu",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 439,
+    "pokemon_slug": "pinsir",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 310,
+    "pokemon_slug": "politoed",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 86.4
+      },
+      {
+        "name": "ウェザーボール",
+        "rank": 2,
+        "percentage": 74.4
+      },
+      {
+        "name": "ほろびのうた",
+        "rank": 3,
+        "percentage": 42.7
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 4,
+        "percentage": 37.5
+      },
+      {
+        "name": "だくりゅう",
+        "rank": 5,
+        "percentage": 32.4
+      },
+      {
+        "name": "てだすけ",
+        "rank": 6,
+        "percentage": 28.6
+      },
+      {
+        "name": "れいとうビーム",
+        "rank": 7,
+        "percentage": 28.2
+      },
+      {
+        "name": "アンコール",
+        "rank": 8,
+        "percentage": 24.5
+      },
+      {
+        "name": "だいちのちから",
+        "rank": 9,
+        "percentage": 10.8
+      },
+      {
+        "name": "あまごい",
+        "rank": 10,
+        "percentage": 9
+      }
+    ],
+    "items": [
+      {
+        "name": "たべのこし",
+        "rank": 1,
+        "percentage": 36.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 33.5
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 3,
+        "percentage": 10
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 4,
+        "percentage": 3.5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 5,
+        "percentage": 2.9
+      },
+      {
+        "name": "ソクノのみ",
+        "rank": 6,
+        "percentage": 2.7
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 2.5
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 2.4
+      },
+      {
+        "name": "リンドのみ",
+        "rank": 9,
+        "percentage": 1.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 1.5
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "pokemon_slug": "polteageist",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 303,
+    "pokemon_slug": "primarina",
+    "moves": [
+      {
+        "name": "ハイパーボイス",
+        "rank": 1,
+        "percentage": 96.9
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 89.8
+      },
+      {
+        "name": "ムーンフォース◎",
+        "rank": 3,
+        "percentage": 86
+      },
+      {
+        "name": "めいそ",
+        "rank": 4,
+        "percentage": 28.2
+      },
+      {
+        "name": "マジカルシャイン（",
+        "rank": 5,
+        "percentage": 16.7
+      }
+    ],
+    "items": [
+      {
+        "name": "しんぴのしず",
+        "rank": 1,
+        "percentage": 34.4
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 30.7
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 4,
+        "percentage": 8.3
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 6,
+        "percentage": 2.4
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 7,
+        "percentage": 1.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 1.1
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "pokemon_slug": "quaquaval",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 349,
+    "pokemon_slug": "raichu",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 93.6
+      },
+      {
+        "name": "ボルトチェンジ",
+        "rank": 2,
+        "percentage": 53.7
+      },
+      {
+        "name": "ほっぺすりすり",
+        "rank": 3,
+        "percentage": 36.7
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 4,
+        "percentage": 34.7
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 29.8
+      },
+      {
+        "name": "アンコール",
+        "rank": 6,
+        "percentage": 23.2
+      },
+      {
+        "name": "エレキネット",
+        "rank": 7,
+        "percentage": 20.6
+      },
+      {
+        "name": "かみなり",
+        "rank": 8,
+        "percentage": 17.2
+      },
+      {
+        "name": "がむしゃら",
+        "rank": 9,
+        "percentage": 15.1
+      },
+      {
+        "name": "マジカルシャイン",
+        "rank": 10,
+        "percentage": 8.6
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 56.2
+      },
+      {
+        "name": "じしゃく",
+        "rank": 2,
+        "percentage": 13.6
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 3,
+        "percentage": 9.1
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 6.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 5,
+        "percentage": 5
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 1.7
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 7,
+        "percentage": 1.7
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.6
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "pokemon_slug": "raichu-alola",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 445,
+    "pokemon_slug": "rampardos",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 414,
+    "pokemon_slug": "reuniclus",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 375,
+    "pokemon_slug": "rhyperior",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 455,
+    "pokemon_slug": "roserade",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 476,
+    "pokemon_slug": "rotom",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 388,
+    "pokemon_slug": "rotom-fan",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 342,
+    "pokemon_slug": "rotom-frost",
+    "moves": [
+      {
+        "name": "ふぶき",
+        "rank": 1,
+        "percentage": 99.4
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 2,
+        "percentage": 89.3
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 52.7
+      },
+      {
+        "name": "ボルトチェンジ",
+        "rank": 4,
+        "percentage": 51.7
+      },
+      {
+        "name": "エレキネット",
+        "rank": 5,
+        "percentage": 40
+      },
+      {
+        "name": "てだすけ",
+        "rank": 6,
+        "percentage": 38
+      },
+      {
+        "name": "おにび",
+        "rank": 7,
+        "percentage": 7.3
+      },
+      {
+        "name": "ほうでん",
+        "rank": 8,
+        "percentage": 4.6
+      },
+      {
+        "name": "トリック",
+        "rank": 9,
+        "percentage": 4.5
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 10,
+        "percentage": 2.9
+      }
+    ],
+    "items": [
+      {
+        "name": "とけないこおり",
+        "rank": 1,
+        "percentage": 42.4
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 42.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 4
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 3.5
+      },
+      {
+        "name": "じしゃく",
+        "rank": 5,
+        "percentage": 2.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 6,
+        "percentage": 1.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 7,
+        "percentage": 0.8
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 8,
+        "percentage": 0.6
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "ピントレンズ",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "pokemon_slug": "rotom-heat",
+    "moves": [
+      {
+        "name": "オーバーヒート",
+        "rank": 1,
+        "percentage": 98.8
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 2,
+        "percentage": 71.8
+      },
+      {
+        "name": "ボルトチェンジ",
+        "rank": 3,
+        "percentage": 67.1
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 46.7
+      },
+      {
+        "name": "おにび",
+        "rank": 5,
+        "percentage": 36
+      },
+      {
+        "name": "エレキネット",
+        "rank": 6,
+        "percentage": 23
+      },
+      {
+        "name": "ほうでん",
+        "rank": 7,
+        "percentage": 15.1
+      },
+      {
+        "name": "トリック",
+        "rank": 8,
+        "percentage": 14.6
+      },
+      {
+        "name": "てだすけ",
+        "rank": 9,
+        "percentage": 8.5
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 10,
+        "percentage": 3.7
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 38.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 25.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 3,
+        "percentage": 11.3
+      },
+      {
+        "name": "イトケのみ",
+        "rank": 4,
+        "percentage": 7.4
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 5
+      },
+      {
+        "name": "じしゃく",
+        "rank": 6,
+        "percentage": 4
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 2.4
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "もくたん",
+        "rank": 9,
+        "percentage": 1.2
+      },
+      {
+        "name": "ヨロギのみ",
+        "rank": 10,
+        "percentage": 1
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "pokemon_slug": "rotom-mow",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 505,
+    "pokemon_slug": "rotom-wash",
+    "moves": [
+      {
+        "name": "ハイドロポンプ",
+        "rank": 1,
+        "percentage": 98.1
+      },
+      {
+        "name": "10まんボルト",
+        "rank": 2,
+        "percentage": 72.1
+      },
+      {
+        "name": "ボルトチェンジ◎",
+        "rank": 3,
+        "percentage": 60.2
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 51.2
+      },
+      {
+        "name": "おにび",
+        "rank": 5,
+        "percentage": 46.7
+      },
+      {
+        "name": "エレキネット",
+        "rank": 6,
+        "percentage": 25.8
+      },
+      {
+        "name": "トリック",
+        "rank": 7,
+        "percentage": 11.6
+      },
+      {
+        "name": "ほうでん",
+        "rank": 8,
+        "percentage": 9.8
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 9,
+        "percentage": 2.9
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 10,
+        "percentage": 2.9
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 33.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 30.7
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 25.2
+      },
+      {
+        "name": "じし",
+        "rank": 4,
+        "percentage": 4.9
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 6,
+        "percentage": 1.1
+      },
+      {
+        "name": "しんぴのしず",
+        "rank": 7,
+        "percentage": 0.8
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "pokemon_slug": "runerigus",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 316,
+    "pokemon_slug": "sableye",
+    "moves": [
+      {
+        "name": "ねこだまし",
+        "rank": 1,
+        "percentage": 56.7
+      },
+      {
+        "name": "アンコール",
+        "rank": 2,
+        "percentage": 56.2
+      },
+      {
+        "name": "イカサマ",
+        "rank": 3,
+        "percentage": 40.5
+      },
+      {
+        "name": "おにび",
+        "rank": 4,
+        "percentage": 32.9
+      },
+      {
+        "name": "あまごい",
+        "rank": 5,
+        "percentage": 32
+      },
+      {
+        "name": "さきおくり",
+        "rank": 6,
+        "percentage": 30
+      },
+      {
+        "name": "かなしばり",
+        "rank": 7,
+        "percentage": 29.8
+      },
+      {
+        "name": "ひかりのかべ",
+        "rank": 8,
+        "percentage": 23.7
+      },
+      {
+        "name": "リフレクター",
+        "rank": 9,
+        "percentage": 15.1
+      },
+      {
+        "name": "じゅうりょく",
+        "rank": 10,
+        "percentage": 9.6
+      }
+    ],
+    "items": [
+      {
+        "name": "ロゼルのみ",
+        "rank": 1,
+        "percentage": 29.7
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 21.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 3,
+        "percentage": 17.2
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 4,
+        "percentage": 10.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 5,
+        "percentage": 8.3
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 6,
+        "percentage": 5
+      },
+      {
+        "name": "ヤミラミナイト",
+        "rank": 7,
+        "percentage": 2.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 8,
+        "percentage": 1.5
+      },
+      {
+        "name": "くろいメガネ",
+        "rank": 9,
+        "percentage": 1.2
+      },
+      {
+        "name": "きあいのハチマキ",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "pokemon_slug": "salazzle",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 384,
+    "pokemon_slug": "samurott",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 489,
+    "pokemon_slug": "samurott-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 461,
+    "pokemon_slug": "sandaconda",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 312,
+    "pokemon_slug": "scizor",
+    "moves": [
+      {
+        "name": "バレットパンチ",
+        "rank": 1,
+        "percentage": 99.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 73.9
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 3,
+        "percentage": 64.1
+      },
+      {
+        "name": "むしくい",
+        "rank": 4,
+        "percentage": 50.5
+      },
+      {
+        "name": "インファイト",
+        "rank": 5,
+        "percentage": 33.2
+      },
+      {
+        "name": "とんぼがえり",
+        "rank": 6,
+        "percentage": 20.1
+      },
+      {
+        "name": "ダブルウイング",
+        "rank": 7,
+        "percentage": 20
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 8,
+        "percentage": 8.5
+      },
+      {
+        "name": "おいかぜ",
+        "rank": 9,
+        "percentage": 4
+      },
+      {
+        "name": "シザークロス",
+        "rank": 10,
+        "percentage": 2.5
+      }
+    ],
+    "items": [
+      {
+        "name": "ハッサムナイト",
+        "rank": 1,
+        "percentage": 59.7
+      },
+      {
+        "name": "メタルコート",
+        "rank": 2,
+        "percentage": 19.5
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 3,
+        "percentage": 4.4
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 3.7
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 5,
+        "percentage": 3.5
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 6,
+        "percentage": 3.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 8,
+        "percentage": 1.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 0.4
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 10,
+        "percentage": 0.3
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "pokemon_slug": "scovillain",
+    "moves": [
+      {
+        "name": "いかりのこな",
+        "rank": 1,
+        "percentage": 92
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 86.3
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 3,
+        "percentage": 62.4
+      },
+      {
+        "name": "やどりぎのタネ",
+        "rank": 4,
+        "percentage": 35.2
+      },
+      {
+        "name": "ギガドレイン",
+        "rank": 5,
+        "percentage": 32.5
+      },
+      {
+        "name": "オーバーヒート",
+        "rank": 6,
+        "percentage": 23.6
+      },
+      {
+        "name": "リーフストーム",
+        "rank": 7,
+        "percentage": 16.6
+      },
+      {
+        "name": "エナジーボール",
+        "rank": 8,
+        "percentage": 10.3
+      },
+      {
+        "name": "ハバネロエキス",
+        "rank": 9,
+        "percentage": 6.5
+      },
+      {
+        "name": "てだすけ",
+        "rank": 10,
+        "percentage": 5.4
+      }
+    ],
+    "items": [
+      {
+        "name": "スコヴィラナイト",
+        "rank": 1,
+        "percentage": 93
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 1.8
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 3,
+        "percentage": 0.6
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 4,
+        "percentage": 0.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 0.6
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 6,
+        "percentage": 0.5
+      },
+      {
+        "name": "もくたん",
+        "rank": 7,
+        "percentage": 0.4
+      },
+      {
+        "name": "たべのこし",
+        "rank": 8,
+        "percentage": 0.3
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 9,
+        "percentage": 0.3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "pokemon_slug": "serperior",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 437,
+    "pokemon_slug": "sharpedo",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 483,
+    "pokemon_slug": "simipour",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 488,
+    "pokemon_slug": "simisage",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 482,
+    "pokemon_slug": "simisear",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 320,
+    "pokemon_slug": "sinistcha",
+    "moves": [
+      {
+        "name": "シャカシャカほう◎",
+        "rank": 1,
+        "percentage": 98.9
+      },
+      {
+        "name": "いかりのこな",
+        "rank": 2,
+        "percentage": 96.9
+      },
+      {
+        "name": "トリックルーム",
+        "rank": 3,
+        "percentage": 62.2
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 34.7
+      },
+      {
+        "name": "ちからをすいとるし",
+        "rank": 6,
+        "percentage": 25.3
+      },
+      {
+        "name": "シャドーボール◎",
+        "rank": 7,
+        "percentage": 18.7
+      },
+      {
+        "name": "ふういん",
+        "rank": 8,
+        "percentage": 2.2
+      },
+      {
+        "name": "ねっ",
+        "rank": 9,
+        "percentage": 1.5
+      },
+      {
+        "name": "めいそ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 48.2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 20.6
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 4,
+        "percentage": 5.1
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 6,
+        "percentage": 3
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 2.7
+      },
+      {
+        "name": "カシブのみ",
+        "rank": 8,
+        "percentage": 2.7
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 9,
+        "percentage": 2
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 10,
+        "percentage": 1.2
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "pokemon_slug": "skarmory",
+    "moves": [
+      {
+        "name": "アイアンヘッド",
+        "rank": 1,
+        "percentage": 86.5
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 68.4
+      },
+      {
+        "name": "ブレイブバード",
+        "rank": 3,
+        "percentage": 64.5
+      },
+      {
+        "name": "おいかぜ",
+        "rank": 4,
+        "percentage": 44.4
+      },
+      {
+        "name": "ボディプレス",
+        "rank": 5,
+        "percentage": 23.6
+      },
+      {
+        "name": "つるぎのまい",
+        "rank": 6,
+        "percentage": 17.7
+      },
+      {
+        "name": "いわなだれ",
+        "rank": 7,
+        "percentage": 15.1
+      },
+      {
+        "name": "ドリルライナー",
+        "rank": 8,
+        "percentage": 14.8
+      },
+      {
+        "name": "ダブルウイング",
+        "rank": 9,
+        "percentage": 14.1
+      },
+      {
+        "name": "てっぺき",
+        "rank": 10,
+        "percentage": 12.3
+      }
+    ],
+    "items": [
+      {
+        "name": "エアームドナイト",
+        "rank": 1,
+        "percentage": 83
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 8.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 1.2
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 4,
+        "percentage": 1
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 5,
+        "percentage": 0.8
+      },
+      {
+        "name": "メタルコート",
+        "rank": 6,
+        "percentage": 0.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 0.6
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 9,
+        "percentage": 0.5
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "pokemon_slug": "skeledirge",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 373,
+    "pokemon_slug": "slowbro",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 401,
+    "pokemon_slug": "slowbro-galar",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 376,
+    "pokemon_slug": "slowking",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 386,
+    "pokemon_slug": "slowking-galar",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 486,
+    "pokemon_slug": "slurpuff",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 502,
+    "pokemon_slug": "sneasler",
+    "moves": [
+      {
+        "name": "インファイト",
+        "rank": 1,
+        "percentage": 99.6
+      },
+      {
+        "name": "フェイタルクロー",
+        "rank": 2,
+        "percentage": 98.3
+      },
+      {
+        "name": "ねこだまし",
+        "rank": 3,
+        "percentage": 88.6
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 66.4
+      },
+      {
+        "name": "コーチング",
+        "rank": 5,
+        "percentage": 11.3
+      }
+    ],
+    "items": [
+      {
+        "name": "しろいハーブ",
+        "rank": 1,
+        "percentage": 77
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 20.8
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 3,
+        "percentage": 0.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 0.3
+      },
+      {
+        "name": "くろおび",
+        "rank": 6,
+        "percentage": 0.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 0.1
+      },
+      {
+        "name": "どくバリ",
+        "rank": 8,
+        "percentage": 0.1
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 9,
+        "percentage": 0.1
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "pokemon_slug": "snorlax",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 402,
+    "pokemon_slug": "spiritomb",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 317,
+    "pokemon_slug": "starmie",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 82
+      },
+      {
+        "name": "アクアブレイク",
+        "rank": 2,
+        "percentage": 80.3
+      },
+      {
+        "name": "アクアジェット",
+        "rank": 3,
+        "percentage": 47.7
+      },
+      {
+        "name": "しねんのずつき",
+        "rank": 4,
+        "percentage": 44.2
+      },
+      {
+        "name": "アイススピナー",
+        "rank": 5,
+        "percentage": 40.4
+      },
+      {
+        "name": "サイコカッター",
+        "rank": 6,
+        "percentage": 29.7
+      },
+      {
+        "name": "クイックターン",
+        "rank": 7,
+        "percentage": 17.2
+      },
+      {
+        "name": "みがわり",
+        "rank": 8,
+        "percentage": 10.6
+      },
+      {
+        "name": "スキルスワップ",
+        "rank": 9,
+        "percentage": 9.1
+      },
+      {
+        "name": "たきのぼり",
+        "rank": 10,
+        "percentage": 8.3
+      }
+    ],
+    "items": [
+      {
+        "name": "スターミーナイト",
+        "rank": 1,
+        "percentage": 96.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 0.8
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 3,
+        "percentage": 0.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 4,
+        "percentage": 0.5
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 0.4
+      },
+      {
+        "name": "しんぴのしずく",
+        "rank": 6,
+        "percentage": 0.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 7,
+        "percentage": 0.2
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 8,
+        "percentage": 0.1
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 9,
+        "percentage": 0.1
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 0.1
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "pokemon_slug": "steelix",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 472,
+    "pokemon_slug": "stunfisk",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 636,
+    "pokemon_slug": "stunfisk-galar",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 305,
+    "pokemon_slug": "sylveon",
+    "moves": [
+      {
+        "name": "ハイパーボイス",
+        "rank": 1,
+        "percentage": 99.6
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 63.9
+      },
+      {
+        "name": "でんこうせっか",
+        "rank": 3,
+        "percentage": 55.4
+      },
+      {
+        "name": "みきり",
+        "rank": 4,
+        "percentage": 26.8
+      },
+      {
+        "name": "めいそ",
+        "rank": 5,
+        "percentage": 23.1
+      },
+      {
+        "name": "はかいこうせん",
+        "rank": 6,
+        "percentage": 20.7
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 7,
+        "percentage": 19.3
+      },
+      {
+        "name": "マジカルフレイム",
+        "rank": 8,
+        "percentage": 17.2
+      },
+      {
+        "name": "ムーンフォース",
+        "rank": 9,
+        "percentage": 16.3
+      },
+      {
+        "name": "あくび",
+        "rank": 10,
+        "percentage": 16.2
+      }
+    ],
+    "items": [
+      {
+        "name": "ようせいのハネ",
+        "rank": 1,
+        "percentage": 76.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 10.3
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 6,
+        "percentage": 0.8
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 7,
+        "percentage": 0.6
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 8,
+        "percentage": 0.5
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 0.4
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.4
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "pokemon_slug": "talonflame",
+    "moves": [
+      {
+        "name": "おいかぜ",
+        "rank": 1,
+        "percentage": 99.1
+      },
+      {
+        "name": "アクロバット",
+        "rank": 6,
+        "percentage": 26.1
+      },
+      {
+        "name": "あまごい",
+        "rank": 7,
+        "percentage": 14.1
+      },
+      {
+        "name": "ファストガード",
+        "rank": 8,
+        "percentage": 13.8
+      },
+      {
+        "name": "はやてがえし",
+        "rank": 9,
+        "percentage": 13.3
+      },
+      {
+        "name": "おにび",
+        "rank": 10,
+        "percentage": 12.6
+      }
+    ],
+    "items": [
+      {
+        "name": "するどいくちばし",
+        "rank": 1,
+        "percentage": 39.4
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 2,
+        "percentage": 21.1
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 4,
+        "percentage": 2
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 1.7
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 6,
+        "percentage": 1.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 7,
+        "percentage": 1.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 9,
+        "percentage": 1.1
+      },
+      {
+        "name": "もくたん",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "pokemon_slug": "tauros",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 418,
+    "pokemon_slug": "tauros-paldea-aqua",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 474,
+    "pokemon_slug": "tauros-paldea-combat",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 355,
+    "pokemon_slug": "tinkaton",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 302,
+    "pokemon_slug": "torkoal",
+    "moves": [
+      {
+        "name": "ふんか",
+        "rank": 1,
+        "percentage": 95
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 88.5
+      },
+      {
+        "name": "ねっぷ",
+        "rank": 3,
+        "percentage": 58.5
+      },
+      {
+        "name": "だいちのちから◎",
+        "rank": 4,
+        "percentage": 45.9
+      },
+      {
+        "name": "ウェザーボール◎",
+        "rank": 5,
+        "percentage": 35.7
+      },
+      {
+        "name": "ソーラービーム",
+        "rank": 6,
+        "percentage": 25.2
+      },
+      {
+        "name": "てだすけ",
+        "rank": 7,
+        "percentage": 10.6
+      },
+      {
+        "name": "かえんほうし",
+        "rank": 8,
+        "percentage": 6
+      },
+      {
+        "name": "オーバーヒート",
+        "rank": 9,
+        "percentage": 5.4
+      },
+      {
+        "name": "ボデイプレス",
+        "rank": 10,
+        "percentage": 5.1
+      }
+    ],
+    "items": [
+      {
+        "name": "もくたん",
+        "rank": 1,
+        "percentage": 88.6
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 2.5
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 4,
+        "percentage": 2.2
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 6,
+        "percentage": 0.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 7,
+        "percentage": 0.4
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 0.4
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "pokemon_slug": "torterra",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 449,
+    "pokemon_slug": "toucannon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 412,
+    "pokemon_slug": "toxapex",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 409,
+    "pokemon_slug": "toxicroak",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 447,
+    "pokemon_slug": "trevenant",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 344,
+    "pokemon_slug": "tsareena",
+    "moves": [
+      {
+        "name": "トリプルアクセル",
+        "rank": 1,
+        "percentage": 76.1
+      },
+      {
+        "name": "トロピカルキック",
+        "rank": 2,
+        "percentage": 68
+      },
+      {
+        "name": "まもる",
+        "rank": 3,
+        "percentage": 56.5
+      },
+      {
+        "name": "けたぐり",
+        "rank": 4,
+        "percentage": 43.2
+      },
+      {
+        "name": "パワーウィップ",
+        "rank": 5,
+        "percentage": 28.2
+      },
+      {
+        "name": "とんぼがえり",
+        "rank": 6,
+        "percentage": 24.2
+      },
+      {
+        "name": "とびひざげり",
+        "rank": 7,
+        "percentage": 22.7
+      },
+      {
+        "name": "しねんのずつき",
+        "rank": 8,
+        "percentage": 18
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 9,
+        "percentage": 13.5
+      },
+      {
+        "name": "てだすけ",
+        "rank": 10,
+        "percentage": 13
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 25.2
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 2,
+        "percentage": 19.1
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 3,
+        "percentage": 10.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 4,
+        "percentage": 10
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 5,
+        "percentage": 7.8
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 6,
+        "percentage": 5.9
+      },
+      {
+        "name": "たべのこし",
+        "rank": 7,
+        "percentage": 3.2
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 8,
+        "percentage": 3
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 9,
+        "percentage": 2.7
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 10,
+        "percentage": 2.5
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "pokemon_slug": "typhlosion",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 410,
+    "pokemon_slug": "typhlosion-hisui",
+    "moves": [
+      {
+        "name": "ふんか",
+        "rank": 1,
+        "percentage": 98.4
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 2,
+        "percentage": 84.1
+      },
+      {
+        "name": "ねっぷう",
+        "rank": 3,
+        "percentage": 67.6
+      },
+      {
+        "name": "オーバーヒート",
+        "rank": 4,
+        "percentage": 37.2
+      },
+      {
+        "name": "まもる",
+        "rank": 5,
+        "percentage": 16.8
+      },
+      {
+        "name": "ひやっきやこう",
+        "rank": 6,
+        "percentage": 16.7
+      },
+      {
+        "name": "きあいだま",
+        "rank": 7,
+        "percentage": 15.1
+      },
+      {
+        "name": "ソーラービーム",
+        "rank": 8,
+        "percentage": 13.5
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 9,
+        "percentage": 13.1
+      },
+      {
+        "name": "じんつうりき",
+        "rank": 10,
+        "percentage": 10
+      }
+    ],
+    "items": [
+      {
+        "name": "こだわりスカーフ",
+        "rank": 1,
+        "percentage": 84.4
+      },
+      {
+        "name": "もくたん",
+        "rank": 2,
+        "percentage": 10.6
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 3,
+        "percentage": 1.7
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 4,
+        "percentage": 0.6
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 5,
+        "percentage": 0.5
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 6,
+        "percentage": 0.4
+      },
+      {
+        "name": "たべのこし",
+        "rank": 7,
+        "percentage": 0.3
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 8,
+        "percentage": 0.2
+      },
+      {
+        "name": "シュカのみ",
+        "rank": 9,
+        "percentage": 0.2
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 10,
+        "percentage": 0.2
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "pokemon_slug": "tyranitar",
+    "moves": [
+      {
+        "name": "いわなだれ",
+        "rank": 1,
+        "percentage": 96.3
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 80.3
+      },
+      {
+        "name": "はたきおとす",
+        "rank": 3,
+        "percentage": 68
+      },
+      {
+        "name": "けたぐり",
+        "rank": 4,
+        "percentage": 44.2
+      },
+      {
+        "name": "れいとうパンチ",
+        "rank": 5,
+        "percentage": 26.7
+      },
+      {
+        "name": "かみくだ",
+        "rank": 6,
+        "percentage": 19
+      },
+      {
+        "name": "りゅうのまいし",
+        "rank": 7,
+        "percentage": 15.5
+      },
+      {
+        "name": "ストーンエッジ",
+        "rank": 8,
+        "percentage": 9.6
+      },
+      {
+        "name": "じしん",
+        "rank": 9,
+        "percentage": 8.3
+      },
+      {
+        "name": "10まんばり",
+        "rank": 10,
+        "percentage": 6.3
+      }
+    ],
+    "items": [
+      {
+        "name": "バンギラスナイト",
+        "rank": 1,
+        "percentage": 61.4
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 13.5
+      },
+      {
+        "name": "ヨプのみ",
+        "rank": 3,
+        "percentage": 10.1
+      },
+      {
+        "name": "たべのこし",
+        "rank": 4,
+        "percentage": 2.5
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 2
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 1.6
+      },
+      {
+        "name": "しろいハープ",
+        "rank": 8,
+        "percentage": 1.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 9,
+        "percentage": 1.1
+      },
+      {
+        "name": "かたいいし",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "pokemon_slug": "tyrantrum",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 389,
+    "pokemon_slug": "umbreon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 372,
+    "pokemon_slug": "vanilluxe",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 425,
+    "pokemon_slug": "vaporeon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 496,
+    "pokemon_slug": "venusaur",
+    "moves": [
+      {
+        "name": "ヘドロばくだん",
+        "rank": 1,
+        "percentage": 94.3
+      },
+      {
+        "name": "まもる",
+        "rank": 2,
+        "percentage": 74.8
+      },
+      {
+        "name": "だいちのちから◎",
+        "rank": 4,
+        "percentage": 41.4
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 45.5
+      },
+      {
+        "name": "フシギバナイト",
+        "rank": 2,
+        "percentage": 24.8
+      },
+      {
+        "name": "きせきのタネ",
+        "rank": 4,
+        "percentage": 5.5
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 6,
+        "percentage": 3.7
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 7,
+        "percentage": 2.7
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "しろいハーブ",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "どくバリ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "pokemon_slug": "victreebel",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 367,
+    "pokemon_slug": "vivillon",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 327,
+    "pokemon_slug": "volcarona",
+    "moves": [
+      {
+        "name": "まもる",
+        "rank": 1,
+        "percentage": 60.7
+      },
+      {
+        "name": "いかりのこな",
+        "rank": 2,
+        "percentage": 58.2
+      },
+      {
+        "name": "ねっぷう",
+        "rank": 3,
+        "percentage": 56.5
+      },
+      {
+        "name": "ちょうのまい",
+        "rank": 4,
+        "percentage": 47.2
+      },
+      {
+        "name": "おいかぜ",
+        "rank": 5,
+        "percentage": 33.5
+      },
+      {
+        "name": "むしのていこう",
+        "rank": 6,
+        "percentage": 30
+      },
+      {
+        "name": "ほのおのまい",
+        "rank": 7,
+        "percentage": 28.2
+      },
+      {
+        "name": "ギガドレイン",
+        "rank": 8,
+        "percentage": 25.7
+      },
+      {
+        "name": "むしのさざめき",
+        "rank": 9,
+        "percentage": 20.8
+      },
+      {
+        "name": "オーバーヒート",
+        "rank": 10,
+        "percentage": 11
+      }
+    ],
+    "items": [
+      {
+        "name": "オボンのみ",
+        "rank": 1,
+        "percentage": 31.5
+      },
+      {
+        "name": "たべのこし",
+        "rank": 2,
+        "percentage": 29.3
+      },
+      {
+        "name": "ヨロギのみ",
+        "rank": 3,
+        "percentage": 12.1
+      },
+      {
+        "name": "きあいのタスキ",
+        "rank": 4,
+        "percentage": 8.8
+      },
+      {
+        "name": "もくたん",
+        "rank": 5,
+        "percentage": 4.4
+      },
+      {
+        "name": "イトケのみ",
+        "rank": 6,
+        "percentage": 2.7
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 7,
+        "percentage": 2.7
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 8,
+        "percentage": 2.5
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 9,
+        "percentage": 0.8
+      },
+      {
+        "name": "かいがらのすず",
+        "rank": 10,
+        "percentage": 0.6
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "pokemon_slug": "watchog",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 354,
+    "pokemon_slug": "weavile",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 503,
+    "pokemon_slug": "whimsicott",
+    "moves": [
+      {
+        "name": "ちょうはつ",
+        "rank": 6,
+        "percentage": 13.8
+      },
+      {
+        "name": "うそな",
+        "rank": 7,
+        "percentage": 10.3
+      },
+      {
+        "name": "てだすけ",
+        "rank": 8,
+        "percentage": 8.1
+      },
+      {
+        "name": "がむしゃら",
+        "rank": 9,
+        "percentage": 7.1
+      },
+      {
+        "name": "ひかりのかべ〇",
+        "rank": 10,
+        "percentage": 4.9
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 76.8
+      },
+      {
+        "name": "メンタルハーブ",
+        "rank": 2,
+        "percentage": 8.8
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 3,
+        "percentage": 2.5
+      },
+      {
+        "name": "オッカのみ",
+        "rank": 4,
+        "percentage": 2.5
+      },
+      {
+        "name": "ようせいのハネ",
+        "rank": 6,
+        "percentage": 2
+      },
+      {
+        "name": "たべのこし",
+        "rank": 7,
+        "percentage": 1.1
+      },
+      {
+        "name": "バコウのみ",
+        "rank": 8,
+        "percentage": 0.8
+      },
+      {
+        "name": "リリバのみ",
+        "rank": 9,
+        "percentage": 0.6
+      },
+      {
+        "name": "ビアーのみ",
+        "rank": 10,
+        "percentage": 0.6
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "pokemon_slug": "wyrdeer",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 328,
+    "pokemon_slug": "zoroark",
+    "moves": [
+      {
+        "name": "ハイパーボイス",
+        "rank": 1,
+        "percentage": 62.2
+      },
+      {
+        "name": "うらみつらみ",
+        "rank": 2,
+        "percentage": 56.7
+      },
+      {
+        "name": "こごえるかぜ",
+        "rank": 3,
+        "percentage": 45.5
+      },
+      {
+        "name": "まもる",
+        "rank": 4,
+        "percentage": 41.2
+      },
+      {
+        "name": "シャドーボール",
+        "rank": 5,
+        "percentage": 38.4
+      },
+      {
+        "name": "サイコキネシス",
+        "rank": 6,
+        "percentage": 20.5
+      },
+      {
+        "name": "きあいだま",
+        "rank": 7,
+        "percentage": 14.8
+      },
+      {
+        "name": "ちょうはつ",
+        "rank": 8,
+        "percentage": 14.5
+      },
+      {
+        "name": "わるだくみ",
+        "rank": 9,
+        "percentage": 14
+      },
+      {
+        "name": "かえんほうしゃ",
+        "rank": 10,
+        "percentage": 12.6
+      }
+    ],
+    "items": [
+      {
+        "name": "きあいのタスキ",
+        "rank": 1,
+        "percentage": 45.7
+      },
+      {
+        "name": "こだわりスカーフ",
+        "rank": 2,
+        "percentage": 22.2
+      },
+      {
+        "name": "シルクのスカーフ",
+        "rank": 3,
+        "percentage": 12.3
+      },
+      {
+        "name": "のろいのおふだ",
+        "rank": 4,
+        "percentage": 4.6
+      },
+      {
+        "name": "ひかりのこな",
+        "rank": 5,
+        "percentage": 3.2
+      },
+      {
+        "name": "ナモのみ",
+        "rank": 6,
+        "percentage": 2.7
+      },
+      {
+        "name": "おうじゃのしるし",
+        "rank": 7,
+        "percentage": 1.6
+      },
+      {
+        "name": "せんせいのツメ",
+        "rank": 8,
+        "percentage": 1.3
+      },
+      {
+        "name": "オボンのみ",
+        "rank": 9,
+        "percentage": 1.3
+      },
+      {
+        "name": "ラムのみ",
+        "rank": 10,
+        "percentage": 0.8
+      }
+    ]
+  },
+  {
+    "id": 633,
+    "pokemon_slug": "zoroark-hisui",
+    "moves": null,
+    "items": null
+  },
+  {
+    "id": 452,
+    "pokemon_slug": "zorua",
+    "moves": null,
+    "items": null
+  }
+]

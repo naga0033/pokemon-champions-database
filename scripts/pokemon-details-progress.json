@@ -1,0 +1,1198 @@
+{
+  "seasonId": "M-1",
+  "format": "single",
+  "pokemon": [
+    {
+      "pokemonJa": "フラエッテ",
+      "pokemonSlug": "floette-eternal",
+      "dexNo": 670,
+      "moves": [
+        { "rank": 1,  "name": "めいそう",         "percentage": 90.4 },
+        { "rank": 2,  "name": "ドレインキッス",   "percentage": 80.0 },
+        { "rank": 3,  "name": "ムーンフォース",   "percentage": 78.6 },
+        { "rank": 4,  "name": "こうごうせい",     "percentage": 61.2 },
+        { "rank": 5,  "name": "はめつのひかり",   "percentage": 27.1 },
+        { "rank": 6,  "name": "サイコキネシス",   "percentage": 19.3 },
+        { "rank": 7,  "name": "みがわり",         "percentage": 15.3 },
+        { "rank": 8,  "name": "あまえる",         "percentage": 5.9  },
+        { "rank": 9,  "name": "ギガドレイン",     "percentage": 5.9  },
+        { "rank": 10, "name": "エナジーボール",   "percentage": 3.2  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "フラエッテナイト",   "percentage": 98.0 },
+        { "rank": 2,  "name": "こだわりスカーフ",   "percentage": 1.1  },
+        { "rank": 3,  "name": "ようせいのハネ",     "percentage": 0.1  },
+        { "rank": 4,  "name": "オボンのみ",         "percentage": 0.1  },
+        { "rank": 5,  "name": "きあいのタスキ",     "percentage": 0.1  },
+        { "rank": 6,  "name": "ゲンガナイト",       "percentage": 0.1  },
+        { "rank": 7,  "name": "マフォクシナイト",   "percentage": 0.0  },
+        { "rank": 8,  "name": "たべのこし",         "percentage": 0.0  },
+        { "rank": 9,  "name": "ピクシナイト",       "percentage": 0.0  },
+        { "rank": 10, "name": "ハッサムナイト",     "percentage": 0.0  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "フラワーベール", "percentage": 99.1 },
+        { "rank": 2, "name": "きょうせい",     "percentage": 0.8  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ひかえめ",   "percentage": 61.5 },
+        { "rank": 2,  "name": "おくびょう", "percentage": 30.0 },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 7.5  },
+        { "rank": 4,  "name": "おだやか",   "percentage": 0.8  },
+        { "rank": 5,  "name": "ようき",     "percentage": 0.0  },
+        { "rank": 6,  "name": "れいせい",   "percentage": 0.0  },
+        { "rank": 7,  "name": "わんぱく",   "percentage": 0.0  },
+        { "rank": 8,  "name": "せっかち",   "percentage": 0.0  },
+        { "rank": 9,  "name": "のんき",     "percentage": 0.0  },
+        { "rank": 10, "name": "なまいき",   "percentage": 0.0  }
+      ],
+      "evs": [
+        { "rank": 1,  "percentage": 23.2, "hp": 32, "atk": 0, "def": 0,  "spAtk": 29, "spDef": 0, "speed": 5 },
+        { "rank": 2,  "percentage": 14.8, "hp": 0,  "atk": 2, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3,  "percentage": 4.6,  "hp": 32, "atk": 0, "def": 32, "spAtk": 0,  "spDef": 32, "speed": 0 },
+        { "rank": 4,  "percentage": 4.3,  "hp": 32, "atk": 0, "def": 32, "spAtk": 0,  "spDef": 32, "speed": 0 },
+        { "rank": 5,  "percentage": 2.2,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0,  "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 61.5 },
+        { "rank": 2, "name": "ギルガルド",   "percentage": 30.0 },
+        { "rank": 3, "name": "カバルドン",   "percentage": 7.5  },
+        { "rank": 4, "name": "ドドゲザン",   "percentage": 0.8  },
+        { "rank": 5, "name": "アーマーガア", "percentage": 0.8  }
+      ]
+    },
+    {
+      "pokemonJa": "ウルガモス",
+      "pokemonSlug": "volcarona",
+      "dexNo": 637,
+      "moves": [
+        { "rank": 1,  "name": "ちょうのまい",     "percentage": 95.5 },
+        { "rank": 2,  "name": "ほのおのまい",     "percentage": 88.0 },
+        { "rank": 3,  "name": "ギガドレイン",     "percentage": 64.0 },
+        { "rank": 4,  "name": "むしのさざめき",   "percentage": 44.5 },
+        { "rank": 5,  "name": "あさのひざし",     "percentage": 43.2 },
+        { "rank": 6,  "name": "おにび",           "percentage": 23.3 },
+        { "rank": 7,  "name": "サイコキネシス",   "percentage": 9.6  },
+        { "rank": 8,  "name": "かえんほうしゃ",   "percentage": 7.3  },
+        { "rank": 9,  "name": "みがわり",         "percentage": 6.5  },
+        { "rank": 10, "name": "オーバーヒート",   "percentage": 3.2  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "オボンのみ",       "percentage": 34.7 },
+        { "rank": 2,  "name": "たべのこし",       "percentage": 23.3 },
+        { "rank": 3,  "name": "ラムのみ",         "percentage": 19.8 },
+        { "rank": 4,  "name": "きあいのタスキ",   "percentage": 6.0  },
+        { "rank": 5,  "name": "もくたん",         "percentage": 2.5  },
+        { "rank": 6,  "name": "こだわりスカーフ", "percentage": 2.5  },
+        { "rank": 7,  "name": "ひかりのこな",     "percentage": 2.2  },
+        { "rank": 8,  "name": "イトケのみ",       "percentage": 2.0  },
+        { "rank": 9,  "name": "ヨロギのみ",       "percentage": 1.8  },
+        { "rank": 10, "name": "カゴのみ",         "percentage": 0.8  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "ほのおのからだ", "percentage": 95.0 },
+        { "rank": 2, "name": "むしのしらせ",   "percentage": 4.9  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "おくびょう", "percentage": 35.2 },
+        { "rank": 2,  "name": "ひかえめ",   "percentage": 34.5 },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 26.5 },
+        { "rank": 4,  "name": "おだやか",   "percentage": 2.7  },
+        { "rank": 5,  "name": "おっとり",   "percentage": 0.2  },
+        { "rank": 6,  "name": "せっかち",   "percentage": 0.1  },
+        { "rank": 7,  "name": "れいせい",   "percentage": 0.1  },
+        { "rank": 8,  "name": "のんき",     "percentage": 0.1  },
+        { "rank": 9,  "name": "おとなしい", "percentage": 0.1  },
+        { "rank": 10, "name": "ようき",     "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 10.5, "hp": 2,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 5.0,  "hp": 1,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 3.9,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 3.0,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 2.7,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 35.2 },
+        { "rank": 2, "name": "アシレーヌ",   "percentage": 34.5 },
+        { "rank": 3, "name": "ハッサム",     "percentage": 26.5 },
+        { "rank": 4, "name": "アーマーガア", "percentage": 2.7  }
+      ]
+    },
+    {
+      "pokemonJa": "スターミー",
+      "pokemonSlug": "starmie",
+      "dexNo": 121,
+      "moves": [
+        { "rank": 1,  "name": "アクアジェット",   "percentage": 84.6 },
+        { "rank": 2,  "name": "アクアブレイク",   "percentage": 76.5 },
+        { "rank": 3,  "name": "しんえんのつき",   "percentage": 60.4 },
+        { "rank": 4,  "name": "アイススピナー",   "percentage": 57.0 },
+        { "rank": 5,  "name": "クイックターン",   "percentage": 55.4 },
+        { "rank": 6,  "name": "たきのぼり",       "percentage": 13.1 },
+        { "rank": 7,  "name": "サイコカッター",   "percentage": 12.0 },
+        { "rank": 8,  "name": "こうそくスピン",   "percentage": 6.5  },
+        { "rank": 9,  "name": "10まんボルト",     "percentage": 5.6  },
+        { "rank": 10, "name": "ビルドアップ",     "percentage": 5.5  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "スターミーナイト",   "percentage": 96.6 },
+        { "rank": 2,  "name": "きあいのタスキ",     "percentage": 0.8  },
+        { "rank": 3,  "name": "こだわりスカーフ",   "percentage": 0.6  },
+        { "rank": 4,  "name": "ひかりのこな",       "percentage": 0.4  },
+        { "rank": 5,  "name": "たべのこし",         "percentage": 0.2  },
+        { "rank": 6,  "name": "しんぴのしずく",     "percentage": 0.2  },
+        { "rank": 7,  "name": "ラムのみ",           "percentage": 0.1  },
+        { "rank": 8,  "name": "オボンのみ",         "percentage": 0.1  },
+        { "rank": 9,  "name": "リンドのみ",         "percentage": 0.1  },
+        { "rank": 10, "name": "せんせいのツメ",     "percentage": 0.1  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "しぜんかいふく", "percentage": 79.6 },
+        { "rank": 2, "name": "はっこう",       "percentage": 11.3 },
+        { "rank": 3, "name": "アナライズ",     "percentage": 9.0  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "いじっぱり",   "percentage": 53.7 },
+        { "rank": 2,  "name": "ようき",       "percentage": 37.4 },
+        { "rank": 3,  "name": "おくびょう",   "percentage": 2.5  },
+        { "rank": 4,  "name": "むじゃき",     "percentage": 2.4  },
+        { "rank": 5,  "name": "ひかえめ",     "percentage": 1.0  },
+        { "rank": 6,  "name": "やんちゃ",     "percentage": 1.0  },
+        { "rank": 7,  "name": "せっかち",     "percentage": 0.5  },
+        { "rank": 8,  "name": "さみしがり",   "percentage": 0.3  },
+        { "rank": 9,  "name": "しんちょう",   "percentage": 0.2  },
+        { "rank": 10, "name": "まじめ",       "percentage": 0.2  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 50.0, "hp": 2,  "atk": 32, "def": 0, "spAtk": 0,  "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 7.1,  "hp": 2,  "atk": 2,  "def": 32, "spAtk": 1, "spDef": 0, "speed": 30 },
+        { "rank": 3, "percentage": 5.0,  "hp": 0,  "atk": 32, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 4, "percentage": 3.2,  "hp": 32, "atk": 0,  "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 3.0,  "hp": 4,  "atk": 32, "def": 0,  "spAtk": 0, "spDef": 0, "speed": 30 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 53.7 },
+        { "rank": 2, "name": "ブリジュラス", "percentage": 37.4 },
+        { "rank": 3, "name": "ペリッパー",   "percentage": 2.5  },
+        { "rank": 4, "name": "アーマーガア", "percentage": 2.4  },
+        { "rank": 5, "name": "ギルガルド",   "percentage": 1.0  }
+      ]
+    },
+    {
+      "pokemonJa": "ドヒドイデ",
+      "pokemonSlug": "toxapex",
+      "dexNo": 748,
+      "moves": [
+        { "rank": 1,  "name": "じこさいせい", "percentage": 97.5 },
+        { "rank": 2,  "name": "どくどく",     "percentage": 90.8 },
+        { "rank": 3,  "name": "まとわりつく", "percentage": 56.5 },
+        { "rank": 4,  "name": "トーチカ",     "percentage": 55.4 },
+        { "rank": 5,  "name": "くろいきり",   "percentage": 41.0 },
+        { "rank": 6,  "name": "どくびし",     "percentage": 15.5 },
+        { "rank": 7,  "name": "ひやみず",     "percentage": 11.3 },
+        { "rank": 8,  "name": "アクアブレイク", "percentage": 8.8 },
+        { "rank": 9,  "name": "どくづき",     "percentage": 7.0  },
+        { "rank": 10, "name": "しっぺがえし", "percentage": 2.2  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "たべのこし",     "percentage": 57.5 },
+        { "rank": 2,  "name": "オボンのみ",     "percentage": 18.7 },
+        { "rank": 3,  "name": "メンタルハーブ", "percentage": 11.6 },
+        { "rank": 4,  "name": "ひかりのこな",   "percentage": 4.5  },
+        { "rank": 5,  "name": "シュカのみ",     "percentage": 2.0  },
+        { "rank": 6,  "name": "きあいのタスキ", "percentage": 1.0  },
+        { "rank": 7,  "name": "ラムのみ",       "percentage": 0.6  },
+        { "rank": 8,  "name": "しろいハーブ",   "percentage": 0.6  },
+        { "rank": 9,  "name": "せんせいのツメ", "percentage": 0.6  },
+        { "rank": 10, "name": "ソクノのみ",     "percentage": 0.3  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "さいせいりょく", "percentage": 98.0 },
+        { "rank": 2, "name": "ひとでなし",     "percentage": 1.5  },
+        { "rank": 3, "name": "じゅうなん",     "percentage": 0.5  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "おだやか",   "percentage": 30.6 },
+        { "rank": 2,  "name": "ずぶとい",   "percentage": 29.1 },
+        { "rank": 3,  "name": "しんちょう", "percentage": 17.8 },
+        { "rank": 4,  "name": "わんぱく",   "percentage": 11.8 },
+        { "rank": 5,  "name": "なまいき",   "percentage": 4.9  },
+        { "rank": 6,  "name": "のんき",     "percentage": 4.5  },
+        { "rank": 7,  "name": "ひかえめ",   "percentage": 0.3  },
+        { "rank": 8,  "name": "いじっぱり", "percentage": 0.2  },
+        { "rank": 9,  "name": "ゆうかん",   "percentage": 0.2  },
+        { "rank": 10, "name": "れいせい",   "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 38.2, "hp": 32, "atk": 0, "def": 2, "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 2, "percentage": 20.1, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 3, "percentage": 3.0,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 4, "percentage": 2.5,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0, "spDef": 28, "speed": 0 },
+        { "rank": 5, "percentage": 2.5,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 30.6 },
+        { "rank": 2, "name": "アーマーガア", "percentage": 29.1 },
+        { "rank": 3, "name": "サザンドラ",   "percentage": 17.8 },
+        { "rank": 4, "name": "ゲンガー",     "percentage": 11.8 },
+        { "rank": 5, "name": "ミミロップ",   "percentage": 4.9  }
+      ]
+    },
+    {
+      "pokemonJa": "ニンフィア",
+      "pokemonSlug": "sylveon",
+      "dexNo": 700,
+      "moves": [
+        { "rank": 1,  "name": "ハイパーボイス",   "percentage": 97.0 },
+        { "rank": 2,  "name": "あくび",           "percentage": 78.5 },
+        { "rank": 3,  "name": "まもる",           "percentage": 55.2 },
+        { "rank": 4,  "name": "ねがいごと",       "percentage": 51.0 },
+        { "rank": 5,  "name": "マジカルフレイム", "percentage": 29.1 },
+        { "rank": 6,  "name": "でんこうせっか",   "percentage": 26.2 },
+        { "rank": 7,  "name": "めいそう",         "percentage": 19.2 },
+        { "rank": 8,  "name": "シャドーボール",   "percentage": 14.1 },
+        { "rank": 9,  "name": "サイコショック",   "percentage": 3.5  },
+        { "rank": 10, "name": "みがわり",         "percentage": 3.0  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "たべのこし",       "percentage": 65.6 },
+        { "rank": 2,  "name": "オボンのみ",       "percentage": 13.0 },
+        { "rank": 3,  "name": "ようせいのハネ",   "percentage": 10.5 },
+        { "rank": 4,  "name": "ラムのみ",         "percentage": 2.2  },
+        { "rank": 5,  "name": "せんせいのツメ",   "percentage": 2.0  },
+        { "rank": 6,  "name": "リリバのみ",       "percentage": 1.7  },
+        { "rank": 7,  "name": "カゴのみ",         "percentage": 1.2  },
+        { "rank": 8,  "name": "ひかりのこな",     "percentage": 0.8  },
+        { "rank": 9,  "name": "きあいのタスキ",   "percentage": 0.6  },
+        { "rank": 10, "name": "こだわりスカーフ", "percentage": 0.6  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "フェアリースキン", "percentage": 98.6 },
+        { "rank": 2, "name": "メロメロボディ",   "percentage": 1.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ひかえめ",   "percentage": 38.5 },
+        { "rank": 2,  "name": "ずぶとい",   "percentage": 31.7 },
+        { "rank": 3,  "name": "のんき",     "percentage": 17.0 },
+        { "rank": 4,  "name": "おだやか",   "percentage": 8.6  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 1.8  },
+        { "rank": 6,  "name": "おくびょう", "percentage": 0.8  },
+        { "rank": 7,  "name": "なまいき",   "percentage": 0.6  },
+        { "rank": 8,  "name": "おっとり",   "percentage": 0.2  },
+        { "rank": 9,  "name": "わんぱく",   "percentage": 0.2  },
+        { "rank": 10, "name": "むじゃき",   "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 25.7, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 12.6, "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 2 },
+        { "rank": 3, "percentage": 5.0,  "hp": 32, "atk": 0, "def": 32, "spAtk": 0,  "spDef": 0, "speed": 0 },
+        { "rank": 4, "percentage": 4.5,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 2.4,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス", "percentage": 38.5 },
+        { "rank": 2, "name": "ハッサム",   "percentage": 31.7 },
+        { "rank": 3, "name": "リザードン", "percentage": 17.0 },
+        { "rank": 4, "name": "ゲンガー",   "percentage": 8.6  },
+        { "rank": 5, "name": "ドドゲザン", "percentage": 1.8  }
+      ]
+    },
+    {
+      "pokemonJa": "クエスパトラ",
+      "pokemonSlug": "espathra",
+      "dexNo": 956,
+      "moves": [
+        { "rank": 1,  "name": "まもる",           "percentage": 96.6 },
+        { "rank": 2,  "name": "バトンタッチ",     "percentage": 82.6 },
+        { "rank": 3,  "name": "ルミナコリジョン", "percentage": 81.9 },
+        { "rank": 4,  "name": "めいそう",         "percentage": 72.9 },
+        { "rank": 5,  "name": "マジカルシャイン", "percentage": 24.8 },
+        { "rank": 6,  "name": "みがわり",         "percentage": 12.5 },
+        { "rank": 7,  "name": "アシストパワー",   "percentage": 9.6  },
+        { "rank": 8,  "name": "シャドーボール",   "percentage": 8.8  },
+        { "rank": 9,  "name": "リフレクター",     "percentage": 4.9  },
+        { "rank": 10, "name": "フェザーダンス",   "percentage": 4.1  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "オボンのみ",       "percentage": 35.0 },
+        { "rank": 2,  "name": "きあいのタスキ",   "percentage": 30.1 },
+        { "rank": 3,  "name": "たべのこし",       "percentage": 14.6 },
+        { "rank": 4,  "name": "メンタルハーブ",   "percentage": 5.1  },
+        { "rank": 5,  "name": "ラムのみ",         "percentage": 4.4  },
+        { "rank": 6,  "name": "ナモのみ",         "percentage": 2.5  },
+        { "rank": 7,  "name": "カシブのみ",       "percentage": 2.4  },
+        { "rank": 8,  "name": "ひかりのこな",     "percentage": 2.2  },
+        { "rank": 9,  "name": "まがったスプーン", "percentage": 1.8  },
+        { "rank": 10, "name": "しろいハーブ",     "percentage": 0.3  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "かそく",       "percentage": 99.5 },
+        { "rank": 2, "name": "びんじょう",   "percentage": 0.3  },
+        { "rank": 3, "name": "おみとおし",   "percentage": 0.1  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ずぶとい",   "percentage": 40.7 },
+        { "rank": 2,  "name": "おくびょう", "percentage": 31.7 },
+        { "rank": 3,  "name": "ひかえめ",   "percentage": 21.7 },
+        { "rank": 4,  "name": "おだやか",   "percentage": 4.3  },
+        { "rank": 5,  "name": "おっとり",   "percentage": 0.2  },
+        { "rank": 6,  "name": "わんぱく",   "percentage": 0.2  },
+        { "rank": 7,  "name": "むじゃき",   "percentage": 0.2  },
+        { "rank": 8,  "name": "ようき",     "percentage": 0.2  },
+        { "rank": 9,  "name": "れいせい",   "percentage": 0.2  },
+        { "rank": 10, "name": "せっかち",   "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 9.1, "hp": 25, "atk": 0, "def": 30, "spAtk": 0, "spDef": 2, "speed": 9 },
+        { "rank": 2, "percentage": 5.5, "hp": 2,  "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 5.0, "hp": 32, "atk": 0, "def": 32, "spAtk": 0,  "spDef": 0, "speed": 0 },
+        { "rank": 4, "percentage": 3.2, "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 3.2, "hp": 32, "atk": 0, "def": 0,  "spAtk": 0,  "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ピクシー",     "percentage": 40.7 },
+        { "rank": 2, "name": "ガブリアス",   "percentage": 31.7 },
+        { "rank": 3, "name": "ドドゲザン",   "percentage": 21.7 },
+        { "rank": 4, "name": "アーマーガア", "percentage": 4.3  },
+        { "rank": 5, "name": "キラフロル",   "percentage": 0.2  }
+      ]
+    },
+    {
+      "pokemonJa": "ペリッパー",
+      "pokemonSlug": "pelipper",
+      "dexNo": 279,
+      "moves": [
+        { "rank": 1,  "name": "ぼうふう",         "percentage": 97.3 },
+        { "rank": 2,  "name": "とんぼがえり",     "percentage": 89.8 },
+        { "rank": 3,  "name": "れいとうビーム",   "percentage": 52.0 },
+        { "rank": 4,  "name": "なみのり",         "percentage": 46.5 },
+        { "rank": 5,  "name": "ウェザーボール",   "percentage": 35.9 },
+        { "rank": 6,  "name": "おいかぜ",         "percentage": 32.2 },
+        { "rank": 7,  "name": "はねやすめ",       "percentage": 13.1 },
+        { "rank": 8,  "name": "ハイドロポンプ",   "percentage": 11.8 },
+        { "rank": 9,  "name": "でんこうせっか",   "percentage": 4.3  },
+        { "rank": 10, "name": "こごえるかぜ",     "percentage": 4.0  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "オボンのみ",       "percentage": 39.5 },
+        { "rank": 2,  "name": "きあいのタスキ",   "percentage": 34.2 },
+        { "rank": 3,  "name": "こだわりスカーフ", "percentage": 4.8  },
+        { "rank": 4,  "name": "たべのこし",       "percentage": 4.6  },
+        { "rank": 5,  "name": "しんぴのしずく",   "percentage": 3.2  },
+        { "rank": 6,  "name": "ソクノのみ",       "percentage": 3.0  },
+        { "rank": 7,  "name": "せんせいのツメ",   "percentage": 2.5  },
+        { "rank": 8,  "name": "ひかりのこな",     "percentage": 2.0  },
+        { "rank": 9,  "name": "ラムのみ",         "percentage": 1.7  },
+        { "rank": 10, "name": "するどいくちばし", "percentage": 1.7  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "あめふらし",   "percentage": 99.8 },
+        { "rank": 2, "name": "するどいめ",   "percentage": 0.1  },
+        { "rank": 3, "name": "あめうけざら", "percentage": 0.1  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ひかえめ",   "percentage": 41.5 },
+        { "rank": 2,  "name": "のんき",     "percentage": 17.2 },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 15.8 },
+        { "rank": 4,  "name": "おくびょう", "percentage": 8.8  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 7.9  },
+        { "rank": 6,  "name": "おだやか",   "percentage": 3.2  },
+        { "rank": 7,  "name": "なまいき",   "percentage": 2.4  },
+        { "rank": 8,  "name": "わんぱく",   "percentage": 1.7  },
+        { "rank": 9,  "name": "うっかりや", "percentage": 0.3  },
+        { "rank": 10, "name": "おっとり",   "percentage": 0.2  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 16.6, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 12.8, "hp": 2,  "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 6.5,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 },
+        { "rank": 4, "percentage": 6.4,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0,  "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 5.8,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ブリジュラス", "percentage": 41.5 },
+        { "rank": 2, "name": "ガブリアス",   "percentage": 17.2 },
+        { "rank": 3, "name": "メガニウム",   "percentage": 15.8 },
+        { "rank": 4, "name": "イダイトウ",   "percentage": 8.8  },
+        { "rank": 5, "name": "スターミー",   "percentage": 7.9  }
+      ]
+    },
+    {
+      "pokemonJa": "マンムー",
+      "pokemonSlug": "mamoswine",
+      "dexNo": 473,
+      "moves": [
+        { "rank": 1,  "name": "じしん",           "percentage": 99.1 },
+        { "rank": 2,  "name": "こおりのつぶて",   "percentage": 92.5 },
+        { "rank": 3,  "name": "つららばり",       "percentage": 61.7 },
+        { "rank": 4,  "name": "ステルスロック",   "percentage": 43.9 },
+        { "rank": 5,  "name": "がんせきふうじ",   "percentage": 32.0 },
+        { "rank": 6,  "name": "つららおとし",     "percentage": 27.5 },
+        { "rank": 7,  "name": "がむしゃら",       "percentage": 7.3  },
+        { "rank": 8,  "name": "はたきおとす",     "percentage": 6.4  },
+        { "rank": 9,  "name": "いわなだれ",       "percentage": 5.9  },
+        { "rank": 10, "name": "ストーンエッジ",   "percentage": 5.6  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "きあいのタスキ",   "percentage": 81.3 },
+        { "rank": 2,  "name": "こだわりスカーフ", "percentage": 5.4  },
+        { "rank": 3,  "name": "オボンのみ",       "percentage": 3.7  },
+        { "rank": 4,  "name": "とけないこおり",   "percentage": 2.7  },
+        { "rank": 5,  "name": "ラムのみ",         "percentage": 1.7  },
+        { "rank": 6,  "name": "せんせいのツメ",   "percentage": 0.9  },
+        { "rank": 7,  "name": "たべのこし",       "percentage": 0.8  },
+        { "rank": 8,  "name": "オッカのみ",       "percentage": 0.6  },
+        { "rank": 9,  "name": "ヨプのみ",         "percentage": 0.6  },
+        { "rank": 10, "name": "ひかりのこな",     "percentage": 0.5  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "あついしぼう", "percentage": 71.1 },
+        { "rank": 2, "name": "どんかん",     "percentage": 27.6 },
+        { "rank": 3, "name": "ゆきがくれ",   "percentage": 1.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "いじっぱり",   "percentage": 68.8 },
+        { "rank": 2,  "name": "ようき",       "percentage": 26.2 },
+        { "rank": 3,  "name": "わんぱく",     "percentage": 1.2  },
+        { "rank": 4,  "name": "やんちゃ",     "percentage": 0.8  },
+        { "rank": 5,  "name": "しんちょう",   "percentage": 0.6  },
+        { "rank": 6,  "name": "ゆうかん",     "percentage": 0.6  },
+        { "rank": 7,  "name": "むじゃき",     "percentage": 0.4  },
+        { "rank": 8,  "name": "さみしがり",   "percentage": 0.3  },
+        { "rank": 9,  "name": "せっかち",     "percentage": 0.2  },
+        { "rank": 10, "name": "おくびょう",   "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 41.0, "hp": 2,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 13.6, "hp": 0,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 7.0,  "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 4, "percentage": 3.7,  "hp": 32, "atk": 0,  "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 3.7,  "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "リザードン",   "percentage": 68.8 },
+        { "rank": 2, "name": "アシレーヌ",   "percentage": 26.2 },
+        { "rank": 3, "name": "ガブリアス",   "percentage": 1.2  },
+        { "rank": 4, "name": "ブリジュラス", "percentage": 0.8  },
+        { "rank": 5, "name": "アーマーガア", "percentage": 0.6  }
+      ]
+    },
+    {
+      "pokemonJa": "カビゴン",
+      "pokemonSlug": "snorlax",
+      "dexNo": 143,
+      "moves": [
+        { "rank": 1,  "name": "あくび",           "percentage": 71.5 },
+        { "rank": 2,  "name": "じしん",           "percentage": 67.0 },
+        { "rank": 3,  "name": "のしかかり",       "percentage": 47.7 },
+        { "rank": 4,  "name": "まもる",           "percentage": 42.7 },
+        { "rank": 5,  "name": "ねむる",           "percentage": 22.0 },
+        { "rank": 6,  "name": "れいとうパンチ",   "percentage": 17.2 },
+        { "rank": 7,  "name": "じわれ",           "percentage": 15.8 },
+        { "rank": 8,  "name": "のろい",           "percentage": 14.6 },
+        { "rank": 9,  "name": "からげんき",       "percentage": 10.8 },
+        { "rank": 10, "name": "ヘビーボンバー",   "percentage": 10.5 }
+      ],
+      "items": [
+        { "rank": 1,  "name": "たべのこし",       "percentage": 64.0 },
+        { "rank": 2,  "name": "カゴのみ",         "percentage": 14.1 },
+        { "rank": 3,  "name": "オボンのみ",       "percentage": 11.6 },
+        { "rank": 4,  "name": "ラムのみ",         "percentage": 4.0  },
+        { "rank": 5,  "name": "ヨプのみ",         "percentage": 2.0  },
+        { "rank": 6,  "name": "シルクのスカーフ", "percentage": 1.3  },
+        { "rank": 7,  "name": "せんせいのツメ",   "percentage": 1.1  },
+        { "rank": 8,  "name": "ひかりのこな",     "percentage": 0.4  },
+        { "rank": 9,  "name": "しろいハーブ",     "percentage": 0.3  },
+        { "rank": 10, "name": "かいがらのすず",   "percentage": 0.2  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "あついしぼう", "percentage": 91.5 },
+        { "rank": 2, "name": "めんえき",     "percentage": 7.1  },
+        { "rank": 3, "name": "くいしんぼう", "percentage": 1.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "しんちょう",   "percentage": 47.7 },
+        { "rank": 2,  "name": "わんぱく",     "percentage": 29.3 },
+        { "rank": 3,  "name": "いじっぱり",   "percentage": 13.1 },
+        { "rank": 4,  "name": "なまいき",     "percentage": 4.4  },
+        { "rank": 5,  "name": "のんき",       "percentage": 2.2  },
+        { "rank": 6,  "name": "ゆうかん",     "percentage": 1.7  },
+        { "rank": 7,  "name": "ずぶとい",     "percentage": 0.5  },
+        { "rank": 8,  "name": "おだやか",     "percentage": 0.2  },
+        { "rank": 9,  "name": "ようき",       "percentage": 0.2  },
+        { "rank": 10, "name": "れいせい",     "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 15.8, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 9.1,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 3, "percentage": 6.8,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 4, "percentage": 6.5,  "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 3.7,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 22, "speed": 22 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス", "percentage": 47.7 },
+        { "rank": 2, "name": "リザードン", "percentage": 29.3 },
+        { "rank": 3, "name": "ゲンガー",   "percentage": 13.1 },
+        { "rank": 4, "name": "アシレーヌ", "percentage": 4.4  },
+        { "rank": 5, "name": "アーマーガア", "percentage": 2.2 }
+      ]
+    },
+    {
+      "pokemonJa": "ラウドボーン",
+      "pokemonSlug": "skeledirge",
+      "dexNo": 911,
+      "moves": [
+        { "rank": 1,  "name": "フレアソング",     "percentage": 99.3 },
+        { "rank": 2,  "name": "なまける",         "percentage": 90.9 },
+        { "rank": 3,  "name": "おにび",           "percentage": 68.3 },
+        { "rank": 4,  "name": "シャドーボール",   "percentage": 46.5 },
+        { "rank": 5,  "name": "たたりめ",         "percentage": 32.0 },
+        { "rank": 6,  "name": "あくび",           "percentage": 24.8 },
+        { "rank": 7,  "name": "だいちのちから",   "percentage": 7.9  },
+        { "rank": 8,  "name": "みわくのボイス",   "percentage": 6.9  },
+        { "rank": 9,  "name": "みがわり",         "percentage": 3.9  },
+        { "rank": 10, "name": "まもる",           "percentage": 3.4  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "たべのこし",     "percentage": 48.5 },
+        { "rank": 2,  "name": "オボンのみ",     "percentage": 26.6 },
+        { "rank": 3,  "name": "ラムのみ",       "percentage": 3.7  },
+        { "rank": 4,  "name": "シュカのみ",     "percentage": 3.4  },
+        { "rank": 5,  "name": "せんせいのツメ", "percentage": 3.0  },
+        { "rank": 6,  "name": "ひかりのこな",   "percentage": 2.5  },
+        { "rank": 7,  "name": "もくたん",       "percentage": 2.2  },
+        { "rank": 8,  "name": "カシブのみ",     "percentage": 2.0  },
+        { "rank": 9,  "name": "ナモのみ",       "percentage": 1.5  },
+        { "rank": 10, "name": "かいがらのすず", "percentage": 0.8  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "てんねん", "percentage": 98.6 },
+        { "rank": 2, "name": "もうか",   "percentage": 1.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ずぶとい",   "percentage": 64.5 },
+        { "rank": 2,  "name": "おだやか",   "percentage": 18.6 },
+        { "rank": 3,  "name": "ひかえめ",   "percentage": 12.6 },
+        { "rank": 4,  "name": "おくびょう", "percentage": 1.1  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 0.8  },
+        { "rank": 6,  "name": "のんき",     "percentage": 0.8  },
+        { "rank": 7,  "name": "なまいき",   "percentage": 0.5  },
+        { "rank": 8,  "name": "わんぱく",   "percentage": 0.2  },
+        { "rank": 9,  "name": "おっとり",   "percentage": 0.2  },
+        { "rank": 10, "name": "しんちょう", "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 16.6, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 11.3, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 3, "percentage": 7.3,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 4, "percentage": 7.0,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 0, "speed": 2 },
+        { "rank": 5, "percentage": 2.5,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 64.5 },
+        { "rank": 2, "name": "アシレーヌ",   "percentage": 18.6 },
+        { "rank": 3, "name": "ハッサム",     "percentage": 12.6 },
+        { "rank": 4, "name": "マスカーニャ", "percentage": 1.1  },
+        { "rank": 5, "name": "アーマーガア", "percentage": 0.8  }
+      ]
+    },
+    {
+      "pokemonJa": "カメックス",
+      "pokemonSlug": "blastoise",
+      "dexNo": 9,
+      "moves": [
+        { "rank": 1,  "name": "からをやぶる",     "percentage": 93.0 },
+        { "rank": 2,  "name": "みずのはどう",     "percentage": 81.4 },
+        { "rank": 3,  "name": "はどうだん",       "percentage": 66.6 },
+        { "rank": 4,  "name": "れいとうビーム",   "percentage": 48.7 },
+        { "rank": 5,  "name": "りゅうのはどう",   "percentage": 31.7 },
+        { "rank": 6,  "name": "あくのはどう",     "percentage": 27.8 },
+        { "rank": 7,  "name": "みがわり",         "percentage": 12.3 },
+        { "rank": 8,  "name": "なみのり",         "percentage": 8.3  },
+        { "rank": 9,  "name": "ハイドロポンプ",   "percentage": 5.4  },
+        { "rank": 10, "name": "しおふき",         "percentage": 4.5  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "カメックスナイト", "percentage": 90.6 },
+        { "rank": 2,  "name": "しろいハーブ",     "percentage": 5.5  },
+        { "rank": 3,  "name": "ラムのみ",         "percentage": 0.6  },
+        { "rank": 4,  "name": "オボンのみ",       "percentage": 0.6  },
+        { "rank": 5,  "name": "きあいのタスキ",   "percentage": 0.5  },
+        { "rank": 6,  "name": "たべのこし",       "percentage": 0.4  },
+        { "rank": 7,  "name": "しんぴのしずく",   "percentage": 0.4  },
+        { "rank": 8,  "name": "こだわりスカーフ", "percentage": 0.2  },
+        { "rank": 9,  "name": "リンドのみ",       "percentage": 0.2  },
+        { "rank": 10, "name": "ゲンガナイト",     "percentage": 0.1  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "げきりゅう",   "percentage": 82.6 },
+        { "rank": 2, "name": "あめうけざら", "percentage": 17.2 }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ひかえめ",   "percentage": 85.6 },
+        { "rank": 2,  "name": "おくびょう", "percentage": 9.5  },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 1.1  },
+        { "rank": 4,  "name": "いじっぱり", "percentage": 1.0  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 0.5  },
+        { "rank": 6,  "name": "おだやか",   "percentage": 0.4  },
+        { "rank": 7,  "name": "おっとり",   "percentage": 0.2  },
+        { "rank": 8,  "name": "うっかりや", "percentage": 0.2  },
+        { "rank": 9,  "name": "なまいき",   "percentage": 0.2  },
+        { "rank": 10, "name": "のんき",     "percentage": 0.2  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 27.6, "hp": 5,  "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 29 },
+        { "rank": 2, "percentage": 12.3, "hp": 2,  "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 4.4,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 3.2,  "hp": 25, "atk": 0, "def": 0,  "spAtk": 0,  "spDef": 0, "speed": 9 },
+        { "rank": 5, "percentage": 2.2,  "hp": 2,  "atk": 0, "def": 0,  "spAtk": 0,  "spDef": 0, "speed": 30 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 85.6 },
+        { "rank": 2, "name": "ハッサム",     "percentage": 9.5  },
+        { "rank": 3, "name": "ミミッキュ",   "percentage": 1.1  },
+        { "rank": 4, "name": "ニンフィア",   "percentage": 1.0  },
+        { "rank": 5, "name": "リザードン",   "percentage": 0.5  }
+      ]
+    },
+    {
+      "pokemonJa": "ドリュウズ",
+      "pokemonSlug": "excadrill",
+      "dexNo": 530,
+      "moves": [
+        { "rank": 1,  "name": "じしん",           "percentage": 98.3 },
+        { "rank": 2,  "name": "アイアンヘッド",   "percentage": 95.0 },
+        { "rank": 3,  "name": "いわなだれ",       "percentage": 56.9 },
+        { "rank": 4,  "name": "つのドリル",       "percentage": 30.7 },
+        { "rank": 5,  "name": "つるぎのまい",     "percentage": 26.7 },
+        { "rank": 6,  "name": "がんせきふうじ",   "percentage": 25.5 },
+        { "rank": 7,  "name": "こうそくスピン",   "percentage": 18.2 },
+        { "rank": 8,  "name": "ステルスロック",   "percentage": 14.8 },
+        { "rank": 9,  "name": "どくづき",         "percentage": 7.4  },
+        { "rank": 10, "name": "かわらわり",       "percentage": 6.4  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "きあいのタスキ",   "percentage": 37.9 },
+        { "rank": 2,  "name": "こだわりスカーフ", "percentage": 36.2 },
+        { "rank": 3,  "name": "ドリュウズナイト", "percentage": 14.1 },
+        { "rank": 4,  "name": "やわらかいすな",   "percentage": 2.5  },
+        { "rank": 5,  "name": "ラムのみ",         "percentage": 1.8  },
+        { "rank": 6,  "name": "オボンのみ",       "percentage": 1.5  },
+        { "rank": 7,  "name": "シュカのみ",       "percentage": 1.0  },
+        { "rank": 8,  "name": "せんせいのツメ",   "percentage": 0.8  },
+        { "rank": 9,  "name": "たべのこし",       "percentage": 0.8  },
+        { "rank": 10, "name": "オッカのみ",       "percentage": 0.5  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "かたやぶり",   "percentage": 83.4 },
+        { "rank": 2, "name": "すなかき",     "percentage": 15.6 },
+        { "rank": 3, "name": "すなのちから", "percentage": 1.0  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ようき",       "percentage": 61.7 },
+        { "rank": 2,  "name": "いじっぱり",   "percentage": 36.0 },
+        { "rank": 3,  "name": "しんちょう",   "percentage": 1.1  },
+        { "rank": 4,  "name": "やんちゃ",     "percentage": 0.2  },
+        { "rank": 5,  "name": "さみしがり",   "percentage": 0.2  },
+        { "rank": 6,  "name": "わんぱく",     "percentage": 0.2  },
+        { "rank": 7,  "name": "むじゃき",     "percentage": 0.2  },
+        { "rank": 8,  "name": "せっかち",     "percentage": 0.1  },
+        { "rank": 9,  "name": "おくびょう",   "percentage": 0.1  },
+        { "rank": 10, "name": "ゆうかん",     "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 46.7, "hp": 2,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 15.3, "hp": 0,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 5.8,  "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 4.0,  "hp": 2,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 4.0,  "hp": 2,  "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "リザードン",   "percentage": 61.7 },
+        { "rank": 2, "name": "アシレーヌ",   "percentage": 36.0 },
+        { "rank": 3, "name": "アーマーガア", "percentage": 1.1  },
+        { "rank": 4, "name": "バンギラス",   "percentage": 0.2  },
+        { "rank": 5, "name": "ロトム",       "percentage": 0.2  }
+      ]
+    },
+    {
+      "pokemonJa": "ウツボット",
+      "pokemonSlug": "victreebel",
+      "dexNo": 71,
+      "moves": [
+        { "rank": 1,  "name": "ちからをすいとる", "percentage": 97.6 },
+        { "rank": 2,  "name": "ふいうち",         "percentage": 68.3 },
+        { "rank": 3,  "name": "ギガドレイン",     "percentage": 56.9 },
+        { "rank": 4,  "name": "ヘドロウェーブ",   "percentage": 42.2 },
+        { "rank": 5,  "name": "どくづき",         "percentage": 20.3 },
+        { "rank": 6,  "name": "パワーウィップ",   "percentage": 19.0 },
+        { "rank": 7,  "name": "アンコール",       "percentage": 16.0 },
+        { "rank": 8,  "name": "ヘドロばくだん",   "percentage": 15.5 },
+        { "rank": 9,  "name": "はたきおとす",     "percentage": 10.6 },
+        { "rank": 10, "name": "どくどく",         "percentage": 9.6  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "ウツボットナイト", "percentage": 98.4 },
+        { "rank": 2,  "name": "たべのこし",       "percentage": 0.2  },
+        { "rank": 3,  "name": "オボンのみ",       "percentage": 0.2  },
+        { "rank": 4,  "name": "ラムのみ",         "percentage": 0.1  },
+        { "rank": 5,  "name": "せんせいのツメ",   "percentage": 0.1  },
+        { "rank": 6,  "name": "きあいのタスキ",   "percentage": 0.1  },
+        { "rank": 7,  "name": "ひかりのこな",     "percentage": 0.1  },
+        { "rank": 8,  "name": "きせきのタネ",     "percentage": 0.1  },
+        { "rank": 9,  "name": "ゲンガナイト",     "percentage": 0.1  },
+        { "rank": 10, "name": "メガニウムナイト", "percentage": 0.0  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "ようりょくそ",   "percentage": 94.6 },
+        { "rank": 2, "name": "くいしんぼう",   "percentage": 5.3  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "れいせい",   "percentage": 34.0 },
+        { "rank": 2,  "name": "いじっぱり", "percentage": 26.2 },
+        { "rank": 3,  "name": "ひかえめ",   "percentage": 18.3 },
+        { "rank": 4,  "name": "ずぶとい",   "percentage": 4.0  },
+        { "rank": 5,  "name": "うっかりや", "percentage": 2.7  },
+        { "rank": 6,  "name": "わんぱく",   "percentage": 2.5  },
+        { "rank": 7,  "name": "ようき",     "percentage": 2.0  },
+        { "rank": 8,  "name": "おくびょう", "percentage": 1.5  },
+        { "rank": 9,  "name": "やんちゃ",   "percentage": 1.5  },
+        { "rank": 10, "name": "おだやか",   "percentage": 1.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 29.6, "hp": 32, "atk": 2,  "def": 0, "spAtk": 32, "spDef": 0, "speed": 2 },
+        { "rank": 2, "percentage": 18.2, "hp": 32, "atk": 32, "def": 0, "spAtk": 0,  "spDef": 0, "speed": 2 },
+        { "rank": 3, "percentage": 11.1, "hp": 32, "atk": 0,  "def": 0, "spAtk": 32, "spDef": 0, "speed": 2 },
+        { "rank": 4, "percentage": 5.3,  "hp": 32, "atk": 0,  "def": 0, "spAtk": 0,  "spDef": 0, "speed": 2 },
+        { "rank": 5, "percentage": 3.4,  "hp": 32, "atk": 0,  "def": 0, "spAtk": 32, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 34.0 },
+        { "rank": 2, "name": "イダイトウ",   "percentage": 26.2 },
+        { "rank": 3, "name": "ドドゲザン",   "percentage": 18.3 },
+        { "rank": 4, "name": "アシレーヌ",   "percentage": 4.0  },
+        { "rank": 5, "name": "キラフロル",   "percentage": 2.7  }
+      ]
+    },
+    {
+      "pokemonJa": "エアームド",
+      "pokemonSlug": "skarmory",
+      "dexNo": 227,
+      "moves": [
+        { "rank": 1,  "name": "はねやすめ",       "percentage": 60.0 },
+        { "rank": 2,  "name": "ステルスロック",   "percentage": 50.0 },
+        { "rank": 3,  "name": "ボディプレス",     "percentage": 45.2 },
+        { "rank": 4,  "name": "ブレイブバード",   "percentage": 39.2 },
+        { "rank": 5,  "name": "ふきとばし",       "percentage": 29.8 },
+        { "rank": 6,  "name": "つるぎのまい",     "percentage": 28.5 },
+        { "rank": 7,  "name": "アイアンヘッド",   "percentage": 27.7 },
+        { "rank": 8,  "name": "てっぺき",         "percentage": 27.2 },
+        { "rank": 9,  "name": "ドリルライナー",   "percentage": 26.1 },
+        { "rank": 10, "name": "ちょうはつ",       "percentage": 24.5 }
+      ],
+      "items": [
+        { "rank": 1,  "name": "エアームドナイト", "percentage": 38.0 },
+        { "rank": 2,  "name": "たべのこし",       "percentage": 21.5 },
+        { "rank": 3,  "name": "オボンのみ",       "percentage": 19.8 },
+        { "rank": 4,  "name": "メンタルハーブ",   "percentage": 7.0  },
+        { "rank": 5,  "name": "ひかりのこな",     "percentage": 4.4  },
+        { "rank": 6,  "name": "ラムのみ",         "percentage": 3.2  },
+        { "rank": 7,  "name": "せんせいのツメ",   "percentage": 1.5  },
+        { "rank": 8,  "name": "オッカのみ",       "percentage": 0.8  },
+        { "rank": 9,  "name": "くろおび",         "percentage": 0.8  },
+        { "rank": 10, "name": "きあいのタスキ",   "percentage": 0.6  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "がんじょう",     "percentage": 76.0 },
+        { "rank": 2, "name": "くだけるよろい", "percentage": 23.2 },
+        { "rank": 3, "name": "するどいめ",     "percentage": 0.8  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "わんぱく",     "percentage": 46.7 },
+        { "rank": 2,  "name": "ようき",       "percentage": 26.7 },
+        { "rank": 3,  "name": "いじっぱり",   "percentage": 14.8 },
+        { "rank": 4,  "name": "ずぶとい",     "percentage": 5.9  },
+        { "rank": 5,  "name": "しんちょう",   "percentage": 3.7  },
+        { "rank": 6,  "name": "のんき",       "percentage": 0.6  },
+        { "rank": 7,  "name": "おくびょう",   "percentage": 0.3  },
+        { "rank": 8,  "name": "おだやか",     "percentage": 0.3  },
+        { "rank": 9,  "name": "なまいき",     "percentage": 0.2  },
+        { "rank": 10, "name": "やんちゃ",     "percentage": 0.2  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 14.6, "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 11.1, "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 0, "speed": 2 },
+        { "rank": 3, "percentage": 5.6,  "hp": 32, "atk": 0, "def": 32, "spAtk": 0, "spDef": 2, "speed": 0 },
+        { "rank": 4, "percentage": 3.9,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 2.7,  "hp": 31, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 0, "speed": 31 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 46.7 },
+        { "rank": 2, "name": "アシレーヌ",   "percentage": 26.7 },
+        { "rank": 3, "name": "バンギラス",   "percentage": 14.8 },
+        { "rank": 4, "name": "ゲンガー",     "percentage": 5.9  },
+        { "rank": 5, "name": "サザンドラ",   "percentage": 3.7  }
+      ]
+    },
+    {
+      "pokemonJa": "ハラバリー",
+      "pokemonSlug": "bellibolt",
+      "dexNo": 939,
+      "moves": [
+        { "rank": 1,  "name": "パラボラチャージ", "percentage": 98.0 },
+        { "rank": 2,  "name": "ボルトチェンジ",   "percentage": 75.1 },
+        { "rank": 3,  "name": "みずびたし",       "percentage": 73.5 },
+        { "rank": 4,  "name": "なまける",         "percentage": 66.4 },
+        { "rank": 5,  "name": "どくどく",         "percentage": 33.4 },
+        { "rank": 6,  "name": "アシッドボム",     "percentage": 20.7 },
+        { "rank": 7,  "name": "ふいうち",         "percentage": 13.3 },
+        { "rank": 8,  "name": "10まんボルト",     "percentage": 3.9  },
+        { "rank": 9,  "name": "まもる",           "percentage": 3.7  },
+        { "rank": 10, "name": "ひやみず",         "percentage": 3.2  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "オボンのみ",       "percentage": 44.0 },
+        { "rank": 2,  "name": "たべのこし",       "percentage": 31.6 },
+        { "rank": 3,  "name": "じしゃく",         "percentage": 14.0 },
+        { "rank": 4,  "name": "シュカのみ",       "percentage": 5.9  },
+        { "rank": 5,  "name": "ラムのみ",         "percentage": 1.3  },
+        { "rank": 6,  "name": "ひかりのこな",     "percentage": 0.8  },
+        { "rank": 7,  "name": "かいがらのすず",   "percentage": 0.6  },
+        { "rank": 8,  "name": "せんせいのツメ",   "percentage": 0.4  },
+        { "rank": 9,  "name": "きあいのタスキ",   "percentage": 0.3  },
+        { "rank": 10, "name": "メンタルハーブ",   "percentage": 0.1  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "でんきにかえる", "percentage": 99.0 },
+        { "rank": 2, "name": "せいでんき",     "percentage": 0.8  },
+        { "rank": 3, "name": "しめりけ",       "percentage": 0.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "おだやか",   "percentage": 46.5 },
+        { "rank": 2,  "name": "なまいき",   "percentage": 17.7 },
+        { "rank": 3,  "name": "ひかえめ",   "percentage": 14.3 },
+        { "rank": 4,  "name": "ずぶとい",   "percentage": 12.0 },
+        { "rank": 5,  "name": "れいせい",   "percentage": 5.4  },
+        { "rank": 6,  "name": "のんき",     "percentage": 3.2  },
+        { "rank": 7,  "name": "おくびょう", "percentage": 0.1  },
+        { "rank": 8,  "name": "おっとり",   "percentage": 0.1  },
+        { "rank": 9,  "name": "しんちょう", "percentage": 0.1  },
+        { "rank": 10, "name": "おとなしい", "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 13.6, "hp": 31, "atk": 0, "def": 3,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 2, "percentage": 10.3, "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 3, "percentage": 5.5,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 32, "speed": 0 },
+        { "rank": 4, "percentage": 5.1,  "hp": 31, "atk": 0, "def": 0,  "spAtk": 0, "spDef": 31, "speed": 0 },
+        { "rank": 5, "percentage": 5.0,  "hp": 29, "atk": 0, "def": 3,  "spAtk": 0, "spDef": 29, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 46.5 },
+        { "rank": 2, "name": "アーマーガア", "percentage": 17.7 },
+        { "rank": 3, "name": "ミミロップ",   "percentage": 14.3 },
+        { "rank": 4, "name": "アシレーヌ",   "percentage": 12.0 },
+        { "rank": 5, "name": "ハッサム",     "percentage": 5.4  }
+      ]
+    },
+    {
+      "pokemonJa": "ユキメノコ",
+      "pokemonSlug": "froslass",
+      "dexNo": 478,
+      "moves": [
+        { "rank": 1,  "name": "ふぶき",           "percentage": 94.8 },
+        { "rank": 2,  "name": "シャドーボール",   "percentage": 75.5 },
+        { "rank": 3,  "name": "オーロラベール",   "percentage": 73.9 },
+        { "rank": 4,  "name": "みちづれ",         "percentage": 34.0 },
+        { "rank": 5,  "name": "10まんボルト",     "percentage": 29.5 },
+        { "rank": 6,  "name": "おにび",           "percentage": 21.5 },
+        { "rank": 7,  "name": "ちょうはつ",       "percentage": 10.8 },
+        { "rank": 8,  "name": "たたりめ",         "percentage": 10.8 },
+        { "rank": 9,  "name": "こおりのつぶて",   "percentage": 9.3  },
+        { "rank": 10, "name": "わるだくみ",       "percentage": 8.3  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "ユキメノコナイト", "percentage": 95.0 },
+        { "rank": 2,  "name": "きあいのタスキ",   "percentage": 2.4  },
+        { "rank": 3,  "name": "こだわりスカーフ", "percentage": 0.8  },
+        { "rank": 4,  "name": "おうじゃのしるし", "percentage": 0.2  },
+        { "rank": 5,  "name": "ユキノオナイト",   "percentage": 0.2  },
+        { "rank": 6,  "name": "せんせいのツメ",   "percentage": 0.1  },
+        { "rank": 7,  "name": "オボンのみ",       "percentage": 0.1  },
+        { "rank": 8,  "name": "ひかりのこな",     "percentage": 0.1  },
+        { "rank": 9,  "name": "ラムのみ",         "percentage": 0.1  },
+        { "rank": 10, "name": "とけないこおり",   "percentage": 0.1  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "のろわれボディ", "percentage": 72.1 },
+        { "rank": 2, "name": "ゆきがくれ",     "percentage": 27.7 }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "おくびょう",   "percentage": 79.5 },
+        { "rank": 2,  "name": "ひかえめ",     "percentage": 16.0 },
+        { "rank": 3,  "name": "ようき",       "percentage": 1.2  },
+        { "rank": 4,  "name": "ずぶとい",     "percentage": 1.2  },
+        { "rank": 5,  "name": "おだやか",     "percentage": 0.6  },
+        { "rank": 6,  "name": "せっかち",     "percentage": 0.4  },
+        { "rank": 7,  "name": "おっとり",     "percentage": 0.3  },
+        { "rank": 8,  "name": "むじゃき",     "percentage": 0.2  },
+        { "rank": 9,  "name": "いじっぱり",   "percentage": 0.1  },
+        { "rank": 10, "name": "れいせい",     "percentage": 0.0  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 47.2, "hp": 2,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 7.9,  "hp": 0,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 6.0,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0,  "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 4.8,  "hp": 0,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 2.5,  "hp": 0,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 79.5 },
+        { "rank": 2, "name": "ドドゲザン",   "percentage": 16.0 },
+        { "rank": 3, "name": "アシレーヌ",   "percentage": 1.2  },
+        { "rank": 4, "name": "ブリジュラス", "percentage": 1.2  },
+        { "rank": 5, "name": "マスカーニャ", "percentage": 0.6  }
+      ]
+    },
+    {
+      "pokemonJa": "サーナイト",
+      "pokemonSlug": "gardevoir",
+      "dexNo": 282,
+      "moves": [
+        { "rank": 1,  "name": "ハイパーボイス",   "percentage": 69.6 },
+        { "rank": 2,  "name": "しんくうは",       "percentage": 59.9 },
+        { "rank": 3,  "name": "サイコキネシス",   "percentage": 57.4 },
+        { "rank": 4,  "name": "めいそう",         "percentage": 41.2 },
+        { "rank": 5,  "name": "マジカルフレイム", "percentage": 33.5 },
+        { "rank": 6,  "name": "ムーンフォース",   "percentage": 28.2 },
+        { "rank": 7,  "name": "サイコショック",   "percentage": 27.3 },
+        { "rank": 8,  "name": "10まんボルト",     "percentage": 19.8 },
+        { "rank": 9,  "name": "トリック",         "percentage": 8.6  },
+        { "rank": 10, "name": "サイコノイズ",     "percentage": 5.8  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "サーナイトナイト", "percentage": 77.6 },
+        { "rank": 2,  "name": "こだわりスカーフ", "percentage": 13.1 },
+        { "rank": 3,  "name": "きあいのタスキ",   "percentage": 4.6  },
+        { "rank": 4,  "name": "オボンのみ",       "percentage": 1.0  },
+        { "rank": 5,  "name": "たべのこし",       "percentage": 0.5  },
+        { "rank": 6,  "name": "せんせいのツメ",   "percentage": 0.5  },
+        { "rank": 7,  "name": "ラムのみ",         "percentage": 0.4  },
+        { "rank": 8,  "name": "ようせいのハネ",   "percentage": 0.4  },
+        { "rank": 9,  "name": "リリバのみ",       "percentage": 0.3  },
+        { "rank": 10, "name": "ひかりのこな",     "percentage": 0.2  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "トレース",   "percentage": 92.0 },
+        { "rank": 2, "name": "シンクロ",   "percentage": 7.0  },
+        { "rank": 3, "name": "テレパシー", "percentage": 0.8  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ひかえめ",   "percentage": 70.0 },
+        { "rank": 2,  "name": "おくびょう", "percentage": 25.3 },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 1.7  },
+        { "rank": 4,  "name": "おだやか",   "percentage": 1.6  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 0.5  },
+        { "rank": 6,  "name": "おっとり",   "percentage": 0.1  },
+        { "rank": 7,  "name": "のんき",     "percentage": 0.1  },
+        { "rank": 8,  "name": "せっかち",   "percentage": 0.1  },
+        { "rank": 9,  "name": "まじめ",     "percentage": 0.1  },
+        { "rank": 10, "name": "おとなしい", "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 25.2, "hp": 32, "atk": 0, "def": 0, "spAtk": 11, "spDef": 5, "speed": 18 },
+        { "rank": 2, "percentage": 22.7, "hp": 2,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 3.7,  "hp": 32, "atk": 0, "def": 6, "spAtk": 10, "spDef": 0, "speed": 18 },
+        { "rank": 4, "percentage": 3.7,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0,  "spDef": 0, "speed": 2 },
+        { "rank": 5, "percentage": 3.2,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 70.0 },
+        { "rank": 2, "name": "アーマーガア", "percentage": 25.3 },
+        { "rank": 3, "name": "アシレーヌ",   "percentage": 1.7  },
+        { "rank": 4, "name": "ドドゲザン",   "percentage": 1.6  },
+        { "rank": 5, "name": "カイリュー",   "percentage": 0.5  }
+      ]
+    },
+    {
+      "pokemonJa": "アローラキュウコン",
+      "pokemonSlug": "ninetales-alola",
+      "dexNo": 38,
+      "_note": "rank 50 に表示、アイコンが氷+フェアリーなのでアローラ形態として登録",
+      "moves": [
+        { "rank": 1,  "name": "オーロラベール",   "percentage": 92.4 },
+        { "rank": 2,  "name": "ムーンフォース",   "percentage": 76.5 },
+        { "rank": 3,  "name": "ふぶき",           "percentage": 74.5 },
+        { "rank": 4,  "name": "アンコール",       "percentage": 57.2 },
+        { "rank": 5,  "name": "フリーズドライ",   "percentage": 55.2 },
+        { "rank": 6,  "name": "こおりのつぶて",   "percentage": 6.5  },
+        { "rank": 7,  "name": "わるだくみ",       "percentage": 6.1  },
+        { "rank": 8,  "name": "こごえるかぜ",     "percentage": 4.5  },
+        { "rank": 9,  "name": "バトンタッチ",     "percentage": 2.5  },
+        { "rank": 10, "name": "めいそう",         "percentage": 2.5  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "きあいのタスキ",   "percentage": 37.7 },
+        { "rank": 2,  "name": "とけないこおり",   "percentage": 15.3 },
+        { "rank": 3,  "name": "オボンのみ",       "percentage": 10.6 },
+        { "rank": 4,  "name": "ラムのみ",         "percentage": 8.1  },
+        { "rank": 5,  "name": "たべのこし",       "percentage": 5.8  },
+        { "rank": 6,  "name": "リリバのみ",       "percentage": 5.5  },
+        { "rank": 7,  "name": "ひかりのこな",     "percentage": 4.3  },
+        { "rank": 8,  "name": "こだわりスカーフ", "percentage": 3.2  },
+        { "rank": 9,  "name": "メンタルハーブ",   "percentage": 2.5  },
+        { "rank": 10, "name": "せんせいのツメ",   "percentage": 1.6  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "ゆきふらし", "percentage": 99.0 },
+        { "rank": 2, "name": "ゆきがくれ", "percentage": 0.8  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "おくびょう", "percentage": 86.6 },
+        { "rank": 2,  "name": "ひかえめ",   "percentage": 7.5  },
+        { "rank": 3,  "name": "ずぶとい",   "percentage": 2.5  },
+        { "rank": 4,  "name": "おだやか",   "percentage": 1.3  },
+        { "rank": 5,  "name": "おっとり",   "percentage": 0.3  },
+        { "rank": 6,  "name": "せっかち",   "percentage": 0.3  },
+        { "rank": 7,  "name": "のんき",     "percentage": 0.2  },
+        { "rank": 8,  "name": "れいせい",   "percentage": 0.1  },
+        { "rank": 9,  "name": "むじゃき",   "percentage": 0.1  },
+        { "rank": 10, "name": "おとなしい", "percentage": 0.1  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 24.6, "hp": 2,  "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 2, "percentage": 11.3, "hp": 0,  "atk": 0, "def": 1, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 3, "percentage": 5.1,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 5.0,  "hp": 32, "atk": 0, "def": 0, "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 5, "percentage": 3.7,  "hp": 32, "atk": 0, "def": 0, "spAtk": 0,  "spDef": 0, "speed": 32 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 86.6 },
+        { "rank": 2, "name": "リザードン",   "percentage": 7.5  },
+        { "rank": 3, "name": "ハッサム",     "percentage": 2.5  },
+        { "rank": 4, "name": "ブリジュラス", "percentage": 1.3  },
+        { "rank": 5, "name": "ドドゲザン",   "percentage": 0.5  }
+      ]
+    },
+    {
+      "pokemonJa": "マリルリ",
+      "pokemonSlug": "azumarill",
+      "dexNo": 184,
+      "moves": [
+        { "rank": 1,  "name": "アクアジェット", "percentage": 96.5 },
+        { "rank": 2,  "name": "じゃれつく",     "percentage": 96.1 },
+        { "rank": 3,  "name": "はらだいこ",     "percentage": 68.3 },
+        { "rank": 4,  "name": "アクアブレイク", "percentage": 65.0 },
+        { "rank": 5,  "name": "ばかぢから",     "percentage": 37.7 },
+        { "rank": 6,  "name": "はたきおとす",   "percentage": 8.3  },
+        { "rank": 7,  "name": "アンコール",     "percentage": 4.0  },
+        { "rank": 8,  "name": "アイススピナー", "percentage": 4.0  },
+        { "rank": 9,  "name": "ほろびのうた",   "percentage": 3.2  },
+        { "rank": 10, "name": "まもる",         "percentage": 2.9  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "オボンのみ",       "percentage": 71.0 },
+        { "rank": 2,  "name": "ラムのみ",         "percentage": 13.8 },
+        { "rank": 3,  "name": "しんぴのしずく",   "percentage": 5.8  },
+        { "rank": 4,  "name": "たべのこし",       "percentage": 3.5  },
+        { "rank": 5,  "name": "せんせいのツメ",   "percentage": 1.1  },
+        { "rank": 6,  "name": "きあいのタスキ",   "percentage": 0.8  },
+        { "rank": 7,  "name": "しろいハーブ",     "percentage": 0.6  },
+        { "rank": 8,  "name": "リンドのみ",       "percentage": 0.5  },
+        { "rank": 9,  "name": "カゴのみ",         "percentage": 0.4  },
+        { "rank": 10, "name": "ひかりのこな",     "percentage": 0.4  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "ちからもち",   "percentage": 96.5 },
+        { "rank": 2, "name": "そうしょく",   "percentage": 3.2  },
+        { "rank": 3, "name": "あついしぼう", "percentage": 0.2  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "いじっぱり",   "percentage": 93.8 },
+        { "rank": 2,  "name": "ようき",       "percentage": 1.1  },
+        { "rank": 3,  "name": "ゆうかん",     "percentage": 0.8  },
+        { "rank": 4,  "name": "しんちょう",   "percentage": 0.8  },
+        { "rank": 5,  "name": "わんぱく",     "percentage": 0.8  },
+        { "rank": 6,  "name": "ずぶとい",     "percentage": 0.6  },
+        { "rank": 7,  "name": "おだやか",     "percentage": 0.6  },
+        { "rank": 8,  "name": "のんき",       "percentage": 0.6  },
+        { "rank": 9,  "name": "なまいき",     "percentage": 0.2  },
+        { "rank": 10, "name": "やんちゃ",     "percentage": 0.2  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 22.7, "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 2 },
+        { "rank": 2, "percentage": 10.8, "hp": 31, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 3 },
+        { "rank": 3, "percentage": 7.6,  "hp": 29, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 3 },
+        { "rank": 4, "percentage": 4.0,  "hp": 32, "atk": 32, "def": 0, "spAtk": 0, "spDef": 0, "speed": 0 },
+        { "rank": 5, "percentage": 2.5,  "hp": 32, "atk": 31, "def": 0, "spAtk": 0, "spDef": 0, "speed": 3 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス", "percentage": 93.8 },
+        { "rank": 2, "name": "ゲンガー",   "percentage": 1.1  },
+        { "rank": 3, "name": "リザードン", "percentage": 0.8  },
+        { "rank": 4, "name": "カイリュー", "percentage": 0.8  },
+        { "rank": 5, "name": "ドドゲザン", "percentage": 0.8  }
+      ]
+    },
+    {
+      "pokemonJa": "ピクシー",
+      "pokemonSlug": "clefable",
+      "dexNo": 36,
+      "moves": [
+        { "rank": 1,  "name": "つきのひかり",     "percentage": 91.3 },
+        { "rank": 2,  "name": "ムーンフォース",   "percentage": 85.8 },
+        { "rank": 3,  "name": "コスモパワー",     "percentage": 57.0 },
+        { "rank": 4,  "name": "アシストパワー",   "percentage": 50.0 },
+        { "rank": 5,  "name": "めいそう",         "percentage": 33.0 },
+        { "rank": 6,  "name": "かえんほうしゃ",   "percentage": 24.0 },
+        { "rank": 7,  "name": "マジカルフレイム", "percentage": 9.3  },
+        { "rank": 8,  "name": "バトンタッチ",     "percentage": 6.0  },
+        { "rank": 9,  "name": "サイコショック",   "percentage": 5.6  },
+        { "rank": 10, "name": "リフレクター",     "percentage": 4.1  }
+      ],
+      "items": [
+        { "rank": 1,  "name": "ピクシナイト",   "percentage": 91.0 },
+        { "rank": 2,  "name": "たべのこし",     "percentage": 4.4  },
+        { "rank": 3,  "name": "オボンのみ",     "percentage": 2.0  },
+        { "rank": 4,  "name": "ひかりのこな",   "percentage": 0.4  },
+        { "rank": 5,  "name": "ラムのみ",       "percentage": 0.3  },
+        { "rank": 6,  "name": "メンタルハーブ", "percentage": 0.3  },
+        { "rank": 7,  "name": "リリバのみ",     "percentage": 0.2  },
+        { "rank": 8,  "name": "きあいのタスキ", "percentage": 0.2  },
+        { "rank": 9,  "name": "せんせいのツメ", "percentage": 0.1  },
+        { "rank": 10, "name": "ピアーのみ",     "percentage": 0.1  }
+      ],
+      "abilities": [
+        { "rank": 1, "name": "てんねん",       "percentage": 69.6 },
+        { "rank": 2, "name": "マジックガード", "percentage": 29.2 },
+        { "rank": 3, "name": "メロメロボディ", "percentage": 1.0  }
+      ],
+      "natures": [
+        { "rank": 1,  "name": "ずぶとい",   "percentage": 66.5 },
+        { "rank": 2,  "name": "おだやか",   "percentage": 19.2 },
+        { "rank": 3,  "name": "ひかえめ",   "percentage": 11.3 },
+        { "rank": 4,  "name": "おくびょう", "percentage": 1.7  },
+        { "rank": 5,  "name": "れいせい",   "percentage": 0.2  },
+        { "rank": 6,  "name": "のんき",     "percentage": 0.2  },
+        { "rank": 7,  "name": "なまいき",   "percentage": 0.2  },
+        { "rank": 8,  "name": "わんぱく",   "percentage": 0.2  },
+        { "rank": 9,  "name": "おっとり",   "percentage": 0.1  },
+        { "rank": 10, "name": "てれや",     "percentage": 0.0  }
+      ],
+      "evs": [
+        { "rank": 1, "percentage": 21.7, "hp": 32, "atk": 0, "def": 32, "spAtk": 0,  "spDef": 2, "speed": 0 },
+        { "rank": 2, "percentage": 4.5,  "hp": 32, "atk": 0, "def": 17, "spAtk": 0,  "spDef": 4, "speed": 13 },
+        { "rank": 3, "percentage": 4.0,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 32 },
+        { "rank": 4, "percentage": 4.0,  "hp": 31, "atk": 0, "def": 0,  "spAtk": 32, "spDef": 0, "speed": 31 },
+        { "rank": 5, "percentage": 2.9,  "hp": 32, "atk": 0, "def": 0,  "spAtk": 11, "spDef": 23, "speed": 0 }
+      ],
+      "partners": [
+        { "rank": 1, "name": "ガブリアス",   "percentage": 66.5 },
+        { "rank": 2, "name": "クエスパトラ", "percentage": 19.2 },
+        { "rank": 3, "name": "ドドゲザン",   "percentage": 11.3 },
+        { "rank": 4, "name": "キラフロル",   "percentage": 1.7  },
+        { "rank": 5, "name": "アーマーガア", "percentage": 0.2  }
+      ]
+    }
+  ]
+}

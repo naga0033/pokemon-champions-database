@@ -1,0 +1,534 @@
+{
+  "rankings": [
+    {
+      "rank": 1,
+      "pokemon_ja": "ガブリアス",
+      "pokemon_slug": "garchomp",
+      "tera_icons": null
+    },
+    {
+      "rank": 2,
+      "pokemon_ja": "アシレーヌ",
+      "pokemon_slug": "primarina",
+      "tera_icons": null
+    },
+    {
+      "rank": 3,
+      "pokemon_ja": "リザードン",
+      "pokemon_slug": "charizard",
+      "tera_icons": null
+    },
+    {
+      "rank": 4,
+      "pokemon_ja": "アーマーガア",
+      "pokemon_slug": "corviknight",
+      "tera_icons": null
+    },
+    {
+      "rank": 5,
+      "pokemon_ja": "ブリジュラス",
+      "pokemon_slug": "archaludon",
+      "tera_icons": null
+    },
+    {
+      "rank": 6,
+      "pokemon_ja": "カバルドン",
+      "pokemon_slug": "hippowdon",
+      "tera_icons": null
+    },
+    {
+      "rank": 7,
+      "pokemon_ja": "ゲンガー",
+      "pokemon_slug": "gengar",
+      "tera_icons": null
+    },
+    {
+      "rank": 8,
+      "pokemon_ja": "ドドゲザン",
+      "pokemon_slug": "kingambit",
+      "tera_icons": null
+    },
+    {
+      "rank": 9,
+      "pokemon_ja": "ハッサム",
+      "pokemon_slug": "scizor",
+      "tera_icons": null
+    },
+    {
+      "rank": 10,
+      "pokemon_ja": "ギルガルド",
+      "pokemon_slug": "aegislash",
+      "tera_icons": null
+    },
+    {
+      "rank": 11,
+      "pokemon_ja": "マスカーニャ",
+      "pokemon_slug": "meowscarada",
+      "tera_icons": null
+    },
+    {
+      "rank": 12,
+      "pokemon_ja": "ミミッキュ",
+      "pokemon_slug": "mimikyu",
+      "tera_icons": null
+    },
+    {
+      "rank": 13,
+      "pokemon_ja": "サザンドラ",
+      "pokemon_slug": "hydreigon",
+      "tera_icons": null
+    },
+    {
+      "rank": 14,
+      "pokemon_ja": "ミミロップ",
+      "pokemon_slug": "lopunny",
+      "tera_icons": null
+    },
+    {
+      "rank": 15,
+      "pokemon_ja": "ウォッシュロトム",
+      "pokemon_slug": "rotom-wash",
+      "tera_icons": null
+    },
+    {
+      "rank": 16,
+      "pokemon_ja": "キラフロル",
+      "pokemon_slug": "glimmora",
+      "tera_icons": null
+    },
+    {
+      "rank": 17,
+      "pokemon_ja": "カイリュー",
+      "pokemon_slug": "dragonite",
+      "tera_icons": null
+    },
+    {
+      "rank": 18,
+      "pokemon_ja": "マフォクシー",
+      "pokemon_slug": "delphox",
+      "tera_icons": null
+    },
+    {
+      "rank": 19,
+      "pokemon_ja": "メガニウム",
+      "pokemon_slug": "meganium",
+      "tera_icons": null
+    },
+    {
+      "rank": 20,
+      "pokemon_ja": "イダイトウ",
+      "pokemon_slug": "basculegion",
+      "tera_icons": null
+    },
+    {
+      "rank": 21,
+      "pokemon_ja": "ギャラドス",
+      "pokemon_slug": "gyarados",
+      "tera_icons": null
+    },
+    {
+      "rank": 22,
+      "pokemon_ja": "ゲッコウガ",
+      "pokemon_slug": "greninja",
+      "tera_icons": null
+    },
+    {
+      "rank": 23,
+      "pokemon_ja": "フシギバナ",
+      "pokemon_slug": "venusaur",
+      "tera_icons": null
+    },
+    {
+      "rank": 24,
+      "pokemon_ja": "ガルーラ",
+      "pokemon_slug": "kangaskhan",
+      "tera_icons": null
+    },
+    {
+      "rank": 25,
+      "pokemon_ja": "ブラッキー",
+      "pokemon_slug": "umbreon",
+      "tera_icons": [
+        "fairy",
+        "dark"
+      ]
+    },
+    {
+      "rank": 26,
+      "pokemon_ja": "ヒートロトム",
+      "pokemon_slug": "rotom-heat",
+      "tera_icons": [
+        "electric",
+        "fire"
+      ]
+    },
+    {
+      "rank": 27,
+      "pokemon_ja": "バンギラス",
+      "pokemon_slug": "tyranitar",
+      "tera_icons": [
+        "rock",
+        "dark"
+      ]
+    },
+    {
+      "rank": 28,
+      "pokemon_ja": "オオニューラ",
+      "pokemon_slug": "sneasler",
+      "tera_icons": [
+        "fighting",
+        "poison"
+      ]
+    },
+    {
+      "rank": 29,
+      "pokemon_ja": "ルカリオ",
+      "pokemon_slug": "lucario",
+      "tera_icons": [
+        "fighting",
+        "steel"
+      ]
+    },
+    {
+      "rank": 30,
+      "pokemon_ja": "ドラパルト",
+      "pokemon_slug": "dragapult",
+      "tera_icons": [
+        "dragon",
+        "ghost"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "rank": 1,
+      "pokemon_ja": "ガブリアス",
+      "pokemon_slug": "garchomp",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 2,
+      "pokemon_ja": "アシレーヌ",
+      "pokemon_slug": "primarina",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 3,
+      "pokemon_ja": "リザードン",
+      "pokemon_slug": "charizard",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 4,
+      "pokemon_ja": "アーマーガア",
+      "pokemon_slug": "corviknight",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 5,
+      "pokemon_ja": "ブリジュラス",
+      "pokemon_slug": "archaludon",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 6,
+      "pokemon_ja": "カバルドン",
+      "pokemon_slug": "hippowdon",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 7,
+      "pokemon_ja": "ゲンガー",
+      "pokemon_slug": "gengar",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 8,
+      "pokemon_ja": "ドドゲザン",
+      "pokemon_slug": "kingambit",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 9,
+      "pokemon_ja": "ハッサム",
+      "pokemon_slug": "scizor",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 10,
+      "pokemon_ja": "ギルガルド",
+      "pokemon_slug": "aegislash",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 11,
+      "pokemon_ja": "マスカーニャ",
+      "pokemon_slug": "meowscarada",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 12,
+      "pokemon_ja": "ミミッキュ",
+      "pokemon_slug": "mimikyu",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 13,
+      "pokemon_ja": "サザンドラ",
+      "pokemon_slug": "hydreigon",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 14,
+      "pokemon_ja": "ミミロップ",
+      "pokemon_slug": "lopunny",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 15,
+      "pokemon_ja": "ウォッシュロトム",
+      "pokemon_slug": "rotom-wash",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 16,
+      "pokemon_ja": "キラフロル",
+      "pokemon_slug": "glimmora",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 17,
+      "pokemon_ja": "カイリュー",
+      "pokemon_slug": "dragonite",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 18,
+      "pokemon_ja": "マフォクシー",
+      "pokemon_slug": "delphox",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 19,
+      "pokemon_ja": "メガニウム",
+      "pokemon_slug": "meganium",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 20,
+      "pokemon_ja": "イダイトウ",
+      "pokemon_slug": "basculegion",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 21,
+      "pokemon_ja": "ギャラドス",
+      "pokemon_slug": "gyarados",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 22,
+      "pokemon_ja": "ゲッコウガ",
+      "pokemon_slug": "greninja",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 23,
+      "pokemon_ja": "フシギバナ",
+      "pokemon_slug": "venusaur",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 24,
+      "pokemon_ja": "ガルーラ",
+      "pokemon_slug": "kangaskhan",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 25,
+      "pokemon_ja": "ブラッキー",
+      "pokemon_slug": "umbreon",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 26,
+      "pokemon_ja": "ヒートロトム",
+      "pokemon_slug": "rotom-heat",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 27,
+      "pokemon_ja": "バンギラス",
+      "pokemon_slug": "tyranitar",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 28,
+      "pokemon_ja": "オオニューラ",
+      "pokemon_slug": "sneasler",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 29,
+      "pokemon_ja": "ルカリオ",
+      "pokemon_slug": "lucario",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    },
+    {
+      "rank": 30,
+      "pokemon_ja": "ドラパルト",
+      "pokemon_slug": "dragapult",
+      "hasMoves": true,
+      "hasItems": true,
+      "hasAbilities": true,
+      "hasNatures": true,
+      "hasEvs": true,
+      "hasPartners": true
+    }
+  ]
+}

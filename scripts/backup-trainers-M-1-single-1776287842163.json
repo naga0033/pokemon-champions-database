@@ -1,0 +1,2982 @@
+[
+  {
+    "id": 301,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 1,
+    "name": "びやくや",
+    "rating": 2309.347,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 302,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 2,
+    "name": "noche",
+    "rating": 2306.978,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 303,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 3,
+    "name": "そら",
+    "rating": 2306.503,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 304,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 4,
+    "name": "ricky",
+    "rating": 2306.069,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 305,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 5,
+    "name": "くろこ",
+    "rating": 2302.178,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 306,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 6,
+    "name": "JPN",
+    "rating": 2300.805,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 307,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 7,
+    "name": "叫山号",
+    "rating": 2300.52,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 308,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 8,
+    "name": "1合0",
+    "rating": 2300.46,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 309,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 11,
+    "name": "クロエ",
+    "rating": 2255.631,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 310,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 12,
+    "name": "me",
+    "rating": 2253.655,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 311,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 13,
+    "name": "Megaketsuban",
+    "rating": 2253.127,
+    "country": "FRA",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 312,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 14,
+    "name": "BLACK OUT",
+    "rating": 2252.76,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 313,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 15,
+    "name": "ENG",
+    "rating": 2247.333,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 314,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 16,
+    "name": "うんだけマン",
+    "rating": 2244.464,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 315,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 17,
+    "name": "★rebox",
+    "rating": 2242.492,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 316,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 18,
+    "name": "Sea",
+    "rating": 2239.451,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 317,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 19,
+    "name": "8lu",
+    "rating": 2236.918,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 318,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 20,
+    "name": "くろこ",
+    "rating": 2236.278,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 319,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 21,
+    "name": "けもゆしあ",
+    "rating": 2235.862,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 320,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 22,
+    "name": "こまいぬ",
+    "rating": 2230.814,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 321,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 23,
+    "name": "ほたる",
+    "rating": 2230.389,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 322,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 24,
+    "name": "刋口",
+    "rating": 2229.778,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 323,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 25,
+    "name": "あかり",
+    "rating": 2229.242,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 324,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 26,
+    "name": "色彩ヘルパー",
+    "rating": 2229.126,
+    "country": "CHT",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 325,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 27,
+    "name": "ぼのぼに",
+    "rating": 2227.352,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 326,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 28,
+    "name": "もんろ一",
+    "rating": 2227.21,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 327,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 29,
+    "name": "サカ",
+    "rating": 2225.958,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 328,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 30,
+    "name": "りょうへい",
+    "rating": 2225.549,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 329,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 31,
+    "name": "こいきんぐ",
+    "rating": 2224.782,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 330,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 32,
+    "name": "クリムゾン",
+    "rating": 2224.593,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 331,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 33,
+    "name": "まな",
+    "rating": 2224.032,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 332,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 34,
+    "name": "しゃけたろー",
+    "rating": 2223.145,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 333,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 35,
+    "name": "はめつ",
+    "rating": 2222.809,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 334,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 36,
+    "name": "んこ",
+    "rating": 2222.776,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 335,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 37,
+    "name": "7目",
+    "rating": 2222.378,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 336,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 38,
+    "name": "オレンジ",
+    "rating": 2221.597,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 337,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 39,
+    "name": "モャンピオン",
+    "rating": 2218.57,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 338,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 40,
+    "name": "だいすけ！",
+    "rating": 2218.17,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 339,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 41,
+    "name": "かっちゅう",
+    "rating": 2218.041,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 340,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 42,
+    "name": "MR",
+    "rating": 2216.327,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 341,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 43,
+    "name": "ホモ",
+    "rating": 2215.197,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 342,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 44,
+    "name": "Lig",
+    "rating": 2214.711,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 343,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 45,
+    "name": "ウミナナ",
+    "rating": 2213.485,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 344,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 46,
+    "name": "かんた",
+    "rating": 2213.235,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 345,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 47,
+    "name": "ムー",
+    "rating": 2212.826,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 346,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 48,
+    "name": "さくらきなこ",
+    "rating": 2212.631,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 347,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 49,
+    "name": "ルッソ",
+    "rating": 2212.562,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 348,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 50,
+    "name": "いろっちゃん",
+    "rating": 2212.416,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 349,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 51,
+    "name": "とくめいTN",
+    "rating": 2212.326,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 350,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 52,
+    "name": "けちやわちや",
+    "rating": 2212.176,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 351,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 53,
+    "name": "バンビー",
+    "rating": 2212.158,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 352,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 54,
+    "name": "Prayer X",
+    "rating": 2212.126,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 353,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 55,
+    "name": "ENG",
+    "rating": 2212.038,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 354,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 56,
+    "name": "ライ",
+    "rating": 2211.963,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 355,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 57,
+    "name": "sin",
+    "rating": 2211.897,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 356,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 58,
+    "name": "あ",
+    "rating": 2211.77,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 357,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 59,
+    "name": "かしむ子",
+    "rating": 2210.975,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 358,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 60,
+    "name": "ミルテイナ",
+    "rating": 2210.758,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 359,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 61,
+    "name": "ちょこ",
+    "rating": 2210.618,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 360,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 62,
+    "name": "ゴーストちゃ",
+    "rating": 2210.389,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 361,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 63,
+    "name": "旦外",
+    "rating": 2210.207,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 362,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 64,
+    "name": "Tokiwa_Grove",
+    "rating": 2209.854,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 363,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 65,
+    "name": "ENG",
+    "rating": 2209.618,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 364,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 66,
+    "name": "ショウガ",
+    "rating": 2209.474,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 365,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 67,
+    "name": "サイトン",
+    "rating": 2209.376,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 366,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 68,
+    "name": "ピクルス",
+    "rating": 2209.104,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 367,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 69,
+    "name": "calm.",
+    "rating": 2208.71,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 368,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 70,
+    "name": "メガエリカ",
+    "rating": 2208.235,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 369,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 71,
+    "name": "ラベンダー",
+    "rating": 2208.211,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 370,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 72,
+    "name": "ぴりか",
+    "rating": 2208.102,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 371,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 73,
+    "name": "みみ",
+    "rating": 2207.984,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 372,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 74,
+    "name": "エンジュ",
+    "rating": 2207.805,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 373,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 75,
+    "name": "aol",
+    "rating": 2207.004,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 374,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 76,
+    "name": "あるふ",
+    "rating": 2206.971,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 375,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 77,
+    "name": "OXY*gil",
+    "rating": 2206.833,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 376,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 78,
+    "name": "ENG",
+    "rating": 2206.744,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 377,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 79,
+    "name": "ひあさむ",
+    "rating": 2206.524,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 378,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 80,
+    "name": "いかみりん",
+    "rating": 2206.458,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 379,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 81,
+    "name": "ルリドラゴン",
+    "rating": 2206.389,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 380,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 82,
+    "name": "にらちゃん",
+    "rating": 2206.296,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 381,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 83,
+    "name": "エリカ",
+    "rating": 2206.187,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 382,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 84,
+    "name": "キティ",
+    "rating": 2206.002,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 383,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 85,
+    "name": "すんだ",
+    "rating": 2205.932,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 384,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 86,
+    "name": "まこっチャン",
+    "rating": 2205.887,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 385,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 87,
+    "name": "くまぱんだ",
+    "rating": 2205.049,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 386,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 88,
+    "name": "シグマ",
+    "rating": 2204.766,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 387,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 89,
+    "name": "ゆよ",
+    "rating": 2204.312,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 388,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 90,
+    "name": "あるま",
+    "rating": 2204.251,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 389,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 91,
+    "name": "せつき一",
+    "rating": 2203.962,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 390,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 92,
+    "name": "セッコスさん",
+    "rating": 2203.806,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 391,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 93,
+    "name": "【ほりきた】",
+    "rating": 2203.67,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 392,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 94,
+    "name": "がんばろうw",
+    "rating": 2203.666,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 393,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 95,
+    "name": "907",
+    "rating": 2203.608,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 394,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 96,
+    "name": "Aでるノート",
+    "rating": 2203.176,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 395,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 97,
+    "name": "どくねば",
+    "rating": 2202.971,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 396,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 98,
+    "name": "りょん",
+    "rating": 2202.911,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 397,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 99,
+    "name": "もかちこ",
+    "rating": 2202.858,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 398,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 100,
+    "name": "だそくだしゅ",
+    "rating": 2202.829,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 399,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 101,
+    "name": "メイビー",
+    "rating": 2202.112,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 400,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 102,
+    "name": "全部量",
+    "rating": 2202.002,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 401,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 103,
+    "name": "トップ",
+    "rating": 2201.94,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 402,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 104,
+    "name": "mise",
+    "rating": 2201.643,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 403,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 105,
+    "name": "すみれ",
+    "rating": 2201.609,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 404,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 106,
+    "name": "Michi",
+    "rating": 2200.733,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 405,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 107,
+    "name": "ENG",
+    "rating": 2200.705,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 406,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 108,
+    "name": "電腦眠眠猫",
+    "rating": 2200.534,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 407,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 109,
+    "name": "CHS",
+    "rating": 2200.268,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 408,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 110,
+    "name": "デスティニー",
+    "rating": 2194.851,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 409,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 111,
+    "name": "クリフと",
+    "rating": 2193.328,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 410,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 112,
+    "name": "QUBES",
+    "rating": 2188.356,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 411,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 113,
+    "name": "ちの",
+    "rating": 2186.858,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 412,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 114,
+    "name": "たんでむ",
+    "rating": 2184.708,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 413,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 115,
+    "name": "c7",
+    "rating": 2182.981,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 414,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 116,
+    "name": "マゼンタ",
+    "rating": 2182.699,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 415,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 117,
+    "name": "モノ",
+    "rating": 2182.632,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 416,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 118,
+    "name": "MAGICO",
+    "rating": 2179.976,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 417,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 119,
+    "name": "バイオレット",
+    "rating": 2179.424,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 418,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 120,
+    "name": "zakuro",
+    "rating": 2179.409,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 419,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 121,
+    "name": "スズ",
+    "rating": 2177.794,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 420,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 122,
+    "name": "BNK",
+    "rating": 2177.535,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 421,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 123,
+    "name": "すば",
+    "rating": 2176.7,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 422,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 124,
+    "name": "AO",
+    "rating": 2176.63,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 423,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 125,
+    "name": "yatoru",
+    "rating": 2176.492,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 424,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 126,
+    "name": "Sho",
+    "rating": 2175.613,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 425,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 127,
+    "name": "ほかぜ",
+    "rating": 2175.249,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 426,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 128,
+    "name": "まりい",
+    "rating": 2174.478,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 427,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 129,
+    "name": "モーリー",
+    "rating": 2173.117,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 428,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 130,
+    "name": "イナイナ",
+    "rating": 2172.598,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 429,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 131,
+    "name": "ヒラカワ",
+    "rating": 2172.47,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 430,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 132,
+    "name": "ひなちゃん",
+    "rating": 2171.828,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 431,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 133,
+    "name": "Ksun",
+    "rating": 2171.634,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 432,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 134,
+    "name": "HC",
+    "rating": 2169.702,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 433,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 135,
+    "name": "たんぱくしつ",
+    "rating": 2168.685,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 434,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 136,
+    "name": "まるふおい",
+    "rating": 2168.243,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 435,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 137,
+    "name": "スヤリス",
+    "rating": 2167.074,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 436,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 138,
+    "name": "はるあす",
+    "rating": 2166.43,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 437,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 139,
+    "name": "ひとつ",
+    "rating": 2165.368,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 438,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 140,
+    "name": "りん",
+    "rating": 2164.55,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 439,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 141,
+    "name": "Koksam",
+    "rating": 2163.324,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 440,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 142,
+    "name": "エヴァレット",
+    "rating": 2163.144,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 441,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 143,
+    "name": "ミナミ",
+    "rating": 2161.873,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 442,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 144,
+    "name": "シオン",
+    "rating": 2161.76,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 443,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 145,
+    "name": "ユ号",
+    "rating": 2161.498,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 444,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 146,
+    "name": "サトシ",
+    "rating": 2161.484,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 445,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 147,
+    "name": "リック",
+    "rating": 2159.653,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 446,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 148,
+    "name": "りおえ",
+    "rating": 2159.54,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 447,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 149,
+    "name": "JPN",
+    "rating": 2159.353,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 448,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 150,
+    "name": "れいく",
+    "rating": 2159.291,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 449,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 151,
+    "name": "マ！",
+    "rating": 2158.937,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 450,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 152,
+    "name": "マチ",
+    "rating": 2158.738,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 451,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 153,
+    "name": "フジワラ",
+    "rating": 2158.687,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 452,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 154,
+    "name": "Z",
+    "rating": 2158.147,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 453,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 155,
+    "name": "ノブ",
+    "rating": 2158.003,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 454,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 156,
+    "name": "あゆみん",
+    "rating": 2157.247,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 455,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 157,
+    "name": "ふ",
+    "rating": 2157.232,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 456,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 158,
+    "name": "さすけ",
+    "rating": 2156.641,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 457,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 159,
+    "name": "カラー",
+    "rating": 2156.618,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 458,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 160,
+    "name": "そらをとぶ",
+    "rating": 2156.465,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 459,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 161,
+    "name": "いえモン",
+    "rating": 2156.425,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 460,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 162,
+    "name": "ビル・ゲイツ",
+    "rating": 2155.997,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 461,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 163,
+    "name": "ティラ",
+    "rating": 2155.993,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 462,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 164,
+    "name": "のごえも",
+    "rating": 2155.428,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 463,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 165,
+    "name": "ふろん",
+    "rating": 2155.199,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 464,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 166,
+    "name": "ふゆの",
+    "rating": 2155.166,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 465,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 167,
+    "name": "すしぽよ",
+    "rating": 2155.119,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 466,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 168,
+    "name": "トレーナー",
+    "rating": 2154.329,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 467,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 169,
+    "name": "ねね",
+    "rating": 2154.089,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 468,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 170,
+    "name": "わ",
+    "rating": 2153.578,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 469,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 171,
+    "name": "ひゅーず",
+    "rating": 2152.699,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 470,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 172,
+    "name": "おに",
+    "rating": 2152.522,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 471,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 173,
+    "name": "リックいとう",
+    "rating": 2152.496,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 472,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 174,
+    "name": "KEN",
+    "rating": 2152.478,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 473,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 175,
+    "name": "ずつくんチン",
+    "rating": 2152.16,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 474,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 176,
+    "name": "Reimei",
+    "rating": 2151.904,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 475,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 177,
+    "name": "たまご",
+    "rating": 2151.79,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 476,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 178,
+    "name": "ジョン",
+    "rating": 2151.729,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 477,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 179,
+    "name": "LMoon",
+    "rating": 2151.675,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 478,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 180,
+    "name": "でり",
+    "rating": 2151.495,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 479,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 181,
+    "name": "ピタゴラス",
+    "rating": 2151.351,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 480,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 182,
+    "name": "KOCUT",
+    "rating": 2150.963,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 481,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 183,
+    "name": "ビーデル",
+    "rating": 2150.755,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 482,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 184,
+    "name": "よけろナッパ",
+    "rating": 2150.412,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 483,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 185,
+    "name": "テンクウ",
+    "rating": 2150.314,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 484,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 186,
+    "name": "サーヤ",
+    "rating": 2150.297,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 485,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 187,
+    "name": "D+ペンギン",
+    "rating": 2149.816,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 486,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 188,
+    "name": "さいたま",
+    "rating": 2148.317,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 487,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 189,
+    "name": "しゃび",
+    "rating": 2148.09,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 488,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 190,
+    "name": "わいあっと",
+    "rating": 2147.811,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 489,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 191,
+    "name": "つめたい",
+    "rating": 2147.801,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 490,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 192,
+    "name": "たみにやす",
+    "rating": 2147.495,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 491,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 193,
+    "name": "ひらオマ",
+    "rating": 2147.364,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 492,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 194,
+    "name": "カズオ？",
+    "rating": 2147.345,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 493,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 195,
+    "name": "すーけん",
+    "rating": 2147.326,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 494,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 196,
+    "name": "½0EH豆",
+    "rating": 2147.223,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 495,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 197,
+    "name": "ミルク",
+    "rating": 2146.152,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 496,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 198,
+    "name": "だいあど",
+    "rating": 2145.985,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 497,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 199,
+    "name": "ユーカリ",
+    "rating": 2145.383,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 498,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 200,
+    "name": "666",
+    "rating": 2145.264,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 499,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 201,
+    "name": "サカトモ",
+    "rating": 2144.951,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 500,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 202,
+    "name": "る",
+    "rating": 2144.924,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 501,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 203,
+    "name": "ぷりん",
+    "rating": 2143.8,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 502,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 204,
+    "name": "セシナ",
+    "rating": 2143.693,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 503,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 205,
+    "name": "ひな",
+    "rating": 2143.607,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 504,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 206,
+    "name": "カプ",
+    "rating": 2143.266,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 505,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 207,
+    "name": "スー",
+    "rating": 2142.952,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 506,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 208,
+    "name": "SIG",
+    "rating": 2142.699,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 507,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 209,
+    "name": "ムキンクス2",
+    "rating": 2141.8,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 508,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 210,
+    "name": "ポルンガZ",
+    "rating": 2141.767,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 509,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 211,
+    "name": "たけゆたこ",
+    "rating": 2141.757,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 510,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 212,
+    "name": "レオ",
+    "rating": 2141.753,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 511,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 213,
+    "name": "よしき",
+    "rating": 2141.508,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 512,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 214,
+    "name": "ほいみん",
+    "rating": 2141.394,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 513,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 215,
+    "name": "どどーん",
+    "rating": 2140.974,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 514,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 216,
+    "name": "スズ",
+    "rating": 2140.652,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 515,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 217,
+    "name": "ブラック",
+    "rating": 2140.433,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 516,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 218,
+    "name": "ひ",
+    "rating": 2140.306,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 517,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 219,
+    "name": "テルネリカ",
+    "rating": 2140.28,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 518,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 220,
+    "name": "やとる",
+    "rating": 2140.273,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 519,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 221,
+    "name": "べんやん",
+    "rating": 2140.257,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 520,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 222,
+    "name": "ハーバル",
+    "rating": 2140.256,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 521,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 223,
+    "name": "ブーにやん",
+    "rating": 2139.979,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 522,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 224,
+    "name": "S",
+    "rating": 2139.489,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 523,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 225,
+    "name": "★ばろりん★",
+    "rating": 2138.82,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 524,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 226,
+    "name": "さくや",
+    "rating": 2138.428,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 525,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 227,
+    "name": "afou",
+    "rating": 2137.908,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 526,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 228,
+    "name": "ふとん",
+    "rating": 2136.863,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 527,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 229,
+    "name": "スカーレット",
+    "rating": 2136.704,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 528,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 230,
+    "name": "ちひろ",
+    "rating": 2136.395,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 529,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 231,
+    "name": "たなけー",
+    "rating": 2136.236,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 530,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 232,
+    "name": "CoMETIK",
+    "rating": 2136.08,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 531,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 233,
+    "name": "ENG",
+    "rating": 2136.005,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 532,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 234,
+    "name": "みゆーらー",
+    "rating": 2135.59,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 533,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 235,
+    "name": "ヴァレンチノ",
+    "rating": 2135.529,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 534,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 236,
+    "name": "スライム",
+    "rating": 2135.234,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 535,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 237,
+    "name": "りーね",
+    "rating": 2134.377,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 536,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 238,
+    "name": "カノエ",
+    "rating": 2134.203,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 537,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 239,
+    "name": "シュラ",
+    "rating": 2133.803,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 538,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 240,
+    "name": "あぜるふ",
+    "rating": 2133.423,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 539,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 241,
+    "name": "おかきくす",
+    "rating": 2133.281,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 540,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 242,
+    "name": "きりーね",
+    "rating": 2133.163,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 541,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 243,
+    "name": "にかっち",
+    "rating": 2132.992,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 542,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 244,
+    "name": "へるぴん",
+    "rating": 2132.444,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 543,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 245,
+    "name": "みたらい",
+    "rating": 2131.82,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 544,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 246,
+    "name": "0Hl人ト",
+    "rating": 2131.62,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 545,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 247,
+    "name": "てるま",
+    "rating": 2131.588,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 546,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 248,
+    "name": "トレーナー",
+    "rating": 2131.577,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 547,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 249,
+    "name": "＋ぶラん；",
+    "rating": 2131.32,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 548,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 250,
+    "name": "ゆうた",
+    "rating": 2131.242,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 549,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 251,
+    "name": "いちはる",
+    "rating": 2131.156,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 550,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 252,
+    "name": "ロマチエンコ",
+    "rating": 2130.821,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 551,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 253,
+    "name": "なぎぽ",
+    "rating": 2129.797,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 552,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 254,
+    "name": "しらせ",
+    "rating": 2129.739,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 553,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 255,
+    "name": "さく",
+    "rating": 2129.663,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 554,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 256,
+    "name": "Pineco",
+    "rating": 2129.468,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 555,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 257,
+    "name": "ENG",
+    "rating": 2129.392,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 556,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 258,
+    "name": "よん",
+    "rating": 2129.175,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 557,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 259,
+    "name": "廣井きくり",
+    "rating": 2129.048,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 558,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 260,
+    "name": "CHS",
+    "rating": 2128.885,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 559,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 261,
+    "name": "けっこう",
+    "rating": 2128.804,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 560,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 262,
+    "name": "さに一",
+    "rating": 2128.44,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 561,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 263,
+    "name": "あいおい",
+    "rating": 2128.414,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 562,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 264,
+    "name": "デルタ",
+    "rating": 2128.328,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 563,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 265,
+    "name": "おあき",
+    "rating": 2127.997,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 564,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 266,
+    "name": "あゆみよん",
+    "rating": 2127.52,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 565,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 267,
+    "name": "プロミネンス",
+    "rating": 2127.402,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 566,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 268,
+    "name": "KOR",
+    "rating": 2127.006,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 567,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 269,
+    "name": "列平",
+    "rating": 2126.921,
+    "country": "KOR",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 568,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 270,
+    "name": "シャウラ",
+    "rating": 2126.57,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 569,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 271,
+    "name": "ひなまつつ",
+    "rating": 2126.562,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 570,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 272,
+    "name": "wing",
+    "rating": 2126.51,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 571,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 273,
+    "name": "なん",
+    "rating": 2126.427,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 572,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 274,
+    "name": "ユウキ",
+    "rating": 2126.374,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 573,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 275,
+    "name": "ノコッチさん",
+    "rating": 2126.217,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 574,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 276,
+    "name": "ギン",
+    "rating": 2126.083,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 575,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 277,
+    "name": "アップルベア",
+    "rating": 2125.494,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 576,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 278,
+    "name": "すこふと",
+    "rating": 2125.349,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 577,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 279,
+    "name": "トレーナー",
+    "rating": 2125.142,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 578,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 280,
+    "name": "がちゃぼん",
+    "rating": 2124.686,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 579,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 281,
+    "name": "ルル",
+    "rating": 2124.681,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 580,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 282,
+    "name": "AtsukoKagari",
+    "rating": 2124.655,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 581,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 283,
+    "name": "ENG",
+    "rating": 2124.579,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 582,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 284,
+    "name": "えすら",
+    "rating": 2124.165,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 583,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 285,
+    "name": "Jom",
+    "rating": 2124.138,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 584,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 286,
+    "name": "キットカット",
+    "rating": 2124.069,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 585,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 287,
+    "name": "くれちゃぬす",
+    "rating": 2123.449,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 586,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 288,
+    "name": "スコール",
+    "rating": 2123.352,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 587,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 289,
+    "name": "あきさと",
+    "rating": 2123.32,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 588,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 290,
+    "name": "ペー",
+    "rating": 2123.126,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 589,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 291,
+    "name": "ノア",
+    "rating": 2123.009,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 590,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 292,
+    "name": "マスカレーナ",
+    "rating": 2122.752,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 591,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 293,
+    "name": "ゆめおいびと",
+    "rating": 2121.737,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 592,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 294,
+    "name": "rsakanami",
+    "rating": 2121.679,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 593,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 295,
+    "name": "ENG",
+    "rating": 2121.513,
+    "country": null,
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 594,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 296,
+    "name": "れしむ",
+    "rating": 2121.474,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 595,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 297,
+    "name": "メガししゃも",
+    "rating": 2121.468,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 596,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 298,
+    "name": "かもねぎなべ",
+    "rating": 2121.384,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 597,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 299,
+    "name": "ゆでじろう",
+    "rating": 2120.622,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  },
+  {
+    "id": 598,
+    "season_id": "M-1",
+    "format": "single",
+    "rank": 300,
+    "name": "きの",
+    "rating": 2119.972,
+    "country": "JPN",
+    "updated_at": "2026-04-15T03:58:00.235596+00:00"
+  }
+]

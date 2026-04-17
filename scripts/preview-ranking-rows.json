@@ -1,0 +1,1710 @@
+{
+  "rankingRows": [
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 1,
+      "pokemon_ja": "ガブリアス",
+      "pokemon_slug": "garchomp",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 2,
+      "pokemon_ja": "アシレーヌ",
+      "pokemon_slug": "primarina",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 3,
+      "pokemon_ja": "リザードン",
+      "pokemon_slug": "charizard",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 4,
+      "pokemon_ja": "アーマーガア",
+      "pokemon_slug": "corviknight",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 5,
+      "pokemon_ja": "ブリジュラス",
+      "pokemon_slug": "archaludon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 6,
+      "pokemon_ja": "ゲンガー",
+      "pokemon_slug": "gengar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 7,
+      "pokemon_ja": "ハッサム",
+      "pokemon_slug": "scizor",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 8,
+      "pokemon_ja": "カバルドン",
+      "pokemon_slug": "hippowdon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 9,
+      "pokemon_ja": "ドドゲザン",
+      "pokemon_slug": "kingambit",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 10,
+      "pokemon_ja": "ギルガルド",
+      "pokemon_slug": "aegislash",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 11,
+      "pokemon_ja": "マスカーニャ",
+      "pokemon_slug": "meowscarada",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 12,
+      "pokemon_ja": "ミミッキュ",
+      "pokemon_slug": "mimikyu",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 13,
+      "pokemon_ja": "ミミロップ",
+      "pokemon_slug": "lopunny",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 14,
+      "pokemon_ja": "サザンドラ",
+      "pokemon_slug": "hydreigon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 15,
+      "pokemon_ja": "ウォッシュロトム",
+      "pokemon_slug": "rotom-wash",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 16,
+      "pokemon_ja": "カイリュー",
+      "pokemon_slug": "dragonite",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 17,
+      "pokemon_ja": "キラフロル",
+      "pokemon_slug": "glimmora",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 18,
+      "pokemon_ja": "マフォクシー",
+      "pokemon_slug": "delphox",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 19,
+      "pokemon_ja": "イダイトウ",
+      "pokemon_slug": "basculegion",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 20,
+      "pokemon_ja": "メガニウム",
+      "pokemon_slug": "meganium",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 21,
+      "pokemon_ja": "ブラッキー",
+      "pokemon_slug": "umbreon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 22,
+      "pokemon_ja": "ギャラドス",
+      "pokemon_slug": "gyarados",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 23,
+      "pokemon_ja": "ゲッコウガ",
+      "pokemon_slug": "greninja",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 24,
+      "pokemon_ja": "ルカリオ",
+      "pokemon_slug": "lucario",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 25,
+      "pokemon_ja": "フシギバナ",
+      "pokemon_slug": "venusaur",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 26,
+      "pokemon_ja": "オオニューラ",
+      "pokemon_slug": "sneasler",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 27,
+      "pokemon_ja": "ヒートロトム",
+      "pokemon_slug": "rotom-heat",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 28,
+      "pokemon_ja": "ガルーラ",
+      "pokemon_slug": "kangaskhan",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 29,
+      "pokemon_ja": "バンギラス",
+      "pokemon_slug": "tyranitar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 30,
+      "pokemon_ja": "フラエッテ(えいえん)",
+      "pokemon_slug": "floette-eternal",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 31,
+      "pokemon_ja": "ウルガモス",
+      "pokemon_slug": "volcarona",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 32,
+      "pokemon_ja": "ドラパルト",
+      "pokemon_slug": "dragapult",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 33,
+      "pokemon_ja": "スターミー",
+      "pokemon_slug": "starmie",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 34,
+      "pokemon_ja": "ピクシー",
+      "pokemon_slug": "clefable",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 35,
+      "pokemon_ja": "マリルリ",
+      "pokemon_slug": "azumarill",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 36,
+      "pokemon_ja": "ドヒドイデ",
+      "pokemon_slug": "toxapex",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 37,
+      "pokemon_ja": "ニンフィア",
+      "pokemon_slug": "sylveon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 38,
+      "pokemon_ja": "クエスパトラ",
+      "pokemon_slug": "espathra",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 39,
+      "pokemon_ja": "ペリッパー",
+      "pokemon_slug": "pelipper",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 40,
+      "pokemon_ja": "マンムー",
+      "pokemon_slug": "mamoswine",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 41,
+      "pokemon_ja": "カビゴン",
+      "pokemon_slug": "snorlax",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 42,
+      "pokemon_ja": "ラウドボーン",
+      "pokemon_slug": "skeledirge",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 43,
+      "pokemon_ja": "カメックス",
+      "pokemon_slug": "blastoise",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 44,
+      "pokemon_ja": "ドリュウズ",
+      "pokemon_slug": "excadrill",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 45,
+      "pokemon_ja": "ウツボット",
+      "pokemon_slug": "victreebel",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 46,
+      "pokemon_ja": "エアームド",
+      "pokemon_slug": "skarmory",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 47,
+      "pokemon_ja": "ユキメノコ",
+      "pokemon_slug": "froslass",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 48,
+      "pokemon_ja": "ハラバリー",
+      "pokemon_slug": "bellibolt",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 49,
+      "pokemon_ja": "サーナイト",
+      "pokemon_slug": "gardevoir",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 50,
+      "pokemon_ja": "キュウコン",
+      "pokemon_slug": "ninetales",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 51,
+      "pokemon_ja": "ソウブレイズ",
+      "pokemon_slug": "ceruledge",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 52,
+      "pokemon_ja": "ヌメルゴン(ヒスイ)",
+      "pokemon_slug": "goodra-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 53,
+      "pokemon_ja": "エンペルト",
+      "pokemon_slug": "empoleon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 54,
+      "pokemon_ja": "ホルード",
+      "pokemon_slug": "diggersby",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 55,
+      "pokemon_ja": "スコヴィラン",
+      "pokemon_slug": "scovillain",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 56,
+      "pokemon_ja": "エルフーン",
+      "pokemon_slug": "whimsicott",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 57,
+      "pokemon_ja": "バサギリ",
+      "pokemon_slug": "kleavor",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 58,
+      "pokemon_ja": "ガオガエン",
+      "pokemon_slug": "incineroar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 59,
+      "pokemon_ja": "ジャローダ",
+      "pokemon_slug": "serperior",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 60,
+      "pokemon_ja": "エルレイド",
+      "pokemon_slug": "gallade",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 61,
+      "pokemon_ja": "ダイケンキ",
+      "pokemon_slug": "samurott",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 62,
+      "pokemon_ja": "ゾロアーク(ヒスイ)",
+      "pokemon_slug": "zoroark-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 63,
+      "pokemon_ja": "オニシズクモ",
+      "pokemon_slug": "araquanid",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 64,
+      "pokemon_ja": "ブリムオン",
+      "pokemon_slug": "hatterene",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 65,
+      "pokemon_ja": "グレンアルマ",
+      "pokemon_slug": "armarouge",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 66,
+      "pokemon_ja": "イルカマン",
+      "pokemon_slug": "palafin",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 67,
+      "pokemon_ja": "ローブシン",
+      "pokemon_slug": "conkeldurr",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 68,
+      "pokemon_ja": "ブリガロン",
+      "pokemon_slug": "chesnaught",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 69,
+      "pokemon_ja": "シャンデラ",
+      "pokemon_slug": "chandelure",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 70,
+      "pokemon_ja": "ヤドキング",
+      "pokemon_slug": "slowking",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 71,
+      "pokemon_ja": "メタモン",
+      "pokemon_slug": "ditto",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 72,
+      "pokemon_ja": "ミロカロス",
+      "pokemon_slug": "milotic",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 73,
+      "pokemon_ja": "ヘラクロス",
+      "pokemon_slug": "heracross",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 74,
+      "pokemon_ja": "ヒスイウインディ",
+      "pokemon_slug": "arcanine-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 75,
+      "pokemon_ja": "ウインディ",
+      "pokemon_slug": "arcanine",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 76,
+      "pokemon_ja": "ヤドラン",
+      "pokemon_slug": "slowbro",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 77,
+      "pokemon_ja": "デカヌチャン",
+      "pokemon_slug": "tinkaton",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 78,
+      "pokemon_ja": "オーダイル",
+      "pokemon_slug": "feraligatr",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 79,
+      "pokemon_ja": "ジュペッタ",
+      "pokemon_slug": "banette",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 80,
+      "pokemon_ja": "ウェーニバル",
+      "pokemon_slug": "quaquaval",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 81,
+      "pokemon_ja": "ケケンカニ",
+      "pokemon_slug": "crabominable",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 82,
+      "pokemon_ja": "プテラ",
+      "pokemon_slug": "aerodactyl",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 83,
+      "pokemon_ja": "ミミズズ",
+      "pokemon_slug": "orthworm",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 84,
+      "pokemon_ja": "ヤバチャ",
+      "pokemon_slug": "sinistea",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 85,
+      "pokemon_ja": "エーフィ",
+      "pokemon_slug": "espeon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 86,
+      "pokemon_ja": "ボスゴドラ",
+      "pokemon_slug": "aggron",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 87,
+      "pokemon_ja": "ルチャブル",
+      "pokemon_slug": "hawlucha",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 88,
+      "pokemon_ja": "スピアー",
+      "pokemon_slug": "beedrill",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 89,
+      "pokemon_ja": "ヤミラミ",
+      "pokemon_slug": "sableye",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 90,
+      "pokemon_ja": "フーディン",
+      "pokemon_slug": "alakazam",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 91,
+      "pokemon_ja": "シャワーズ",
+      "pokemon_slug": "vaporeon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 92,
+      "pokemon_ja": "サメハダー",
+      "pokemon_slug": "sharpedo",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 93,
+      "pokemon_ja": "マニューラ",
+      "pokemon_slug": "weavile",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 94,
+      "pokemon_ja": "ゴウカザル",
+      "pokemon_slug": "infernape",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 95,
+      "pokemon_ja": "イダイトウ(メス)",
+      "pokemon_slug": "basculegion-female",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 96,
+      "pokemon_ja": "カットロトム",
+      "pokemon_slug": "rotom-mow",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 97,
+      "pokemon_ja": "エンブオー",
+      "pokemon_slug": "emboar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 98,
+      "pokemon_ja": "ユキノオー",
+      "pokemon_slug": "abomasnow",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 99,
+      "pokemon_ja": "チリーン",
+      "pokemon_slug": "chimecho",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 100,
+      "pokemon_ja": "キョジオーン",
+      "pokemon_slug": "garganacl",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 101,
+      "pokemon_ja": "バクフーン",
+      "pokemon_slug": "typhlosion",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 102,
+      "pokemon_ja": "ポットデス",
+      "pokemon_slug": "polteageist",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 103,
+      "pokemon_ja": "ルガルガン",
+      "pokemon_slug": "lycanroc",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 104,
+      "pokemon_ja": "ライボルト",
+      "pokemon_slug": "manectric",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 105,
+      "pokemon_ja": "ファイアロー",
+      "pokemon_slug": "talonflame",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 106,
+      "pokemon_ja": "ビビヨン",
+      "pokemon_slug": "vivillon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 107,
+      "pokemon_ja": "バンバドロ",
+      "pokemon_slug": "mudsdale",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 108,
+      "pokemon_ja": "チルタリス",
+      "pokemon_slug": "altaria",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 109,
+      "pokemon_ja": "パルデアケンタロス(炎)",
+      "pokemon_slug": "tauros-paldea-blaze",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 110,
+      "pokemon_ja": "ガラルヤドラン",
+      "pokemon_slug": "slowbro-galar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 111,
+      "pokemon_ja": "ヒスイジュナイパー",
+      "pokemon_slug": "decidueye-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 112,
+      "pokemon_ja": "グライオン",
+      "pokemon_slug": "gliscor",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 113,
+      "pokemon_ja": "エレザード",
+      "pokemon_slug": "heliolisk",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 114,
+      "pokemon_ja": "ドダイトス",
+      "pokemon_slug": "torterra",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 115,
+      "pokemon_ja": "カイロス",
+      "pokemon_slug": "pinsir",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 116,
+      "pokemon_ja": "カイリキー",
+      "pokemon_slug": "machamp",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 117,
+      "pokemon_ja": "サンダース",
+      "pokemon_slug": "jolteon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 118,
+      "pokemon_ja": "フォレトス",
+      "pokemon_slug": "forretress",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 119,
+      "pokemon_ja": "デンリュウ",
+      "pokemon_slug": "ampharos",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 120,
+      "pokemon_ja": "イッカネズミ",
+      "pokemon_slug": "maushold",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 121,
+      "pokemon_ja": "エンニュート",
+      "pokemon_slug": "salazzle",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 122,
+      "pokemon_ja": "ハガネール",
+      "pokemon_slug": "steelix",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 123,
+      "pokemon_ja": "グレイシア",
+      "pokemon_slug": "glaceon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 124,
+      "pokemon_ja": "コータス",
+      "pokemon_slug": "torkoal",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 125,
+      "pokemon_ja": "ジャラランガ",
+      "pokemon_slug": "kommo-o",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 126,
+      "pokemon_ja": "ドデカバシ",
+      "pokemon_slug": "toucannon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 127,
+      "pokemon_ja": "デスバーン",
+      "pokemon_slug": "runerigus",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 128,
+      "pokemon_ja": "ヒスイクレベース",
+      "pokemon_slug": "avalugg-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 129,
+      "pokemon_ja": "チャーレム",
+      "pokemon_slug": "medicham",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 130,
+      "pokemon_ja": "ニョロトノ",
+      "pokemon_slug": "politoed",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 131,
+      "pokemon_ja": "ジジーロン",
+      "pokemon_slug": "drampa",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 132,
+      "pokemon_ja": "ワルビアル",
+      "pokemon_slug": "krookodile",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 133,
+      "pokemon_ja": "ヌメルゴン",
+      "pokemon_slug": "goodra",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 134,
+      "pokemon_ja": "アマージョ",
+      "pokemon_slug": "tsareena",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 135,
+      "pokemon_ja": "オンバーン",
+      "pokemon_slug": "noivern",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 136,
+      "pokemon_ja": "デスカーン",
+      "pokemon_slug": "cofagrigus",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 137,
+      "pokemon_ja": "オニゴーリ",
+      "pokemon_slug": "glalie",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 138,
+      "pokemon_ja": "ヤドキング",
+      "pokemon_slug": "slowking",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 139,
+      "pokemon_ja": "クレベース",
+      "pokemon_slug": "avalugg",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 140,
+      "pokemon_ja": "ペロリーム",
+      "pokemon_slug": "slurpuff",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 141,
+      "pokemon_ja": "ドサイドン",
+      "pokemon_slug": "rhyperior",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 142,
+      "pokemon_ja": "バイバニラ",
+      "pokemon_slug": "vanilluxe",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 143,
+      "pokemon_ja": "カミツオロチ",
+      "pokemon_slug": "hydrapple",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 144,
+      "pokemon_ja": "ゾロアーク",
+      "pokemon_slug": "zoroark",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 145,
+      "pokemon_ja": "クレッフィ",
+      "pokemon_slug": "klefki",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 146,
+      "pokemon_ja": "アブソル",
+      "pokemon_slug": "absol",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 147,
+      "pokemon_ja": "ピカチュウ",
+      "pokemon_slug": "pikachu",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 148,
+      "pokemon_ja": "マホイップ",
+      "pokemon_slug": "alcremie",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 149,
+      "pokemon_ja": "ブロスター",
+      "pokemon_slug": "clawitzer",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 150,
+      "pokemon_ja": "ランクルス",
+      "pokemon_slug": "reuniclus",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 151,
+      "pokemon_ja": "ロズレイド",
+      "pokemon_slug": "roserade",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 152,
+      "pokemon_ja": "ゴルーグ",
+      "pokemon_slug": "golurk",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 153,
+      "pokemon_ja": "アリアドス",
+      "pokemon_slug": "ariados",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 154,
+      "pokemon_ja": "モルペコ",
+      "pokemon_slug": "morpeko",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 155,
+      "pokemon_ja": "ミカルゲ",
+      "pokemon_slug": "spiritomb",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 156,
+      "pokemon_ja": "フロストロトム",
+      "pokemon_slug": "rotom-frost",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 157,
+      "pokemon_ja": "パルデアケンタロス(水)",
+      "pokemon_slug": "tauros-paldea-aqua",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 158,
+      "pokemon_ja": "リキキリン",
+      "pokemon_slug": "farigiraf",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 159,
+      "pokemon_ja": "マッギョ",
+      "pokemon_slug": "stunfisk",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 160,
+      "pokemon_ja": "ニャオニクス",
+      "pokemon_slug": "meowstic",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 161,
+      "pokemon_ja": "ヘルガー",
+      "pokemon_slug": "houndoom",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 162,
+      "pokemon_ja": "バクフーン",
+      "pokemon_slug": "typhlosion",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 163,
+      "pokemon_ja": "キュウコン",
+      "pokemon_slug": "ninetales",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 164,
+      "pokemon_ja": "ピジョット",
+      "pokemon_slug": "pidgeot",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 165,
+      "pokemon_ja": "ドクロッグ",
+      "pokemon_slug": "toxicroak",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 166,
+      "pokemon_ja": "アマルルガ",
+      "pokemon_slug": "aurorus",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 167,
+      "pokemon_ja": "ガチゴラス",
+      "pokemon_slug": "tyrantrum",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 168,
+      "pokemon_ja": "レントラー",
+      "pokemon_slug": "luxray",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 169,
+      "pokemon_ja": "バクーダ",
+      "pokemon_slug": "camerupt",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 170,
+      "pokemon_ja": "サダイジャ",
+      "pokemon_slug": "sandaconda",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 171,
+      "pokemon_ja": "オーロット",
+      "pokemon_slug": "trevenant",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 172,
+      "pokemon_ja": "ヒスイジュナイパー",
+      "pokemon_slug": "decidueye-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 173,
+      "pokemon_ja": "リーフィア",
+      "pokemon_slug": "leafeon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 174,
+      "pokemon_ja": "ブースター",
+      "pokemon_slug": "flareon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 175,
+      "pokemon_ja": "ニャオニクス(メス)",
+      "pokemon_slug": "meowstic-female",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 176,
+      "pokemon_ja": "エモンガ",
+      "pokemon_slug": "emolga",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 177,
+      "pokemon_ja": "フラージェス",
+      "pokemon_slug": "florges",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 178,
+      "pokemon_ja": "アローラライチュウ",
+      "pokemon_slug": "raichu-alola",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 179,
+      "pokemon_ja": "ゴロンダ",
+      "pokemon_slug": "pangoro",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 180,
+      "pokemon_ja": "ライチュウ",
+      "pokemon_slug": "raichu",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 181,
+      "pokemon_ja": "トリデプス",
+      "pokemon_slug": "bastiodon",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 182,
+      "pokemon_ja": "タルップル",
+      "pokemon_slug": "appletun",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 183,
+      "pokemon_ja": "パンプジン",
+      "pokemon_slug": "gourgeist",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 184,
+      "pokemon_ja": "デデンネ",
+      "pokemon_slug": "dedenne",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 185,
+      "pokemon_ja": "ラムパルド",
+      "pokemon_slug": "rampardos",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 186,
+      "pokemon_ja": "スピンロトム",
+      "pokemon_slug": "rotom-fan",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 187,
+      "pokemon_ja": "ガラルマッギョ",
+      "pokemon_slug": "stunfisk-galar",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 188,
+      "pokemon_ja": "ツンベアー",
+      "pokemon_slug": "beartic",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 189,
+      "pokemon_ja": "ルガルガン",
+      "pokemon_slug": "lycanroc",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 190,
+      "pokemon_ja": "アーボック",
+      "pokemon_slug": "arbok",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 191,
+      "pokemon_ja": "トリミアン",
+      "pokemon_slug": "furfrou",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 192,
+      "pokemon_ja": "バリコオル",
+      "pokemon_slug": "mr-rime",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 193,
+      "pokemon_ja": "タブンネ",
+      "pokemon_slug": "audino",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 194,
+      "pokemon_ja": "レパルダス",
+      "pokemon_slug": "liepard",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 195,
+      "pokemon_ja": "アヤシシ",
+      "pokemon_slug": "wyrdeer",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 196,
+      "pokemon_ja": "ヒスイダイケンキ",
+      "pokemon_slug": "samurott-hisui",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 197,
+      "pokemon_ja": "ダストダス",
+      "pokemon_slug": "garbodor",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 198,
+      "pokemon_ja": "アップリュー",
+      "pokemon_slug": "flapple",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 199,
+      "pokemon_ja": "ルガルガン(まよなか)",
+      "pokemon_slug": "lycanroc-midnight",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 200,
+      "pokemon_ja": "ヒヤッキー",
+      "pokemon_slug": "simipour",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 201,
+      "pokemon_ja": "ナゲツケサル",
+      "pokemon_slug": "passimian",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 202,
+      "pokemon_ja": "フレフワン",
+      "pokemon_slug": "aromatisse",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 203,
+      "pokemon_ja": "マスキッパ",
+      "pokemon_slug": "carnivine",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 204,
+      "pokemon_ja": "ブルンゲル",
+      "pokemon_slug": "jellicent",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 205,
+      "pokemon_ja": "ケンタロス",
+      "pokemon_slug": "tauros",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 206,
+      "pokemon_ja": "ヤレユータン",
+      "pokemon_slug": "oranguru",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 207,
+      "pokemon_ja": "ヤナッキー",
+      "pokemon_slug": "simisage",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 208,
+      "pokemon_ja": "ロトム",
+      "pokemon_slug": "rotom",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 209,
+      "pokemon_ja": "パルデアケンタロス(格闘)",
+      "pokemon_slug": "tauros-paldea-combat",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 210,
+      "pokemon_ja": "ポワルン",
+      "pokemon_slug": "castform",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 211,
+      "pokemon_ja": "パンプジン",
+      "pokemon_slug": "gourgeist",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 212,
+      "pokemon_ja": "パンプジン",
+      "pokemon_slug": "gourgeist",
+      "tera_icons": null
+    },
+    {
+      "season_id": "M-1",
+      "format": "single",
+      "rank": 213,
+      "pokemon_ja": "ミルホッグ",
+      "pokemon_slug": "watchog",
+      "tera_icons": null
+    }
+  ],
+  "detailRowsToCreate": [],
+  "unresolvable": []
+}

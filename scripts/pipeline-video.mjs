@@ -79,8 +79,9 @@ const SYSTEM_PROMPT = `あなたはポケモンチャンピオンズのゲーム
 (3) 特性パネル  タイトル「特性」  panelType: "abilities"
     entries: [{ rank: number, name: string, percentage: number }]
 
-(4) 性格補正パネル  タイトル「性格補正」  panelType: "natures"
-    entries: [{ rank: number, name: string, percentage: number }]
+(4) 能力補正パネル  タイトル「能力補正」（性格ランキング）  panelType: "natures"
+    entries: [{ rank: number, name: string, percentage: number, up: string, down: string }]
+    ※ up/down は「こうげき」「ぼうぎょ」「とくこう」「とくぼう」「すばやさ」のいずれか（無補正の場合は空文字）
 
 (5) 能力ポイントパネル  タイトル「能力ポイント」  panelType: "evs"
     entries: [{ rank: number, percentage: number, hp: number, atk: number, def: number, spAtk: number, spDef: number, speed: number }]
@@ -164,9 +165,16 @@ async function extractFrames() {
   console.log(`\nフレーム抽出中: ${CONFIG.videoFile}`);
   console.log(`出力先: ${CONFIG.framesDir}`);
 
+  // 既定は MODE=fps FPS=1（scene検出は取りこぼしが多い）。envで上書き可
+  const extractEnv = {
+    ...process.env,
+    MODE: process.env.MODE ?? "fps",
+    FPS: process.env.FPS ?? "1",
+    SCENE_THRESHOLD: CONFIG.sceneThreshold,
+  };
   execFileSync("bash", [scriptPath, CONFIG.videoFile, CONFIG.framesDir, CONFIG.sceneThreshold], {
     stdio: "inherit",
-    env: { ...process.env, SCENE_THRESHOLD: CONFIG.sceneThreshold },
+    env: extractEnv,
   });
 }
 
@@ -458,15 +466,24 @@ async function main() {
   const saveErrors = [];
 
   for (const group of [...grouped.values()].sort((a, b) => a.rank - b.rank)) {
+    // 空のパネルは payload に入れない（既存データを空で上書きしないため）
+    const panels = {};
+    for (const t of PANEL_TYPES) {
+      const entries = sortEntries(group.panels[t]);
+      if (entries.length > 0) panels[t] = entries;
+    }
+    if (Object.keys(panels).length === 0) {
+      console.log(`  skip(empty): rank=${group.rank} ${group.pokemonJa}`);
+      continue;
+    }
+
     const payload = {
       seasonId: CONFIG.seasonId,
       format: CONFIG.format,
       rank: group.rank,
       pokemonJa: group.pokemonJa,
       dexNo: group.dexNo,
-      panels: Object.fromEntries(
-        PANEL_TYPES.map((t) => [t, sortEntries(group.panels[t])])
-      ),
+      panels,
     };
 
     try {

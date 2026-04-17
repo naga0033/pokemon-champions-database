@@ -3,6 +3,20 @@
  * PokeAPIのfetchを減らすためのキャッシュ
  */
 import { findBestJaMatch, normalizeJaText } from "./japanese-match";
+import { LEARNSETS } from "./champions-learnsets";
+import { MEGA_FORMS } from "./mega-data";
+
+// ポケモンチャンピオンズ内定ポケモン以外を OCR/ファジーマッチで拾わないためのホワイトリスト
+// 例: マラカッチ・ガラルマタドガス・カヌチャン等はポケチャン未実装なので除外される
+let CHAMPIONS_JA_SET: Set<string> | null = null;
+function getChampionsJaSet(): Set<string> {
+  if (CHAMPIONS_JA_SET) return CHAMPIONS_JA_SET;
+  const set = new Set<string>();
+  for (const entry of Object.values(LEARNSETS)) set.add(entry.pokemonJa);
+  for (const m of MEGA_FORMS) set.add(m.jaName);
+  CHAMPIONS_JA_SET = set;
+  return set;
+}
 
 export const EN_TO_JA: Record<string, string> = {
   // Gen 1
@@ -673,12 +687,19 @@ export function resolvePokemonJaName(input: string): string | null {
   ).replace(/\s/g, "");
 
   if (!cleaned) return null;
-  if (JA_TO_EN[cleaned]) return EN_TO_JA[JA_TO_EN[cleaned]] ?? cleaned;
+
+  const championsSet = getChampionsJaSet();
+  // 完全一致が取れてもチャンピオンズ未実装ポケモンなら除外
+  if (JA_TO_EN[cleaned]) {
+    const resolved = EN_TO_JA[JA_TO_EN[cleaned]] ?? cleaned;
+    if (championsSet.has(resolved)) return resolved;
+  }
 
   const normalized = normalizeJaText(cleaned);
   if (normalized.length < 3) return null;
 
-  const candidates = Object.values(EN_TO_JA);
+  // ファジーマッチはチャンピオンズ内定ポケモンのみを候補に限定
+  const candidates = Array.from(championsSet);
   const exact = candidates.find((candidate) => normalizeJaText(candidate) === normalized);
   if (exact) return exact;
 
