@@ -51,7 +51,7 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
       <div className="flex items-center gap-3">
         <Link
           href={`/?format=${format}&season=${season.id}`}
-          className="shrink-0 rounded-lg border border-slate-200 bg-white/80 px-3 py-1.5 text-xs font-bold text-slate-500 shadow-sm hover:border-indigo-300 hover:text-indigo-600 transition-colors"
+          className="hidden sm:block shrink-0 rounded-lg border border-slate-200 bg-white/80 px-3 py-1.5 text-xs font-bold text-slate-500 shadow-sm hover:border-indigo-300 hover:text-indigo-600 transition-colors"
         >
           ← ランキング
         </Link>
