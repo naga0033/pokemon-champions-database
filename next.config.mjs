@@ -10,6 +10,17 @@ const nextConfig = {
       },
     ],
   },
+  async headers() {
+    return [
+      {
+        // ポケモン詳細ページは常に最新データを返す（Cloudflare CDNキャッシュ無効）
+        source: "/pokemon/:slug*",
+        headers: [
+          { key: "Cache-Control", value: "no-store, max-age=0" },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
