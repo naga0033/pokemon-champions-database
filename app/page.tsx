@@ -30,14 +30,12 @@ export default async function HomePage({ searchParams }: PageProps) {
       : await loadRankingUpdatedAt(season.id, format)
     : null;
   const updatedAtLabel = updatedAt
-    ? new Date(updatedAt).toLocaleString("ja-JP", {
-        timeZone: "Asia/Tokyo",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-      })
+    ? (() => {
+        // JST = UTC+9
+        const d = new Date(new Date(updatedAt).getTime() + 9 * 60 * 60 * 1000);
+        const pad = (n: number) => String(n).padStart(2, "0");
+        return `${d.getUTCFullYear()}/${pad(d.getUTCMonth() + 1)}/${pad(d.getUTCDate())} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
+      })()
     : null;
 
   return (
