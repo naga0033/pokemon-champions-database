@@ -45,7 +45,7 @@ export default async function HomePage({ searchParams }: PageProps) {
 
       {/* 最終更新日時 */}
       {updatedAtLabel && (
-        <p className="text-center text-[10px] text-slate-400">
+        <p className="text-right text-[10px] text-slate-400">
           最終更新: {updatedAtLabel}
         </p>
       )}
