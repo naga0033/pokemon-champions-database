@@ -11,6 +11,8 @@ const TYPO_ALIAS: Record<string, string> = {
   "さいはい": "きょうしゅ", // Instruct
   // OCR 誤字: 「みがわり」を「みかわり」と読み取るケース
   "みかわり": "みがわり",
+  // OCR 誤字: 「めいそう」を「めいそ」と読み取るケース（う抜け）
+  "めいそ": "めいそう",
 };
 
 // PokeAPI に存在しない/取得失敗する技の type・category を手動で補完
