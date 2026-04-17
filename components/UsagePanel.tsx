@@ -116,7 +116,7 @@ export function UsagePanel({
               </span>
               {/* 右アイコン列: 20px 固定 (meta 無い場合も空枠) / モバイルは非表示 */}
               {hasRightIcon && (
-                <span className="hidden h-5 w-5 shrink-0 items-center justify-center sm:flex">
+                <span className="hidden h-5 w-5 shrink-0 items-center justify-center md:flex">
                   {meta && <CategoryIcon category={meta.category} />}
                 </span>
               )}
