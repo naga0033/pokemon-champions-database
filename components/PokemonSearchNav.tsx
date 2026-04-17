@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-type Entry = { pokemonJa: string; pokemonSlug: string };
+type Entry = { pokemonJa: string; pokemonSlug: string; rank?: number };
 
 type Props = {
   entries: Entry[];
@@ -22,9 +22,10 @@ export function PokemonSearchNav({ entries, format, seasonId }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const filtered = query
-    ? entries.filter((e) => normalize(e.pokemonJa).includes(normalize(query))).slice(0, 8)
-    : [];
+  // 未入力時はランキング順上位20件、入力時はフィルタ結果
+  const suggestions = query
+    ? entries.filter((e) => normalize(e.pokemonJa).includes(normalize(query))).slice(0, 10)
+    : entries.slice(0, 20);
 
   const go = (slug: string) => {
     setQuery("");
@@ -50,7 +51,7 @@ export function PokemonSearchNav({ entries, format, seasonId }: Props) {
           value={query}
           onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
           onFocus={() => setOpen(true)}
-          placeholder="ポケモン名で検索…"
+          placeholder="ポケモンを選択…"
           className="w-full rounded-xl border border-slate-200 bg-white/90 px-4 py-2 pl-9 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-400 focus:outline-none shadow-sm"
         />
         <svg
@@ -70,17 +71,27 @@ export function PokemonSearchNav({ entries, format, seasonId }: Props) {
           </button>
         )}
       </div>
-      {/* 候補ドロップダウン */}
-      {open && filtered.length > 0 && (
-        <ul className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
-          {filtered.map((e) => (
+      {/* サジェストドロップダウン */}
+      {open && suggestions.length > 0 && (
+        <ul className="absolute left-0 right-0 top-full z-50 mt-1 max-h-64 overflow-y-auto rounded-xl border border-slate-200 bg-white shadow-lg">
+          {!query && (
+            <li className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-slate-400 border-b border-slate-100">
+              {format === "double" ? "ダブル" : "シングル"} ランキング順
+            </li>
+          )}
+          {suggestions.map((e, i) => (
             <li key={e.pokemonSlug}>
               <button
                 type="button"
                 onMouseDown={() => go(e.pokemonSlug)}
-                className="w-full px-4 py-2 text-left text-sm font-medium text-slate-800 hover:bg-indigo-50 hover:text-indigo-700"
+                className="flex w-full items-center gap-2.5 px-3 py-2 text-left hover:bg-indigo-50"
               >
-                {e.pokemonJa}
+                <span className="w-5 shrink-0 text-right text-[10px] font-bold tabular-nums text-slate-400">
+                  {query ? "" : `${i + 1}`}
+                </span>
+                <span className="text-sm font-medium text-slate-800 hover:text-indigo-700">
+                  {e.pokemonJa}
+                </span>
               </button>
             </li>
           ))}
