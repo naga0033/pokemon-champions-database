@@ -1,7 +1,8 @@
 // ポケモン個別詳細: プロフィール + 種族値 + 各パネル (円グラフ) + 努力値ランキング
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { loadLatestSeason, loadPokemonDetail } from "@/lib/rankings";
+import { loadLatestSeason, loadPokemonDetail, loadRanking } from "@/lib/rankings";
+import { PokemonSearchNav } from "@/components/PokemonSearchNav";
 import { fetchPokeProfile } from "@/lib/pokeapi-stats";
 import { UsagePanel } from "@/components/UsagePanel";
 import { getOfficialArtworkUrl } from "@/lib/pokemon-sprite";
@@ -31,6 +32,8 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
   const detail = await loadPokemonDetail(season.id, format, slug);
   if (!detail) notFound();
 
+  const rankingEntries = await loadRanking(season.id, format);
+
   const profile = await fetchPokeProfile(slug);
   const learnset = getChampionsLearnset(slug);
   // 採用率パネル用 + 覚えるわざパネル用の技メタを一括取得
@@ -44,14 +47,20 @@ export default async function PokemonDetailPage({ params, searchParams }: PagePr
 
   return (
     <div className="space-y-6">
-      {/* パンくず */}
-      <nav className="flex items-center gap-2 text-xs text-slate-500">
-        <Link href={`/?format=${format}&season=${season.id}`} className="hover:text-indigo-600">
-          ランキング
+      {/* ランキングへ戻るリンク + ポケモン検索 */}
+      <div className="flex items-center gap-3">
+        <Link
+          href={`/?format=${format}&season=${season.id}`}
+          className="shrink-0 rounded-lg border border-slate-200 bg-white/80 px-3 py-1.5 text-xs font-bold text-slate-500 shadow-sm hover:border-indigo-300 hover:text-indigo-600 transition-colors"
+        >
+          ← ランキング
         </Link>
-        <span>›</span>
-        <span className="font-bold text-slate-700">{detail.pokemonJa}</span>
-      </nav>
+        <PokemonSearchNav
+          entries={rankingEntries}
+          format={format}
+          seasonId={season.id}
+        />
+      </div>
 
       {/* プロフィールヘッダー (メガシンカ切り替え対応) */}
       <section className="rounded-3xl border border-violet-100 bg-white/85 p-4 shadow-sm sm:p-5 md:p-7">
