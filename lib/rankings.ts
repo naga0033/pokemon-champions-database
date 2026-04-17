@@ -134,6 +134,27 @@ export async function loadLatestSeason(
   }
 }
 
+/** ランキングの最終更新日時を取得 */
+export async function loadRankingUpdatedAt(
+  seasonId: string,
+  format: Format,
+): Promise<string | null> {
+  try {
+    const { data, error } = await supabase
+      .from("rankings")
+      .select("updated_at")
+      .eq("season_id", seasonId)
+      .eq("format", format)
+      .order("updated_at", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+    if (error || !data) return null;
+    return (data as { updated_at: string }).updated_at;
+  } catch {
+    return null;
+  }
+}
+
 /** ランキングを取得 */
 export async function loadRanking(
   seasonId: string,

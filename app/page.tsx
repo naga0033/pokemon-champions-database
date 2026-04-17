@@ -1,6 +1,6 @@
 // ランキングトップ: トレーナー/ポケモン切替 + シーズン × フォーマット選択 + ランキング
-import { loadAllSeasons, loadLatestSeason, loadRanking } from "@/lib/rankings";
-import { loadTrainers } from "@/lib/trainers";
+import { loadAllSeasons, loadLatestSeason, loadRanking, loadRankingUpdatedAt } from "@/lib/rankings";
+import { loadTrainers, loadTrainersUpdatedAt } from "@/lib/trainers";
 import { SearchableRankingList } from "@/components/SearchableRankingList";
 import { SearchableTrainerList } from "@/components/SearchableTrainerList";
 import { SeasonSelect } from "@/components/SeasonSelect";
@@ -24,6 +24,21 @@ export default async function HomePage({ searchParams }: PageProps) {
   const allSeasons = await loadAllSeasons();
   const ranking = view === "pokemon" && season ? await loadRanking(season.id, format) : [];
   const trainers = view === "trainer" && season ? await loadTrainers(season.id, format) : [];
+  const updatedAt = season
+    ? view === "trainer"
+      ? await loadTrainersUpdatedAt(season.id, format)
+      : await loadRankingUpdatedAt(season.id, format)
+    : null;
+  const updatedAtLabel = updatedAt
+    ? new Date(updatedAt).toLocaleString("ja-JP", {
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
+    : null;
 
   return (
     <div className="space-y-4">
@@ -42,7 +57,14 @@ export default async function HomePage({ searchParams }: PageProps) {
             <span className="text-xs text-slate-400">データ準備中…</span>
           )}
         </div>
-        <FormatSwitch current={format} view={view} seasonId={season?.id} />
+        <div className="flex shrink-0 flex-col items-end gap-1.5">
+          {updatedAtLabel && (
+            <p className="text-[10px] text-slate-400">
+              最終更新: {updatedAtLabel}
+            </p>
+          )}
+          <FormatSwitch current={format} view={view} seasonId={season?.id} />
+        </div>
       </section>
 
       {/* コンテンツ */}
