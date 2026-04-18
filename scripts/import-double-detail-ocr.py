@@ -289,6 +289,8 @@ def parse_int(text: str) -> int | None:
         .replace("I", "1")
         .replace("l", "1")
     )
+    # 順位1は選択中ハイライトの影響で "1." のように末尾に記号が混じることがある
+    t = t.rstrip(".。,、:：;；'\"")
     if not INT_RE.fullmatch(t):
         return None
     return int(t)
@@ -434,6 +436,24 @@ def parse_partner_names(rows: list[dict], known: list[str]) -> list[dict]:
         row for row in rows
         if PANEL_Y_MIN <= row["y"] <= PANEL_Y_MAX and CURRENT_X_MIN <= row["x"] <= CURRENT_X_MAX
     ]
+    # 選択中の 1 位はハイライトの影響で「1 7ガブリアス」のようにランクと名前が1ブロックに融合することがある。
+    # ランク列(x <= RANK_X_MAX)にあり、かつ「先頭が数字＋末尾が日本語」のテキストをランク用・名前用に2分割する
+    extra_rows = []
+    PARTNER_SPLIT_RE = re.compile(r"^\s*(\d{1,2})[\s\.,、。:]*\D*?([ぁ-んァ-ヴ一-龥ー・＆]{2,})\s*$")
+    for row in panel_rows:
+        if row["x"] > RANK_X_MAX:
+            continue
+        m = PARTNER_SPLIT_RE.match(clean_text(row["text"]))
+        if not m:
+            continue
+        rank_digit = int(m.group(1))
+        if not (1 <= rank_digit <= 10):
+            continue
+        name_part = m.group(2)
+        if name_part in known or any(name_part in k for k in known):
+            extra_rows.append({"x": row["x"], "y": row["y"], "w": row.get("w", 0), "h": row.get("h", 0), "text": str(rank_digit)})
+            extra_rows.append({"x": 0.46, "y": row["y"], "w": row.get("w", 0), "h": row.get("h", 0), "text": name_part})
+    panel_rows = panel_rows + extra_rows
     rank_rows = [
         row for row in panel_rows
         if row["x"] <= RANK_X_MAX and (value := parse_int(row["text"])) is not None and 1 <= value <= 10
