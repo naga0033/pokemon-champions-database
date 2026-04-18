@@ -34,6 +34,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OCR_SWIFT = ROOT / "scripts" / "ocr_boxes.swift"
 ENV_FILE = ROOT / ".env.local"
 POKEMON_NAMES_TS = ROOT / "lib" / "pokemon-names.ts"
+CHAMPIONS_LEARNSETS_TS = ROOT / "lib" / "champions-learnsets.ts"
 MOVE_NAMES_TS = ROOT / "lib" / "move-names.ts"
 ABILITY_NAMES_TS = ROOT / "lib" / "ability-names.ts"
 ITEMS_TS = ROOT / "lib" / "items.ts"
@@ -235,6 +236,12 @@ def load_slug_map() -> tuple[dict[str, str], dict[str, str], dict[str, list[str]
         ja_to_slug.setdefault(ja, slug)
         ja_to_slugs[ja].append(slug)
     return slug_to_ja, ja_to_slug, dict(ja_to_slugs)
+
+
+# チャンピオンズ内定ポケモンの日本語名集合を読み込む（OCR 誤マッチ防止用のホワイトリスト）
+def load_champions_ja_set() -> set[str]:
+    text = CHAMPIONS_LEARNSETS_TS.read_text()
+    return set(re.findall(r'pokemonJa:\s*"([^"]+)"', text))
 
 
 def ocr_image(path: Path) -> list[dict]:
@@ -553,6 +560,17 @@ def resolve_slug(
     ranking_by_rank: dict[int, dict],
     existing_details: list[dict],
 ) -> tuple[str, str]:
+    # 先に既存 pokemon_details で同順位のフォーム違いが登録済みなら優先採用する
+    # 例: OCR は "ロトム" としか読めないが、同じ順位に "ウォッシュロトム" が登録済みならそちらを採用
+    same_rank_details = [row for row in existing_details if row.get("rank") == rank]
+    for row in same_rank_details:
+        existing_name = row.get("pokemon_ja", "")
+        if existing_name == pokemon_ja:
+            return row["pokemon_slug"], existing_name
+        # ベース名を含む正式フォーム名（例: "ロトム" ⊂ "ウォッシュロトム"）
+        if normalize_ja(pokemon_ja) and normalize_ja(existing_name).find(normalize_ja(pokemon_ja)) >= 0:
+            return row["pokemon_slug"], existing_name
+
     ranking_row = ranking_by_rank.get(rank)
     if ranking_row:
         ranking_name = ranking_row["pokemon_ja"]
@@ -601,7 +619,13 @@ def main() -> int:
 
     base_url, key = load_env()
     slug_to_ja, ja_to_slug, ja_to_slugs = load_slug_map()
-    known_pokemon = sorted(set(slug_to_ja.values()), key=len, reverse=True)
+    # チャンピオンズ内定ポケモンのみに絞り込む（フワンテ等の未登場ポケモンに誤マッチしないように）
+    champions_ja_set = load_champions_ja_set()
+    known_pokemon = sorted(
+        [ja for ja in set(slug_to_ja.values()) if ja in champions_ja_set],
+        key=len,
+        reverse=True,
+    )
     known_moves = sorted(load_kv_names(MOVE_NAMES_TS), key=len, reverse=True)
     known_abilities = sorted(load_kv_names(ABILITY_NAMES_TS), key=len, reverse=True)
     known_items = sorted(load_item_names(ITEMS_TS), key=len, reverse=True)
