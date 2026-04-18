@@ -715,6 +715,8 @@ def main() -> int:
             )
 
     DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+    from datetime import datetime, timezone
+    now_iso = datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
     upserts = []
     for slug, group in sorted(filtered_groups.items(), key=lambda item: item[1]["rank"]):
         existing = existing_by_slug.get(slug, {})
@@ -731,6 +733,8 @@ def main() -> int:
             "natures": dedupe_entries(group["panels"].get("natures", [])) or existing.get("natures"),
             "evs": dedupe_entries(group["panels"].get("evs", [])) or existing.get("evs"),
             "partners": dedupe_entries(group["panels"].get("partners", [])) or existing.get("partners"),
+            # 既存行の updated_at が自動更新されないので明示的にセット
+            "updated_at": now_iso,
         }
         upserts.append(merged)
 
@@ -794,6 +798,7 @@ def main() -> int:
                 "pokemon_ja": replacement["pokemon_ja"],
                 "pokemon_slug": replacement["pokemon_slug"],
                 "tera_icons": previous.get("tera_icons"),
+                "updated_at": now_iso,
             })
         elif rank in ranking_by_rank:
             existing_rank = ranking_by_rank[rank]
@@ -804,6 +809,7 @@ def main() -> int:
                 "pokemon_ja": existing_rank["pokemon_ja"],
                 "pokemon_slug": existing_rank["pokemon_slug"],
                 "tera_icons": existing_rank.get("tera_icons"),
+                "updated_at": now_iso,
             })
 
     supabase_request(
